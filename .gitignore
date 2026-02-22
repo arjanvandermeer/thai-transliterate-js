@@ -1,0 +1,33 @@
+
+# Dependencies
+node_modules/
+
+# Data files
+data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.aws
+task-definition*.json
+!task-definition*.example.json
+
+# IDE
+.claude/
+.claude.md
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Working docs (not for git)
+TODO-NOW.md
+
+# OS
+.DS_Store
+Thumbs.db
