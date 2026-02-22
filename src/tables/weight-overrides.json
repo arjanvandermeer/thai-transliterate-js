@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "generatedAt": "2026-02-22T20:14:38.414Z",
+    "description": "Data-derived weight overrides. Regenerate with: npm run calibrate",
+    "sources": {
+      "analyzedAt": "2026-02-22T20:14:38.185Z",
+      "totalEntries": 233478,
+      "exactMatches": 15733,
+      "closeMatches": 71772,
+      "partialMatches": 89797,
+      "misses": 56176,
+      "matchRateExact": 0.067,
+      "matchRateClose": 0.375,
+      "matchRatePartial": 0.759,
+      "populationWeightedMatchRate": 0.698,
+      "decompositions": 162269,
+      "elapsedSeconds": 24.3
+    },
+    "minObservations": 10,
+    "minDelta": 0.1
+  },
+  "consonants": {},
+  "vowels": {
+    "sara_a": {
+      "ar": 0.05
+    },
+    "implied_o": {
+      "o": 1
+    },
+    "sara_o": {
+      "oh": 0.01
+    },
+    "implied_a": {
+      "a": 1
+    },
+    "sara_ua": {
+      "uar": 0.01
+    }
+  },
+  "clusters": {
+    "ทร": {
+      "s": 1
+    }
+  }
+}

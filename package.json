@@ -11,7 +11,14 @@
     "test": "node --test tests/classifier.test.js tests/integration.test.js tests/levenshtein.test.js tests/syllable-parser.test.js tests/romanizer.test.js tests/variant-generator.test.js tests/thai-places.test.js",
     "lint": "eslint src/ tests/",
     "transliterate": "node scripts/transliterate-places.js",
-    "transliterate:json": "node scripts/transliterate-places.js --json"
+    "transliterate:json": "node scripts/transliterate-places.js --json",
+    "calibrate:download": "node scripts/download-data.js",
+    "calibrate:extract-geonames": "node scripts/extract-geonames.js",
+    "calibrate:extract-osm": "node scripts/extract-osm.js",
+    "calibrate:merge": "node scripts/merge-registries.js",
+    "calibrate:analyze": "node scripts/analyze-registry.js",
+    "calibrate:generate": "node scripts/generate-overrides.js",
+    "calibrate": "npm run calibrate:download && npm run calibrate:extract-geonames && npm run calibrate:extract-osm && npm run calibrate:merge && npm run calibrate:analyze && npm run calibrate:generate"
   },
   "keywords": [
     "thai",
@@ -26,6 +33,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.0.1"
+    "eslint": "^10.0.1",
+    "osm-pbf-parser-node": "^1.1.4"
   }
 }

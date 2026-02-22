@@ -1,6 +1,5 @@
-import { CONSONANTS } from './tables/consonants.js';
-import { VOWEL_PATTERNS } from './tables/vowels.js';
-import { CLUSTER_SECOND, THOR_SO_VARIANTS, SOR_RO_VARIANTS } from './tables/clusters.js';
+import { CONSONANTS, VOWEL_PATTERNS, THOR_SO_VARIANTS, SOR_RO_VARIANTS } from './tables/load-weights.js';
+import { CLUSTER_SECOND } from './tables/clusters.js';
 
 /**
  * Romanize a single parsed syllable into an array of positional variant arrays.
