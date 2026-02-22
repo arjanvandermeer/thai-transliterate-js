@@ -137,7 +137,7 @@ src/
   tables/
     consonants.js       # 44-consonant mapping (initial + final, multi-system)
     vowels.js           # 35 vowel patterns with weighted variants
-    clusters.js         # Valid consonant clusters + ทร→"s" special case
+    clusters.js         # Valid consonant clusters + ทร/ศร special variants
     special-rules.js    # Ho-nam, o-nam detection
     load-weights.js     # Merges base weights with data-derived overrides
     weight-overrides.json   # Data-derived weight adjustments (regeneratable)
@@ -153,15 +153,22 @@ scripts/
   analyze-registry.js       # Run transliterator against corpus, extract evidence
   generate-overrides.js     # Generate weight-overrides.json from analysis
   generate-dictionary.js    # Generate dictionary.json from registry
+  discover-variants.js      # One-time: discover missing romanization variants
 
 data/
   thai-places.json          # ~530 Thai place names for testing (tracked)
   thai-places-output.json   # Generated transliteration output (tracked)
 
 tests/
-  classifier.test.js    # Character classification tests
-  levenshtein.test.js   # Edit distance tests
-  integration.test.js   # End-to-end transliteration + matching tests
+  classifier.test.js       # Character classification tests
+  integration.test.js      # End-to-end transliteration + matching tests
+  levenshtein.test.js      # Edit distance tests
+  syllable-parser.test.js  # Syllable parsing tests
+  romanizer.test.js        # Romanization tests
+  variant-generator.test.js# Variant generation tests
+  thai-places.test.js      # Place name regression tests
+  load-weights.test.js     # Weight override system tests
+  dictionary.test.js       # Dictionary lookup tests
 ```
 
 ## Data-Driven Weight Calibration

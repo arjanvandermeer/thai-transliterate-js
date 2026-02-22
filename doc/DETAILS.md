@@ -14,6 +14,7 @@ Deep-dive into how `thai-transliterate` works.
 - [Romanizer](#romanizer)
 - [Variant Generator](#variant-generator)
 - [Dictionary Lookup](#dictionary-lookup)
+- [Variant Discovery](#variant-discovery)
 - [Matcher](#matcher)
 - [Known Limitations](#known-limitations)
 
@@ -219,9 +220,20 @@ Similar pattern: อ before ย modifies tone. อย → initial is ย.
 
 The ์ mark silences the preceding consonant. When the parser encounters ์, it marks the preceding consonant as silent and excludes it from romanization.
 
-### ทร → "s" Pronunciation
+### ทร Cluster Variants
 
-The cluster ทร is sometimes pronounced as "s" (e.g., ทราย = "sai") rather than the literal "thr". Both variants are generated. Data-driven calibration from 233K real-world place names showed 85.7% use "s" vs 14.3% "thr", so overrides set: s (1.0), thr (0.5), sr (0.2).
+The cluster ทร has six romanization variants, discovered through analysis of 233K real-world place names:
+
+| Variant | Weight | Usage | Example |
+|---------|--------|-------|---------|
+| thr | 0.7 | RTGS standard | อินทรา → inthra |
+| dr | 0.5 | Sanskrit/Pali etymological (723 obs) | อินทรา → indra |
+| tr | 0.5 | Common informal | อินทรา → intra |
+| s | 0.4 | Colloquial pronunciation | ทราย → sai |
+| th | 0.3 | ร-silent variant (5 obs) | ไทรงาม → thirngam |
+| sr | 0.1 | Rare | ทราบ → srap |
+
+Data-driven calibration overrides set s weight to 1.0 at runtime.
 
 ---
 
@@ -330,15 +342,15 @@ Running `npm run calibrate` downloads GeoNames (265K Thai place names) and OpenS
 `src/romanizer.js` — Converts a parsed syllable into an array of positional variant arrays.
 
 For a syllable like เชียง (chiang):
-1. **Initial ช**: `[{ text: 'ch', weight: 1.0 }]`
-2. **Vowel sara_ia**: `[{ text: 'ia', weight: 1.0 }, { text: 'iya', weight: 0.4 }, { text: 'ea', weight: 0.3 }]`
-3. **Final ง**: `[{ text: 'ng', weight: 1.0 }]`
+1. **Initial ช**: `[{ text: 'ch', weight: 1.0 }, { text: 'sh', weight: 0.15 }]`
+2. **Vowel sara_ia**: `[{ text: 'ia', weight: 1.0 }, { text: 'iya', weight: 0.4 }, { text: 'ea', weight: 0.3 }, { text: 'ie', weight: 0.2 }]`
+3. **Final ง**: `[{ text: 'ng', weight: 1.0 }, { text: 'n', weight: 0.15 }]`
 
 These three arrays are the input to the variant generator's cartesian product.
 
 Special cases:
 - **Ho-nam syllables**: The ห is suppressed (not romanized)
-- **ทร → "s"**: The initial + cluster are replaced by `THOR_SO_VARIANTS`
+- **ทร cluster**: The initial + cluster are replaced by `THOR_SO_VARIANTS` (6 variants: thr, dr, tr, s, th, sr)
 - **ำ (sara am)**: Vowel includes the final -m, so no separate final consonant
 - **รร (ro han)**: Vowel includes the final -n
 
@@ -406,6 +418,30 @@ During transliteration, each segmented Thai word is looked up in the dictionary 
 - Result sorted by weight, truncated to `maxVariants`
 
 Both dictionary files are lazily loaded on first use and cached. Missing files are silently ignored.
+
+---
+
+## Variant Discovery
+
+`scripts/discover-variants.js` — One-time analysis script that discovered 15 missing romanization variants from the 233K-entry GeoNames/OSM registry.
+
+### How It Works
+
+For each registry entry with a close match (Levenshtein distance 1-5) against algorithmic output:
+
+1. **Parse** the Thai word into syllables and positional variant arrays
+2. **Walk** the registry text left-to-right, matching known variants at each position
+3. **Wildcard** — when no known variant matches, look ahead for the next known anchor and extract the novel text between cursor and anchor
+4. **Aggregate** observations by (posType, key, text) and filter to ≥5 observations
+
+### Results
+
+From 199K close matches, 1,891 were successfully decomposed, yielding 113 unique discoveries. After manual curation (rejecting brand names like Caltex/Susco and decomposition artifacts), 15 were added to base tables. Key findings:
+
+- ทร→"dr" (723 obs) — second most common variant, discovered from อินทรา→indra
+- ช final→"ch" (54 obs) — ราชบุรี→rachburi
+- จ→"c" (55 obs) — ISO/Pali romanization (กาญจนบุรี→Kancanaburi)
+- sara_ao→"o" (20 obs) — เกาะ→Ko
 
 ---
 

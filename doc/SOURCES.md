@@ -516,6 +516,17 @@ spellings as additional transliteration variants.
 - Expand manual dictionary with more well-known translations
 - Google Places API as supplemental data source
 
+### Priority 5: Variant Discovery ✅ IMPLEMENTED
+
+**Status**: Complete. A wildcard-aware decomposition script analyzed close matches
+in the registry to discover 15 romanization variants missing from base tables.
+
+**Script**: `scripts/discover-variants.js` — one-time analysis, results baked
+into `consonants.js`, `vowels.js`, `clusters.js`.
+
+**Key discoveries**: ทร→"dr" (723 obs), ช final→"ch" (54 obs), จ→"c" (55 obs),
+sara_ao→"o" (เกาะ→Ko), sara_ua→"aw" (หัวหิน→hawhin).
+
 ---
 
 ## How This Codebase Implements Transliteration

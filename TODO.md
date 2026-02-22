@@ -115,8 +115,7 @@ during testing:
 - [ ] ถนน → "thonna": implied vowel is wrong. ถ-น-น should parse as
       ถะ-หนน → "tha-non" (two syllables) not "thon-na"
 - [ ] ซอย → "soya": should be "soi". The ออย vowel pattern needs fixing
-- [ ] ศรี → "sari": ศร should be recognized as producing "s" sound (like ทร→"s")
-      or ศ initial = "s" with ร as part of next syllable
+- [x] ศรี → "sari": ✅ Fixed. ศร cluster now handled as special case → "si", "sri"
 - [ ] พหล in พหลโยธิน: หล is a ho-nam pattern (ห+ล), the parser should
       detect this across a syllable boundary
 
@@ -151,6 +150,38 @@ as additional transliteration variants.
 ### Still TODO
 - [ ] Expand manual dictionary with more well-known translations
 - [ ] Investigate dictionary variant coverage for multi-word entries
+
+---
+
+## Variant Discovery from Registry Data ✅
+
+Implemented in `scripts/discover-variants.js`. A wildcard-aware decomposition
+algorithm analyzes close matches (Levenshtein distance 1-5) in the 233K-entry
+GeoNames/OSM registry to find romanization patterns missing from the base tables.
+
+### Process
+1. For each registry entry, generate algorithmic variants and find close matches
+2. Walk the registry text left-to-right against the syllable position template
+3. When no known variant matches, use anchor-based wildcard extraction
+4. Aggregate observations, filter noise (brand names, decomposition artifacts)
+
+### Results
+- 199K close matches analyzed, 1,891 decompositions, 113 unique discoveries
+- 15 legitimate variants curated and added to base tables
+- ~98 rejected as brand name noise or decomposition artifacts
+
+### Variants Added to Base Tables
+
+**Consonant initials**: จ→"c" (ISO/Pali), ช→"sh" (loanword), ธ→"dh" (Pali),
+ท→"d" (informal), พ→"bh" (Pali)
+
+**Consonant finals**: ช→"ch" (54 obs, ราชบุรี→rachburi), ญ→"y" (สำราญ→saray),
+ฬ→"l" (บึงกาฬ→bungkal), ง→"n" (ระนอง→ranon)
+
+**Vowels**: sara_ao→"o" (เกาะ→Ko), sara_ua→"aw" (หัวหิน→hawhin),
+sara_uea→"ue", sara_i→"y" (กระบี่→kraby), sara_ia→"ie"
+
+**Clusters**: ทร→"th" (ร silent), ทร→"dr" (อินทรา→indra, 723 obs)
 
 ---
 

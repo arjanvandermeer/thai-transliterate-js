@@ -1,7 +1,7 @@
 import { classifyChar, canBeFinal } from './classifier.js';
 import { isValidCluster } from './tables/clusters.js';
 import { isHoNam, isONam } from './tables/special-rules.js';
-import { VOWEL_PATTERNS } from './tables/vowels.js';
+import { VOWEL_PATTERNS } from './tables/load-weights.js';
 
 /**
  * Parse Thai text into an array of syllable objects.
