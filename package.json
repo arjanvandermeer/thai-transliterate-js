@@ -9,7 +9,9 @@
   },
   "scripts": {
     "test": "node --test tests/classifier.test.js tests/integration.test.js tests/levenshtein.test.js",
-    "lint": "eslint src/ tests/"
+    "lint": "eslint src/ tests/",
+    "transliterate": "node scripts/transliterate-places.js",
+    "transliterate:json": "node scripts/transliterate-places.js --json"
   },
   "keywords": [
     "thai",

@@ -2,8 +2,9 @@
 # Dependencies
 node_modules/
 
-# Data files
-data/
+# Data files (but keep curated test data)
+data/*
+!data/thai-places.json
 
 # Logs
 *.log
