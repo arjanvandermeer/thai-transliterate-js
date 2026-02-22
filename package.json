@@ -18,7 +18,8 @@
     "calibrate:merge": "node scripts/merge-registries.js",
     "calibrate:analyze": "node scripts/analyze-registry.js",
     "calibrate:generate": "node scripts/generate-overrides.js",
-    "calibrate": "npm run calibrate:download && npm run calibrate:extract-geonames && npm run calibrate:extract-osm && npm run calibrate:merge && npm run calibrate:analyze && npm run calibrate:generate"
+    "calibrate:dictionary": "node scripts/generate-dictionary.js",
+    "calibrate": "npm run calibrate:download && npm run calibrate:extract-geonames && npm run calibrate:extract-osm && npm run calibrate:merge && npm run calibrate:analyze && npm run calibrate:generate && npm run calibrate:dictionary"
   },
   "keywords": [
     "thai",

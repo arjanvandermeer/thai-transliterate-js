@@ -2,6 +2,9 @@
 # Dependencies
 node_modules/
 
+# Coverage
+coverage/
+
 # Data files (but keep curated test data)
 data/*
 !data/thai-places.json

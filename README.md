@@ -137,12 +137,60 @@ src/
     vowels.js           # 35 vowel patterns with weighted variants
     clusters.js         # Valid consonant clusters + ทร→"s" special case
     special-rules.js    # Ho-nam, o-nam detection
+    load-weights.js     # Merges base weights with data-derived overrides
+    weight-overrides.json # Data-derived weight adjustments (regeneratable)
+
+scripts/
+  transliterate-places.js   # CLI: transliterate Thai place names
+  download-data.js          # Download GeoNames + OSM data files
+  extract-geonames.js       # Parse GeoNames → registry
+  extract-osm.js            # Parse OSM PBF → registry
+  merge-registries.js       # Merge data source registries
+  analyze-registry.js       # Run transliterator against corpus, extract evidence
+  generate-overrides.js     # Generate weight-overrides.json from analysis
+
+data/
+  thai-places.json          # ~530 Thai place names for testing (tracked)
+  thai-places-output.json   # Generated transliteration output (tracked)
 
 tests/
   classifier.test.js    # Character classification tests
   levenshtein.test.js   # Edit distance tests
   integration.test.js   # End-to-end transliteration + matching tests
 ```
+
+## Data-Driven Weight Calibration
+
+The base weights in `consonants.js` and `vowels.js` are manually tuned RTGS defaults. A calibration pipeline uses real-world GeoNames (265K entries) and OpenStreetMap (47M entities) data to derive empirical weight adjustments.
+
+### Quick Start
+
+```bash
+npm run calibrate
+```
+
+This downloads fresh data and regenerates `src/tables/weight-overrides.json`. The override file is checked into git and clearly separated from the hand-tuned base weights.
+
+### Pipeline Steps
+
+| Step | Command | Description |
+|------|---------|-------------|
+| 1 | `calibrate:download` | Download GeoNames TH.zip + OSM PBF |
+| 2 | `calibrate:extract-geonames` | Parse GeoNames → `data/registry-geonames.json` |
+| 3 | `calibrate:extract-osm` | Parse OSM PBF → `data/registry-osm.json` |
+| 4 | `calibrate:merge` | Merge registries → `data/registry.json` |
+| 5 | `calibrate:analyze` | Run transliterator against corpus → `data/analysis.json` |
+| 6 | `calibrate:generate` | Generate `src/tables/weight-overrides.json` |
+
+Intermediate `data/*.json` files are gitignored. Only `weight-overrides.json` is tracked.
+
+### How Overrides Work
+
+The override system (`src/tables/load-weights.js`) merges base weights with data-derived adjustments at runtime:
+- If `weight-overrides.json` exists, matching weights are replaced
+- Base weights are always the fallback for any consonant/vowel/cluster not in overrides
+- Deleting the override file reverts to pure hand-tuned weights
+- The file is human-readable JSON, easy to manually inspect or edit
 
 ## Running Tests
 

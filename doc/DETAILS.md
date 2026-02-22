@@ -214,7 +214,7 @@ The ์ mark silences the preceding consonant. When the parser encounters ์, i
 
 ### ทร → "s" Pronunciation
 
-The cluster ทร is sometimes pronounced as "s" (e.g., ทราย = "sai") rather than the literal "thr". Both variants are generated with weights: s (0.7), thr (0.5), sr (0.2).
+The cluster ทร is sometimes pronounced as "s" (e.g., ทราย = "sai") rather than the literal "thr". Both variants are generated. Data-driven calibration from 233K real-world place names showed 85.7% use "s" vs 14.3% "thr", so overrides set: s (1.0), thr (0.5), sr (0.2).
 
 ---
 
@@ -286,6 +286,35 @@ RESOLVE_FINAL (critical decision point)
 The main parsing loop guarantees forward progress:
 - Bare vowel/tone/silent markers without a consonant are skipped (advance by 1)
 - `parseSingleSyllable` result always advances at least 1 position via `Math.max(nextIndex, i + 1)`
+
+---
+
+## Weight Override System
+
+`src/tables/load-weights.js` + `src/tables/weight-overrides.json`
+
+The romanizer uses weights from base tables (`consonants.js`, `vowels.js`, `clusters.js`) merged with data-derived overrides. This two-layer system separates manually-tuned defaults from empirical adjustments.
+
+### How It Works
+
+1. `load-weights.js` imports base weights from the hand-tuned table files
+2. If `weight-overrides.json` exists, it replaces matching variant weights
+3. The merged result is exported for use by the romanizer
+
+### Override File Format
+
+```json
+{
+  "_meta": { "description": "Data-derived weight overrides. Regenerate with: npm run calibrate" },
+  "consonants": { "ก": { "initial": { "k": 1.0, "g": 0.01 } } },
+  "vowels": { "implied_o": { "o": 1 } },
+  "clusters": { "ทร": { "s": 1 } }
+}
+```
+
+### Calibration Pipeline
+
+Running `npm run calibrate` downloads GeoNames (265K Thai place names) and OpenStreetMap (47M entities) data, runs the transliterator against all entries, decomposes exact matches to determine which variant was chosen at each position, and normalizes the observed frequencies into weight overrides. Only overrides with ≥10 observations and >0.1 delta from base weights are included. A floor of 0.01 ensures no variant is fully eliminated.
 
 ---
 
@@ -376,7 +405,7 @@ Multi-syllable single-word outputs are concatenated without spaces. "เชี�
 
 ### Future Improvements
 
-- **Dictionary lookup layer**: Known words could bypass the heuristic parser entirely
+- **Dictionary lookup layer**: Known words from GeoNames/OSM data could add real-world spellings as variants
 - **ML reranking**: Use a trained model to rerank variants by likelihood
 - **Phoneme-based matching**: Weight substitution costs in Levenshtein (e.g., ph↔p costs less than ph↔z)
 - **Space-aware variant generation**: Generate both spaced and unspaced versions for multi-syllable words

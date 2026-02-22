@@ -3,6 +3,7 @@ import { parseSyllables } from './syllable-parser.js';
 import { romanizeSyllable } from './romanizer.js';
 import { generateVariants } from './variant-generator.js';
 import { bestMatch } from './matcher.js';
+import { lookupWord } from './dictionary.js';
 
 export { levenshtein } from './levenshtein.js';
 export { bestMatch } from './matcher.js';
@@ -51,9 +52,40 @@ function processWords(thai, options) {
     }
     const syllables = parseSyllables(word);
     const syllablePositions = syllables.map(syl => romanizeSyllable(syl));
-    const variants = generateVariants(syllablePositions, options);
+    let variants = generateVariants(syllablePositions, options);
+
+    // Merge dictionary variants if available
+    const dictVariants = lookupWord(word);
+    if (dictVariants) {
+      variants = mergeDictionaryVariants(variants, dictVariants, options);
+    }
+
     return { thai: word, variants };
   });
+}
+
+/** Merge dictionary variants into the algorithmic variant list */
+function mergeDictionaryVariants(variants, dictVariants, options) {
+  const maxVariants = options.maxVariants ?? 20;
+  const map = new Map();
+
+  // Add existing algorithmic variants
+  for (const v of variants) {
+    map.set(v.text.toLowerCase(), v);
+  }
+
+  // Merge dictionary variants (keep higher weight on collision)
+  for (const dv of dictVariants) {
+    const key = dv.text.toLowerCase();
+    const existing = map.get(key);
+    if (!existing || dv.weight > existing.weight) {
+      map.set(key, { text: dv.text, weight: dv.weight });
+    }
+  }
+
+  const merged = [...map.values()];
+  merged.sort((a, b) => b.weight - a.weight);
+  return merged.slice(0, maxVariants);
 }
 
 /**

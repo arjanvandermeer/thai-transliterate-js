@@ -430,30 +430,31 @@ require a dictionary lookup layer.
 
 Ordered by practical impact relative to implementation effort.
 
-### Priority 1: Expand Street-Sign Variant Coverage
+### Priority 1: Data-Driven Weight Calibration ✅ IMPLEMENTED
 
-**Effort**: Low | **Impact**: High | **Changes**: Weight table tweaks only
+**Status**: Complete. A calibration pipeline processes GeoNames (265K entries)
+and OpenStreetMap (47M entities) to empirically derive weight adjustments.
 
-The existing weight system already captures many informal variants, but
-real-world street sign data reveals gaps. Specific improvements:
+**How it works**: `npm run calibrate` downloads fresh data, extracts Thai↔Latin
+pairs, runs the transliterator against the corpus, decomposes exact matches to
+determine which variant was chosen at each position, and normalizes observed
+frequencies into weight overrides.
 
-- **Word spacing variants**: "Silom" vs "Si Lom" — the codebase already
-  generates compact (space-removed) variants, but not the reverse (space
-  insertion within a word at syllable boundaries)
-- **Final consonant voicing**: ด in final position could produce both "t" and
-  "d" (already partially handled: `d` final has weight 0.4)
-- **Aspiration-dropped variants**: Already present (weight 0.5), but could
-  benefit from harvesting real-world data to calibrate weights
+**Results**:
+- 233K unique Thai names, 349K pairs
+- 6.7% exact, 30.7% close (≤2 edit distance), 38.5% partial
+- 70% population-weighted match rate
+- Override file: `src/tables/weight-overrides.json` (checked into git)
+- Key finding: ทร→"s" dominates at 85.7% vs 14.3% "thr" (base had these inverted)
 
-**Implementation**: Adjust weights in `src/tables/consonants.js` and
-`src/tables/vowels.js`. Add space-insertion variant logic to
-`src/variant-generator.js`. No architectural changes needed.
+**Architecture**: Override system in `src/tables/load-weights.js` merges base
+weights with data-derived adjustments. Deleting `weight-overrides.json` reverts
+to pure hand-tuned weights. See [DETAILS.md](DETAILS.md#weight-override-system)
+for technical details.
 
-**Data-driven approach**: Import GeoNames Thai place names, harvest Google
-Places API results, and extract OpenStreetMap `name:th`/`name:en` pairs to
-build a corpus of real-world spelling variants. Use this to calibrate variant
-weights empirically rather than by guesswork. See [`TODO.md`](../TODO.md) for
-the detailed harvesting and analysis pipeline.
+**Still TODO**:
+- Word spacing variants ("Silom" vs "Si Lom") not yet generated
+- Google Places API as supplemental data source
 
 ### Priority 2: ISO 11940-2 Output Mode
 
@@ -488,24 +489,21 @@ And add:
 function (new module, ~100 lines). Option flag `options.system = 'paiboon'`.
 The parser and variant generator need no changes.
 
-### Priority 4: Sanskrit/Pali Etymological Mode
+### Priority 4: Dictionary Lookup / Enrichment Layer
 
-**Effort**: High | **Impact**: Niche but real (airport/road names)
+**Effort**: Medium | **Impact**: High (airport/road names, common places)
 
-This cannot be done algorithmically. Thai script does not preserve enough
-Sanskrit/Pali etymology to reconstruct "Suvarnabhumi" from สุวรรณภูมิ without
-knowing the Sanskrit source word.
+The calibration pipeline has gathered 233K Thai↔Latin pairs with real-world
+frequency data. This can be used to build a dictionary lookup that adds
+known spellings (including Sanskrit/Pali etymological forms like "Suvarnabhumi")
+as variants alongside algorithmic output.
 
-**Implementation**: Requires a **dictionary lookup layer** — a curated list of
-Thai words with their Sanskrit/Pali etymological romanizations. This is
-fundamentally different from the current algorithmic approach.
-
-Possible approach:
-1. Curate a dictionary of ~500-1000 common Sanskrit/Pali Thai words with
-   etymological romanizations
-2. Add a pre-processing step: check each word against the dictionary before
-   falling through to algorithmic romanization
-3. Add dictionary matches as high-weight variants alongside RTGS output
+**Planned approach**:
+1. Extract high-confidence entries from the registry (exact matches, high count)
+2. Store as a JSON dictionary file (no database needed)
+3. During transliteration, check input against dictionary
+4. Add dictionary matches as high-weight variants alongside RTGS output
+5. Handle partial matches for compound names (e.g., "สุขุมวิท" in "ถนนสุขุมวิท")
 
 ---
 
