@@ -134,6 +134,16 @@ const selected = scored.slice(0, maxEntries);
 console.error(`Selected top ${selected.length} entries`);
 console.error(`Filtering to transliterations only (max distance ratio: ${maxDistanceRatio})...`);
 
+/**
+ * Confidence-based weight ceiling.
+ * More real-world observations → higher ceiling → dictionary outranks algorithm.
+ */
+function confidenceCeiling(totalCount) {
+  if (totalCount >= 10) return 1.1;
+  if (totalCount >= 5) return 1.05;
+  return 0.9;
+}
+
 // Build dictionary with transliteration filter
 const dictEntries = {};
 let filteredVariants = 0;
@@ -173,9 +183,11 @@ for (let i = 0; i < selected.length; i++) {
   }
 
   const maxCount = transliterations[0][1];
+  const totalFiltered = transliterations.reduce((sum, [, c]) => sum + c, 0);
+  const ceiling = confidenceCeiling(totalFiltered);
   dictEntries[entry.thai] = transliterations.map(([text, count]) => ({
     text,
-    weight: Math.round(Math.max(0.1, (count / maxCount) * 0.95) * 100) / 100,
+    weight: Math.round(Math.max(0.1, (count / maxCount) * ceiling) * 100) / 100,
     count,
   }));
 }
