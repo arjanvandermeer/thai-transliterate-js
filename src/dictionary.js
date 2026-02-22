@@ -9,6 +9,10 @@
  */
 import { readFileSync } from 'node:fs';
 
+// Manual entries are hand-curated overrides (Bangkok, Suvarnabhumi, etc.)
+// They must always outrank both algorithmic (1.0) and data-derived (up to 1.1) weights.
+const MANUAL_WEIGHT = 1.5;
+
 let dict = null;
 let loaded = false;
 
@@ -28,12 +32,13 @@ function loadDictionary() {
   const auto = loadJsonEntries('./tables/dictionary.json');
   const manual = loadJsonEntries('./tables/dictionary-manual.json');
 
-  // Merge: start with auto, overlay manual entries
+  // Merge: start with auto, overlay manual entries (manual always wins)
   dict = { ...auto };
   for (const [thai, variants] of Object.entries(manual)) {
+    const boosted = variants.map(v => ({ ...v, weight: MANUAL_WEIGHT }));
     const existing = dict[thai];
     if (!existing) {
-      dict[thai] = variants;
+      dict[thai] = boosted;
       continue;
     }
     // Merge variants: manual takes precedence on text collision
@@ -41,12 +46,8 @@ function loadDictionary() {
     for (const v of existing) {
       map.set(v.text.toLowerCase(), v);
     }
-    for (const v of variants) {
-      const key = v.text.toLowerCase();
-      const prev = map.get(key);
-      if (!prev || v.weight > prev.weight) {
-        map.set(key, v);
-      }
+    for (const v of boosted) {
+      map.set(v.text.toLowerCase(), v);
     }
     dict[thai] = [...map.values()];
   }

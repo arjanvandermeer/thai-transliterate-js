@@ -279,11 +279,11 @@ describe('transliterate - dictionary integration', () => {
       `Expected "bangkok" in variants, got: ${texts.join(', ')}`);
   });
 
-  it('Bangkok has weight 0.9 from manual dictionary', () => {
+  it('Bangkok has weight 1.5 from manual dictionary', () => {
     const result = transliterate('กรุงเทพ', { maxVariants: 30 });
     const bangkok = result.find(v => v.text === 'bangkok');
     assert.ok(bangkok);
-    assert.strictEqual(bangkok.weight, 0.9);
+    assert.strictEqual(bangkok.weight, 1.5);
   });
 
   it('algorithmic variants still present alongside dictionary entries', () => {

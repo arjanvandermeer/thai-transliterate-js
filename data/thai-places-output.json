@@ -7,16 +7,16 @@
         "thai": "กรุงเทพมหานคร",
         "variants": [
           {
+            "text": "bangkok",
+            "weight": 1.5
+          },
+          {
             "text": "krung thep maha nakhon",
             "weight": 1.05
           },
           {
             "text": "krungthepmahankhra",
             "weight": 1
-          },
-          {
-            "text": "bangkok",
-            "weight": 0.9
           },
           {
             "text": "grungthepmahankhra",
@@ -12369,6 +12369,10 @@
         "thai": "ประเทศไทย",
         "variants": [
           {
+            "text": "thailand",
+            "weight": 1.5
+          },
+          {
             "text": "prathetthaii",
             "weight": 1
           },
@@ -12382,10 +12386,6 @@
           },
           {
             "text": "prathesthiy",
-            "weight": 0.9
-          },
-          {
-            "text": "prathed thai",
             "weight": 0.9
           }
         ]
@@ -15042,16 +15042,16 @@
         "thai": "สุวรรณภูมิ",
         "variants": [
           {
+            "text": "suvarnabhumi",
+            "weight": 1.5
+          },
+          {
             "text": "suwannaphum",
             "weight": 1.1
           },
           {
             "text": "suwanphumi",
             "weight": 1
-          },
-          {
-            "text": "suvarnabhumi",
-            "weight": 0.9
           },
           {
             "text": "suwanphoomi",
@@ -15073,6 +15073,10 @@
         "thai": "กรุงเทพ",
         "variants": [
           {
+            "text": "bangkok",
+            "weight": 1.5
+          },
+          {
             "text": "krungthep",
             "weight": 1
           },
@@ -15086,10 +15090,6 @@
           },
           {
             "text": "krungtheph",
-            "weight": 0.9
-          },
-          {
-            "text": "bangkok",
             "weight": 0.9
           }
         ]
@@ -18426,16 +18426,16 @@
         "thai": "กรุงเทพมหานคร",
         "variants": [
           {
+            "text": "bangkok",
+            "weight": 1.5
+          },
+          {
             "text": "krung thep maha nakhon",
             "weight": 1.05
           },
           {
             "text": "krungthepmahankhra",
             "weight": 1
-          },
-          {
-            "text": "bangkok",
-            "weight": 0.9
           },
           {
             "text": "grungthepmahankhra",
@@ -21877,16 +21877,16 @@
         "thai": "สุวรรณภูมิ",
         "variants": [
           {
+            "text": "suvarnabhumi",
+            "weight": 1.5
+          },
+          {
             "text": "suwannaphum",
             "weight": 1.1
           },
           {
             "text": "suwanphumi",
             "weight": 1
-          },
-          {
-            "text": "suvarnabhumi",
-            "weight": 0.9
           },
           {
             "text": "suwanphoomi",
@@ -25921,16 +25921,16 @@
         "thai": "สุวรรณภูมิ",
         "variants": [
           {
+            "text": "suvarnabhumi",
+            "weight": 1.5
+          },
+          {
             "text": "suwannaphum",
             "weight": 1.1
           },
           {
             "text": "suwanphumi",
             "weight": 1
-          },
-          {
-            "text": "suvarnabhumi",
-            "weight": 0.9
           },
           {
             "text": "suwanphoomi",

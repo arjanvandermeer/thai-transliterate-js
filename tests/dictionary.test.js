@@ -9,7 +9,7 @@ describe('lookupWord', () => {
     assert.ok(Array.isArray(result));
     const bangkok = result.find(v => v.text === 'bangkok');
     assert.ok(bangkok, 'Should include bangkok variant');
-    assert.strictEqual(bangkok.weight, 0.9);
+    assert.strictEqual(bangkok.weight, 1.5);
   });
 
   it('returns variants for กรุงเทพมหานคร (manual)', () => {
@@ -24,7 +24,7 @@ describe('lookupWord', () => {
     assert.ok(result);
     const suvarnabhumi = result.find(v => v.text === 'suvarnabhumi');
     assert.ok(suvarnabhumi);
-    assert.strictEqual(suvarnabhumi.weight, 0.9);
+    assert.strictEqual(suvarnabhumi.weight, 1.5);
   });
 
   it('returns null for unknown word', () => {
@@ -38,7 +38,7 @@ describe('lookupWord', () => {
     assert.ok(result);
     const thailand = result.find(v => v.text === 'thailand');
     assert.ok(thailand, 'Manual "thailand" entry should be present');
-    assert.strictEqual(thailand.weight, 0.9, 'Manual weight should take precedence');
+    assert.strictEqual(thailand.weight, 1.5, 'Manual weight should take precedence');
   });
 
   it('returns variants with correct shape (text + weight)', () => {
@@ -47,7 +47,7 @@ describe('lookupWord', () => {
     for (const v of result) {
       assert.ok(typeof v.text === 'string', 'variant should have text string');
       assert.ok(typeof v.weight === 'number', 'variant should have weight number');
-      assert.ok(v.weight > 0 && v.weight <= 1.1, `weight ${v.weight} should be in (0, 1.1]`);
+      assert.ok(v.weight > 0 && v.weight <= 1.5, `weight ${v.weight} should be in (0, 1.5]`);
     }
   });
 
