@@ -8,7 +8,7 @@
     ".": "./src/index.js"
   },
   "scripts": {
-    "test": "node --test tests/classifier.test.js tests/integration.test.js tests/levenshtein.test.js",
+    "test": "node --test tests/classifier.test.js tests/integration.test.js tests/levenshtein.test.js tests/syllable-parser.test.js tests/romanizer.test.js tests/variant-generator.test.js tests/thai-places.test.js",
     "lint": "eslint src/ tests/",
     "transliterate": "node scripts/transliterate-places.js",
     "transliterate:json": "node scripts/transliterate-places.js --json"

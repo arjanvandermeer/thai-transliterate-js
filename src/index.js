@@ -70,17 +70,22 @@ export function matchThai(thai, target, options = {}) {
   return bestMatch(variants, target, options);
 }
 
+/** Module-level Thai word segmenter (created once, reused) */
+let thaiSegmenter = null;
+try {
+  if (typeof Intl !== 'undefined' && Intl.Segmenter) {
+    thaiSegmenter = new Intl.Segmenter('th', { granularity: 'word' });
+  }
+} catch {
+  // Intl.Segmenter not available in this environment
+}
+
 /** Segment Thai text into words */
 function segmentWords(text) {
-  if (typeof Intl !== 'undefined' && Intl.Segmenter) {
-    try {
-      const segmenter = new Intl.Segmenter('th', { granularity: 'word' });
-      return [...segmenter.segment(text)]
-        .filter(seg => seg.isWordLike)
-        .map(seg => seg.segment);
-    } catch {
-      // fallback
-    }
+  if (thaiSegmenter) {
+    return [...thaiSegmenter.segment(text)]
+      .filter(seg => seg.isWordLike)
+      .map(seg => seg.segment);
   }
   // Fallback: split on whitespace, or treat as single word
   const parts = text.split(/\s+/).filter(Boolean);

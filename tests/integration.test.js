@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { transliterate, transliterateWords, matchThai } from '../src/index.js';
+import { transliterate, transliterateWords, matchThai, bestMatch } from '../src/index.js';
 
 describe('transliterate', () => {
   it('returns empty array for empty input', () => {
@@ -234,6 +234,40 @@ describe('transliterate - syllable parser fixes', () => {
     const texts = result.map(v => v.text);
     assert.ok(texts.includes('sri'),
       `Should include "sri", got: ${texts.join(', ')}`);
+  });
+});
+
+describe('transliterate - multi-word combining', () => {
+  it('combines variants across segmented words', () => {
+    // ถนนสุขุมวิท segments into multiple words, exercising combineWordVariants
+    const result = transliterate('ถนนสุขุมวิท', { maxVariants: 10 });
+    assert.ok(result.length > 0);
+    assert.ok(result.length <= 10);
+  });
+
+  it('handles space-separated multi-word input', () => {
+    // Explicit space ensures multiple words
+    const result = transliterate('กา นา', { maxVariants: 10 });
+    assert.ok(result.length > 0);
+    // Multi-word results should contain a space
+    assert.ok(result.some(v => v.text.includes(' ')),
+      `Expected space-separated variants, got: ${result.map(v => v.text).join(', ')}`);
+  });
+
+  it('deduplicates combined multi-word variants', () => {
+    const result = transliterate('กา นา', { maxVariants: 30 });
+    const texts = result.map(v => v.text.toLowerCase());
+    const unique = new Set(texts);
+    assert.strictEqual(texts.length, unique.size, 'Should not have duplicate variants');
+  });
+});
+
+describe('bestMatch - edge cases', () => {
+  it('handles empty variant and target strings', () => {
+    const result = bestMatch([{ text: '', weight: 1.0 }], '');
+    assert.ok(result);
+    assert.strictEqual(result.distance, 0);
+    assert.strictEqual(result.score, 1.0);
   });
 });
 

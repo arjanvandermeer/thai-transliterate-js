@@ -32,13 +32,6 @@ export const CLUSTER_SECOND = {
 };
 
 /**
- * Special ทร cluster:
- * - "thr" is the RTGS standard (อินทรา → inthra)
- * - "tr" is extremely common informal (อินทรา → intra, as in "Ramintra")
- * - "s" is a colloquial pronunciation for certain words (ทราย → sai, ทราบ → sap)
- * - "sr" is rare
- */
-/**
  * Special ศร cluster:
  * - "s" is the common pronunciation (ร is silent, e.g., ศรี → si)
  * - "sr" is etymological/literary
@@ -50,6 +43,13 @@ export const SOR_RO_VARIANTS = [
   { text: 'sh', weight: 0.2 },
 ];
 
+/**
+ * Special ทร cluster:
+ * - "thr" is the RTGS standard (อินทรา → inthra)
+ * - "tr" is extremely common informal (อินทรา → intra, as in "Ramintra")
+ * - "s" is a colloquial pronunciation for certain words (ทราย → sai, ทราบ → sap)
+ * - "sr" is rare
+ */
 export const THOR_SO_VARIANTS = [
   { text: 'thr', weight: 0.7 },
   { text: 'tr', weight: 0.5 },

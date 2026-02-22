@@ -89,7 +89,6 @@ function parseSingleSyllable(chars, start, len) {
   let sorRo = false;
   let isImplied = false;
 
-
   // Step 1: Check for leading vowel
   const cls0 = classifyChar(chars[i]);
   if (cls0 === 'V_LEAD') {
