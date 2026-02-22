@@ -275,13 +275,13 @@ describe('transliterate - dictionary integration', () => {
   it('includes Bangkok for กรุงเทพ (manual dictionary entry)', () => {
     const result = transliterate('กรุงเทพ', { maxVariants: 30 });
     const texts = result.map(v => v.text);
-    assert.ok(texts.includes('Bangkok'),
-      `Expected "Bangkok" in variants, got: ${texts.join(', ')}`);
+    assert.ok(texts.includes('bangkok'),
+      `Expected "bangkok" in variants, got: ${texts.join(', ')}`);
   });
 
   it('Bangkok has weight 0.9 from manual dictionary', () => {
     const result = transliterate('กรุงเทพ', { maxVariants: 30 });
-    const bangkok = result.find(v => v.text === 'Bangkok');
+    const bangkok = result.find(v => v.text === 'bangkok');
     assert.ok(bangkok);
     assert.strictEqual(bangkok.weight, 0.9);
   });
@@ -305,8 +305,8 @@ describe('transliterate - dictionary integration', () => {
   it('includes Thailand for ประเทศไทย (manual dictionary)', () => {
     const result = transliterate('ประเทศไทย', { maxVariants: 30 });
     const texts = result.map(v => v.text);
-    assert.ok(texts.includes('Thailand'),
-      `Expected "Thailand" in variants, got: ${texts.join(', ')}`);
+    assert.ok(texts.includes('thailand'),
+      `Expected "thailand" in variants, got: ${texts.join(', ')}`);
   });
 
   it('respects maxVariants cap after dictionary merge', () => {

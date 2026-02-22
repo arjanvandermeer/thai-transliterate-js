@@ -7,22 +7,22 @@ describe('lookupWord', () => {
     const result = lookupWord('กรุงเทพ');
     assert.ok(result, 'กรุงเทพ should be in dictionary');
     assert.ok(Array.isArray(result));
-    const bangkok = result.find(v => v.text === 'Bangkok');
-    assert.ok(bangkok, 'Should include Bangkok variant');
+    const bangkok = result.find(v => v.text === 'bangkok');
+    assert.ok(bangkok, 'Should include bangkok variant');
     assert.strictEqual(bangkok.weight, 0.9);
   });
 
   it('returns variants for กรุงเทพมหานคร (manual)', () => {
     const result = lookupWord('กรุงเทพมหานคร');
     assert.ok(result);
-    const bangkok = result.find(v => v.text === 'Bangkok');
+    const bangkok = result.find(v => v.text === 'bangkok');
     assert.ok(bangkok);
   });
 
   it('returns variants for สุวรรณภูมิ (manual)', () => {
     const result = lookupWord('สุวรรณภูมิ');
     assert.ok(result);
-    const suvarnabhumi = result.find(v => v.text === 'Suvarnabhumi');
+    const suvarnabhumi = result.find(v => v.text === 'suvarnabhumi');
     assert.ok(suvarnabhumi);
     assert.strictEqual(suvarnabhumi.weight, 0.9);
   });
@@ -36,8 +36,8 @@ describe('lookupWord', () => {
     // ประเทศไทย is in both auto (various transliterations) and manual (Thailand at 0.9)
     const result = lookupWord('ประเทศไทย');
     assert.ok(result);
-    const thailand = result.find(v => v.text === 'Thailand');
-    assert.ok(thailand, 'Manual "Thailand" entry should be present');
+    const thailand = result.find(v => v.text === 'thailand');
+    assert.ok(thailand, 'Manual "thailand" entry should be present');
     assert.strictEqual(thailand.weight, 0.9, 'Manual weight should take precedence');
   });
 
@@ -47,7 +47,7 @@ describe('lookupWord', () => {
     for (const v of result) {
       assert.ok(typeof v.text === 'string', 'variant should have text string');
       assert.ok(typeof v.weight === 'number', 'variant should have weight number');
-      assert.ok(v.weight > 0 && v.weight <= 1.0, `weight ${v.weight} should be in (0, 1]`);
+      assert.ok(v.weight > 0 && v.weight <= 1.1, `weight ${v.weight} should be in (0, 1.1]`);
     }
   });
 

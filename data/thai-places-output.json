@@ -7,7 +7,7 @@
         "thai": "กรุงเทพมหานคร",
         "variants": [
           {
-            "text": "Krung Thep Maha Nakhon",
+            "text": "krung thep maha nakhon",
             "weight": 1.05
           },
           {
@@ -15,7 +15,7 @@
             "weight": 1
           },
           {
-            "text": "Bangkok",
+            "text": "bangkok",
             "weight": 0.9
           },
           {
@@ -38,7 +38,7 @@
         "thai": "กระบี่",
         "variants": [
           {
-            "text": "Krabi",
+            "text": "krabi",
             "weight": 1.1
           },
           {
@@ -50,7 +50,7 @@
             "weight": 0.44
           },
           {
-            "text": "Krampi",
+            "text": "krampi",
             "weight": 0.44
           },
           {
@@ -69,7 +69,7 @@
         "thai": "กาญจนบุรี",
         "variants": [
           {
-            "text": "Kanchanaburi",
+            "text": "kanchanaburi",
             "weight": 1.1
           },
           {
@@ -131,7 +131,7 @@
         "thai": "กำแพงเพชร",
         "variants": [
           {
-            "text": "Kamphaeng Phet",
+            "text": "kamphaeng phet",
             "weight": 1.1
           },
           {
@@ -162,7 +162,7 @@
         "thai": "ขอนแก่น",
         "variants": [
           {
-            "text": "Khon Kaen",
+            "text": "khon kaen",
             "weight": 1.1
           },
           {
@@ -193,7 +193,7 @@
         "thai": "จันทบุรี",
         "variants": [
           {
-            "text": "Chanthaburi",
+            "text": "chanthaburi",
             "weight": 1.1
           },
           {
@@ -205,11 +205,11 @@
             "weight": 0.5
           },
           {
-            "text": "Chandaburi",
+            "text": "chandaburi",
             "weight": 0.44
           },
           {
-            "text": "Chandha Buri",
+            "text": "chandha buri",
             "weight": 0.44
           }
         ]
@@ -224,7 +224,7 @@
         "thai": "ฉะเชิงเทรา",
         "variants": [
           {
-            "text": "Chachoengsao",
+            "text": "chachoengsao",
             "weight": 1.1
           },
           {
@@ -255,7 +255,7 @@
         "thai": "ชลบุรี",
         "variants": [
           {
-            "text": "Chon Buri",
+            "text": "chon buri",
             "weight": 1.1
           },
           {
@@ -286,7 +286,7 @@
         "thai": "ชัยนาท",
         "variants": [
           {
-            "text": "Chai Nat",
+            "text": "chai nat",
             "weight": 1.1
           },
           {
@@ -317,7 +317,7 @@
         "thai": "ชัยภูมิ",
         "variants": [
           {
-            "text": "Chaiyaphum",
+            "text": "chaiyaphum",
             "weight": 1.1
           },
           {
@@ -348,7 +348,7 @@
         "thai": "ชุมพร",
         "variants": [
           {
-            "text": "Chumphon",
+            "text": "chumphon",
             "weight": 1.1
           },
           {
@@ -379,7 +379,7 @@
         "thai": "เชียงราย",
         "variants": [
           {
-            "text": "Chiang Rai",
+            "text": "chiang rai",
             "weight": 1.1
           },
           {
@@ -391,11 +391,11 @@
             "weight": 0.7
           },
           {
-            "text": "Chiangraj",
+            "text": "chiangraj",
             "weight": 0.44
           },
           {
-            "text": "Chiengrai",
+            "text": "chiengrai",
             "weight": 0.44
           }
         ]
@@ -410,7 +410,7 @@
         "thai": "เชียงใหม่",
         "variants": [
           {
-            "text": "Chiang Mai",
+            "text": "chiang mai",
             "weight": 1.1
           },
           {
@@ -441,7 +441,7 @@
         "thai": "ตรัง",
         "variants": [
           {
-            "text": "Trang",
+            "text": "trang",
             "weight": 1.1
           },
           {
@@ -503,11 +503,11 @@
         "thai": "ตาก",
         "variants": [
           {
-            "text": "Tak",
+            "text": "tak",
             "weight": 1.1
           },
           {
-            "text": "Takas",
+            "text": "takas",
             "weight": 0.44
           },
           {
@@ -534,7 +534,7 @@
         "thai": "นครนายก",
         "variants": [
           {
-            "text": "Nakhon Nayok",
+            "text": "nakhon nayok",
             "weight": 1.1
           },
           {
@@ -565,7 +565,7 @@
         "thai": "นครปฐม",
         "variants": [
           {
-            "text": "Nakhon Pathom",
+            "text": "nakhon pathom",
             "weight": 1.1
           },
           {
@@ -596,7 +596,7 @@
         "thai": "นครพนม",
         "variants": [
           {
-            "text": "Nakhon Phanom",
+            "text": "nakhon phanom",
             "weight": 1.1
           },
           {
@@ -627,7 +627,7 @@
         "thai": "นครราชสีมา",
         "variants": [
           {
-            "text": "Nakhon Ratchasima",
+            "text": "nakhon ratchasima",
             "weight": 1.1
           },
           {
@@ -658,7 +658,7 @@
         "thai": "นครศรีธรรมราช",
         "variants": [
           {
-            "text": "Nakhon Si Thammarat",
+            "text": "nakhon si thammarat",
             "weight": 1.1
           },
           {
@@ -720,7 +720,7 @@
         "thai": "นนทบุรี",
         "variants": [
           {
-            "text": "Nonthaburi",
+            "text": "nonthaburi",
             "weight": 1.05
           },
           {
@@ -751,7 +751,7 @@
         "thai": "นราธิวาส",
         "variants": [
           {
-            "text": "Narathiwat",
+            "text": "narathiwat",
             "weight": 1.1
           },
           {
@@ -759,11 +759,11 @@
             "weight": 0.5
           },
           {
-            "text": "Naradhivas",
+            "text": "naradhivas",
             "weight": 0.44
           },
           {
-            "text": "Naratkhivat",
+            "text": "naratkhivat",
             "weight": 0.44
           },
           {
@@ -782,7 +782,7 @@
         "thai": "น่าน",
         "variants": [
           {
-            "text": "Nan",
+            "text": "nan",
             "weight": 1.05
           },
           {
@@ -798,7 +798,7 @@
             "weight": 0.4
           },
           {
-            "text": "Nanas",
+            "text": "nanas",
             "weight": 0.21
           }
         ]
@@ -813,7 +813,7 @@
         "thai": "บึงกาฬ",
         "variants": [
           {
-            "text": "Bueng Kan",
+            "text": "bueng kan",
             "weight": 1.1
           },
           {
@@ -844,7 +844,7 @@
         "thai": "บุรีรัมย์",
         "variants": [
           {
-            "text": "Buri Ram",
+            "text": "buri ram",
             "weight": 1.1
           },
           {
@@ -875,7 +875,7 @@
         "thai": "ปทุมธานี",
         "variants": [
           {
-            "text": "Pathum Thani",
+            "text": "pathum thani",
             "weight": 1.1
           },
           {
@@ -891,7 +891,7 @@
             "weight": 0.5
           },
           {
-            "text": "Padumdhani",
+            "text": "padumdhani",
             "weight": 0.44
           }
         ]
@@ -906,7 +906,7 @@
         "thai": "ประจวบคีรีขันธ์",
         "variants": [
           {
-            "text": "Prachuap Khiri Khan",
+            "text": "prachuap khiri khan",
             "weight": 1.1
           },
           {
@@ -937,7 +937,7 @@
         "thai": "ปราจีนบุรี",
         "variants": [
           {
-            "text": "Prachin Buri",
+            "text": "prachin buri",
             "weight": 1.1
           },
           {
@@ -968,7 +968,7 @@
         "thai": "ปัตตานี",
         "variants": [
           {
-            "text": "Pattani",
+            "text": "pattani",
             "weight": 1.1
           },
           {
@@ -976,7 +976,7 @@
             "weight": 0.4
           },
           {
-            "text": "Patani",
+            "text": "patani",
             "weight": 0.31
           },
           {
@@ -999,7 +999,7 @@
         "thai": "พระนครศรีอยุธยา",
         "variants": [
           {
-            "text": "Phra Nakhon Si Ayutthaya",
+            "text": "phra nakhon si ayutthaya",
             "weight": 1.05
           },
           {
@@ -1030,7 +1030,7 @@
         "thai": "พะเยา",
         "variants": [
           {
-            "text": "Phayao",
+            "text": "phayao",
             "weight": 1.1
           },
           {
@@ -1061,7 +1061,7 @@
         "thai": "พังงา",
         "variants": [
           {
-            "text": "Phang Nga",
+            "text": "phang nga",
             "weight": 1.1
           },
           {
@@ -1069,11 +1069,11 @@
             "weight": 1
           },
           {
-            "text": "Pkhangnga",
+            "text": "pkhangnga",
             "weight": 0.55
           },
           {
-            "text": "Phang-Nga",
+            "text": "phang-nga",
             "weight": 0.55
           },
           {
@@ -1092,7 +1092,7 @@
         "thai": "พัทลุง",
         "variants": [
           {
-            "text": "Phatthalung",
+            "text": "phatthalung",
             "weight": 1.1
           },
           {
@@ -1108,7 +1108,7 @@
             "weight": 0.4
           },
           {
-            "text": "Patalung",
+            "text": "patalung",
             "weight": 0.37
           }
         ]
@@ -1123,7 +1123,7 @@
         "thai": "พิจิตร",
         "variants": [
           {
-            "text": "Phichit",
+            "text": "phichit",
             "weight": 1.1
           },
           {
@@ -1154,7 +1154,7 @@
         "thai": "พิษณุโลก",
         "variants": [
           {
-            "text": "Phitsanulok",
+            "text": "phitsanulok",
             "weight": 1.1
           },
           {
@@ -1170,7 +1170,7 @@
             "weight": 0.4
           },
           {
-            "text": "Bhisanulok",
+            "text": "bhisanulok",
             "weight": 0.37
           }
         ]
@@ -1185,7 +1185,7 @@
         "thai": "เพชรบุรี",
         "variants": [
           {
-            "text": "Phetchaburi",
+            "text": "phetchaburi",
             "weight": 1.1
           },
           {
@@ -1216,7 +1216,7 @@
         "thai": "เพชรบูรณ์",
         "variants": [
           {
-            "text": "Phetchabun",
+            "text": "phetchabun",
             "weight": 1.1
           },
           {
@@ -1232,7 +1232,7 @@
             "weight": 0.5
           },
           {
-            "text": "Pkhetchabun",
+            "text": "pkhetchabun",
             "weight": 0.44
           }
         ]
@@ -1247,7 +1247,7 @@
         "thai": "แพร่",
         "variants": [
           {
-            "text": "Phrae",
+            "text": "phrae",
             "weight": 1.1
           },
           {
@@ -1263,7 +1263,7 @@
             "weight": 0.4
           },
           {
-            "text": "Bhre",
+            "text": "bhre",
             "weight": 0.37
           }
         ]
@@ -1278,7 +1278,7 @@
         "thai": "ภูเก็ต",
         "variants": [
           {
-            "text": "Phuket",
+            "text": "phuket",
             "weight": 1.1
           },
           {
@@ -1294,7 +1294,7 @@
             "weight": 0.5
           },
           {
-            "text": "Bhuket",
+            "text": "bhuket",
             "weight": 0.44
           }
         ]
@@ -1309,7 +1309,7 @@
         "thai": "มหาสารคาม",
         "variants": [
           {
-            "text": "Maha Sarakham",
+            "text": "maha sarakham",
             "weight": 1.1
           },
           {
@@ -1321,7 +1321,7 @@
             "weight": 0.5
           },
           {
-            "text": "Maha Sarakam",
+            "text": "maha sarakam",
             "weight": 0.44
           },
           {
@@ -1340,7 +1340,7 @@
         "thai": "มุกดาหาร",
         "variants": [
           {
-            "text": "Mukdahan",
+            "text": "mukdahan",
             "weight": 1.1
           },
           {
@@ -1371,7 +1371,7 @@
         "thai": "แม่ฮ่องสอน",
         "variants": [
           {
-            "text": "Mae Hong Son",
+            "text": "mae hong son",
             "weight": 1.1
           },
           {
@@ -1402,7 +1402,7 @@
         "thai": "ยโสธร",
         "variants": [
           {
-            "text": "Yasothon",
+            "text": "yasothon",
             "weight": 1.1
           },
           {
@@ -1414,7 +1414,7 @@
             "weight": 0.5
           },
           {
-            "text": "Jasotkhon",
+            "text": "jasotkhon",
             "weight": 0.44
           },
           {
@@ -1433,7 +1433,7 @@
         "thai": "ยะลา",
         "variants": [
           {
-            "text": "Yala",
+            "text": "yala",
             "weight": 1.1
           },
           {
@@ -1441,11 +1441,11 @@
             "weight": 0.3
           },
           {
-            "text": "Jala",
+            "text": "jala",
             "weight": 0.22
           },
           {
-            "text": "Giala",
+            "text": "giala",
             "weight": 0.11
           },
           {
@@ -1464,7 +1464,7 @@
         "thai": "ร้อยเอ็ด",
         "variants": [
           {
-            "text": "Roi Et",
+            "text": "roi et",
             "weight": 1.05
           },
           {
@@ -1495,7 +1495,7 @@
         "thai": "ระนอง",
         "variants": [
           {
-            "text": "Ranong",
+            "text": "ranong",
             "weight": 1.05
           },
           {
@@ -1507,11 +1507,11 @@
             "weight": 0.3
           },
           {
-            "text": "Ranon'nk",
+            "text": "ranon'nk",
             "weight": 0.21
           },
           {
-            "text": "Ranona",
+            "text": "ranona",
             "weight": 0.21
           }
         ]
@@ -1526,7 +1526,7 @@
         "thai": "ระยอง",
         "variants": [
           {
-            "text": "Rayong",
+            "text": "rayong",
             "weight": 1.1
           },
           {
@@ -1538,7 +1538,7 @@
             "weight": 0.5
           },
           {
-            "text": "Rajong",
+            "text": "rajong",
             "weight": 0.44
           },
           {
@@ -1557,7 +1557,7 @@
         "thai": "ราชบุรี",
         "variants": [
           {
-            "text": "Ratchaburi",
+            "text": "ratchaburi",
             "weight": 1.1
           },
           {
@@ -1588,7 +1588,7 @@
         "thai": "ลพบุรี",
         "variants": [
           {
-            "text": "Lop Buri",
+            "text": "lop buri",
             "weight": 1.1
           },
           {
@@ -1619,11 +1619,11 @@
         "thai": "ลำปาง",
         "variants": [
           {
-            "text": "Lampang",
+            "text": "lampang",
             "weight": 1.1
           },
           {
-            "text": "Lampangas",
+            "text": "lampangas",
             "weight": 0.44
           },
           {
@@ -1650,7 +1650,7 @@
         "thai": "ลำพูน",
         "variants": [
           {
-            "text": "Lamphun",
+            "text": "lamphun",
             "weight": 1.1
           },
           {
@@ -1681,7 +1681,7 @@
         "thai": "เลย",
         "variants": [
           {
-            "text": "Loei",
+            "text": "loei",
             "weight": 1.1
           },
           {
@@ -1693,11 +1693,11 @@
             "weight": 0.7
           },
           {
-            "text": "Leui",
+            "text": "leui",
             "weight": 0.44
           },
           {
-            "text": "Loey",
+            "text": "loey",
             "weight": 0.44
           }
         ]
@@ -1712,7 +1712,7 @@
         "thai": "ศรีสะเกษ",
         "variants": [
           {
-            "text": "Si Sa Ket",
+            "text": "si sa ket",
             "weight": 1.1
           },
           {
@@ -1774,7 +1774,7 @@
         "thai": "สงขลา",
         "variants": [
           {
-            "text": "Songkhla",
+            "text": "songkhla",
             "weight": 1.1
           },
           {
@@ -1786,7 +1786,7 @@
             "weight": 0.5
           },
           {
-            "text": "Songkkhla",
+            "text": "songkkhla",
             "weight": 0.37
           },
           {
@@ -1805,7 +1805,7 @@
         "thai": "สตูล",
         "variants": [
           {
-            "text": "Satun",
+            "text": "satun",
             "weight": 1.1
           },
           {
@@ -1836,7 +1836,7 @@
         "thai": "สมุทรปราการ",
         "variants": [
           {
-            "text": "Samut Prakan",
+            "text": "samut prakan",
             "weight": 1.1
           },
           {
@@ -1848,11 +1848,11 @@
             "weight": 0.6
           },
           {
-            "text": "Samudh Prakarn",
+            "text": "samudh prakarn",
             "weight": 0.44
           },
           {
-            "text": "Samutprakan",
+            "text": "samutprakan",
             "weight": 0.44
           }
         ]
@@ -1867,7 +1867,7 @@
         "thai": "สมุทรสงคราม",
         "variants": [
           {
-            "text": "Samut Songkhram",
+            "text": "samut songkhram",
             "weight": 1.1
           },
           {
@@ -1883,7 +1883,7 @@
             "weight": 0.5
           },
           {
-            "text": "Samut Songkram",
+            "text": "samut songkram",
             "weight": 0.44
           }
         ]
@@ -1902,11 +1902,11 @@
             "weight": 1
           },
           {
-            "text": "Samudrasagara",
+            "text": "samudrasagara",
             "weight": 0.9
           },
           {
-            "text": "Samut Sakon",
+            "text": "samut sakon",
             "weight": 0.9
           },
           {
@@ -1929,7 +1929,7 @@
         "thai": "สระแก้ว",
         "variants": [
           {
-            "text": "Sa Kaeo",
+            "text": "sa kaeo",
             "weight": 1.1
           },
           {
@@ -1960,7 +1960,7 @@
         "thai": "สระบุรี",
         "variants": [
           {
-            "text": "Saraburi",
+            "text": "saraburi",
             "weight": 1.05
           },
           {
@@ -1976,7 +1976,7 @@
             "weight": 0.4
           },
           {
-            "text": "Sara Buri",
+            "text": "sara buri",
             "weight": 0.35
           }
         ]
@@ -1991,7 +1991,7 @@
         "thai": "สิงห์บุรี",
         "variants": [
           {
-            "text": "Sing Buri",
+            "text": "sing buri",
             "weight": 1.05
           },
           {
@@ -2022,7 +2022,7 @@
         "thai": "สุโขทัย",
         "variants": [
           {
-            "text": "Sukhothai",
+            "text": "sukhothai",
             "weight": 1.1
           },
           {
@@ -2053,7 +2053,7 @@
         "thai": "สุพรรณบุรี",
         "variants": [
           {
-            "text": "Suphan Buri",
+            "text": "suphan buri",
             "weight": 1.1
           },
           {
@@ -2084,7 +2084,7 @@
         "thai": "สุราษฎร์ธานี",
         "variants": [
           {
-            "text": "Surat Thani",
+            "text": "surat thani",
             "weight": 1.1
           },
           {
@@ -2115,7 +2115,7 @@
         "thai": "สุรินทร์",
         "variants": [
           {
-            "text": "Surin",
+            "text": "surin",
             "weight": 1.1
           },
           {
@@ -2146,7 +2146,7 @@
         "thai": "หนองคาย",
         "variants": [
           {
-            "text": "Nong Khai",
+            "text": "nong khai",
             "weight": 1.1
           },
           {
@@ -2177,7 +2177,7 @@
         "thai": "หนองบัวลำภู",
         "variants": [
           {
-            "text": "Nong Bua Lamphu",
+            "text": "nong bua lamphu",
             "weight": 1.05
           },
           {
@@ -2185,7 +2185,7 @@
             "weight": 1
           },
           {
-            "text": "Nong Bua Lam Phu",
+            "text": "nong bua lam phu",
             "weight": 0.53
           },
           {
@@ -2208,7 +2208,7 @@
         "thai": "อ่างทอง",
         "variants": [
           {
-            "text": "Ang Thong",
+            "text": "ang thong",
             "weight": 1.1
           },
           {
@@ -2239,7 +2239,7 @@
         "thai": "อำนาจเจริญ",
         "variants": [
           {
-            "text": "Amnat Charoen",
+            "text": "amnat charoen",
             "weight": 1.05
           },
           {
@@ -2270,7 +2270,7 @@
         "thai": "อุดรธานี",
         "variants": [
           {
-            "text": "Udon Thani",
+            "text": "udon thani",
             "weight": 1.1
           },
           {
@@ -2301,7 +2301,7 @@
         "thai": "อุตรดิตถ์",
         "variants": [
           {
-            "text": "Uttaradit",
+            "text": "uttaradit",
             "weight": 1.1
           },
           {
@@ -2317,7 +2317,7 @@
             "weight": 0.4
           },
           {
-            "text": "Utaradit",
+            "text": "utaradit",
             "weight": 0.37
           }
         ]
@@ -2332,7 +2332,7 @@
         "thai": "อุทัยธานี",
         "variants": [
           {
-            "text": "Uthai Thani",
+            "text": "uthai thani",
             "weight": 1.05
           },
           {
@@ -2363,7 +2363,7 @@
         "thai": "อุบลราชธานี",
         "variants": [
           {
-            "text": "Ubon Ratchathani",
+            "text": "ubon ratchathani",
             "weight": 1.1
           },
           {
@@ -2419,7 +2419,7 @@
         "thai": "พระนคร",
         "variants": [
           {
-            "text": "Phra Nakhon",
+            "text": "phra nakhon",
             "weight": 1.1
           },
           {
@@ -2475,7 +2475,7 @@
         "thai": "ดุสิต",
         "variants": [
           {
-            "text": "Dusit",
+            "text": "dusit",
             "weight": 1.1
           },
           {
@@ -2527,7 +2527,7 @@
         "thai": "หนองจอก",
         "variants": [
           {
-            "text": "Nong Chok",
+            "text": "nong chok",
             "weight": 1.1
           },
           {
@@ -2583,7 +2583,7 @@
         "thai": "บางรัก",
         "variants": [
           {
-            "text": "Bang Rak",
+            "text": "bang rak",
             "weight": 1.1
           },
           {
@@ -2639,7 +2639,7 @@
         "thai": "บางเขน",
         "variants": [
           {
-            "text": "Bang Khen",
+            "text": "bang khen",
             "weight": 1.1
           },
           {
@@ -2695,7 +2695,7 @@
         "thai": "บางกะปิ",
         "variants": [
           {
-            "text": "Bang Kapi",
+            "text": "bang kapi",
             "weight": 1.1
           },
           {
@@ -2751,7 +2751,7 @@
         "thai": "ปทุมวัน",
         "variants": [
           {
-            "text": "Pathum Wan",
+            "text": "pathum wan",
             "weight": 1.1
           },
           {
@@ -2807,7 +2807,7 @@
         "thai": "ป้อมปราบศัตรูพ่าย",
         "variants": [
           {
-            "text": "Pom Prap Sattru Phai",
+            "text": "pom prap sattru phai",
             "weight": 1.05
           },
           {
@@ -2863,7 +2863,7 @@
         "thai": "พระโขนง",
         "variants": [
           {
-            "text": "Phra Khanong",
+            "text": "phra khanong",
             "weight": 1.1
           },
           {
@@ -2919,7 +2919,7 @@
         "thai": "มีนบุรี",
         "variants": [
           {
-            "text": "Min Buri",
+            "text": "min buri",
             "weight": 1.1
           },
           {
@@ -2975,7 +2975,7 @@
         "thai": "ลาดกระบัง",
         "variants": [
           {
-            "text": "Lat Krabang",
+            "text": "lat krabang",
             "weight": 1.1
           },
           {
@@ -3031,7 +3031,7 @@
         "thai": "ยานนาวา",
         "variants": [
           {
-            "text": "Yan Nawa",
+            "text": "yan nawa",
             "weight": 1.1
           },
           {
@@ -3087,7 +3087,7 @@
         "thai": "สัมพันธวงศ์",
         "variants": [
           {
-            "text": "Samphanthawong",
+            "text": "samphanthawong",
             "weight": 1.1
           },
           {
@@ -3143,7 +3143,7 @@
         "thai": "พญาไท",
         "variants": [
           {
-            "text": "Phaya Thai",
+            "text": "phaya thai",
             "weight": 1.1
           },
           {
@@ -3199,7 +3199,7 @@
         "thai": "ธนบุรี",
         "variants": [
           {
-            "text": "Thon Buri",
+            "text": "thon buri",
             "weight": 1.1
           },
           {
@@ -3215,7 +3215,7 @@
             "weight": 0.5
           },
           {
-            "text": "Dhonburi",
+            "text": "dhonburi",
             "weight": 0.44
           }
         ]
@@ -3255,7 +3255,7 @@
         "thai": "บางกอกใหญ่",
         "variants": [
           {
-            "text": "Bangkok Yai",
+            "text": "bangkok yai",
             "weight": 1.05
           },
           {
@@ -3311,7 +3311,7 @@
         "thai": "ห้วยขวาง",
         "variants": [
           {
-            "text": "Huai Khwang",
+            "text": "huai khwang",
             "weight": 1.1
           },
           {
@@ -3367,7 +3367,7 @@
         "thai": "คลองสาน",
         "variants": [
           {
-            "text": "Khlong San",
+            "text": "khlong san",
             "weight": 1.1
           },
           {
@@ -3423,7 +3423,7 @@
         "thai": "ตลิ่งชัน",
         "variants": [
           {
-            "text": "Taling Chan",
+            "text": "taling chan",
             "weight": 1.1
           },
           {
@@ -3479,7 +3479,7 @@
         "thai": "บางกอกน้อย",
         "variants": [
           {
-            "text": "Bangkok Noi",
+            "text": "bangkok noi",
             "weight": 1.05
           },
           {
@@ -3535,7 +3535,7 @@
         "thai": "บางขุนเทียน",
         "variants": [
           {
-            "text": "Bang Khun Thian",
+            "text": "bang khun thian",
             "weight": 1.1
           },
           {
@@ -3591,7 +3591,7 @@
         "thai": "ภาษีเจริญ",
         "variants": [
           {
-            "text": "Phasi Charoen",
+            "text": "phasi charoen",
             "weight": 1.1
           },
           {
@@ -3647,7 +3647,7 @@
         "thai": "หนองแขม",
         "variants": [
           {
-            "text": "Nong Khaem",
+            "text": "nong khaem",
             "weight": 1.1
           },
           {
@@ -3703,7 +3703,7 @@
         "thai": "ราษฎร์บูรณะ",
         "variants": [
           {
-            "text": "Rat Burana",
+            "text": "rat burana",
             "weight": 1.1
           },
           {
@@ -3759,7 +3759,7 @@
         "thai": "บางพลัด",
         "variants": [
           {
-            "text": "Bang Phlat",
+            "text": "bang phlat",
             "weight": 1.1
           },
           {
@@ -3815,7 +3815,7 @@
         "thai": "ดินแดง",
         "variants": [
           {
-            "text": "Din Daeng",
+            "text": "din daeng",
             "weight": 1.1
           },
           {
@@ -3871,7 +3871,7 @@
         "thai": "บึงกุ่ม",
         "variants": [
           {
-            "text": "Bueng Kum",
+            "text": "bueng kum",
             "weight": 1.1
           },
           {
@@ -3979,7 +3979,7 @@
         "thai": "บางซื่อ",
         "variants": [
           {
-            "text": "Bang Sue",
+            "text": "bang sue",
             "weight": 1.1
           },
           {
@@ -4035,7 +4035,7 @@
         "thai": "จตุจักร",
         "variants": [
           {
-            "text": "Chatuchak",
+            "text": "chatuchak",
             "weight": 1.1
           },
           {
@@ -4091,7 +4091,7 @@
         "thai": "บางคอแหลม",
         "variants": [
           {
-            "text": "Bang Kho Laem",
+            "text": "bang kho laem",
             "weight": 1.1
           },
           {
@@ -4147,11 +4147,11 @@
         "thai": "ประเวศ",
         "variants": [
           {
-            "text": "Prawet",
+            "text": "prawet",
             "weight": 1.1
           },
           {
-            "text": "Pra Wet",
+            "text": "pra wet",
             "weight": 0.55
           },
           {
@@ -4203,7 +4203,7 @@
         "thai": "คลองเตย",
         "variants": [
           {
-            "text": "Khlong Toei",
+            "text": "khlong toei",
             "weight": 1.1
           },
           {
@@ -4315,7 +4315,7 @@
         "thai": "จอมทอง",
         "variants": [
           {
-            "text": "Chom Thong",
+            "text": "chom thong",
             "weight": 1.1
           },
           {
@@ -4371,7 +4371,7 @@
         "thai": "ดอนเมือง",
         "variants": [
           {
-            "text": "Don Mueang",
+            "text": "don mueang",
             "weight": 1.1
           },
           {
@@ -4379,7 +4379,7 @@
             "weight": 1
           },
           {
-            "text": "Don Muang",
+            "text": "don muang",
             "weight": 0.94
           },
           {
@@ -4427,7 +4427,7 @@
         "thai": "ราชเทวี",
         "variants": [
           {
-            "text": "Ratchathewi",
+            "text": "ratchathewi",
             "weight": 1.1
           },
           {
@@ -4483,7 +4483,7 @@
         "thai": "ลาดพร้าว",
         "variants": [
           {
-            "text": "Lat Phrao",
+            "text": "lat phrao",
             "weight": 1.1
           },
           {
@@ -4539,7 +4539,7 @@
         "thai": "วัฒนา",
         "variants": [
           {
-            "text": "Watthana",
+            "text": "watthana",
             "weight": 1.05
           },
           {
@@ -4595,7 +4595,7 @@
         "thai": "บางแค",
         "variants": [
           {
-            "text": "Bang Khae",
+            "text": "bang khae",
             "weight": 1.1
           },
           {
@@ -4651,7 +4651,7 @@
         "thai": "หลักสี่",
         "variants": [
           {
-            "text": "Lak Si",
+            "text": "lak si",
             "weight": 1.1
           },
           {
@@ -4707,7 +4707,7 @@
         "thai": "สายไหม",
         "variants": [
           {
-            "text": "Sai Mai",
+            "text": "sai mai",
             "weight": 1.1
           },
           {
@@ -4763,7 +4763,7 @@
         "thai": "คันนายาว",
         "variants": [
           {
-            "text": "Khan Na Yao",
+            "text": "khan na yao",
             "weight": 1.1
           },
           {
@@ -4896,7 +4896,7 @@
         "thai": "วังทองหลาง",
         "variants": [
           {
-            "text": "Wang Thonglang",
+            "text": "wang thonglang",
             "weight": 1.1
           },
           {
@@ -5050,7 +5050,7 @@
         "thai": "บางนา",
         "variants": [
           {
-            "text": "Bang Na",
+            "text": "bang na",
             "weight": 1.1
           },
           {
@@ -5131,7 +5131,7 @@
         "thai": "วัฒนา",
         "variants": [
           {
-            "text": "Watthana",
+            "text": "watthana",
             "weight": 1.05
           },
           {
@@ -5297,7 +5297,7 @@
             "weight": 1
           },
           {
-            "text": "Bon",
+            "text": "bon",
             "weight": 0.9
           },
           {
@@ -5349,7 +5349,7 @@
         "thai": "สุขุมวิท",
         "variants": [
           {
-            "text": "Sukhumvit",
+            "text": "sukhumvit",
             "weight": 1.05
           },
           {
@@ -5405,7 +5405,7 @@
         "thai": "สีลม",
         "variants": [
           {
-            "text": "Si Lom",
+            "text": "si lom",
             "weight": 1.05
           },
           {
@@ -5569,7 +5569,7 @@
         "thai": "รัชดาภิเษก",
         "variants": [
           {
-            "text": "Ratchadaphisek",
+            "text": "ratchadaphisek",
             "weight": 1.05
           },
           {
@@ -5820,7 +5820,7 @@
         "thai": "เพชรบุรี",
         "variants": [
           {
-            "text": "Phetchaburi",
+            "text": "phetchaburi",
             "weight": 1.1
           },
           {
@@ -5876,7 +5876,7 @@
         "thai": "เพชรบุรี",
         "variants": [
           {
-            "text": "Phetchaburi",
+            "text": "phetchaburi",
             "weight": 1.1
           },
           {
@@ -6138,7 +6138,7 @@
         "thai": "ข้าวสาร",
         "variants": [
           {
-            "text": "Khao San",
+            "text": "khao san",
             "weight": 1.05
           },
           {
@@ -6835,7 +6835,7 @@
         "thai": "นราธิวาส",
         "variants": [
           {
-            "text": "Narathiwat",
+            "text": "narathiwat",
             "weight": 1.1
           },
           {
@@ -6843,11 +6843,11 @@
             "weight": 0.5
           },
           {
-            "text": "Naradhivas",
+            "text": "naradhivas",
             "weight": 0.44
           },
           {
-            "text": "Naratkhivat",
+            "text": "naratkhivat",
             "weight": 0.44
           },
           {
@@ -7387,7 +7387,7 @@
             "weight": 1
           },
           {
-            "text": "Ram Inthra",
+            "text": "ram inthra",
             "weight": 0.9
           },
           {
@@ -7534,7 +7534,7 @@
         "thai": "ลาดพร้าว",
         "variants": [
           {
-            "text": "Lat Phrao",
+            "text": "lat phrao",
             "weight": 1.1
           },
           {
@@ -7709,11 +7709,11 @@
         "thai": "ไทย",
         "variants": [
           {
-            "text": "Tai",
+            "text": "tai",
             "weight": 1.05
           },
           {
-            "text": "Thaysuyu",
+            "text": "thaysuyu",
             "weight": 1.05
           },
           {
@@ -7821,7 +7821,7 @@
         "thai": "ศรีนครินทร์",
         "variants": [
           {
-            "text": "Srinagarindra",
+            "text": "srinagarindra",
             "weight": 1.1
           },
           {
@@ -7877,7 +7877,7 @@
         "thai": "อ่อนนุช",
         "variants": [
           {
-            "text": "On Nut",
+            "text": "on nut",
             "weight": 1.05
           },
           {
@@ -7933,7 +7933,7 @@
         "thai": "บางนา",
         "variants": [
           {
-            "text": "Bang Na",
+            "text": "bang na",
             "weight": 1.1
           },
           {
@@ -8018,7 +8018,7 @@
             "weight": 1
           },
           {
-            "text": "Phatthanakan",
+            "text": "phatthanakan",
             "weight": 0.9
           },
           {
@@ -8290,7 +8290,7 @@
         "thai": "ลาดกระบัง",
         "variants": [
           {
-            "text": "Lat Krabang",
+            "text": "lat krabang",
             "weight": 1.1
           },
           {
@@ -8346,7 +8346,7 @@
         "thai": "ฉลอง",
         "variants": [
           {
-            "text": "Chalong",
+            "text": "chalong",
             "weight": 1.05
           },
           {
@@ -8595,7 +8595,7 @@
         "thai": "ราษฎร์บูรณะ",
         "variants": [
           {
-            "text": "Rat Burana",
+            "text": "rat burana",
             "weight": 1.1
           },
           {
@@ -8819,7 +8819,7 @@
         "thai": "กำแพงเพชร",
         "variants": [
           {
-            "text": "Kamphaeng Phet",
+            "text": "kamphaeng phet",
             "weight": 1.1
           },
           {
@@ -8944,7 +8944,7 @@
         "thai": "วงศ์สว่าง",
         "variants": [
           {
-            "text": "Wong Sawang",
+            "text": "wong sawang",
             "weight": 1.1
           },
           {
@@ -9000,7 +9000,7 @@
         "thai": "พญาไท",
         "variants": [
           {
-            "text": "Phaya Thai",
+            "text": "phaya thai",
             "weight": 1.1
           },
           {
@@ -9251,7 +9251,7 @@
         "thai": "คูคต",
         "variants": [
           {
-            "text": "Khu Khot",
+            "text": "khu khot",
             "weight": 1.05
           },
           {
@@ -9815,7 +9815,7 @@
         "thai": "เสนานิคม",
         "variants": [
           {
-            "text": "Sena Nikhom",
+            "text": "sena nikhom",
             "weight": 1.05
           },
           {
@@ -9932,7 +9932,7 @@
         "thai": "ลาดพร้าว",
         "variants": [
           {
-            "text": "Lat Phrao",
+            "text": "lat phrao",
             "weight": 1.1
           },
           {
@@ -10085,7 +10085,7 @@
             "weight": 1
           },
           {
-            "text": "Pao",
+            "text": "pao",
             "weight": 0.9
           },
           {
@@ -10116,7 +10116,7 @@
             "weight": 1
           },
           {
-            "text": "Anusawari",
+            "text": "anusawari",
             "weight": 0.9
           },
           {
@@ -10168,7 +10168,7 @@
         "thai": "พญาไท",
         "variants": [
           {
-            "text": "Phaya Thai",
+            "text": "phaya thai",
             "weight": 1.1
           },
           {
@@ -10199,7 +10199,7 @@
         "thai": "ราชเทวี",
         "variants": [
           {
-            "text": "Ratchathewi",
+            "text": "ratchathewi",
             "weight": 1.1
           },
           {
@@ -10503,7 +10503,7 @@
         "thai": "พระโขนง",
         "variants": [
           {
-            "text": "Phra Khanong",
+            "text": "phra khanong",
             "weight": 1.1
           },
           {
@@ -10534,7 +10534,7 @@
         "thai": "อ่อนนุช",
         "variants": [
           {
-            "text": "On Nut",
+            "text": "on nut",
             "weight": 1.05
           },
           {
@@ -10565,7 +10565,7 @@
         "thai": "บางจาก",
         "variants": [
           {
-            "text": "Bangchak",
+            "text": "bangchak",
             "weight": 1.1
           },
           {
@@ -10679,7 +10679,7 @@
         "thai": "บางนา",
         "variants": [
           {
-            "text": "Bang Na",
+            "text": "bang na",
             "weight": 1.1
           },
           {
@@ -10754,7 +10754,7 @@
         "thai": "สำโรง",
         "variants": [
           {
-            "text": "Samrong",
+            "text": "samrong",
             "weight": 1.1
           },
           {
@@ -10841,7 +10841,7 @@
         "thai": "เอราวัณ",
         "variants": [
           {
-            "text": "Erawan",
+            "text": "erawan",
             "weight": 1.1
           },
           {
@@ -10953,7 +10953,7 @@
         "thai": "ปากน้ำ",
         "variants": [
           {
-            "text": "Pak Nam",
+            "text": "pak nam",
             "weight": 1.1
           },
           {
@@ -10984,7 +10984,7 @@
         "thai": "ศรีนครินทร์",
         "variants": [
           {
-            "text": "Srinagarindra",
+            "text": "srinagarindra",
             "weight": 1.1
           },
           {
@@ -11264,7 +11264,7 @@
         "thai": "ศาลาแดง",
         "variants": [
           {
-            "text": "Sala Daeng",
+            "text": "sala daeng",
             "weight": 1.1
           },
           {
@@ -11299,7 +11299,7 @@
             "weight": 1
           },
           {
-            "text": "Chong",
+            "text": "chong",
             "weight": 0.9
           },
           {
@@ -11573,7 +11573,7 @@
         "thai": "ตลาดพลู",
         "variants": [
           {
-            "text": "Talat Phlu",
+            "text": "talat phlu",
             "weight": 1.1
           },
           {
@@ -11718,7 +11718,7 @@
         "thai": "คลองสาน",
         "variants": [
           {
-            "text": "Khlong San",
+            "text": "khlong san",
             "weight": 1.1
           },
           {
@@ -11749,7 +11749,7 @@
         "thai": "ท่าพระ",
         "variants": [
           {
-            "text": "Tha Phra",
+            "text": "tha phra",
             "weight": 1.1
           },
           {
@@ -11811,7 +11811,7 @@
         "thai": "บางขุนนนท์",
         "variants": [
           {
-            "text": "Bang Khun Non",
+            "text": "bang khun non",
             "weight": 1.1
           },
           {
@@ -11842,7 +11842,7 @@
         "thai": "บางยี่ขัน",
         "variants": [
           {
-            "text": "Bang Yi Khan",
+            "text": "bang yi khan",
             "weight": 1.05
           },
           {
@@ -11873,7 +11873,7 @@
         "thai": "สิ",
         "variants": [
           {
-            "text": "Si",
+            "text": "si",
             "weight": 1.05
           }
         ]
@@ -11926,7 +11926,7 @@
         "thai": "บางพลัด",
         "variants": [
           {
-            "text": "Bang Phlat",
+            "text": "bang phlat",
             "weight": 1.1
           },
           {
@@ -11957,7 +11957,7 @@
         "thai": "บางอ้อ",
         "variants": [
           {
-            "text": "Bang O",
+            "text": "bang o",
             "weight": 1.05
           },
           {
@@ -12019,7 +12019,7 @@
         "thai": "เตาปูน",
         "variants": [
           {
-            "text": "Tao Pun",
+            "text": "tao pun",
             "weight": 1.1
           },
           {
@@ -12027,7 +12027,7 @@
             "weight": 1
           },
           {
-            "text": "Tao Poon",
+            "text": "tao poon",
             "weight": 0.88
           },
           {
@@ -12050,7 +12050,7 @@
         "thai": "บางซื่อ",
         "variants": [
           {
-            "text": "Bang Sue",
+            "text": "bang sue",
             "weight": 1.1
           },
           {
@@ -12081,7 +12081,7 @@
         "thai": "กำแพงเพชร",
         "variants": [
           {
-            "text": "Kamphaeng Phet",
+            "text": "kamphaeng phet",
             "weight": 1.1
           },
           {
@@ -12174,7 +12174,7 @@
         "thai": "ลาดพร้าว",
         "variants": [
           {
-            "text": "Lat Phrao",
+            "text": "lat phrao",
             "weight": 1.1
           },
           {
@@ -12205,7 +12205,7 @@
         "thai": "รัชดาภิเษก",
         "variants": [
           {
-            "text": "Ratchadaphisek",
+            "text": "ratchadaphisek",
             "weight": 1.05
           },
           {
@@ -12267,7 +12267,7 @@
         "thai": "ห้วยขวาง",
         "variants": [
           {
-            "text": "Huai Khwang",
+            "text": "huai khwang",
             "weight": 1.1
           },
           {
@@ -12373,11 +12373,11 @@
             "weight": 1
           },
           {
-            "text": "Prades Thai",
+            "text": "prades thai",
             "weight": 0.9
           },
           {
-            "text": "Prathet Thai",
+            "text": "prathet thai",
             "weight": 0.9
           },
           {
@@ -12385,7 +12385,7 @@
             "weight": 0.9
           },
           {
-            "text": "Prathed Thai",
+            "text": "prathed thai",
             "weight": 0.9
           }
         ]
@@ -12440,7 +12440,7 @@
         "thai": "เพชรบุรี",
         "variants": [
           {
-            "text": "Phetchaburi",
+            "text": "phetchaburi",
             "weight": 1.1
           },
           {
@@ -12471,7 +12471,7 @@
         "thai": "สุขุมวิท",
         "variants": [
           {
-            "text": "Sukhumvit",
+            "text": "sukhumvit",
             "weight": 1.05
           },
           {
@@ -12623,7 +12623,7 @@
         "thai": "สิ",
         "variants": [
           {
-            "text": "Si",
+            "text": "si",
             "weight": 1.05
           }
         ]
@@ -12672,7 +12672,7 @@
         "thai": "คลองเตย",
         "variants": [
           {
-            "text": "Khlong Toei",
+            "text": "khlong toei",
             "weight": 1.1
           },
           {
@@ -12751,7 +12751,7 @@
         "thai": "สีลม",
         "variants": [
           {
-            "text": "Si Lom",
+            "text": "si lom",
             "weight": 1.05
           },
           {
@@ -12930,7 +12930,7 @@
             "weight": 1
           },
           {
-            "text": "Yot",
+            "text": "yot",
             "weight": 0.9
           },
           {
@@ -12957,7 +12957,7 @@
         "thai": "สนามไชย",
         "variants": [
           {
-            "text": "Sanam Chai",
+            "text": "sanam chai",
             "weight": 1.1
           },
           {
@@ -13019,7 +13019,7 @@
         "thai": "บางไผ่",
         "variants": [
           {
-            "text": "Bang Phai",
+            "text": "bang phai",
             "weight": 1.1
           },
           {
@@ -13050,7 +13050,7 @@
         "thai": "ภาษีเจริญ",
         "variants": [
           {
-            "text": "Phasi Charoen",
+            "text": "phasi charoen",
             "weight": 1.1
           },
           {
@@ -13081,7 +13081,7 @@
         "thai": "บางแค",
         "variants": [
           {
-            "text": "Bang Khae",
+            "text": "bang khae",
             "weight": 1.1
           },
           {
@@ -13125,7 +13125,7 @@
         "thai": "สอง",
         "variants": [
           {
-            "text": "Song",
+            "text": "song",
             "weight": 1.05
           },
           {
@@ -13187,7 +13187,7 @@
         "thai": "โชคชัย",
         "variants": [
           {
-            "text": "Chok Chai",
+            "text": "chok chai",
             "weight": 1.1
           },
           {
@@ -13227,7 +13227,7 @@
         "thai": "มหาดไทย",
         "variants": [
           {
-            "text": "Mahatthai",
+            "text": "mahatthai",
             "weight": 1.05
           },
           {
@@ -13258,7 +13258,7 @@
         "thai": "บางกะปิ",
         "variants": [
           {
-            "text": "Bang Kapi",
+            "text": "bang kapi",
             "weight": 1.1
           },
           {
@@ -13401,7 +13401,7 @@
         "thai": "หัวหมาก",
         "variants": [
           {
-            "text": "Hua Mak",
+            "text": "hua mak",
             "weight": 1.1
           },
           {
@@ -13696,7 +13696,7 @@
         "thai": "ด่าน",
         "variants": [
           {
-            "text": "Dan",
+            "text": "dan",
             "weight": 1.05
           },
           {
@@ -13752,7 +13752,7 @@
         "thai": "เทพา",
         "variants": [
           {
-            "text": "Thepha",
+            "text": "thepha",
             "weight": 1.1
           },
           {
@@ -13956,7 +13956,7 @@
         "thai": "ปากเกร็ด",
         "variants": [
           {
-            "text": "Pak Kret",
+            "text": "pak kret",
             "weight": 1.1
           },
           {
@@ -14043,7 +14043,7 @@
             "weight": 1
           },
           {
-            "text": "Mueang Thong",
+            "text": "mueang thong",
             "weight": 0.9
           },
           {
@@ -14064,7 +14064,7 @@
         "thai": "ธานี",
         "variants": [
           {
-            "text": "Thani",
+            "text": "thani",
             "weight": 1.05
           },
           {
@@ -14141,7 +14141,7 @@
         "thai": "เฉลิมพระเกียรติ",
         "variants": [
           {
-            "text": "Chaloem Phra Kiat",
+            "text": "chaloem phra kiat",
             "weight": 1.1
           },
           {
@@ -14172,7 +14172,7 @@
         "thai": "หลักสี่",
         "variants": [
           {
-            "text": "Lak Si",
+            "text": "lak si",
             "weight": 1.1
           },
           {
@@ -14228,7 +14228,7 @@
         "thai": "พระนคร",
         "variants": [
           {
-            "text": "Phra Nakhon",
+            "text": "phra nakhon",
             "weight": 1.1
           },
           {
@@ -14437,7 +14437,7 @@
             "weight": 1
           },
           {
-            "text": "Ram Inthra",
+            "text": "ram inthra",
             "weight": 0.9
           },
           {
@@ -14506,7 +14506,7 @@
             "weight": 1
           },
           {
-            "text": "Ratchathani",
+            "text": "ratchathani",
             "weight": 0.9
           },
           {
@@ -14533,7 +14533,7 @@
         "thai": "บางชัน",
         "variants": [
           {
-            "text": "Bang Chan",
+            "text": "bang chan",
             "weight": 1.1
           },
           {
@@ -14633,7 +14633,7 @@
         "thai": "ตลาด",
         "variants": [
           {
-            "text": "Talat",
+            "text": "talat",
             "weight": 1.1
           },
           {
@@ -14658,7 +14658,7 @@
         "thai": "มีนบุรี",
         "variants": [
           {
-            "text": "Min Buri",
+            "text": "min buri",
             "weight": 1.1
           },
           {
@@ -14814,7 +14814,7 @@
         "thai": "มีนบุรี",
         "variants": [
           {
-            "text": "Min Buri",
+            "text": "min buri",
             "weight": 1.1
           },
           {
@@ -14876,7 +14876,7 @@
         "thai": "มักกะสัน",
         "variants": [
           {
-            "text": "Makkasan",
+            "text": "makkasan",
             "weight": 1.1
           },
           {
@@ -15011,7 +15011,7 @@
         "thai": "ลาดกระบัง",
         "variants": [
           {
-            "text": "Lat Krabang",
+            "text": "lat krabang",
             "weight": 1.1
           },
           {
@@ -15042,7 +15042,7 @@
         "thai": "สุวรรณภูมิ",
         "variants": [
           {
-            "text": "Suwannaphum",
+            "text": "suwannaphum",
             "weight": 1.1
           },
           {
@@ -15050,7 +15050,7 @@
             "weight": 1
           },
           {
-            "text": "Suvarnabhumi",
+            "text": "suvarnabhumi",
             "weight": 0.9
           },
           {
@@ -15077,11 +15077,11 @@
             "weight": 1
           },
           {
-            "text": "Krung Thep",
+            "text": "krung thep",
             "weight": 0.9
           },
           {
-            "text": "Krungdeb",
+            "text": "krungdeb",
             "weight": 0.9
           },
           {
@@ -15089,7 +15089,7 @@
             "weight": 0.9
           },
           {
-            "text": "Bangkok",
+            "text": "bangkok",
             "weight": 0.9
           }
         ]
@@ -15138,7 +15138,7 @@
         "thai": "จตุจักร",
         "variants": [
           {
-            "text": "Chatuchak",
+            "text": "chatuchak",
             "weight": 1.1
           },
           {
@@ -15221,7 +15221,7 @@
         "thai": "บางเขน",
         "variants": [
           {
-            "text": "Bang Khen",
+            "text": "bang khen",
             "weight": 1.1
           },
           {
@@ -15339,7 +15339,7 @@
         "thai": "ดอนเมือง",
         "variants": [
           {
-            "text": "Don Mueang",
+            "text": "don mueang",
             "weight": 1.1
           },
           {
@@ -15347,7 +15347,7 @@
             "weight": 1
           },
           {
-            "text": "Don Muang",
+            "text": "don muang",
             "weight": 0.94
           },
           {
@@ -15410,7 +15410,7 @@
         "thai": "รังสิต",
         "variants": [
           {
-            "text": "Rangsit",
+            "text": "rangsit",
             "weight": 1.1
           },
           {
@@ -15493,7 +15493,7 @@
         "thai": "บางบำหรุ",
         "variants": [
           {
-            "text": "Bang Bamru",
+            "text": "bang bamru",
             "weight": 1.1
           },
           {
@@ -15524,7 +15524,7 @@
         "thai": "ตลิ่งชัน",
         "variants": [
           {
-            "text": "Taling Chan",
+            "text": "taling chan",
             "weight": 1.1
           },
           {
@@ -16338,7 +16338,7 @@
         "thai": "ธาตุ",
         "variants": [
           {
-            "text": "That",
+            "text": "that",
             "weight": 1.1
           },
           {
@@ -16453,7 +16453,7 @@
         "thai": "เจดีย์",
         "variants": [
           {
-            "text": "Chedi",
+            "text": "chedi",
             "weight": 1.05
           },
           {
@@ -16555,7 +16555,7 @@
         "thai": "สิงห์",
         "variants": [
           {
-            "text": "Sing",
+            "text": "sing",
             "weight": 1.1
           },
           {
@@ -16624,7 +16624,7 @@
         "thai": "ธาตุ",
         "variants": [
           {
-            "text": "That",
+            "text": "that",
             "weight": 1.1
           },
           {
@@ -16649,11 +16649,11 @@
         "thai": "ลำปาง",
         "variants": [
           {
-            "text": "Lampang",
+            "text": "lampang",
             "weight": 1.1
           },
           {
-            "text": "Lampangas",
+            "text": "lampangas",
             "weight": 0.44
           },
           {
@@ -17003,7 +17003,7 @@
         "thai": "ธาตุพนม",
         "variants": [
           {
-            "text": "That Phanom",
+            "text": "that phanom",
             "weight": 1.1
           },
           {
@@ -17080,7 +17080,7 @@
         "thai": "ธาตุ",
         "variants": [
           {
-            "text": "That",
+            "text": "that",
             "weight": 1.1
           },
           {
@@ -17318,7 +17318,7 @@
         "thai": "วัฒนา",
         "variants": [
           {
-            "text": "Watthana",
+            "text": "watthana",
             "weight": 1.05
           },
           {
@@ -17522,7 +17522,7 @@
         "thai": "เจดีย์",
         "variants": [
           {
-            "text": "Chedi",
+            "text": "chedi",
             "weight": 1.05
           },
           {
@@ -17578,7 +17578,7 @@
             "weight": 1
           },
           {
-            "text": "Tham",
+            "text": "tham",
             "weight": 0.9
           },
           {
@@ -17753,7 +17753,7 @@
         "thai": "ธาตุ",
         "variants": [
           {
-            "text": "That",
+            "text": "that",
             "weight": 1.1
           },
           {
@@ -17978,7 +17978,7 @@
             "weight": 1
           },
           {
-            "text": "Chong Lom",
+            "text": "chong lom",
             "weight": 0.9
           },
           {
@@ -18030,7 +18030,7 @@
         "thai": "มหาราช",
         "variants": [
           {
-            "text": "Maha Rat",
+            "text": "maha rat",
             "weight": 1.1
           },
           {
@@ -18086,7 +18086,7 @@
             "weight": 1
           },
           {
-            "text": "Anusawari",
+            "text": "anusawari",
             "weight": 0.9
           },
           {
@@ -18138,7 +18138,7 @@
         "thai": "สวนลุมพินี",
         "variants": [
           {
-            "text": "Suan Lumphini",
+            "text": "suan lumphini",
             "weight": 1.05
           },
           {
@@ -18426,7 +18426,7 @@
         "thai": "กรุงเทพมหานคร",
         "variants": [
           {
-            "text": "Krung Thep Maha Nakhon",
+            "text": "krung thep maha nakhon",
             "weight": 1.05
           },
           {
@@ -18434,7 +18434,7 @@
             "weight": 1
           },
           {
-            "text": "Bangkok",
+            "text": "bangkok",
             "weight": 0.9
           },
           {
@@ -18457,7 +18457,7 @@
         "thai": "ตลาด",
         "variants": [
           {
-            "text": "Talat",
+            "text": "talat",
             "weight": 1.1
           },
           {
@@ -18495,7 +18495,7 @@
         "thai": "จตุจักร",
         "variants": [
           {
-            "text": "Chatuchak",
+            "text": "chatuchak",
             "weight": 1.1
           },
           {
@@ -18690,7 +18690,7 @@
         "thai": "ศาลหลักเมือง",
         "variants": [
           {
-            "text": "San Lak Mueang",
+            "text": "san lak mueang",
             "weight": 1.1
           },
           {
@@ -18929,7 +18929,7 @@
         "thai": "สุโขทัย",
         "variants": [
           {
-            "text": "Sukhothai",
+            "text": "sukhothai",
             "weight": 1.1
           },
           {
@@ -19010,7 +19010,7 @@
         "thai": "พระนครศรีอยุธยา",
         "variants": [
           {
-            "text": "Phra Nakhon Si Ayutthaya",
+            "text": "phra nakhon si ayutthaya",
             "weight": 1.05
           },
           {
@@ -19041,7 +19041,7 @@
         "thai": "ภูเขาทอง",
         "variants": [
           {
-            "text": "Phu Khao Thong",
+            "text": "phu khao thong",
             "weight": 1.1
           },
           {
@@ -19085,7 +19085,7 @@
         "thai": "ปราสาท",
         "variants": [
           {
-            "text": "Prasat",
+            "text": "prasat",
             "weight": 1.1
           },
           {
@@ -19116,7 +19116,7 @@
         "thai": "พัทยา",
         "variants": [
           {
-            "text": "Pattaya",
+            "text": "pattaya",
             "weight": 1.05
           },
           {
@@ -19132,7 +19132,7 @@
             "weight": 0.3
           },
           {
-            "text": "Pataja",
+            "text": "pataja",
             "weight": 0.21
           }
         ]
@@ -19147,7 +19147,7 @@
         "thai": "หัวหิน",
         "variants": [
           {
-            "text": "Hua Hin",
+            "text": "hua hin",
             "weight": 1.1
           },
           {
@@ -19174,7 +19174,7 @@
         "thai": "เกาะสมุย",
         "variants": [
           {
-            "text": "Ko Samui",
+            "text": "ko samui",
             "weight": 1.1
           },
           {
@@ -19205,7 +19205,7 @@
         "thai": "เกาะพะงัน",
         "variants": [
           {
-            "text": "Ko Pha Ngan",
+            "text": "ko pha ngan",
             "weight": 1.1
           },
           {
@@ -19217,7 +19217,7 @@
             "weight": 0.92
           },
           {
-            "text": "Ko Pha-Ngan",
+            "text": "ko pha-ngan",
             "weight": 0.73
           },
           {
@@ -19373,7 +19373,7 @@
         "thai": "เกาะลันตา",
         "variants": [
           {
-            "text": "Ko Lanta",
+            "text": "ko lanta",
             "weight": 1.1
           },
           {
@@ -19389,7 +19389,7 @@
             "weight": 0.55
           },
           {
-            "text": "Koh Lanta",
+            "text": "koh lanta",
             "weight": 0.55
           }
         ]
@@ -19648,7 +19648,7 @@
         "thai": "หาดใหญ่",
         "variants": [
           {
-            "text": "Hat Yai",
+            "text": "hat yai",
             "weight": 1.1
           },
           {
@@ -19735,7 +19735,7 @@
         "thai": "ชะอำ",
         "variants": [
           {
-            "text": "Cha-am",
+            "text": "cha-am",
             "weight": 1.1
           },
           {
@@ -19747,7 +19747,7 @@
             "weight": 0.4
           },
           {
-            "text": "Sha-am",
+            "text": "sha-am",
             "weight": 0.18
           },
           {
@@ -19858,7 +19858,7 @@
         "thai": "ปราณบุรี",
         "variants": [
           {
-            "text": "Pran Buri",
+            "text": "pran buri",
             "weight": 1.1
           },
           {
@@ -19889,7 +19889,7 @@
         "thai": "สัตหีบ",
         "variants": [
           {
-            "text": "Sattahip",
+            "text": "sattahip",
             "weight": 1.1
           },
           {
@@ -19964,7 +19964,7 @@
         "thai": "ศรีราชา",
         "variants": [
           {
-            "text": "Si Racha",
+            "text": "si racha",
             "weight": 1.1
           },
           {
@@ -19995,7 +19995,7 @@
         "thai": "พระประแดง",
         "variants": [
           {
-            "text": "Phra Pradaeng",
+            "text": "phra pradaeng",
             "weight": 1.1
           },
           {
@@ -20003,7 +20003,7 @@
             "weight": 1
           },
           {
-            "text": "Amphoe Phra Pradaeng",
+            "text": "amphoe phra pradaeng",
             "weight": 0.88
           },
           {
@@ -20026,7 +20026,7 @@
         "thai": "ปากช่อง",
         "variants": [
           {
-            "text": "Pak Chong",
+            "text": "pak chong",
             "weight": 1.1
           },
           {
@@ -20255,7 +20255,7 @@
         "thai": "เอราวัณ",
         "variants": [
           {
-            "text": "Erawan",
+            "text": "erawan",
             "weight": 1.1
           },
           {
@@ -20401,7 +20401,7 @@
         "thai": "แม่น้ำ",
         "variants": [
           {
-            "text": "Maenam",
+            "text": "maenam",
             "weight": 1.05
           },
           {
@@ -20409,7 +20409,7 @@
             "weight": 1
           },
           {
-            "text": "Mae Nam",
+            "text": "mae nam",
             "weight": 0.7
           },
           {
@@ -20795,7 +20795,7 @@
         "thai": "ตลาด",
         "variants": [
           {
-            "text": "Talat",
+            "text": "talat",
             "weight": 1.1
           },
           {
@@ -20833,7 +20833,7 @@
         "thai": "ดำเนินสะดวก",
         "variants": [
           {
-            "text": "Damnoen Saduak",
+            "text": "damnoen saduak",
             "weight": 1.1
           },
           {
@@ -20864,7 +20864,7 @@
         "thai": "ตลาด",
         "variants": [
           {
-            "text": "Talat",
+            "text": "talat",
             "weight": 1.1
           },
           {
@@ -20902,7 +20902,7 @@
         "thai": "อัมพวา",
         "variants": [
           {
-            "text": "Amphawa",
+            "text": "amphawa",
             "weight": 1.1
           },
           {
@@ -20933,7 +20933,7 @@
         "thai": "เมือง",
         "variants": [
           {
-            "text": "Mueang",
+            "text": "mueang",
             "weight": 1.05
           },
           {
@@ -21045,7 +21045,7 @@
         "thai": "ไร่",
         "variants": [
           {
-            "text": "Rai",
+            "text": "rai",
             "weight": 1.05
           },
           {
@@ -21386,7 +21386,7 @@
         "thai": "เทพารักษ์",
         "variants": [
           {
-            "text": "Thepharak",
+            "text": "thepharak",
             "weight": 1.05
           },
           {
@@ -21877,7 +21877,7 @@
         "thai": "สุวรรณภูมิ",
         "variants": [
           {
-            "text": "Suwannaphum",
+            "text": "suwannaphum",
             "weight": 1.1
           },
           {
@@ -21885,7 +21885,7 @@
             "weight": 1
           },
           {
-            "text": "Suvarnabhumi",
+            "text": "suvarnabhumi",
             "weight": 0.9
           },
           {
@@ -21908,7 +21908,7 @@
         "thai": "ดอนเมือง",
         "variants": [
           {
-            "text": "Don Mueang",
+            "text": "don mueang",
             "weight": 1.1
           },
           {
@@ -21916,7 +21916,7 @@
             "weight": 1
           },
           {
-            "text": "Don Muang",
+            "text": "don muang",
             "weight": 0.94
           },
           {
@@ -21973,7 +21973,7 @@
         "thai": "เชียงใหม่",
         "variants": [
           {
-            "text": "Chiang Mai",
+            "text": "chiang mai",
             "weight": 1.1
           },
           {
@@ -22038,7 +22038,7 @@
         "thai": "ภูเก็ต",
         "variants": [
           {
-            "text": "Phuket",
+            "text": "phuket",
             "weight": 1.1
           },
           {
@@ -22054,7 +22054,7 @@
             "weight": 0.5
           },
           {
-            "text": "Bhuket",
+            "text": "bhuket",
             "weight": 0.44
           }
         ]
@@ -22964,7 +22964,7 @@
         "thai": "ลาดกระบัง",
         "variants": [
           {
-            "text": "Lat Krabang",
+            "text": "lat krabang",
             "weight": 1.1
           },
           {
@@ -23045,7 +23045,7 @@
         "thai": "ศิริราช",
         "variants": [
           {
-            "text": "Sirirat",
+            "text": "sirirat",
             "weight": 1.05
           },
           {
@@ -23053,7 +23053,7 @@
             "weight": 0.4
           },
           {
-            "text": "Siriraj",
+            "text": "siriraj",
             "weight": 0.35
           },
           {
@@ -23350,7 +23350,7 @@
         "thai": "สุโขทัย",
         "variants": [
           {
-            "text": "Sukhothai",
+            "text": "sukhothai",
             "weight": 1.1
           },
           {
@@ -23381,7 +23381,7 @@
         "thai": "เชียงราย",
         "variants": [
           {
-            "text": "Chiang Rai",
+            "text": "chiang rai",
             "weight": 1.1
           },
           {
@@ -23393,11 +23393,11 @@
             "weight": 0.7
           },
           {
-            "text": "Chiangraj",
+            "text": "chiangraj",
             "weight": 0.44
           },
           {
-            "text": "Chiengrai",
+            "text": "chiengrai",
             "weight": 0.44
           }
         ]
@@ -23412,7 +23412,7 @@
         "thai": "กาญจนบุรี",
         "variants": [
           {
-            "text": "Kanchanaburi",
+            "text": "kanchanaburi",
             "weight": 1.1
           },
           {
@@ -23443,7 +23443,7 @@
         "thai": "นครราชสีมา",
         "variants": [
           {
-            "text": "Nakhon Ratchasima",
+            "text": "nakhon ratchasima",
             "weight": 1.1
           },
           {
@@ -23474,7 +23474,7 @@
         "thai": "อุดรธานี",
         "variants": [
           {
-            "text": "Udon Thani",
+            "text": "udon thani",
             "weight": 1.1
           },
           {
@@ -23505,7 +23505,7 @@
         "thai": "ขอนแก่น",
         "variants": [
           {
-            "text": "Khon Kaen",
+            "text": "khon kaen",
             "weight": 1.1
           },
           {
@@ -23536,7 +23536,7 @@
         "thai": "สุราษฎร์ธานี",
         "variants": [
           {
-            "text": "Surat Thani",
+            "text": "surat thani",
             "weight": 1.1
           },
           {
@@ -23598,7 +23598,7 @@
         "thai": "นครศรีธรรมราช",
         "variants": [
           {
-            "text": "Nakhon Si Thammarat",
+            "text": "nakhon si thammarat",
             "weight": 1.1
           },
           {
@@ -23629,7 +23629,7 @@
         "thai": "ตรัง",
         "variants": [
           {
-            "text": "Trang",
+            "text": "trang",
             "weight": 1.1
           },
           {
@@ -23785,7 +23785,7 @@
         "thai": "กะรน",
         "variants": [
           {
-            "text": "Karon",
+            "text": "karon",
             "weight": 1.05
           },
           {
@@ -24048,7 +24048,7 @@
         "thai": "น้ำพุ",
         "variants": [
           {
-            "text": "Namphu",
+            "text": "namphu",
             "weight": 1.05
           },
           {
@@ -24083,7 +24083,7 @@
             "weight": 1
           },
           {
-            "text": "Khuean",
+            "text": "khuean",
             "weight": 0.9
           },
           {
@@ -24135,7 +24135,7 @@
             "weight": 1
           },
           {
-            "text": "Khuean",
+            "text": "khuean",
             "weight": 0.9
           },
           {
@@ -24156,7 +24156,7 @@
         "thai": "สิ",
         "variants": [
           {
-            "text": "Si",
+            "text": "si",
             "weight": 1.05
           }
         ]
@@ -24230,7 +24230,7 @@
         "thai": "พังงา",
         "variants": [
           {
-            "text": "Phang Nga",
+            "text": "phang nga",
             "weight": 1.1
           },
           {
@@ -24238,11 +24238,11 @@
             "weight": 1
           },
           {
-            "text": "Pkhangnga",
+            "text": "pkhangnga",
             "weight": 0.55
           },
           {
-            "text": "Phang-Nga",
+            "text": "phang-nga",
             "weight": 0.55
           },
           {
@@ -24286,7 +24286,7 @@
         "thai": "เสม็ด",
         "variants": [
           {
-            "text": "Samet",
+            "text": "samet",
             "weight": 1.05
           },
           {
@@ -24869,7 +24869,7 @@
         "thai": "เชียงแสน",
         "variants": [
           {
-            "text": "Chiang Saen",
+            "text": "chiang saen",
             "weight": 1.05
           },
           {
@@ -24900,7 +24900,7 @@
         "thai": "แม่สาย",
         "variants": [
           {
-            "text": "Mae Sai",
+            "text": "mae sai",
             "weight": 1.05
           },
           {
@@ -25363,7 +25363,7 @@
         "thai": "บึง",
         "variants": [
           {
-            "text": "Bueng",
+            "text": "bueng",
             "weight": 1.05
           },
           {
@@ -25482,7 +25482,7 @@
         "thai": "สิ",
         "variants": [
           {
-            "text": "Si",
+            "text": "si",
             "weight": 1.05
           }
         ]
@@ -25553,7 +25553,7 @@
         "thai": "สุรินทร์",
         "variants": [
           {
-            "text": "Surin",
+            "text": "surin",
             "weight": 1.1
           },
           {
@@ -25921,7 +25921,7 @@
         "thai": "สุวรรณภูมิ",
         "variants": [
           {
-            "text": "Suwannaphum",
+            "text": "suwannaphum",
             "weight": 1.1
           },
           {
@@ -25929,7 +25929,7 @@
             "weight": 1
           },
           {
-            "text": "Suvarnabhumi",
+            "text": "suvarnabhumi",
             "weight": 0.9
           },
           {
@@ -26002,7 +26002,7 @@
         "thai": "ดอนเมือง",
         "variants": [
           {
-            "text": "Don Mueang",
+            "text": "don mueang",
             "weight": 1.1
           },
           {
@@ -26010,7 +26010,7 @@
             "weight": 1
           },
           {
-            "text": "Don Muang",
+            "text": "don muang",
             "weight": 0.94
           },
           {
@@ -26083,7 +26083,7 @@
         "thai": "เชียงใหม่",
         "variants": [
           {
-            "text": "Chiang Mai",
+            "text": "chiang mai",
             "weight": 1.1
           },
           {
@@ -26164,7 +26164,7 @@
         "thai": "เชียงราย",
         "variants": [
           {
-            "text": "Chiang Rai",
+            "text": "chiang rai",
             "weight": 1.1
           },
           {
@@ -26176,11 +26176,11 @@
             "weight": 0.7
           },
           {
-            "text": "Chiangraj",
+            "text": "chiangraj",
             "weight": 0.44
           },
           {
-            "text": "Chiengrai",
+            "text": "chiengrai",
             "weight": 0.44
           }
         ]
@@ -26245,7 +26245,7 @@
         "thai": "ภูเก็ต",
         "variants": [
           {
-            "text": "Phuket",
+            "text": "phuket",
             "weight": 1.1
           },
           {
@@ -26261,7 +26261,7 @@
             "weight": 0.5
           },
           {
-            "text": "Bhuket",
+            "text": "bhuket",
             "weight": 0.44
           }
         ]
@@ -26326,7 +26326,7 @@
         "thai": "หาดใหญ่",
         "variants": [
           {
-            "text": "Hat Yai",
+            "text": "hat yai",
             "weight": 1.1
           },
           {
@@ -26501,7 +26501,7 @@
         "thai": "เบตง",
         "variants": [
           {
-            "text": "Betong",
+            "text": "betong",
             "weight": 1.1
           },
           {
@@ -26582,7 +26582,7 @@
         "thai": "กระบี่",
         "variants": [
           {
-            "text": "Krabi",
+            "text": "krabi",
             "weight": 1.1
           },
           {
@@ -26594,7 +26594,7 @@
             "weight": 0.44
           },
           {
-            "text": "Krampi",
+            "text": "krampi",
             "weight": 0.44
           },
           {
@@ -26663,7 +26663,7 @@
         "thai": "ขอนแก่น",
         "variants": [
           {
-            "text": "Khon Kaen",
+            "text": "khon kaen",
             "weight": 1.1
           },
           {
@@ -26744,7 +26744,7 @@
         "thai": "ชุมพร",
         "variants": [
           {
-            "text": "Chumphon",
+            "text": "chumphon",
             "weight": 1.1
           },
           {
@@ -26825,7 +26825,7 @@
         "thai": "ตรัง",
         "variants": [
           {
-            "text": "Trang",
+            "text": "trang",
             "weight": 1.1
           },
           {
@@ -26906,7 +26906,7 @@
         "thai": "นครพนม",
         "variants": [
           {
-            "text": "Nakhon Phanom",
+            "text": "nakhon phanom",
             "weight": 1.1
           },
           {
@@ -26987,7 +26987,7 @@
         "thai": "นครราชสีมา",
         "variants": [
           {
-            "text": "Nakhon Ratchasima",
+            "text": "nakhon ratchasima",
             "weight": 1.1
           },
           {
@@ -27068,7 +27068,7 @@
         "thai": "นครศรีธรรมราช",
         "variants": [
           {
-            "text": "Nakhon Si Thammarat",
+            "text": "nakhon si thammarat",
             "weight": 1.1
           },
           {
@@ -27149,7 +27149,7 @@
         "thai": "นราธิวาส",
         "variants": [
           {
-            "text": "Narathiwat",
+            "text": "narathiwat",
             "weight": 1.1
           },
           {
@@ -27157,11 +27157,11 @@
             "weight": 0.5
           },
           {
-            "text": "Naradhivas",
+            "text": "naradhivas",
             "weight": 0.44
           },
           {
-            "text": "Naratkhivat",
+            "text": "naratkhivat",
             "weight": 0.44
           },
           {
@@ -27230,7 +27230,7 @@
         "thai": "น่าน",
         "variants": [
           {
-            "text": "Nan",
+            "text": "nan",
             "weight": 1.05
           },
           {
@@ -27246,7 +27246,7 @@
             "weight": 0.4
           },
           {
-            "text": "Nanas",
+            "text": "nanas",
             "weight": 0.21
           }
         ]
@@ -27324,7 +27324,7 @@
         "thai": "บุรีรัมย์",
         "variants": [
           {
-            "text": "Buri Ram",
+            "text": "buri ram",
             "weight": 1.1
           },
           {
@@ -27405,7 +27405,7 @@
         "thai": "พิษณุโลก",
         "variants": [
           {
-            "text": "Phitsanulok",
+            "text": "phitsanulok",
             "weight": 1.1
           },
           {
@@ -27421,7 +27421,7 @@
             "weight": 0.4
           },
           {
-            "text": "Bhisanulok",
+            "text": "bhisanulok",
             "weight": 0.37
           }
         ]
@@ -27486,7 +27486,7 @@
         "thai": "เพชรบูรณ์",
         "variants": [
           {
-            "text": "Phetchabun",
+            "text": "phetchabun",
             "weight": 1.1
           },
           {
@@ -27502,7 +27502,7 @@
             "weight": 0.5
           },
           {
-            "text": "Pkhetchabun",
+            "text": "pkhetchabun",
             "weight": 0.44
           }
         ]
@@ -27567,7 +27567,7 @@
         "thai": "แพร่",
         "variants": [
           {
-            "text": "Phrae",
+            "text": "phrae",
             "weight": 1.1
           },
           {
@@ -27583,7 +27583,7 @@
             "weight": 0.4
           },
           {
-            "text": "Bhre",
+            "text": "bhre",
             "weight": 0.37
           }
         ]
@@ -27648,7 +27648,7 @@
         "thai": "แม่ฮ่องสอน",
         "variants": [
           {
-            "text": "Mae Hong Son",
+            "text": "mae hong son",
             "weight": 1.1
           },
           {
@@ -27729,7 +27729,7 @@
         "thai": "แม่สอด",
         "variants": [
           {
-            "text": "Mae Sot",
+            "text": "mae sot",
             "weight": 1.1
           },
           {
@@ -27810,7 +27810,7 @@
         "thai": "ร้อยเอ็ด",
         "variants": [
           {
-            "text": "Roi Et",
+            "text": "roi et",
             "weight": 1.05
           },
           {
@@ -27891,7 +27891,7 @@
         "thai": "ระนอง",
         "variants": [
           {
-            "text": "Ranong",
+            "text": "ranong",
             "weight": 1.05
           },
           {
@@ -27903,11 +27903,11 @@
             "weight": 0.3
           },
           {
-            "text": "Ranon'nk",
+            "text": "ranon'nk",
             "weight": 0.21
           },
           {
-            "text": "Ranona",
+            "text": "ranona",
             "weight": 0.21
           }
         ]
@@ -27972,7 +27972,7 @@
         "thai": "เลย",
         "variants": [
           {
-            "text": "Loei",
+            "text": "loei",
             "weight": 1.1
           },
           {
@@ -27984,11 +27984,11 @@
             "weight": 0.7
           },
           {
-            "text": "Leui",
+            "text": "leui",
             "weight": 0.44
           },
           {
-            "text": "Loey",
+            "text": "loey",
             "weight": 0.44
           }
         ]
@@ -28053,11 +28053,11 @@
         "thai": "ลำปาง",
         "variants": [
           {
-            "text": "Lampang",
+            "text": "lampang",
             "weight": 1.1
           },
           {
-            "text": "Lampangas",
+            "text": "lampangas",
             "weight": 0.44
           },
           {
@@ -28215,7 +28215,7 @@
         "thai": "สุราษฎร์ธานี",
         "variants": [
           {
-            "text": "Surat Thani",
+            "text": "surat thani",
             "weight": 1.1
           },
           {
@@ -28296,7 +28296,7 @@
         "thai": "อุดรธานี",
         "variants": [
           {
-            "text": "Udon Thani",
+            "text": "udon thani",
             "weight": 1.1
           },
           {
@@ -28377,7 +28377,7 @@
         "thai": "อุบลราชธานี",
         "variants": [
           {
-            "text": "Ubon Ratchathani",
+            "text": "ubon ratchathani",
             "weight": 1.1
           },
           {
@@ -28458,7 +28458,7 @@
         "thai": "หัวหิน",
         "variants": [
           {
-            "text": "Hua Hin",
+            "text": "hua hin",
             "weight": 1.1
           },
           {
@@ -28633,7 +28633,7 @@
         "thai": "สุโขทัย",
         "variants": [
           {
-            "text": "Sukhothai",
+            "text": "sukhothai",
             "weight": 1.1
           },
           {

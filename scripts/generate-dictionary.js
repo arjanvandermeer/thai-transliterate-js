@@ -186,7 +186,7 @@ for (let i = 0; i < selected.length; i++) {
   const totalFiltered = transliterations.reduce((sum, [, c]) => sum + c, 0);
   const ceiling = confidenceCeiling(totalFiltered);
   dictEntries[entry.thai] = transliterations.map(([text, count]) => ({
-    text,
+    text: text.toLowerCase(),
     weight: Math.round(Math.max(0.1, (count / maxCount) * ceiling) * 100) / 100,
     count,
   }));

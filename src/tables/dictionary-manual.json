@@ -5,16 +5,16 @@
   },
   "entries": {
     "กรุงเทพ": [
-      { "text": "Bangkok", "weight": 0.9 }
+      { "text": "bangkok", "weight": 0.9 }
     ],
     "กรุงเทพมหานคร": [
-      { "text": "Bangkok", "weight": 0.9 }
+      { "text": "bangkok", "weight": 0.9 }
     ],
     "สุวรรณภูมิ": [
-      { "text": "Suvarnabhumi", "weight": 0.9 }
+      { "text": "suvarnabhumi", "weight": 0.9 }
     ],
     "ประเทศไทย": [
-      { "text": "Thailand", "weight": 0.9 }
+      { "text": "thailand", "weight": 0.9 }
     ]
   }
 }
