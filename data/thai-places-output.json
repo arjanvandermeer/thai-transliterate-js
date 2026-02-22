@@ -8,23 +8,23 @@
         "variants": [
           {
             "text": "krungthepmahankhra",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "grungthepmahankhra",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "krungthepmahankhro",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "krungthepmahankra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "krungthepmohankhra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -74,7 +74,7 @@
           },
           {
             "text": "kanjonburi",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "kanchanburi",
@@ -163,7 +163,7 @@
         "variants": [
           {
             "text": "khaonkaen",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khaankaen",
@@ -171,15 +171,15 @@
           },
           {
             "text": "khaongaen",
-            "weight": 0.38400000000000006
+            "weight": 0.38
           },
           {
             "text": "khaonkan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "khoonkaen",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -198,7 +198,7 @@
           },
           {
             "text": "janthaburi",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "chanthoburi",
@@ -210,7 +210,7 @@
           },
           {
             "text": "chanthaburee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -225,7 +225,7 @@
         "variants": [
           {
             "text": "chachengathrao",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "chachengatrao",
@@ -233,15 +233,15 @@
           },
           {
             "text": "chachengasao",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chachengothrao",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           },
           {
             "text": "chachengathrow",
-            "weight": 0.22399999999999998
+            "weight": 0.22
           }
         ]
       }
@@ -264,15 +264,15 @@
           },
           {
             "text": "chonburee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chonboori",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "cholburi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -361,7 +361,7 @@
           },
           {
             "text": "choomphra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chumpro",
@@ -531,19 +531,19 @@
         "variants": [
           {
             "text": "nokranayok",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "nokranayak",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nakranayok",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokronayok",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "nakranayak",
@@ -562,23 +562,23 @@
         "variants": [
           {
             "text": "nokropthom",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "nokroptham",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokrapthom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nakropthom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokroptom",
-            "weight": 0.2048000000000001
+            "weight": 0.2
           }
         ]
       }
@@ -593,19 +593,19 @@
         "variants": [
           {
             "text": "nokropnom",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "nokropnam",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokrapnom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nakropnom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokrapnam",
@@ -624,7 +624,7 @@
         "variants": [
           {
             "text": "nakhonratsima",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nakhanratsima",
@@ -632,15 +632,15 @@
           },
           {
             "text": "nakonratsima",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokhonratsima",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nakhonratseema",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -655,7 +655,7 @@
         "variants": [
           {
             "text": "nokrasithamrat",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nakrasithamrat",
@@ -663,15 +663,15 @@
           },
           {
             "text": "nokrasitamrat",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokrosithamrat",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokraseethamrat",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -686,7 +686,7 @@
         "variants": [
           {
             "text": "nokrotwa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nokratwa",
@@ -702,7 +702,7 @@
           },
           {
             "text": "nokrotva",
-            "weight": 0.19200000000000003
+            "weight": 0.19
           }
         ]
       }
@@ -717,7 +717,7 @@
         "variants": [
           {
             "text": "nonthaburi",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nanthaburi",
@@ -725,15 +725,15 @@
           },
           {
             "text": "nonthoburi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nontaburi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nonthaburee",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -779,19 +779,19 @@
         "variants": [
           {
             "text": "nana",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nano",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nona",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nono",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -884,7 +884,7 @@
           },
           {
             "text": "pathumthanee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -915,7 +915,7 @@
           },
           {
             "text": "pratwopkhireekhan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -1008,7 +1008,7 @@
           },
           {
             "text": "phrankhonsiyootya",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -1182,11 +1182,11 @@
           },
           {
             "text": "phetraburee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phetraboori",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -1217,7 +1217,7 @@
           },
           {
             "text": "phetrabur",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -1306,7 +1306,7 @@
           },
           {
             "text": "mahasarkham",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mahasankhaam",
@@ -1356,23 +1356,23 @@
         "variants": [
           {
             "text": "maehaongsaon",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "maehaongsaan",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "maehaangsaon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "maehaongsoon",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "maehoongsaon",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -1387,7 +1387,7 @@
         "variants": [
           {
             "text": "yasothon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "yasothan",
@@ -1395,15 +1395,15 @@
           },
           {
             "text": "yasoton",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "yosothon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "yasothor",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -1441,23 +1441,23 @@
         "variants": [
           {
             "text": "rayaet",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "rayoet",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "royaet",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "rayaed",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "layaet",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -1503,7 +1503,7 @@
           },
           {
             "text": "rayong",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "raiang",
@@ -1569,11 +1569,11 @@
           },
           {
             "text": "lopburee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "lopboori",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "lopbuli",
@@ -1716,23 +1716,23 @@
         "variants": [
           {
             "text": "soklonkhra",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "soklankhra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "saklonkhra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "soklonkhro",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "soklonkra",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -1790,7 +1790,7 @@
           },
           {
             "text": "satul",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sadtun",
@@ -1809,23 +1809,23 @@
         "variants": [
           {
             "text": "samutraprakan",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "samutrapragan",
-            "weight": 0.38400000000000006
+            "weight": 0.38
           },
           {
             "text": "samutroprakan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "somutraprakan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "samutraprakar",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -1840,23 +1840,23 @@
         "variants": [
           {
             "text": "samutrotngakhram",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "samutratngakhram",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "samutrotngakram",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "samutrotngokhram",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "somutrotngakhram",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -1871,23 +1871,23 @@
         "variants": [
           {
             "text": "samutrasak",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "samutrosak",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "somutrasak",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "samootrasak",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "samutrasaak",
-            "weight": 0.19200000000000003
+            "weight": 0.19
           }
         ]
       }
@@ -1980,7 +1980,7 @@
           },
           {
             "text": "singbooree",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -2069,11 +2069,11 @@
           },
           {
             "text": "suratdathanee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sooratdathani",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -2100,7 +2100,7 @@
           },
           {
             "text": "soorintha",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sulintha",
@@ -2119,11 +2119,11 @@
         "variants": [
           {
             "text": "naongkhai",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "naongkhay",
-            "weight": 0.44800000000000006
+            "weight": 0.45
           },
           {
             "text": "naangkhai",
@@ -2131,11 +2131,11 @@
           },
           {
             "text": "naongkai",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "noongkhai",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -2150,7 +2150,7 @@
         "variants": [
           {
             "text": "naongbualamphu",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "naangbualamphu",
@@ -2158,15 +2158,15 @@
           },
           {
             "text": "naongbualamphoo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "naongbualampu",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "noongbualamphu",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -2181,19 +2181,19 @@
         "variants": [
           {
             "text": "angotong",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "angotang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "angatong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ongotong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "angatang",
@@ -2255,11 +2255,11 @@
           },
           {
             "text": "utrathanee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "udrathani",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -2282,7 +2282,7 @@
           },
           {
             "text": "ootradit",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "utradtit",
@@ -2348,11 +2348,11 @@
           },
           {
             "text": "uplaratthanee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ublaratthani",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -2500,23 +2500,23 @@
         "variants": [
           {
             "text": "naongchaok",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "naongjaok",
-            "weight": 0.28672000000000003
+            "weight": 0.29
           },
           {
             "text": "naongchaak",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "naangchaok",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "naongchook",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -2736,7 +2736,7 @@
           },
           {
             "text": "pathoomwan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "pathumvan",
@@ -2780,23 +2780,23 @@
         "variants": [
           {
             "text": "paomprapsatruphaya",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "paamprapsatruphaya",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "paomprapsatruphayo",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "paomprapsatruphoya",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "paomprapsatrupaya",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -3060,7 +3060,7 @@
         "variants": [
           {
             "text": "samphanthownga",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "samphanthawnga",
@@ -3068,15 +3068,15 @@
           },
           {
             "text": "samphanthowngo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "samphantownga",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sampanthownga",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -3132,7 +3132,7 @@
           },
           {
             "text": "phayathi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -3184,11 +3184,11 @@
           },
           {
             "text": "thonburee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "thonboori",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -3228,7 +3228,7 @@
         "variants": [
           {
             "text": "bangkaokyai",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "bangkaakyai",
@@ -3236,15 +3236,15 @@
           },
           {
             "text": "banggaokyai",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "bangkookyai",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "bangkaokyi",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -3284,7 +3284,7 @@
         "variants": [
           {
             "text": "howyakhwang",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "hawyakhwang",
@@ -3292,11 +3292,11 @@
           },
           {
             "text": "howyakwang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "howyokhwang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "hawyakwang",
@@ -3340,7 +3340,7 @@
         "variants": [
           {
             "text": "khonongsan",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khonangsan",
@@ -3352,11 +3352,11 @@
           },
           {
             "text": "konongsan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "kholongsan",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -3448,23 +3448,23 @@
         "variants": [
           {
             "text": "bangkaoknaya",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "bangkaaknaya",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "banggaoknaya",
-            "weight": 0.24576000000000003
+            "weight": 0.25
           },
           {
             "text": "bangkaoknayo",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "bangkaoknoya",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -3616,7 +3616,7 @@
         "variants": [
           {
             "text": "naongkhaem",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "naangkhaem",
@@ -3624,15 +3624,15 @@
           },
           {
             "text": "naongkham",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "naongkaem",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "noongkhaem",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -3684,7 +3684,7 @@
           },
           {
             "text": "ratdaburna",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "rasdabunna",
@@ -4004,11 +4004,11 @@
           },
           {
             "text": "chatujak",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "jatuchak",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "chotuchak",
@@ -4016,7 +4016,7 @@
           },
           {
             "text": "jatujak",
-            "weight": 0.39199999999999996
+            "weight": 0.39
           }
         ]
       }
@@ -4056,23 +4056,23 @@
         "variants": [
           {
             "text": "bangkhaalaem",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "bangkhaalam",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "bangkhaolaem",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "bangkhoalaem",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "bangkaalaem",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -4168,11 +4168,11 @@
         "variants": [
           {
             "text": "khonongtei",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khonongtey",
-            "weight": 0.44800000000000006
+            "weight": 0.45
           },
           {
             "text": "khonangtei",
@@ -4184,7 +4184,7 @@
           },
           {
             "text": "konongtei",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -4224,23 +4224,23 @@
         "variants": [
           {
             "text": "sownalawong",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "sownalawang",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "sawnalawong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "sownalowong",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "sownolawong",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -4280,23 +4280,23 @@
         "variants": [
           {
             "text": "chaomthaong",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "jaomthaong",
-            "weight": 0.28672000000000003
+            "weight": 0.29
           },
           {
             "text": "chaomthaang",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "chaamthaong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "chaomthoong",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -4336,7 +4336,7 @@
         "variants": [
           {
             "text": "daonmueang",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "daanmueang",
@@ -4344,11 +4344,11 @@
           },
           {
             "text": "daonmuang",
-            "weight": 0.38400000000000006
+            "weight": 0.38
           },
           {
             "text": "doonmueang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "daanmuang",
@@ -4448,23 +4448,23 @@
         "variants": [
           {
             "text": "latphrawa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "latphrawo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "latphrowa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "latprawa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ladphrawa",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -4849,7 +4849,7 @@
         "variants": [
           {
             "text": "wangthaonglang",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "wangthaanglang",
@@ -4857,11 +4857,11 @@
           },
           {
             "text": "wangthoonglang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "wangtaonglang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "wangthoanglang",
@@ -4905,7 +4905,7 @@
         "variants": [
           {
             "text": "khonong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khonang",
@@ -4917,11 +4917,11 @@
           },
           {
             "text": "konong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "kholong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       },
@@ -5071,7 +5071,7 @@
           },
           {
             "text": "thawee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "thavi",
@@ -5234,7 +5234,7 @@
         "variants": [
           {
             "text": "baon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "baan",
@@ -5242,7 +5242,7 @@
           },
           {
             "text": "boon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "boan",
@@ -5261,7 +5261,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5269,11 +5269,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5317,7 +5317,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5325,11 +5325,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5350,7 +5350,7 @@
           },
           {
             "text": "seelom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "seelam",
@@ -5369,7 +5369,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5377,11 +5377,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5417,7 +5417,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5425,11 +5425,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5442,7 +5442,7 @@
         "variants": [
           {
             "text": "phahonyothin",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "phahanyothin",
@@ -5450,15 +5450,15 @@
           },
           {
             "text": "phahonyotin",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phohonyothin",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "pahonyothin",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -5473,7 +5473,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5481,11 +5481,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5529,7 +5529,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5537,11 +5537,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5594,7 +5594,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5602,11 +5602,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5659,7 +5659,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5667,11 +5667,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5724,7 +5724,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5732,11 +5732,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5761,11 +5761,11 @@
           },
           {
             "text": "phetraburee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phetraboori",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -5780,7 +5780,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5788,11 +5788,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5817,11 +5817,11 @@
           },
           {
             "text": "phetraburee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phetraboori",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       },
@@ -5874,7 +5874,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5882,11 +5882,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5911,7 +5911,7 @@
           },
           {
             "text": "ratdumnenaklang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ratdamnenaklaang",
@@ -5930,7 +5930,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5938,11 +5938,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -5955,7 +5955,7 @@
         "variants": [
           {
             "text": "ratdamnenonok",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "ratdamnenonak",
@@ -5967,7 +5967,7 @@
           },
           {
             "text": "ratdumnenonok",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "ratdamnenanak",
@@ -5986,7 +5986,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -5994,11 +5994,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6042,7 +6042,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6050,11 +6050,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6067,23 +6067,23 @@
         "variants": [
           {
             "text": "khawasan",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khawosan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "khowasan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "kawasan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "khawasar",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -6098,7 +6098,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6106,11 +6106,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6154,7 +6154,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6162,11 +6162,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6179,23 +6179,23 @@
         "variants": [
           {
             "text": "dinsaa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "dinsao",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "dinsoa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "dtinsaa",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "dinsoo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -6210,7 +6210,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6218,11 +6218,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6266,7 +6266,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6274,11 +6274,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6322,7 +6322,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6330,11 +6330,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6378,7 +6378,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6386,11 +6386,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6434,7 +6434,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6442,11 +6442,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6490,7 +6490,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6498,11 +6498,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6531,7 +6531,7 @@
           },
           {
             "text": "rarngna",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -6546,7 +6546,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6554,11 +6554,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6604,7 +6604,7 @@
           },
           {
             "text": "montree",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mondtri",
@@ -6627,7 +6627,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6635,11 +6635,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6652,23 +6652,23 @@
         "variants": [
           {
             "text": "thaonglaa",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "thaanglaa",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thaonglao",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "thaongloa",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "thoonglaa",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -6683,7 +6683,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6691,11 +6691,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6739,7 +6739,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6747,11 +6747,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6814,23 +6814,23 @@
         "variants": [
           {
             "text": "nakhrintha",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nakhrintho",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nakhrinta",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nakrintha",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokhrintha",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -6845,7 +6845,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6853,11 +6853,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6874,7 +6874,7 @@
           },
           {
             "text": "jerinnok",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "cherinnak",
@@ -6901,7 +6901,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6909,11 +6909,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6926,23 +6926,23 @@
         "variants": [
           {
             "text": "charansanitwong",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "jaransanitwong",
-            "weight": 0.3584
+            "weight": 0.36
           },
           {
             "text": "charansanitwang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "charansonitwong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "choransanitwong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -6957,7 +6957,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -6965,11 +6965,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -6982,7 +6982,7 @@
         "variants": [
           {
             "text": "barom",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "baram",
@@ -6990,7 +6990,7 @@
           },
           {
             "text": "borom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "boram",
@@ -6998,7 +6998,7 @@
           },
           {
             "text": "balom",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       },
@@ -7040,7 +7040,7 @@
           },
           {
             "text": "chonnee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "channee",
@@ -7059,7 +7059,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7067,11 +7067,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7115,7 +7115,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7123,11 +7123,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7171,7 +7171,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7179,11 +7179,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7227,7 +7227,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7235,11 +7235,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7283,7 +7283,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7291,11 +7291,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7339,7 +7339,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7347,11 +7347,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7430,7 +7430,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7438,11 +7438,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7455,23 +7455,23 @@
         "variants": [
           {
             "text": "latphrawa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "latphrawo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "latphrowa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "latprawa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ladphrawa",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -7486,7 +7486,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7494,11 +7494,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7576,7 +7576,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7584,11 +7584,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7657,7 +7657,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7665,11 +7665,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7713,7 +7713,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7721,11 +7721,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7754,7 +7754,7 @@
           },
           {
             "text": "seenkhrintha",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -7769,7 +7769,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7777,11 +7777,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7794,7 +7794,7 @@
         "variants": [
           {
             "text": "aonnut",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "aannut",
@@ -7802,11 +7802,11 @@
           },
           {
             "text": "oonnut",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "aonnoot",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "oannut",
@@ -7825,7 +7825,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7833,11 +7833,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7906,7 +7906,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7914,11 +7914,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -7962,7 +7962,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -7970,11 +7970,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8018,7 +8018,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8026,11 +8026,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8092,7 +8092,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8100,11 +8100,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8125,7 +8125,7 @@
           },
           {
             "text": "prasreta",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "prasraytha",
@@ -8133,7 +8133,7 @@
           },
           {
             "text": "prasreto",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -8182,7 +8182,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8190,11 +8190,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8238,7 +8238,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8246,11 +8246,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8263,7 +8263,7 @@
         "variants": [
           {
             "text": "chonong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "chonang",
@@ -8275,7 +8275,7 @@
           },
           {
             "text": "cholong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "chanang",
@@ -8319,7 +8319,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8327,11 +8327,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8344,7 +8344,7 @@
         "variants": [
           {
             "text": "phetrakesom",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "phetrakesam",
@@ -8352,15 +8352,15 @@
           },
           {
             "text": "phetragesom",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "phetrokesom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "petrakesom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -8375,7 +8375,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8383,11 +8383,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8431,7 +8431,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8439,11 +8439,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8487,7 +8487,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8495,11 +8495,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8524,7 +8524,7 @@
           },
           {
             "text": "ratdaburna",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "rasdabunna",
@@ -8543,7 +8543,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8551,11 +8551,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8599,7 +8599,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8607,11 +8607,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8655,7 +8655,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8663,11 +8663,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8711,7 +8711,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8719,11 +8719,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8767,7 +8767,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8775,11 +8775,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8832,7 +8832,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8840,11 +8840,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8857,23 +8857,23 @@
         "variants": [
           {
             "text": "wongswanga",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "wangswanga",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "wongswango",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "wongswonga",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "wangswango",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -8888,7 +8888,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8896,11 +8896,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8929,7 +8929,7 @@
           },
           {
             "text": "phayathi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -8944,7 +8944,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -8952,11 +8952,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -8969,7 +8969,7 @@
         "variants": [
           {
             "text": "lanlawong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "lanlawang",
@@ -8977,7 +8977,7 @@
           },
           {
             "text": "lanlowong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "lanlowang",
@@ -8985,7 +8985,7 @@
           },
           {
             "text": "lanlavong",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -9000,7 +9000,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -9008,11 +9008,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -9052,7 +9052,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -9060,11 +9060,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -9108,7 +9108,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -9116,11 +9116,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -9220,7 +9220,7 @@
         "variants": [
           {
             "text": "kaongthap",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "kaangthap",
@@ -9228,15 +9228,15 @@
           },
           {
             "text": "gaongthap",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "kaongtap",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "koongthap",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       },
@@ -9309,7 +9309,7 @@
           },
           {
             "text": "phayabal",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phayabaan",
@@ -9343,11 +9343,11 @@
         "variants": [
           {
             "text": "aduloi",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "aduloy",
-            "weight": 0.44799999999999995
+            "weight": 0.45
           },
           {
             "text": "adulai",
@@ -9355,11 +9355,11 @@
           },
           {
             "text": "oduloi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "adulay",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       },
@@ -9484,7 +9484,7 @@
           },
           {
             "text": "yood",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -9603,7 +9603,7 @@
         "variants": [
           {
             "text": "karom",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "karam",
@@ -9611,11 +9611,11 @@
           },
           {
             "text": "garom",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "korom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "garam",
@@ -9668,7 +9668,7 @@
           },
           {
             "text": "mahawityalay",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "mohawityalai",
@@ -9676,7 +9676,7 @@
           },
           {
             "text": "mohawityalay",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           },
           {
             "text": "mahawityaalai",
@@ -9689,7 +9689,7 @@
         "variants": [
           {
             "text": "kettonsatta",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "kettansatta",
@@ -9697,15 +9697,15 @@
           },
           {
             "text": "gettonsatta",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "kettonsatto",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "kettorsatta",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -9829,23 +9829,23 @@
         "variants": [
           {
             "text": "latphrawa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "latphrawo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "latphrowa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "latprawa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ladphrawa",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -9860,19 +9860,19 @@
         "variants": [
           {
             "text": "maachit",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "maochit",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "moachit",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "moochit",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -9961,7 +9961,7 @@
           },
           {
             "text": "sanarm",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "sonaam",
@@ -10005,11 +10005,11 @@
           },
           {
             "text": "anusawree",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "anoosawri",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "anusawli",
@@ -10022,11 +10022,11 @@
         "variants": [
           {
             "text": "chaisomraphumi",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "chaysomraphumi",
-            "weight": 0.44799999999999995
+            "weight": 0.45
           },
           {
             "text": "chaisamraphumi",
@@ -10034,11 +10034,11 @@
           },
           {
             "text": "chaisomraphoomi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chaisomrapumi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -10069,7 +10069,7 @@
           },
           {
             "text": "phayathi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -10127,7 +10127,7 @@
           },
           {
             "text": "sayarm",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "soyaam",
@@ -10154,7 +10154,7 @@
           },
           {
             "text": "chidlom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chidlam",
@@ -10177,7 +10177,7 @@
           },
           {
             "text": "phlenajit",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "phlenochit",
@@ -10189,7 +10189,7 @@
           },
           {
             "text": "phlenojit",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       }
@@ -10266,7 +10266,7 @@
         "variants": [
           {
             "text": "phraom",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "phraam",
@@ -10274,11 +10274,11 @@
           },
           {
             "text": "phroom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "praom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phroam",
@@ -10318,23 +10318,23 @@
         "variants": [
           {
             "text": "thaonglaa",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "thaanglaa",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thaonglao",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "thaongloa",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "thoonglaa",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -10411,7 +10411,7 @@
         "variants": [
           {
             "text": "aonnut",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "aannut",
@@ -10419,11 +10419,11 @@
           },
           {
             "text": "oonnut",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "aonnoot",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "oannut",
@@ -10481,7 +10481,7 @@
           },
           {
             "text": "poonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "poonan",
@@ -10510,7 +10510,7 @@
           },
           {
             "text": "witee",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -10533,15 +10533,15 @@
           },
           {
             "text": "utmasook",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "udmasuk",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ootmasuk",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -10658,11 +10658,11 @@
           },
           {
             "text": "puchesamingphray",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "pujesamingphrai",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "puchesamingprai",
@@ -10685,19 +10685,19 @@
         "variants": [
           {
             "text": "changa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "chango",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chonga",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chongo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -10834,7 +10834,7 @@
           },
           {
             "text": "parkna",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -10865,7 +10865,7 @@
           },
           {
             "text": "seenkhrintha",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -10961,7 +10961,7 @@
         "variants": [
           {
             "text": "lawot",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "lawat",
@@ -10969,11 +10969,11 @@
           },
           {
             "text": "lowot",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "lawod",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "lowat",
@@ -11004,7 +11004,7 @@
           },
           {
             "text": "sanarm",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "sonaam",
@@ -11152,7 +11152,7 @@
         "variants": [
           {
             "text": "chaong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "chaang",
@@ -11160,7 +11160,7 @@
           },
           {
             "text": "choong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "choang",
@@ -11173,7 +11173,7 @@
         "variants": [
           {
             "text": "nonthri",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "nontri",
@@ -11185,7 +11185,7 @@
           },
           {
             "text": "nonsi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nantri",
@@ -11307,7 +11307,7 @@
           },
           {
             "text": "krungthonburee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -11438,7 +11438,7 @@
           },
           {
             "text": "taladphlu",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -11532,7 +11532,7 @@
           },
           {
             "text": "jerinnok",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "cherinnak",
@@ -11559,7 +11559,7 @@
         "variants": [
           {
             "text": "khonongsan",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khonangsan",
@@ -11571,11 +11571,11 @@
           },
           {
             "text": "konongsan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "kholongsan",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -11664,7 +11664,7 @@
           },
           {
             "text": "bangkhoonnon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "bangkunnan",
@@ -11748,7 +11748,7 @@
           },
           {
             "text": "thor",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tan",
@@ -11798,23 +11798,23 @@
         "variants": [
           {
             "text": "bangaa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "bangao",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "bangoa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "baangaa",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "bangoo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -11953,11 +11953,11 @@
         "variants": [
           {
             "text": "sownottuchak",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sownottujak",
-            "weight": 0.44800000000000006
+            "weight": 0.45
           },
           {
             "text": "sownattuchak",
@@ -11969,7 +11969,7 @@
           },
           {
             "text": "sownattujak",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       }
@@ -11984,7 +11984,7 @@
         "variants": [
           {
             "text": "phahonyothin",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "phahanyothin",
@@ -11992,15 +11992,15 @@
           },
           {
             "text": "phahonyotin",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phohonyothin",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "pahonyothin",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -12015,23 +12015,23 @@
         "variants": [
           {
             "text": "latphrawa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "latphrawo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "latphrowa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "latprawa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ladphrawa",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -12108,7 +12108,7 @@
         "variants": [
           {
             "text": "howyakhwang",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "hawyakhwang",
@@ -12116,11 +12116,11 @@
           },
           {
             "text": "howyakwang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "howyokhwang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "hawyakwang",
@@ -12285,11 +12285,11 @@
           },
           {
             "text": "phetraburee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phetraboori",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -12393,7 +12393,7 @@
           },
           {
             "text": "plachoom",
-            "weight": 0.08000000000000002
+            "weight": 0.08
           }
         ]
       },
@@ -12493,11 +12493,11 @@
         "variants": [
           {
             "text": "khonongtei",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khonongtey",
-            "weight": 0.44800000000000006
+            "weight": 0.45
           },
           {
             "text": "khonangtei",
@@ -12509,7 +12509,7 @@
           },
           {
             "text": "konongtei",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -12572,7 +12572,7 @@
           },
           {
             "text": "seelom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "seelam",
@@ -12608,19 +12608,19 @@
         "variants": [
           {
             "text": "yana",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "yano",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "yona",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "yono",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -12703,7 +12703,7 @@
           },
           {
             "text": "mangkla",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -12735,7 +12735,7 @@
         "variants": [
           {
             "text": "yaot",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "yaat",
@@ -12743,11 +12743,11 @@
           },
           {
             "text": "yoot",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "yaod",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "yoat",
@@ -12770,7 +12770,7 @@
           },
           {
             "text": "sanamchaiy",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "sonamchaii",
@@ -12778,11 +12778,11 @@
           },
           {
             "text": "sanamchii",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sonamchaiy",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       }
@@ -12934,7 +12934,7 @@
         "variants": [
           {
             "text": "saong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "saang",
@@ -12942,7 +12942,7 @@
           },
           {
             "text": "soong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "soang",
@@ -13032,7 +13032,7 @@
           },
           {
             "text": "mahatthaiy",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "mahattaii",
@@ -13044,7 +13044,7 @@
           },
           {
             "text": "mahatthii",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -13293,7 +13293,7 @@
           },
           {
             "text": "oodom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "udtom",
@@ -13324,7 +13324,7 @@
           },
           {
             "text": "seeeyom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "siayyom",
@@ -13489,23 +13489,23 @@
         "variants": [
           {
             "text": "dana",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "dano",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "dona",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "dtana",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "dono",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -13672,23 +13672,23 @@
         "variants": [
           {
             "text": "sanambinna",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sanambinno",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sonambinna",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sanaambinna",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "sonambinno",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -13820,7 +13820,7 @@
         "variants": [
           {
             "text": "mueangthaong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "mueangthaang",
@@ -13828,15 +13828,15 @@
           },
           {
             "text": "muangthaong",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "mueangthoong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mueangtaong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       },
@@ -14170,7 +14170,7 @@
           },
           {
             "text": "khubon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -14197,7 +14197,7 @@
           },
           {
             "text": "wongwen",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "wangwan",
@@ -14349,7 +14349,7 @@
           },
           {
             "text": "seisot",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -14406,7 +14406,7 @@
           },
           {
             "text": "talad",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "talaat",
@@ -14695,19 +14695,19 @@
         "variants": [
           {
             "text": "bana",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "bano",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "bona",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "bono",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -14737,19 +14737,19 @@
         "variants": [
           {
             "text": "changa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "chango",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chonga",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chongo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -14895,11 +14895,11 @@
           },
           {
             "text": "chatujak",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "jatuchak",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "chotuchak",
@@ -14907,7 +14907,7 @@
           },
           {
             "text": "jatujak",
-            "weight": 0.39199999999999996
+            "weight": 0.39
           }
         ]
       }
@@ -14947,7 +14947,7 @@
           },
           {
             "text": "semiynanari",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "semiinonari",
@@ -14955,11 +14955,11 @@
           },
           {
             "text": "semiinanaree",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "semeeinanari",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -15005,23 +15005,23 @@
         "variants": [
           {
             "text": "thungsaonghaong",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "thungsaonghaang",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thungsaanghaong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thungsaonghoong",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "thungsoonghaong",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -15092,7 +15092,7 @@
         "variants": [
           {
             "text": "daonmueang",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "daanmueang",
@@ -15100,11 +15100,11 @@
           },
           {
             "text": "daonmuang",
-            "weight": 0.38400000000000006
+            "weight": 0.38
           },
           {
             "text": "doonmueang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "daanmuang",
@@ -15199,7 +15199,7 @@
         "variants": [
           {
             "text": "saon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "saan",
@@ -15207,7 +15207,7 @@
           },
           {
             "text": "soon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "soan",
@@ -15215,7 +15215,7 @@
           },
           {
             "text": "zaon",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -15390,7 +15390,7 @@
           },
           {
             "text": "aroon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "alun",
@@ -15398,7 +15398,7 @@
           },
           {
             "text": "oroon",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -15486,11 +15486,11 @@
         "variants": [
           {
             "text": "benchombaphit",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "benjombaphit",
-            "weight": 0.44799999999999995
+            "weight": 0.45
           },
           {
             "text": "benchambaphit",
@@ -15498,11 +15498,11 @@
           },
           {
             "text": "benchombapit",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "benchombophit",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -15809,7 +15809,7 @@
         "variants": [
           {
             "text": "bawon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "bawan",
@@ -15817,11 +15817,11 @@
           },
           {
             "text": "bowon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "bawor",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "bowan",
@@ -15898,7 +15898,7 @@
           },
           {
             "text": "mahathatoo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mahathadtu",
@@ -16088,23 +16088,23 @@
         "variants": [
           {
             "text": "daya",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "dayo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "doya",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "dtaya",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "doyo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -16203,7 +16203,7 @@
         "variants": [
           {
             "text": "lawong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "lawang",
@@ -16211,7 +16211,7 @@
           },
           {
             "text": "lowong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "lowang",
@@ -16219,7 +16219,7 @@
           },
           {
             "text": "lavong",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -16383,7 +16383,7 @@
         "variants": [
           {
             "text": "lawong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "lawang",
@@ -16391,7 +16391,7 @@
           },
           {
             "text": "lowong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "lowang",
@@ -16399,7 +16399,7 @@
           },
           {
             "text": "lavong",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -16435,7 +16435,7 @@
         "variants": [
           {
             "text": "raong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "raang",
@@ -16443,7 +16443,7 @@
           },
           {
             "text": "roong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "roang",
@@ -16451,7 +16451,7 @@
           },
           {
             "text": "laong",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       },
@@ -16508,7 +16508,7 @@
         "variants": [
           {
             "text": "raong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "raang",
@@ -16516,7 +16516,7 @@
           },
           {
             "text": "roong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "roang",
@@ -16524,7 +16524,7 @@
           },
           {
             "text": "laong",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       },
@@ -16639,7 +16639,7 @@
           },
           {
             "text": "mahathatoo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mahathadtu",
@@ -16712,7 +16712,7 @@
           },
           {
             "text": "thatoopnom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tatupnam",
@@ -16810,7 +16810,7 @@
           },
           {
             "text": "cheinga",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "chayngo",
@@ -16990,7 +16990,7 @@
           },
           {
             "text": "chiy",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       },
@@ -17174,7 +17174,7 @@
         "variants": [
           {
             "text": "pathom",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "patham",
@@ -17182,11 +17182,11 @@
           },
           {
             "text": "pothom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "patom",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "potham",
@@ -17259,11 +17259,11 @@
           },
           {
             "text": "ta",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "to",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -17435,19 +17435,19 @@
         "variants": [
           {
             "text": "chaa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "chao",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "choa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "choo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -17583,7 +17583,7 @@
           },
           {
             "text": "mahathatoo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mahathadtu",
@@ -17623,19 +17623,19 @@
         "variants": [
           {
             "text": "chaonglom",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "chaonglam",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chaanglom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "choonglom",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "chaanglam",
@@ -17666,7 +17666,7 @@
           },
           {
             "text": "phrabrom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "prapram",
@@ -17731,11 +17731,11 @@
           },
           {
             "text": "anusawree",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "anoosawri",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "anusawli",
@@ -17779,7 +17779,7 @@
         "variants": [
           {
             "text": "sownalumphini",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sawnalumphini",
@@ -17787,15 +17787,15 @@
           },
           {
             "text": "sownalumpini",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sownolumphini",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sownalumphinee",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -17810,11 +17810,11 @@
         "variants": [
           {
             "text": "sownottuchak",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sownottujak",
-            "weight": 0.44800000000000006
+            "weight": 0.45
           },
           {
             "text": "sownattuchak",
@@ -17826,7 +17826,7 @@
           },
           {
             "text": "sownattujak",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       }
@@ -17841,7 +17841,7 @@
         "variants": [
           {
             "text": "sawon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sawan",
@@ -17849,7 +17849,7 @@
           },
           {
             "text": "sowon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sowan",
@@ -17857,7 +17857,7 @@
           },
           {
             "text": "savon",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       },
@@ -17870,7 +17870,7 @@
           },
           {
             "text": "benjaki",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "benchagi",
@@ -17882,7 +17882,7 @@
           },
           {
             "text": "benjagi",
-            "weight": 0.33599999999999997
+            "weight": 0.34
           }
         ]
       },
@@ -17975,19 +17975,19 @@
         "variants": [
           {
             "text": "haa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "hao",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "hoa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "hoo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -18059,23 +18059,23 @@
         "variants": [
           {
             "text": "krungthepmahankhra",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "grungthepmahankhra",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "krungthepmahankhro",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "krungthepmahankra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "krungthepmohankhra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -18098,7 +18098,7 @@
           },
           {
             "text": "talad",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "talaat",
@@ -18132,11 +18132,11 @@
           },
           {
             "text": "chatujak",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "jatuchak",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "chotuchak",
@@ -18144,7 +18144,7 @@
           },
           {
             "text": "jatujak",
-            "weight": 0.39199999999999996
+            "weight": 0.39
           }
         ]
       }
@@ -18202,7 +18202,7 @@
           },
           {
             "text": "sanarm",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "sonaam",
@@ -18215,7 +18215,7 @@
         "variants": [
           {
             "text": "lawong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "lawang",
@@ -18223,7 +18223,7 @@
           },
           {
             "text": "lowong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "lowang",
@@ -18231,7 +18231,7 @@
           },
           {
             "text": "lavong",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -18271,7 +18271,7 @@
         "variants": [
           {
             "text": "ananot",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "ananat",
@@ -18279,7 +18279,7 @@
           },
           {
             "text": "onanot",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "onanat",
@@ -18292,7 +18292,7 @@
         "variants": [
           {
             "text": "samakhom",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "samakham",
@@ -18300,11 +18300,11 @@
           },
           {
             "text": "samakom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "somakhom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "samakam",
@@ -18406,7 +18406,7 @@
         "variants": [
           {
             "text": "sawon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sawan",
@@ -18414,7 +18414,7 @@
           },
           {
             "text": "sowon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sowan",
@@ -18422,7 +18422,7 @@
           },
           {
             "text": "savon",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       },
@@ -18439,7 +18439,7 @@
           },
           {
             "text": "wachir",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "vachin",
@@ -18447,7 +18447,7 @@
           },
           {
             "text": "wachi",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -18468,7 +18468,7 @@
           },
           {
             "text": "beiyot",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "bayyat",
@@ -18655,7 +18655,7 @@
           },
           {
             "text": "phrankhonsiyootya",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -18799,7 +18799,7 @@
           },
           {
             "text": "kaosamuy",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "gaosamui",
@@ -18811,7 +18811,7 @@
           },
           {
             "text": "gaosamuy",
-            "weight": 0.33599999999999997
+            "weight": 0.34
           }
         ]
       }
@@ -19042,19 +19042,19 @@
         "variants": [
           {
             "text": "changa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "chango",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chonga",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chongo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -19288,23 +19288,23 @@
         "variants": [
           {
             "text": "awa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "awo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "owa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ava",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "owo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -19482,7 +19482,7 @@
           },
           {
             "text": "satheeb",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -19595,7 +19595,7 @@
         "variants": [
           {
             "text": "pakchaong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "pakchaang",
@@ -19603,7 +19603,7 @@
           },
           {
             "text": "pakchoong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "pakchoang",
@@ -19611,7 +19611,7 @@
           },
           {
             "text": "pagchaong",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -19839,7 +19839,7 @@
         "variants": [
           {
             "text": "sawon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sawan",
@@ -19847,7 +19847,7 @@
           },
           {
             "text": "sowon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sowan",
@@ -19855,7 +19855,7 @@
           },
           {
             "text": "savon",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       },
@@ -19889,7 +19889,7 @@
           },
           {
             "text": "peida",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -19966,7 +19966,7 @@
           },
           {
             "text": "mena",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mano",
@@ -20010,7 +20010,7 @@
         "variants": [
           {
             "text": "khonong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khonang",
@@ -20022,11 +20022,11 @@
           },
           {
             "text": "konong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "kholong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       },
@@ -20159,23 +20159,23 @@
         "variants": [
           {
             "text": "sayamsakhwae",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sayamsakhwa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sayamsakwae",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sayamsokhwae",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "soyamsakhwae",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -20190,7 +20190,7 @@
         "variants": [
           {
             "text": "sawon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sawan",
@@ -20198,7 +20198,7 @@
           },
           {
             "text": "sowon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sowan",
@@ -20206,7 +20206,7 @@
           },
           {
             "text": "savon",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       },
@@ -20332,7 +20332,7 @@
           },
           {
             "text": "talad",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "talaat",
@@ -20362,7 +20362,7 @@
         "variants": [
           {
             "text": "damnenasatwok",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "damnenasatwak",
@@ -20370,15 +20370,15 @@
           },
           {
             "text": "damnenosatwok",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "damnenasadwok",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "dumnenasatwok",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -20401,7 +20401,7 @@
           },
           {
             "text": "talad",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "talaat",
@@ -20495,7 +20495,7 @@
           },
           {
             "text": "blona",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "brohno",
@@ -20514,7 +20514,7 @@
         "variants": [
           {
             "text": "sawon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "sawan",
@@ -20522,7 +20522,7 @@
           },
           {
             "text": "sowon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sowan",
@@ -20530,7 +20530,7 @@
           },
           {
             "text": "savon",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       },
@@ -20547,7 +20547,7 @@
           },
           {
             "text": "nongnoot",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nangnoot",
@@ -20622,7 +20622,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -20630,11 +20630,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -20687,7 +20687,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -20695,11 +20695,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -20752,7 +20752,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -20760,11 +20760,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -20817,7 +20817,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -20825,11 +20825,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -20882,7 +20882,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -20890,11 +20890,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -20938,7 +20938,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -20946,11 +20946,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -20994,7 +20994,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -21002,11 +21002,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -21059,7 +21059,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -21067,11 +21067,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -21092,11 +21092,11 @@
           },
           {
             "text": "ratdamnenani",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ratdumnenanai",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ratdamnenanay",
@@ -21115,7 +21115,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -21123,11 +21123,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -21140,7 +21140,7 @@
         "variants": [
           {
             "text": "feongnok",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "feongnak",
@@ -21156,7 +21156,7 @@
           },
           {
             "text": "fayongnok",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -21171,7 +21171,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -21179,11 +21179,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -21208,11 +21208,11 @@
           },
           {
             "text": "triphechor",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "treephechon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -21227,7 +21227,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -21235,11 +21235,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -21260,11 +21260,11 @@
           },
           {
             "text": "mitramaitree",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mitramitri",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mitramaidtri",
@@ -21283,7 +21283,7 @@
         "variants": [
           {
             "text": "thanon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thanan",
@@ -21291,11 +21291,11 @@
           },
           {
             "text": "thonon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tanon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "thonan",
@@ -21324,7 +21324,7 @@
           },
           {
             "text": "phoothot",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       },
@@ -21333,7 +21333,7 @@
         "variants": [
           {
             "text": "monthon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "monthan",
@@ -21345,11 +21345,11 @@
           },
           {
             "text": "monthol",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "monton",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       },
@@ -21429,7 +21429,7 @@
         "variants": [
           {
             "text": "daonmueang",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "daanmueang",
@@ -21437,11 +21437,11 @@
           },
           {
             "text": "daonmuang",
-            "weight": 0.38400000000000006
+            "weight": 0.38
           },
           {
             "text": "doonmueang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "daanmuang",
@@ -21472,7 +21472,7 @@
           },
           {
             "text": "sanarm",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "sonaam",
@@ -21537,7 +21537,7 @@
           },
           {
             "text": "sanarm",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "sonaam",
@@ -21598,7 +21598,7 @@
           },
           {
             "text": "ikon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "aykon",
@@ -21627,7 +21627,7 @@
           },
           {
             "text": "sayarm",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "soyaam",
@@ -21658,7 +21658,7 @@
           },
           {
             "text": "sayarm",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "soyaam",
@@ -21721,7 +21721,7 @@
         "variants": [
           {
             "text": "kaon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "kaan",
@@ -21729,11 +21729,11 @@
           },
           {
             "text": "gaon",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "koon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "gaan",
@@ -21764,7 +21764,7 @@
           },
           {
             "text": "senthral",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           },
           {
             "text": "zenthran",
@@ -21793,7 +21793,7 @@
           },
           {
             "text": "weila",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -21808,7 +21808,7 @@
         "variants": [
           {
             "text": "mabunkhonong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "mabunkhonang",
@@ -21820,11 +21820,11 @@
           },
           {
             "text": "mabunkonong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mabunkhorong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -22012,7 +22012,7 @@
           },
           {
             "text": "joo",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       },
@@ -22107,11 +22107,11 @@
         "variants": [
           {
             "text": "chulanngokra",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "julanngokra",
-            "weight": 0.44799999999999995
+            "weight": 0.45
           },
           {
             "text": "chulanngakra",
@@ -22119,11 +22119,11 @@
           },
           {
             "text": "chulanngokro",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "julanngakra",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       },
@@ -22136,7 +22136,7 @@
           },
           {
             "text": "mahawityalay",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "mohawityalai",
@@ -22144,7 +22144,7 @@
           },
           {
             "text": "mohawityalay",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           },
           {
             "text": "mahawityaalai",
@@ -22167,7 +22167,7 @@
           },
           {
             "text": "mahawityalay",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "mohawityalai",
@@ -22175,7 +22175,7 @@
           },
           {
             "text": "mohawityalay",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           },
           {
             "text": "mahawityaalai",
@@ -22223,7 +22223,7 @@
           },
           {
             "text": "mahawityalay",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "mohawityalai",
@@ -22231,7 +22231,7 @@
           },
           {
             "text": "mohawityalay",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           },
           {
             "text": "mahawityaalai",
@@ -22244,7 +22244,7 @@
         "variants": [
           {
             "text": "mahidon",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "mahidan",
@@ -22252,11 +22252,11 @@
           },
           {
             "text": "mohidon",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "mahidol",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "mohidan",
@@ -22279,7 +22279,7 @@
           },
           {
             "text": "mahawityalay",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "mohawityalai",
@@ -22287,7 +22287,7 @@
           },
           {
             "text": "mohawityalay",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           },
           {
             "text": "mahawityaalai",
@@ -22339,7 +22339,7 @@
           },
           {
             "text": "sataban",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sathaaban",
@@ -22347,7 +22347,7 @@
           },
           {
             "text": "satharban",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -22464,7 +22464,7 @@
           },
           {
             "text": "thahar",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "thahaan",
@@ -22541,7 +22541,7 @@
           },
           {
             "text": "phayabal",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phayabaan",
@@ -22618,7 +22618,7 @@
           },
           {
             "text": "phayabal",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phayabaan",
@@ -22631,11 +22631,11 @@
         "variants": [
           {
             "text": "chulanngokra",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "julanngokra",
-            "weight": 0.44799999999999995
+            "weight": 0.45
           },
           {
             "text": "chulanngakra",
@@ -22643,11 +22643,11 @@
           },
           {
             "text": "chulanngokro",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "julanngakra",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       }
@@ -22695,7 +22695,7 @@
           },
           {
             "text": "phayabal",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phayabaan",
@@ -22772,7 +22772,7 @@
           },
           {
             "text": "phayabal",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phayabaan",
@@ -22913,7 +22913,7 @@
           },
           {
             "text": "kanjonburi",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "kanchanburi",
@@ -22940,7 +22940,7 @@
         "variants": [
           {
             "text": "nakhonratsima",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nakhanratsima",
@@ -22948,15 +22948,15 @@
           },
           {
             "text": "nakonratsima",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokhonratsima",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nakhonratseema",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -22983,11 +22983,11 @@
           },
           {
             "text": "utrathanee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "udrathani",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -23002,7 +23002,7 @@
         "variants": [
           {
             "text": "khaonkaen",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khaankaen",
@@ -23010,15 +23010,15 @@
           },
           {
             "text": "khaongaen",
-            "weight": 0.38400000000000006
+            "weight": 0.38
           },
           {
             "text": "khaonkan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "khoonkaen",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -23045,11 +23045,11 @@
           },
           {
             "text": "suratdathanee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sooratdathani",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -23068,7 +23068,7 @@
           },
           {
             "text": "samuy",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "somui",
@@ -23076,11 +23076,11 @@
           },
           {
             "text": "samooi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "somuy",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       }
@@ -23095,7 +23095,7 @@
         "variants": [
           {
             "text": "nokrasithamrat",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nakrasithamrat",
@@ -23103,15 +23103,15 @@
           },
           {
             "text": "nokrasitamrat",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokrosithamrat",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokraseethamrat",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -23247,7 +23247,7 @@
         "variants": [
           {
             "text": "taong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "taang",
@@ -23255,7 +23255,7 @@
           },
           {
             "text": "toong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "toang",
@@ -23263,7 +23263,7 @@
           },
           {
             "text": "dtaong",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -23336,23 +23336,23 @@
         "variants": [
           {
             "text": "ratnakosintha",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "ratnagosintha",
-            "weight": 0.384
+            "weight": 0.38
           },
           {
             "text": "ratnakosintho",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ratnakosinta",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ratnokosintha",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -23422,23 +23422,23 @@
         "variants": [
           {
             "text": "phaa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "phao",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phoa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "paa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "phoo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -23472,7 +23472,7 @@
           },
           {
             "text": "thor",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "tan",
@@ -23549,7 +23549,7 @@
           },
           {
             "text": "naphoo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nopu",
@@ -23694,23 +23694,23 @@
         "variants": [
           {
             "text": "awa",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "awo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "owa",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ava",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "owo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -23783,7 +23783,7 @@
           },
           {
             "text": "semod",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "saymot",
@@ -24164,23 +24164,23 @@
         "variants": [
           {
             "text": "daya",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "dayo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "doya",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "dtaya",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "doyo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -24238,23 +24238,23 @@
         "variants": [
           {
             "text": "daya",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "dayo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "doya",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "dtaya",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "doyo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -24306,7 +24306,7 @@
           },
           {
             "text": "samleiyom",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -24315,7 +24315,7 @@
         "variants": [
           {
             "text": "thaongkham",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thaangkham",
@@ -24323,15 +24323,15 @@
           },
           {
             "text": "thaongkam",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "thoongkham",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "taongkham",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -24594,23 +24594,23 @@
         "variants": [
           {
             "text": "daya",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "dayo",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "doya",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "dtaya",
-            "weight": 0.192
+            "weight": 0.19
           },
           {
             "text": "doyo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -24825,7 +24825,7 @@
           },
           {
             "text": "kanjana",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "ganchana",
@@ -24837,7 +24837,7 @@
           },
           {
             "text": "ganjana",
-            "weight": 0.33599999999999997
+            "weight": 0.34
           }
         ]
       },
@@ -24998,7 +24998,7 @@
           },
           {
             "text": "soorintha",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sulintha",
@@ -25090,7 +25090,7 @@
         "variants": [
           {
             "text": "thaong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "thaang",
@@ -25098,11 +25098,11 @@
           },
           {
             "text": "thoong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "taong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "thoang",
@@ -25127,7 +25127,7 @@
           },
           {
             "text": "sanarm",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           },
           {
             "text": "sonaam",
@@ -25140,7 +25140,7 @@
         "variants": [
           {
             "text": "lawong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "lawang",
@@ -25148,7 +25148,7 @@
           },
           {
             "text": "lowong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "lowang",
@@ -25156,7 +25156,7 @@
           },
           {
             "text": "lavong",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -25171,7 +25171,7 @@
         "variants": [
           {
             "text": "khonong",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khonang",
@@ -25183,11 +25183,11 @@
           },
           {
             "text": "konong",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "kholong",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       },
@@ -25209,19 +25209,19 @@
         "variants": [
           {
             "text": "anga",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "ango",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "onga",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ongo",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -25277,7 +25277,7 @@
           },
           {
             "text": "phoothot",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -25415,7 +25415,7 @@
         "variants": [
           {
             "text": "daonmueang",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "daanmueang",
@@ -25423,11 +25423,11 @@
           },
           {
             "text": "daonmuang",
-            "weight": 0.38400000000000006
+            "weight": 0.38
           },
           {
             "text": "doonmueang",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "daanmuang",
@@ -25906,7 +25906,7 @@
           },
           {
             "text": "beitong",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       }
@@ -26044,7 +26044,7 @@
         "variants": [
           {
             "text": "khaonkaen",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "khaankaen",
@@ -26052,15 +26052,15 @@
           },
           {
             "text": "khaongaen",
-            "weight": 0.38400000000000006
+            "weight": 0.38
           },
           {
             "text": "khaonkan",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "khoonkaen",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -26133,7 +26133,7 @@
           },
           {
             "text": "choomphra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "chumpro",
@@ -26271,19 +26271,19 @@
         "variants": [
           {
             "text": "nokropnom",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "nokropnam",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokrapnom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nakropnom",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokrapnam",
@@ -26348,7 +26348,7 @@
         "variants": [
           {
             "text": "nakhonratsima",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nakhanratsima",
@@ -26356,15 +26356,15 @@
           },
           {
             "text": "nakonratsima",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokhonratsima",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nakhonratseema",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -26425,7 +26425,7 @@
         "variants": [
           {
             "text": "nokrasithamrat",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nakrasithamrat",
@@ -26433,15 +26433,15 @@
           },
           {
             "text": "nokrasitamrat",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokrosithamrat",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nokraseethamrat",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -26579,19 +26579,19 @@
         "variants": [
           {
             "text": "nana",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "nano",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nona",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "nono",
-            "weight": 0.16000000000000003
+            "weight": 0.16
           }
         ]
       },
@@ -26835,7 +26835,7 @@
           },
           {
             "text": "phetrabur",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -26973,23 +26973,23 @@
         "variants": [
           {
             "text": "maehaongsaon",
-            "weight": 0.40960000000000013
+            "weight": 0.41
           },
           {
             "text": "maehaongsaan",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "maehaangsaon",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "maehaongsoon",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           },
           {
             "text": "maehoongsaon",
-            "weight": 0.20480000000000007
+            "weight": 0.2
           }
         ]
       }
@@ -27062,11 +27062,11 @@
           },
           {
             "text": "maetod",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "metot",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -27127,23 +27127,23 @@
         "variants": [
           {
             "text": "rayaet",
-            "weight": 0.6400000000000001
+            "weight": 0.64
           },
           {
             "text": "rayoet",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "royaet",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "rayaed",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "layaet",
-            "weight": 0.192
+            "weight": 0.19
           }
         ]
       }
@@ -27431,23 +27431,23 @@
         "variants": [
           {
             "text": "soklonkhra",
-            "weight": 0.5120000000000001
+            "weight": 0.51
           },
           {
             "text": "soklankhra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "saklonkhra",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "soklonkhro",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           },
           {
             "text": "soklonkra",
-            "weight": 0.25600000000000006
+            "weight": 0.26
           }
         ]
       }
@@ -27520,11 +27520,11 @@
           },
           {
             "text": "suratdathanee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "sooratdathani",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -27597,11 +27597,11 @@
           },
           {
             "text": "utrathanee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "udrathani",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -27674,11 +27674,11 @@
           },
           {
             "text": "uplaratthanee",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "ublaratthani",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           }
         ]
       }
@@ -27825,7 +27825,7 @@
           },
           {
             "text": "samuy",
-            "weight": 0.5599999999999999
+            "weight": 0.56
           },
           {
             "text": "somui",
@@ -27833,11 +27833,11 @@
           },
           {
             "text": "samooi",
-            "weight": 0.32000000000000006
+            "weight": 0.32
           },
           {
             "text": "somuy",
-            "weight": 0.27999999999999997
+            "weight": 0.28
           }
         ]
       }

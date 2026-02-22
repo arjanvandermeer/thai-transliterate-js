@@ -32,7 +32,10 @@ if (jsonMode) {
       category: place.category,
       words: words.map(w => ({
         thai: w.thai,
-        variants: w.variants.slice(0, maxVariants),
+        variants: w.variants.slice(0, maxVariants).map(v => ({
+          text: v.text,
+          weight: Math.round(v.weight * 100) / 100,
+        })),
       })),
     });
   }
