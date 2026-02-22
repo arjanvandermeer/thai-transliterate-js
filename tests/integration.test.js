@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { transliterate, transliterateWords, matchThai, levenshtein } from '../src/index.js';
+import { transliterate, transliterateWords, matchThai } from '../src/index.js';
 
 describe('transliterate', () => {
   it('returns empty array for empty input', () => {

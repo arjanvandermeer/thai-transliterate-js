@@ -3,7 +3,6 @@ import { parseSyllables } from './syllable-parser.js';
 import { romanizeSyllable } from './romanizer.js';
 import { generateVariants } from './variant-generator.js';
 import { bestMatch } from './matcher.js';
-import { levenshtein } from './levenshtein.js';
 
 export { levenshtein } from './levenshtein.js';
 export { bestMatch } from './matcher.js';

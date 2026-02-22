@@ -76,9 +76,9 @@ export function parseSyllables(text) {
 function parseSingleSyllable(chars, start, len) {
   let i = start;
   let leadingVowel = null;
-  let initialCons = null;
+  let initialCons;
   let clusterCons = null;
-  let vowelPattern = null;
+  let vowelPattern;
   let finalCons = null;
   let toneMark = null;
   const silentChars = [];
@@ -87,7 +87,7 @@ function parseSingleSyllable(chars, start, len) {
   let roHan = false;
   let thorSo = false;
   let isImplied = false;
-  let hasShortener = false;
+
 
   // Step 1: Check for leading vowel
   const cls0 = classifyChar(chars[i]);
@@ -151,7 +151,7 @@ function parseSingleSyllable(chars, start, len) {
   i = vowelPattern.nextIndex;
   const vowelId = vowelPattern.id;
   roHan = vowelPattern.roHan || false;
-  hasShortener = vowelPattern.hasShortener || false;
+  // hasShortener available in vowelPattern for future tone rules
 
   // Step 6: Tone mark
   if (i < len && classifyChar(chars[i]) === 'TONE') {
@@ -205,7 +205,7 @@ function parseSingleSyllable(chars, start, len) {
  * Resolve the vowel pattern starting at position i.
  * Returns { id, nextIndex, roHan, hasShortener }
  */
-function resolveVowel(chars, i, len, leadingVowel, initialCons, clusterCons) {
+function resolveVowel(chars, i, len, leadingVowel, _initialCons, _clusterCons) {
   // Handle leading vowel combinations
   if (leadingVowel) {
     return resolveLeadingVowel(chars, i, len, leadingVowel);
@@ -389,7 +389,7 @@ function resolveAboveVowel(chars, i, len) {
   return { id: 'none', nextIndex: i };
 }
 
-function resolveBelowVowel(chars, i, len) {
+function resolveBelowVowel(chars, i, _len) {
   const ch = chars[i];
   if (ch === '\u0E38' /* ุ */) {
     return { id: 'sara_u_short', nextIndex: i + 1 };
