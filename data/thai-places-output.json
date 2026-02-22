@@ -50,11 +50,11 @@
             "weight": 0.4
           },
           {
-            "text": "Krampi",
+            "text": "kraby",
             "weight": 0.38
           },
           {
-            "text": "kraby",
+            "text": "Krampi",
             "weight": 0.38
           }
         ]
@@ -236,12 +236,12 @@
             "weight": 0.7
           },
           {
-            "text": "chachengatrao",
+            "text": "chachengadrao",
             "weight": 0.5
           },
           {
-            "text": "chachengasow",
-            "weight": 0.4
+            "text": "chachengatrao",
+            "weight": 0.5
           }
         ]
       }
@@ -451,6 +451,10 @@
           {
             "text": "tlang",
             "weight": 0.2
+          },
+          {
+            "text": "tran",
+            "weight": 0.15
           },
           {
             "text": "dtlang",
@@ -670,7 +674,7 @@
             "weight": 0.5
           },
           {
-            "text": "nokraseethamrat",
+            "text": "nokrasithamrach",
             "weight": 0.4
           }
         ]
@@ -1569,8 +1573,8 @@
             "weight": 0.4
           },
           {
-            "text": "Rajburi",
-            "weight": 0.32
+            "text": "rachburi",
+            "weight": 0.4
           }
         ]
       }
@@ -2251,7 +2255,7 @@
             "weight": 0.4
           },
           {
-            "text": "amnatchelin",
+            "text": "amnatcheriy",
             "weight": 0.3
           }
         ]
@@ -2375,7 +2379,7 @@
             "weight": 0.4
           },
           {
-            "text": "uploratthani",
+            "text": "uplarachthani",
             "weight": 0.4
           }
         ]
@@ -4439,8 +4443,8 @@
             "weight": 0.4
           },
           {
-            "text": "ratthevi",
-            "weight": 0.3
+            "text": "rachthewi",
+            "weight": 0.4
           }
         ]
       }
@@ -4663,8 +4667,8 @@
             "weight": 0.3
           },
           {
-            "text": "lagsee",
-            "weight": 0.12
+            "text": "laksy",
+            "weight": 0.2
           }
         ]
       }
@@ -4831,8 +4835,8 @@
             "weight": 0.15
           },
           {
-            "text": "sapharn",
-            "weight": 0.05
+            "text": "sabhan",
+            "weight": 0.1
           }
         ]
       },
@@ -4846,6 +4850,14 @@
           {
             "text": "soong",
             "weight": 0.5
+          },
+          {
+            "text": "sun",
+            "weight": 0.15
+          },
+          {
+            "text": "soon",
+            "weight": 0.08
           }
         ]
       }
@@ -5054,8 +5066,8 @@
             "weight": 0.3
           },
           {
-            "text": "Ban Bang Na",
-            "weight": 0.1
+            "text": "banna",
+            "weight": 0.15
           }
         ]
       }
@@ -5189,6 +5201,10 @@
           {
             "text": "toong",
             "weight": 0.2
+          },
+          {
+            "text": "thun",
+            "weight": 0.15
           }
         ]
       },
@@ -5260,7 +5276,15 @@
             "weight": 0.3
           },
           {
+            "text": "ban",
+            "weight": 0.15
+          },
+          {
             "text": "barng",
+            "weight": 0.05
+          },
+          {
+            "text": "baan",
             "weight": 0.05
           }
         ]
@@ -5557,11 +5581,11 @@
             "weight": 0.5
           },
           {
-            "text": "ratdaphiseg",
-            "weight": 0.3
+            "text": "rachdaphisek",
+            "weight": 0.4
           },
           {
-            "text": "ratdaphisayk",
+            "text": "ratdaphiseg",
             "weight": 0.3
           }
         ]
@@ -5962,8 +5986,8 @@
             "weight": 0.4
           },
           {
-            "text": "ratdamnenaklaang",
-            "weight": 0.3
+            "text": "rachdamnenaklang",
+            "weight": 0.4
           }
         ]
       }
@@ -6018,8 +6042,8 @@
             "weight": 0.4
           },
           {
-            "text": "ratdamnenonog",
-            "weight": 0.3
+            "text": "rachdamnenonok",
+            "weight": 0.4
           }
         ]
       }
@@ -6178,16 +6202,16 @@
             "weight": 0.6
           },
           {
+            "text": "bamrungmueng",
+            "weight": 0.4
+          },
+          {
             "text": "bamroongmueang",
             "weight": 0.4
           },
           {
             "text": "bumrungmueang",
             "weight": 0.4
-          },
-          {
-            "text": "bamrungmuerng",
-            "weight": 0.3
           }
         ]
       }
@@ -6462,11 +6486,11 @@
             "weight": 0.4
           },
           {
-            "text": "ratvithi",
-            "weight": 0.3
+            "text": "rachwithi",
+            "weight": 0.4
           },
           {
-            "text": "raatwithi",
+            "text": "ratvithi",
             "weight": 0.3
           }
         ]
@@ -6514,15 +6538,15 @@
             "weight": 0.5
           },
           {
+            "text": "rachprarop",
+            "weight": 0.4
+          },
+          {
             "text": "ratpralop",
             "weight": 0.3
           },
           {
             "text": "ratpraarop",
-            "weight": 0.3
-          },
-          {
-            "text": "raatprarop",
             "weight": 0.3
           }
         ]
@@ -6578,8 +6602,8 @@
             "weight": 0.3
           },
           {
-            "text": "raangno",
-            "weight": 0.12
+            "text": "ranna",
+            "weight": 0.15
           }
         ]
       }
@@ -6659,7 +6683,7 @@
             "weight": 0.3
           },
           {
-            "text": "montli",
+            "text": "montry",
             "weight": 0.2
           }
         ]
@@ -6840,6 +6864,10 @@
             "weight": 1
           },
           {
+            "text": "rach",
+            "weight": 0.4
+          },
+          {
             "text": "raat",
             "weight": 0.3
           },
@@ -6848,12 +6876,8 @@
             "weight": 0.3
           },
           {
-            "text": "laat",
-            "weight": 0.09
-          },
-          {
-            "text": "rart",
-            "weight": 0.05
+            "text": "raach",
+            "weight": 0.12
           }
         ]
       },
@@ -6933,7 +6957,7 @@
             "weight": 0.35
           },
           {
-            "text": "chelinnok",
+            "text": "cheriynok",
             "weight": 0.3
           }
         ]
@@ -7058,6 +7082,10 @@
             "weight": 1
           },
           {
+            "text": "rach",
+            "weight": 0.4
+          },
+          {
             "text": "raat",
             "weight": 0.3
           },
@@ -7066,12 +7094,8 @@
             "weight": 0.3
           },
           {
-            "text": "laat",
-            "weight": 0.09
-          },
-          {
-            "text": "rart",
-            "weight": 0.05
+            "text": "raach",
+            "weight": 0.12
           }
         ]
       },
@@ -7089,6 +7113,10 @@
           {
             "text": "chonnee",
             "weight": 0.4
+          },
+          {
+            "text": "chonny",
+            "weight": 0.2
           },
           {
             "text": "channee",
@@ -7367,12 +7395,12 @@
             "weight": 0.7
           },
           {
-            "text": "ramintra",
+            "text": "ramindra",
             "weight": 0.5
           },
           {
-            "text": "raminsaa",
-            "weight": 0.3
+            "text": "ramintra",
+            "weight": 0.5
           }
         ]
       }
@@ -7460,6 +7488,10 @@
           {
             "text": "vong",
             "weight": 0.3
+          },
+          {
+            "text": "won",
+            "weight": 0.15
           },
           {
             "text": "vang",
@@ -7610,6 +7642,10 @@
           {
             "text": "tam",
             "weight": 0.5
+          },
+          {
+            "text": "dham",
+            "weight": 0.15
           }
         ]
       }
@@ -7853,11 +7889,11 @@
             "weight": 0.5
           },
           {
-            "text": "aonnoot",
+            "text": "aonnuch",
             "weight": 0.4
           },
           {
-            "text": "oonnut",
+            "text": "aonnoot",
             "weight": 0.4
           }
         ]
@@ -7913,8 +7949,8 @@
             "weight": 0.3
           },
           {
-            "text": "Ban Bang Na",
-            "weight": 0.1
+            "text": "banna",
+            "weight": 0.15
           }
         ]
       },
@@ -8866,6 +8902,10 @@
           {
             "text": "into",
             "weight": 0.2
+          },
+          {
+            "text": "inda",
+            "weight": 0.15
           }
         ]
       }
@@ -9184,6 +9224,10 @@
             "weight": 1
           },
           {
+            "text": "yaowrach",
+            "weight": 0.4
+          },
+          {
             "text": "yowwrat",
             "weight": 0.4
           },
@@ -9193,10 +9237,6 @@
           },
           {
             "text": "yaowlat",
-            "weight": 0.3
-          },
-          {
-            "text": "yaoorat",
             "weight": 0.3
           }
         ]
@@ -9331,6 +9371,14 @@
             "weight": 0.3
           },
           {
+            "text": "ron",
+            "weight": 0.15
+          },
+          {
+            "text": "lon",
+            "weight": 0.05
+          },
+          {
             "text": "rohng",
             "weight": 0.01
           }
@@ -9415,6 +9463,10 @@
             "weight": 1
           },
           {
+            "text": "dech",
+            "weight": 0.4
+          },
+          {
             "text": "dayt",
             "weight": 0.3
           },
@@ -9425,10 +9477,6 @@
           {
             "text": "deit",
             "weight": 0.2
-          },
-          {
-            "text": "dtayt",
-            "weight": 0.09
           }
         ]
       }
@@ -9458,8 +9506,8 @@
             "weight": 0.15
           },
           {
-            "text": "sapharn",
-            "weight": 0.05
+            "text": "sabhan",
+            "weight": 0.1
           }
         ]
       },
@@ -9577,6 +9625,10 @@
           {
             "text": "pla",
             "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
           }
         ]
       },
@@ -9619,16 +9671,20 @@
             "weight": 1
           },
           {
+            "text": "bangbaw",
+            "weight": 0.3
+          },
+          {
             "text": "baangbua",
             "weight": 0.3
           },
           {
-            "text": "barngbua",
-            "weight": 0.05
+            "text": "banbua",
+            "weight": 0.15
           },
           {
-            "text": "bangbuar",
-            "weight": 0.01
+            "text": "baangbaw",
+            "weight": 0.09
           }
         ]
       }
@@ -9794,8 +9850,16 @@
             "weight": 1
           },
           {
+            "text": "rach",
+            "weight": 0.4
+          },
+          {
             "text": "lat",
             "weight": 0.3
+          },
+          {
+            "text": "lach",
+            "weight": 0.12
           }
         ]
       },
@@ -9809,6 +9873,10 @@
           {
             "text": "yotin",
             "weight": 0.5
+          },
+          {
+            "text": "yodhin",
+            "weight": 0.15
           },
           {
             "text": "yohthin",
@@ -9909,6 +9977,10 @@
           {
             "text": "moochit",
             "weight": 0.16
+          },
+          {
+            "text": "maashit",
+            "weight": 0.15
           }
         ]
       }
@@ -9969,8 +10041,8 @@
             "weight": 0.3
           },
           {
-            "text": "alee",
-            "weight": 0.12
+            "text": "ary",
+            "weight": 0.2
           }
         ]
       }
@@ -10143,8 +10215,8 @@
             "weight": 0.4
           },
           {
-            "text": "ratthevi",
-            "weight": 0.3
+            "text": "rachthewi",
+            "weight": 0.4
           }
         ]
       }
@@ -10203,6 +10275,10 @@
           {
             "text": "chidlam",
             "weight": 0.2
+          },
+          {
+            "text": "shitlom",
+            "weight": 0.15
           }
         ]
       }
@@ -10348,6 +10424,10 @@
           {
             "text": "pang",
             "weight": 0.25
+          },
+          {
+            "text": "phon",
+            "weight": 0.15
           }
         ]
       }
@@ -10466,11 +10546,11 @@
             "weight": 0.5
           },
           {
-            "text": "aonnoot",
+            "text": "aonnuch",
             "weight": 0.4
           },
           {
-            "text": "oonnut",
+            "text": "aonnoot",
             "weight": 0.4
           }
         ]
@@ -10553,8 +10633,8 @@
             "weight": 0.3
           },
           {
-            "text": "witee",
-            "weight": 0.16
+            "text": "withy",
+            "weight": 0.2
           }
         ]
       }
@@ -10615,8 +10695,8 @@
             "weight": 0.3
           },
           {
-            "text": "Ban Bang Na",
-            "weight": 0.1
+            "text": "banna",
+            "weight": 0.15
           }
         ]
       }
@@ -10653,6 +10733,14 @@
           {
             "text": "ling",
             "weight": 0.3
+          },
+          {
+            "text": "rin",
+            "weight": 0.15
+          },
+          {
+            "text": "lin",
+            "weight": 0.05
           }
         ]
       }
@@ -10682,8 +10770,8 @@
             "weight": 0.26
           },
           {
-            "text": "sumlong",
-            "weight": 0.12
+            "text": "samron",
+            "weight": 0.15
           }
         ]
       }
@@ -10742,6 +10830,10 @@
           {
             "text": "chongo",
             "weight": 0.16
+          },
+          {
+            "text": "shanga",
+            "weight": 0.15
           }
         ]
       },
@@ -10838,15 +10930,15 @@
             "weight": 0.6
           },
           {
+            "text": "rue",
+            "weight": 0.4
+          },
+          {
             "text": "ruer",
             "weight": 0.3
           },
           {
             "text": "reua",
-            "weight": 0.3
-          },
-          {
-            "text": "luea",
             "weight": 0.3
           }
         ]
@@ -11095,6 +11187,14 @@
           {
             "text": "heng",
             "weight": 0.4
+          },
+          {
+            "text": "haen",
+            "weight": 0.15
+          },
+          {
+            "text": "han",
+            "weight": 0.08
           }
         ]
       },
@@ -11114,12 +11214,12 @@
             "weight": 0.3
           },
           {
-            "text": "chaadti",
-            "weight": 0.09
+            "text": "shati",
+            "weight": 0.15
           },
           {
-            "text": "charti",
-            "weight": 0.05
+            "text": "chaadti",
+            "weight": 0.09
           }
         ]
       }
@@ -11141,15 +11241,15 @@
             "weight": 0.4
           },
           {
+            "text": "rachdamri",
+            "weight": 0.4
+          },
+          {
             "text": "ratdamli",
             "weight": 0.3
           },
           {
             "text": "ratdtamri",
-            "weight": 0.3
-          },
-          {
-            "text": "raatdamri",
             "weight": 0.3
           }
         ]
@@ -11228,16 +11328,16 @@
             "weight": 0.7
           },
           {
+            "text": "nondri",
+            "weight": 0.5
+          },
+          {
             "text": "nontri",
             "weight": 0.5
           },
           {
             "text": "nansi",
             "weight": 0.5
-          },
-          {
-            "text": "nonsee",
-            "weight": 0.4
           }
         ]
       }
@@ -11298,8 +11398,8 @@
             "weight": 0.15
           },
           {
-            "text": "sapharn",
-            "weight": 0.05
+            "text": "sabhan",
+            "weight": 0.1
           }
         ]
       },
@@ -11381,6 +11481,10 @@
             "weight": 0.3
           },
           {
+            "text": "won",
+            "weight": 0.15
+          },
+          {
             "text": "vang",
             "weight": 0.15
           }
@@ -11406,8 +11510,8 @@
             "weight": 0.3
           },
           {
-            "text": "viyan",
-            "weight": 0.12
+            "text": "wien",
+            "weight": 0.2
           }
         ]
       },
@@ -11454,8 +11558,8 @@
             "weight": 0.25
           },
           {
-            "text": "phohthinimit",
-            "weight": 0.01
+            "text": "phodhinimit",
+            "weight": 0.15
           }
         ]
       }
@@ -11539,7 +11643,15 @@
             "weight": 0.3
           },
           {
+            "text": "ban",
+            "weight": 0.15
+          },
+          {
             "text": "barng",
+            "weight": 0.05
+          },
+          {
+            "text": "baan",
             "weight": 0.05
           }
         ]
@@ -11591,7 +11703,7 @@
             "weight": 0.35
           },
           {
-            "text": "chelinnok",
+            "text": "cheriynok",
             "weight": 0.3
           }
         ]
@@ -11892,8 +12004,8 @@
             "weight": 0.15
           },
           {
-            "text": "barngpho",
-            "weight": 0.05
+            "text": "banpho",
+            "weight": 0.15
           }
         ]
       }
@@ -12105,11 +12217,11 @@
             "weight": 0.5
           },
           {
-            "text": "ratdaphiseg",
-            "weight": 0.3
+            "text": "rachdaphisek",
+            "weight": 0.4
           },
           {
-            "text": "ratdaphisayk",
+            "text": "ratdaphiseg",
             "weight": 0.3
           }
         ]
@@ -12242,6 +12354,14 @@
           {
             "text": "heng",
             "weight": 0.4
+          },
+          {
+            "text": "haen",
+            "weight": 0.15
+          },
+          {
+            "text": "han",
+            "weight": 0.08
           }
         ]
       },
@@ -12440,6 +12560,10 @@
             "weight": 0.2
           },
           {
+            "text": "prashum",
+            "weight": 0.15
+          },
+          {
             "text": "plachoom",
             "weight": 0.08
           }
@@ -12459,6 +12583,14 @@
           {
             "text": "heng",
             "weight": 0.4
+          },
+          {
+            "text": "haen",
+            "weight": 0.15
+          },
+          {
+            "text": "han",
+            "weight": 0.08
           }
         ]
       },
@@ -12478,12 +12610,12 @@
             "weight": 0.3
           },
           {
-            "text": "chaadti",
-            "weight": 0.09
+            "text": "shati",
+            "weight": 0.15
           },
           {
-            "text": "charti",
-            "weight": 0.05
+            "text": "chaadti",
+            "weight": 0.09
           }
         ]
       },
@@ -12585,6 +12717,10 @@
           {
             "text": "loompi",
             "weight": 0.2
+          },
+          {
+            "text": "lumbhi",
+            "weight": 0.1
           }
         ]
       },
@@ -12598,6 +12734,10 @@
           {
             "text": "nee",
             "weight": 0.4
+          },
+          {
+            "text": "ny",
+            "weight": 0.2
           }
         ]
       }
@@ -12698,12 +12838,12 @@
             "weight": 0.4
           },
           {
-            "text": "hualumpong",
-            "weight": 0.2
+            "text": "hawlamphong",
+            "weight": 0.3
           },
           {
-            "text": "hualamphohng",
-            "weight": 0.01
+            "text": "hualumpong",
+            "weight": 0.2
           }
         ]
       }
@@ -13063,8 +13203,8 @@
             "weight": 0.34
           },
           {
-            "text": "Ban Chok Chai",
-            "weight": 0.1
+            "text": "chokshai",
+            "weight": 0.15
           }
         ]
       },
@@ -13190,8 +13330,8 @@
             "weight": 0.3
           },
           {
-            "text": "lumsalee",
-            "weight": 0.16
+            "text": "lamsaly",
+            "weight": 0.2
           }
         ]
       }
@@ -13217,12 +13357,12 @@
             "weight": 0.3
           },
           {
-            "text": "shi",
+            "text": "sy",
             "weight": 0.2
           },
           {
-            "text": "sree",
-            "weight": 0.12
+            "text": "shi",
+            "weight": 0.2
           }
         ]
       },
@@ -13277,8 +13417,8 @@
             "weight": 0.3
           },
           {
-            "text": "huamaag",
-            "weight": 0.09
+            "text": "hawmak",
+            "weight": 0.3
           }
         ]
       }
@@ -13331,12 +13471,12 @@
             "weight": 0.3
           },
           {
-            "text": "shi",
+            "text": "sy",
             "weight": 0.2
           },
           {
-            "text": "sree",
-            "weight": 0.12
+            "text": "shi",
+            "weight": 0.2
           }
         ]
       },
@@ -13418,12 +13558,12 @@
             "weight": 0.3
           },
           {
-            "text": "shi",
+            "text": "sy",
             "weight": 0.2
           },
           {
-            "text": "sree",
-            "weight": 0.12
+            "text": "shi",
+            "weight": 0.2
           }
         ]
       },
@@ -13474,12 +13614,12 @@
             "weight": 0.3
           },
           {
-            "text": "shi",
+            "text": "sy",
             "weight": 0.2
           },
           {
-            "text": "sree",
-            "weight": 0.12
+            "text": "shi",
+            "weight": 0.2
           }
         ]
       },
@@ -13510,6 +13650,14 @@
           {
             "text": "ling",
             "weight": 0.3
+          },
+          {
+            "text": "rin",
+            "weight": 0.15
+          },
+          {
+            "text": "lin",
+            "weight": 0.05
           }
         ]
       }
@@ -13535,12 +13683,12 @@
             "weight": 0.3
           },
           {
-            "text": "shi",
+            "text": "sy",
             "weight": 0.2
           },
           {
-            "text": "sree",
-            "weight": 0.12
+            "text": "shi",
+            "weight": 0.2
           }
         ]
       },
@@ -13591,12 +13739,12 @@
             "weight": 0.3
           },
           {
-            "text": "shi",
+            "text": "sy",
             "weight": 0.2
           },
           {
-            "text": "sree",
-            "weight": 0.12
+            "text": "shi",
+            "weight": 0.2
           }
         ]
       },
@@ -13641,6 +13789,10 @@
           {
             "text": "tip",
             "weight": 0.5
+          },
+          {
+            "text": "dip",
+            "weight": 0.15
           }
         ]
       },
@@ -13847,12 +13999,12 @@
             "weight": 0.3
           },
           {
-            "text": "shi",
+            "text": "sy",
             "weight": 0.2
           },
           {
-            "text": "sree",
-            "weight": 0.12
+            "text": "shi",
+            "weight": 0.2
           }
         ]
       },
@@ -13864,8 +14016,16 @@
             "weight": 1
           },
           {
+            "text": "rach",
+            "weight": 0.4
+          },
+          {
             "text": "lat",
             "weight": 0.3
+          },
+          {
+            "text": "lach",
+            "weight": 0.12
           }
         ]
       }
@@ -13920,7 +14080,7 @@
             "weight": 0.3
           },
           {
-            "text": "tanee",
+            "text": "thany",
             "weight": 0.2
           }
         ]
@@ -13968,11 +14128,11 @@
             "weight": 0.4
           },
           {
-            "text": "ratkaan",
-            "weight": 0.3
+            "text": "rachkan",
+            "weight": 0.4
           },
           {
-            "text": "raatkan",
+            "text": "ratkaan",
             "weight": 0.3
           }
         ]
@@ -14028,8 +14188,8 @@
             "weight": 0.3
           },
           {
-            "text": "lagsee",
-            "weight": 0.12
+            "text": "laksy",
+            "weight": 0.2
           }
         ]
       }
@@ -14051,16 +14211,16 @@
             "weight": 0.5
           },
           {
+            "text": "rachphat",
+            "weight": 0.4
+          },
+          {
             "text": "raatphat",
             "weight": 0.3
           },
           {
             "text": "latphat",
             "weight": 0.3
-          },
-          {
-            "text": "raatpat",
-            "weight": 0.15
           }
         ]
       },
@@ -14194,16 +14354,16 @@
             "weight": 0.5
           },
           {
+            "text": "wachrop",
+            "weight": 0.4
+          },
+          {
             "text": "watlop",
             "weight": 0.3
           },
           {
             "text": "vatrop",
             "weight": 0.3
-          },
-          {
-            "text": "watlap",
-            "weight": 0.15
           }
         ]
       }
@@ -14285,12 +14445,12 @@
             "weight": 0.7
           },
           {
-            "text": "ramintra",
+            "text": "ramindra",
             "weight": 0.5
           },
           {
-            "text": "raminsaa",
-            "weight": 0.3
+            "text": "ramintra",
+            "weight": 0.5
           }
         ]
       }
@@ -14359,7 +14519,7 @@
           },
           {
             "text": "rachthani",
-            "weight": 0.32
+            "weight": 0.4
           }
         ]
       }
@@ -14385,8 +14545,12 @@
             "weight": 0.3
           },
           {
-            "text": "barngchan",
-            "weight": 0.05
+            "text": "bangshan",
+            "weight": 0.15
+          },
+          {
+            "text": "banchan",
+            "weight": 0.15
           }
         ]
       }
@@ -14448,6 +14612,10 @@
           {
             "text": "bumphen",
             "weight": 0.4
+          },
+          {
+            "text": "bamphey",
+            "weight": 0.3
           },
           {
             "text": "bumpen",
@@ -14527,6 +14695,10 @@
           {
             "text": "meen",
             "weight": 0.4
+          },
+          {
+            "text": "myn",
+            "weight": 0.2
           }
         ]
       },
@@ -14550,8 +14722,8 @@
             "weight": 0.15
           },
           {
-            "text": "phatnar",
-            "weight": 0.05
+            "text": "bhatna",
+            "weight": 0.1
           }
         ]
       }
@@ -14681,15 +14853,15 @@
             "weight": 0.5
           },
           {
+            "text": "rachprarop",
+            "weight": 0.4
+          },
+          {
             "text": "ratpralop",
             "weight": 0.3
           },
           {
             "text": "ratpraarop",
-            "weight": 0.3
-          },
-          {
-            "text": "raatprarop",
             "weight": 0.3
           }
         ]
@@ -14797,6 +14969,10 @@
           {
             "text": "tab",
             "weight": 0.2
+          },
+          {
+            "text": "dap",
+            "weight": 0.15
           }
         ]
       },
@@ -14818,6 +14994,10 @@
           {
             "text": "chongo",
             "weight": 0.16
+          },
+          {
+            "text": "shanga",
+            "weight": 0.15
           }
         ]
       }
@@ -15236,6 +15416,14 @@
           {
             "text": "langsit",
             "weight": 0.3
+          },
+          {
+            "text": "ransit",
+            "weight": 0.15
+          },
+          {
+            "text": "lansit",
+            "weight": 0.05
           }
         ]
       }
@@ -15257,7 +15445,15 @@
             "weight": 0.3
           },
           {
+            "text": "ban",
+            "weight": 0.15
+          },
+          {
             "text": "barng",
+            "weight": 0.05
+          },
+          {
+            "text": "baan",
             "weight": 0.05
           }
         ]
@@ -15394,6 +15590,10 @@
           {
             "text": "pla",
             "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
           }
         ]
       },
@@ -15521,8 +15721,8 @@
             "weight": 0.25
           },
           {
-            "text": "phohthi",
-            "weight": 0.01
+            "text": "phodhi",
+            "weight": 0.15
           }
         ]
       }
@@ -15686,11 +15886,11 @@
             "weight": 0.4
           },
           {
-            "text": "raatbaphit",
-            "weight": 0.3
+            "text": "rachbaphit",
+            "weight": 0.4
           },
           {
-            "text": "latbaphit",
+            "text": "raatbaphit",
             "weight": 0.3
           }
         ]
@@ -15730,6 +15930,10 @@
             "weight": 1
           },
           {
+            "text": "rach",
+            "weight": 0.4
+          },
+          {
             "text": "raat",
             "weight": 0.3
           },
@@ -15738,12 +15942,8 @@
             "weight": 0.3
           },
           {
-            "text": "laat",
-            "weight": 0.09
-          },
-          {
-            "text": "rart",
-            "weight": 0.05
+            "text": "raach",
+            "weight": 0.12
           }
         ]
       },
@@ -16127,6 +16327,10 @@
           {
             "text": "pla",
             "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
           }
         ]
       },
@@ -16340,6 +16544,10 @@
           {
             "text": "pla",
             "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
           }
         ]
       },
@@ -16353,6 +16561,10 @@
           {
             "text": "singh",
             "weight": 0.32
+          },
+          {
+            "text": "sin",
+            "weight": 0.15
           }
         ]
       }
@@ -16400,6 +16612,10 @@
           },
           {
             "text": "pla",
+            "weight": 0.1
+          },
+          {
+            "text": "bhra",
             "weight": 0.1
           }
         ]
@@ -16616,6 +16832,10 @@
             "weight": 0.6
           },
           {
+            "text": "sue",
+            "weight": 0.4
+          },
+          {
             "text": "suer",
             "weight": 0.3
           },
@@ -16695,6 +16915,10 @@
           {
             "text": "pla",
             "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
           }
         ]
       },
@@ -16767,6 +16991,10 @@
           },
           {
             "text": "pla",
+            "weight": 0.1
+          },
+          {
+            "text": "bhra",
             "weight": 0.1
           }
         ]
@@ -16841,6 +17069,10 @@
           {
             "text": "pla",
             "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
           }
         ]
       },
@@ -16889,8 +17121,8 @@
             "weight": 0.2
           },
           {
-            "text": "chayngo",
-            "weight": 0.12
+            "text": "shenga",
+            "weight": 0.15
           }
         ]
       },
@@ -16904,6 +17136,14 @@
           {
             "text": "choom",
             "weight": 0.4
+          },
+          {
+            "text": "shum",
+            "weight": 0.15
+          },
+          {
+            "text": "shoom",
+            "weight": 0.06
           }
         ]
       }
@@ -16952,6 +17192,10 @@
           {
             "text": "pla",
             "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
           }
         ]
       },
@@ -16971,12 +17215,12 @@
             "weight": 0.3
           },
           {
-            "text": "shi",
+            "text": "sy",
             "weight": 0.2
           },
           {
-            "text": "sree",
-            "weight": 0.12
+            "text": "shi",
+            "weight": 0.2
           }
         ]
       },
@@ -17005,16 +17249,16 @@
             "weight": 0.5
           },
           {
+            "text": "phech",
+            "weight": 0.4
+          },
+          {
             "text": "phayt",
             "weight": 0.3
           },
           {
             "text": "pheit",
             "weight": 0.2
-          },
-          {
-            "text": "payt",
-            "weight": 0.15
           }
         ]
       }
@@ -17155,6 +17399,10 @@
             "weight": 1
           },
           {
+            "text": "rach",
+            "weight": 0.4
+          },
+          {
             "text": "raat",
             "weight": 0.3
           },
@@ -17163,12 +17411,8 @@
             "weight": 0.3
           },
           {
-            "text": "laat",
-            "weight": 0.09
-          },
-          {
-            "text": "rart",
-            "weight": 0.05
+            "text": "raach",
+            "weight": 0.12
           }
         ]
       },
@@ -17241,6 +17485,10 @@
           },
           {
             "text": "pla",
+            "weight": 0.1
+          },
+          {
+            "text": "bhra",
             "weight": 0.1
           }
         ]
@@ -17359,6 +17607,10 @@
             "weight": 0.6
           },
           {
+            "text": "sue",
+            "weight": 0.4
+          },
+          {
             "text": "suer",
             "weight": 0.3
           },
@@ -17413,6 +17665,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -17430,6 +17686,10 @@
           {
             "text": "zung",
             "weight": 0.3
+          },
+          {
+            "text": "sun",
+            "weight": 0.15
           },
           {
             "text": "zoong",
@@ -17482,6 +17742,10 @@
           {
             "text": "pla",
             "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
           }
         ]
       },
@@ -17528,6 +17792,10 @@
           {
             "text": "choo",
             "weight": 0.16
+          },
+          {
+            "text": "shaa",
+            "weight": 0.15
           }
         ]
       },
@@ -17593,6 +17861,10 @@
           {
             "text": "pla",
             "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
           }
         ]
       },
@@ -17612,12 +17884,12 @@
             "weight": 0.3
           },
           {
-            "text": "shi",
+            "text": "sy",
             "weight": 0.2
           },
           {
-            "text": "sree",
-            "weight": 0.12
+            "text": "shi",
+            "weight": 0.2
           }
         ]
       },
@@ -17766,15 +18038,15 @@
             "weight": 0.95
           },
           {
+            "text": "maharach",
+            "weight": 0.4
+          },
+          {
             "text": "moharat",
             "weight": 0.4
           },
           {
             "text": "maharaat",
-            "weight": 0.3
-          },
-          {
-            "text": "mahalat",
             "weight": 0.3
           }
         ]
@@ -17789,6 +18061,14 @@
           {
             "text": "vang",
             "weight": 0.3
+          },
+          {
+            "text": "wan",
+            "weight": 0.15
+          },
+          {
+            "text": "van",
+            "weight": 0.05
           }
         ]
       }
@@ -18005,8 +18285,8 @@
             "weight": 0.15
           },
           {
-            "text": "sapharn",
-            "weight": 0.05
+            "text": "sabhan",
+            "weight": 0.1
           }
         ]
       },
@@ -18131,6 +18411,14 @@
           {
             "text": "heng",
             "weight": 0.4
+          },
+          {
+            "text": "haen",
+            "weight": 0.15
+          },
+          {
+            "text": "han",
+            "weight": 0.08
           }
         ]
       },
@@ -18242,6 +18530,10 @@
             "weight": 1
           },
           {
+            "text": "yaowrach",
+            "weight": 0.4
+          },
+          {
             "text": "yowwrat",
             "weight": 0.4
           },
@@ -18251,10 +18543,6 @@
           },
           {
             "text": "yaowlat",
-            "weight": 0.3
-          },
-          {
-            "text": "yaoorat",
             "weight": 0.3
           }
         ]
@@ -18414,12 +18702,12 @@
             "weight": 0.6
           },
           {
-            "text": "sallakmueang",
+            "text": "sanlakmueng",
             "weight": 0.4
           },
           {
-            "text": "sanlakmuerng",
-            "weight": 0.3
+            "text": "sallakmueang",
+            "weight": 0.4
           }
         ]
       }
@@ -18449,8 +18737,8 @@
             "weight": 0.15
           },
           {
-            "text": "sapharn",
-            "weight": 0.05
+            "text": "sabhan",
+            "weight": 0.1
           }
         ]
       },
@@ -18573,6 +18861,10 @@
           },
           {
             "text": "tas",
+            "weight": 0.15
+          },
+          {
+            "text": "dat",
             "weight": 0.15
           }
         ]
@@ -19037,6 +19329,10 @@
             "weight": 0.4
           },
           {
+            "text": "phy",
+            "weight": 0.2
+          },
+          {
             "text": "pee",
             "weight": 0.2
           }
@@ -19056,6 +19352,10 @@
           {
             "text": "phee",
             "weight": 0.4
+          },
+          {
+            "text": "phy",
+            "weight": 0.2
           },
           {
             "text": "pee",
@@ -19143,6 +19443,10 @@
           {
             "text": "chongo",
             "weight": 0.16
+          },
+          {
+            "text": "shanga",
+            "weight": 0.15
           }
         ]
       }
@@ -19260,7 +19564,7 @@
             "weight": 0.3
           },
           {
-            "text": "kow",
+            "text": "kho",
             "weight": 0.2
           }
         ]
@@ -19308,7 +19612,7 @@
             "weight": 0.3
           },
           {
-            "text": "kow",
+            "text": "kho",
             "weight": 0.2
           }
         ]
@@ -19408,7 +19712,15 @@
             "weight": 0.3
           },
           {
+            "text": "nan",
+            "weight": 0.15
+          },
+          {
             "text": "narng",
+            "weight": 0.05
+          },
+          {
+            "text": "naan",
             "weight": 0.05
           }
         ]
@@ -19437,6 +19749,10 @@
           {
             "text": "Sha-am",
             "weight": 0.16
+          },
+          {
+            "text": "shaam",
+            "weight": 0.15
           }
         ]
       }
@@ -19458,7 +19774,15 @@
             "weight": 0.3
           },
           {
+            "text": "ban",
+            "weight": 0.15
+          },
+          {
             "text": "barng",
+            "weight": 0.05
+          },
+          {
+            "text": "baan",
             "weight": 0.05
           }
         ]
@@ -19506,7 +19830,7 @@
             "weight": 0.3
           },
           {
-            "text": "kow",
+            "text": "kho",
             "weight": 0.2
           }
         ]
@@ -19581,8 +19905,8 @@
             "weight": 0.4
           },
           {
-            "text": "satheeb",
-            "weight": 0.16
+            "text": "sathyp",
+            "weight": 0.2
           }
         ]
       }
@@ -19619,6 +19943,14 @@
           {
             "text": "chobang",
             "weight": 0.4
+          },
+          {
+            "text": "chaban",
+            "weight": 0.15
+          },
+          {
+            "text": "choban",
+            "weight": 0.06
           }
         ]
       }
@@ -19760,6 +20092,14 @@
           {
             "text": "heng",
             "weight": 0.4
+          },
+          {
+            "text": "haen",
+            "weight": 0.15
+          },
+          {
+            "text": "han",
+            "weight": 0.08
           }
         ]
       },
@@ -19779,12 +20119,12 @@
             "weight": 0.3
           },
           {
-            "text": "chaadti",
-            "weight": 0.09
+            "text": "shati",
+            "weight": 0.15
           },
           {
-            "text": "charti",
-            "weight": 0.05
+            "text": "chaadti",
+            "weight": 0.09
           }
         ]
       },
@@ -19808,7 +20148,7 @@
             "weight": 0.3
           },
           {
-            "text": "kow",
+            "text": "kho",
             "weight": 0.2
           }
         ]
@@ -19875,6 +20215,14 @@
           {
             "text": "heng",
             "weight": 0.4
+          },
+          {
+            "text": "haen",
+            "weight": 0.15
+          },
+          {
+            "text": "han",
+            "weight": 0.08
           }
         ]
       },
@@ -19894,12 +20242,12 @@
             "weight": 0.3
           },
           {
-            "text": "chaadti",
-            "weight": 0.09
+            "text": "shati",
+            "weight": 0.15
           },
           {
-            "text": "charti",
-            "weight": 0.05
+            "text": "chaadti",
+            "weight": 0.09
           }
         ]
       },
@@ -20013,7 +20361,7 @@
             "weight": 0.3
           },
           {
-            "text": "kow",
+            "text": "kho",
             "weight": 0.2
           }
         ]
@@ -20201,6 +20549,18 @@
           {
             "text": "peng",
             "weight": 0.5
+          },
+          {
+            "text": "phen",
+            "weight": 0.15
+          },
+          {
+            "text": "bheng",
+            "weight": 0.1
+          },
+          {
+            "text": "pen",
+            "weight": 0.08
           }
         ]
       }
@@ -20333,6 +20693,14 @@
           {
             "text": "chay",
             "weight": 0.7
+          },
+          {
+            "text": "shai",
+            "weight": 0.15
+          },
+          {
+            "text": "shay",
+            "weight": 0.11
           }
         ]
       },
@@ -20385,6 +20753,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -20408,8 +20780,8 @@
             "weight": 0.3
           },
           {
-            "text": "dtiyan",
-            "weight": 0.12
+            "text": "tien",
+            "weight": 0.2
           }
         ]
       }
@@ -20569,6 +20941,10 @@
             "weight": 0.6
           },
           {
+            "text": "mueng",
+            "weight": 0.4
+          },
+          {
             "text": "muerng",
             "weight": 0.3
           },
@@ -20646,11 +21022,15 @@
             "weight": 0.5
           },
           {
+            "text": "nongnuch",
+            "weight": 0.4
+          },
+          {
             "text": "nongnoot",
             "weight": 0.4
           },
           {
-            "text": "nangnoot",
+            "text": "nangnuch",
             "weight": 0.2
           }
         ]
@@ -21199,8 +21579,8 @@
             "weight": 0.4
           },
           {
-            "text": "ratdamnenanay",
-            "weight": 0.3
+            "text": "rachdamnenanai",
+            "weight": 0.4
           }
         ]
       }
@@ -21786,8 +22166,8 @@
             "weight": 0.15
           },
           {
-            "text": "phar",
-            "weight": 0.05
+            "text": "bha",
+            "weight": 0.1
           }
         ]
       },
@@ -21859,16 +22239,16 @@
             "weight": 0.7
           },
           {
+            "text": "sendran",
+            "weight": 0.5
+          },
+          {
             "text": "sentran",
             "weight": 0.5
           },
           {
             "text": "sensal",
             "weight": 0.4
-          },
-          {
-            "text": "zensan",
-            "weight": 0.3
           }
         ]
       },
@@ -22030,6 +22410,10 @@
             "weight": 0.5
           },
           {
+            "text": "bho",
+            "weight": 0.1
+          },
+          {
             "text": "phoh",
             "weight": 0.01
           }
@@ -22055,8 +22439,8 @@
             "weight": 0.3
           },
           {
-            "text": "liyam",
-            "weight": 0.12
+            "text": "riem",
+            "weight": 0.2
           }
         ]
       }
@@ -22086,8 +22470,8 @@
             "weight": 0.21
           },
           {
-            "text": "charm",
-            "weight": 0.05
+            "text": "cam",
+            "weight": 0.2
           }
         ]
       },
@@ -22109,6 +22493,10 @@
           {
             "text": "joo",
             "weight": 0.28
+          },
+          {
+            "text": "cu",
+            "weight": 0.2
           }
         ]
       },
@@ -22126,6 +22514,10 @@
           {
             "text": "li",
             "weight": 0.3
+          },
+          {
+            "text": "ry",
+            "weight": 0.2
           },
           {
             "text": "lee",
@@ -22467,7 +22859,7 @@
             "weight": 0.3
           },
           {
-            "text": "teknoloyee",
+            "text": "theknoloyy",
             "weight": 0.2
           }
         ]
@@ -22611,6 +23003,14 @@
             "weight": 0.3
           },
           {
+            "text": "ron",
+            "weight": 0.15
+          },
+          {
+            "text": "lon",
+            "weight": 0.05
+          },
+          {
             "text": "rohng",
             "weight": 0.01
           }
@@ -22650,7 +23050,7 @@
           },
           {
             "text": "sirirach",
-            "weight": 0.32
+            "weight": 0.4
           },
           {
             "text": "Siriraj",
@@ -22682,6 +23082,14 @@
           {
             "text": "long",
             "weight": 0.3
+          },
+          {
+            "text": "ron",
+            "weight": 0.15
+          },
+          {
+            "text": "lon",
+            "weight": 0.05
           },
           {
             "text": "rohng",
@@ -22757,6 +23165,14 @@
             "weight": 0.3
           },
           {
+            "text": "ron",
+            "weight": 0.15
+          },
+          {
+            "text": "lon",
+            "weight": 0.05
+          },
+          {
             "text": "rohng",
             "weight": 0.01
           }
@@ -22828,6 +23244,14 @@
           {
             "text": "long",
             "weight": 0.3
+          },
+          {
+            "text": "ron",
+            "weight": 0.15
+          },
+          {
+            "text": "lon",
+            "weight": 0.05
           },
           {
             "text": "rohng",
@@ -23190,7 +23614,7 @@
             "weight": 0.5
           },
           {
-            "text": "nokraseethamrat",
+            "text": "nokrasithamrach",
             "weight": 0.4
           }
         ]
@@ -23215,6 +23639,10 @@
           {
             "text": "tlang",
             "weight": 0.2
+          },
+          {
+            "text": "tran",
+            "weight": 0.15
           },
           {
             "text": "dtlang",
@@ -23490,6 +23918,10 @@
           {
             "text": "vong",
             "weight": 0.3
+          },
+          {
+            "text": "won",
+            "weight": 0.15
           },
           {
             "text": "vang",
@@ -23916,6 +24348,10 @@
           {
             "text": "lee",
             "weight": 0.4
+          },
+          {
+            "text": "ly",
+            "weight": 0.2
           }
         ]
       },
@@ -23987,8 +24423,8 @@
             "weight": 0.3
           },
           {
-            "text": "raachaa",
-            "weight": 0.09
+            "text": "rasha",
+            "weight": 0.15
           }
         ]
       }
@@ -24064,8 +24500,8 @@
             "weight": 0.3
           },
           {
-            "text": "dtow",
-            "weight": 0.12
+            "text": "to",
+            "weight": 0.2
           }
         ]
       }
@@ -24291,6 +24727,10 @@
           {
             "text": "tan",
             "weight": 0.25
+          },
+          {
+            "text": "don",
+            "weight": 0.15
           }
         ]
       },
@@ -24352,6 +24792,10 @@
           {
             "text": "dtung",
             "weight": 0.3
+          },
+          {
+            "text": "tun",
+            "weight": 0.15
           },
           {
             "text": "dtoong",
@@ -24522,6 +24966,14 @@
           {
             "text": "heng",
             "weight": 0.4
+          },
+          {
+            "text": "haen",
+            "weight": 0.15
+          },
+          {
+            "text": "han",
+            "weight": 0.08
           }
         ]
       },
@@ -24541,12 +24993,12 @@
             "weight": 0.3
           },
           {
-            "text": "chaadti",
-            "weight": 0.09
+            "text": "shati",
+            "weight": 0.15
           },
           {
-            "text": "charti",
-            "weight": 0.05
+            "text": "chaadti",
+            "weight": 0.09
           }
         ]
       },
@@ -24570,7 +25022,7 @@
             "weight": 0.3
           },
           {
-            "text": "kow",
+            "text": "kho",
             "weight": 0.2
           }
         ]
@@ -24641,6 +25093,14 @@
           {
             "text": "heng",
             "weight": 0.4
+          },
+          {
+            "text": "haen",
+            "weight": 0.15
+          },
+          {
+            "text": "han",
+            "weight": 0.08
           }
         ]
       },
@@ -24660,12 +25120,12 @@
             "weight": 0.3
           },
           {
-            "text": "chaadti",
-            "weight": 0.09
+            "text": "shati",
+            "weight": 0.15
           },
           {
-            "text": "charti",
-            "weight": 0.05
+            "text": "chaadti",
+            "weight": 0.09
           }
         ]
       },
@@ -24721,6 +25181,10 @@
           {
             "text": "tan",
             "weight": 0.25
+          },
+          {
+            "text": "don",
+            "weight": 0.15
           }
         ]
       },
@@ -24760,6 +25224,10 @@
           },
           {
             "text": "pla",
+            "weight": 0.1
+          },
+          {
+            "text": "bhra",
             "weight": 0.1
           }
         ]
@@ -24820,6 +25288,18 @@
           {
             "text": "ping",
             "weight": 0.5
+          },
+          {
+            "text": "phin",
+            "weight": 0.15
+          },
+          {
+            "text": "bhing",
+            "weight": 0.1
+          },
+          {
+            "text": "pin",
+            "weight": 0.08
           }
         ]
       },
@@ -24893,6 +25373,14 @@
           {
             "text": "bung",
             "weight": 0.32
+          },
+          {
+            "text": "buen",
+            "weight": 0.15
+          },
+          {
+            "text": "beun",
+            "weight": 0.08
           }
         ]
       },
@@ -25131,6 +25619,14 @@
           {
             "text": "heng",
             "weight": 0.4
+          },
+          {
+            "text": "haen",
+            "weight": 0.15
+          },
+          {
+            "text": "han",
+            "weight": 0.08
           }
         ]
       },
@@ -25150,12 +25646,12 @@
             "weight": 0.3
           },
           {
-            "text": "chaadti",
-            "weight": 0.09
+            "text": "shati",
+            "weight": 0.15
           },
           {
-            "text": "charti",
-            "weight": 0.05
+            "text": "chaadti",
+            "weight": 0.09
           }
         ]
       }
@@ -25279,6 +25775,10 @@
             "weight": 1
           },
           {
+            "text": "on",
+            "weight": 0.15
+          },
+          {
             "text": "ohng",
             "weight": 0.01
           }
@@ -25331,8 +25831,8 @@
             "weight": 0.15
           },
           {
-            "text": "sapharn",
-            "weight": 0.05
+            "text": "sabhan",
+            "weight": 0.1
           }
         ]
       },
@@ -25385,6 +25885,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -25462,6 +25966,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -25539,6 +26047,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -25616,6 +26128,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -25693,6 +26209,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -25770,6 +26290,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -25847,6 +26371,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -25937,6 +26465,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26014,6 +26546,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26058,11 +26594,11 @@
             "weight": 0.4
           },
           {
-            "text": "Krampi",
+            "text": "kraby",
             "weight": 0.38
           },
           {
-            "text": "kraby",
+            "text": "Krampi",
             "weight": 0.38
           }
         ]
@@ -26091,6 +26627,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26168,6 +26708,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26245,6 +26789,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26289,6 +26837,10 @@
             "weight": 0.2
           },
           {
+            "text": "tran",
+            "weight": 0.15
+          },
+          {
             "text": "dtlang",
             "weight": 0.06
           }
@@ -26318,6 +26870,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26395,6 +26951,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26472,6 +27032,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26520,7 +27084,7 @@
             "weight": 0.5
           },
           {
-            "text": "nokraseethamrat",
+            "text": "nokrasithamrach",
             "weight": 0.4
           }
         ]
@@ -26549,6 +27113,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26626,6 +27194,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26716,6 +27288,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26793,6 +27369,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26870,6 +27450,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -26947,6 +27531,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27024,6 +27612,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27101,6 +27693,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27178,6 +27774,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27255,6 +27855,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27332,6 +27936,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27409,6 +28017,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27486,6 +28098,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27563,6 +28179,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27640,6 +28260,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27717,6 +28341,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27765,7 +28393,7 @@
             "weight": 0.4
           },
           {
-            "text": "uploratthani",
+            "text": "uplarachthani",
             "weight": 0.4
           }
         ]
@@ -27794,6 +28422,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27867,6 +28499,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -27961,6 +28597,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },
@@ -28038,6 +28678,10 @@
           {
             "text": "to",
             "weight": 0.2
+          },
+          {
+            "text": "da",
+            "weight": 0.15
           }
         ]
       },

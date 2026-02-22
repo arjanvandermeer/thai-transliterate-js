@@ -34,26 +34,48 @@ function applyVariantOverrides(variants, overrideMap) {
 }
 
 /**
+ * Append data-discovered new variants to an existing variant array.
+ * Only adds variants whose text doesn't already exist.
+ * @param {Array<{text: string, weight: number}>} variants - existing variants
+ * @param {Object<string, number>} newVariantMap - { variantText: weight }
+ * @returns {Array<{text: string, weight: number}>}
+ */
+function applyNewVariants(variants, newVariantMap) {
+  if (!newVariantMap || Object.keys(newVariantMap).length === 0) return variants;
+  const existing = new Set(variants.map(v => v.text));
+  const additions = [];
+  for (const [text, weight] of Object.entries(newVariantMap)) {
+    if (!existing.has(text)) {
+      additions.push({ text, weight });
+    }
+  }
+  return additions.length > 0 ? [...variants, ...additions] : variants;
+}
+
+/**
  * Apply consonant overrides to the base consonant table.
  */
 function buildConsonants() {
   const consonantOverrides = overrides?.consonants;
-  if (!consonantOverrides || Object.keys(consonantOverrides).length === 0) {
-    return BASE_CONSONANTS;
-  }
+  const newConsonants = overrides?.newVariants?.consonants;
+  const hasOverrides = consonantOverrides && Object.keys(consonantOverrides).length > 0;
+  const hasNew = newConsonants && Object.keys(newConsonants).length > 0;
+
+  if (!hasOverrides && !hasNew) return BASE_CONSONANTS;
 
   const result = {};
   for (const [char, entry] of Object.entries(BASE_CONSONANTS)) {
-    const charOverride = consonantOverrides[char];
-    if (!charOverride) {
+    const charOverride = consonantOverrides?.[char];
+    const charNew = newConsonants?.[char];
+    if (!charOverride && !charNew) {
       result[char] = entry;
       continue;
     }
-    result[char] = {
-      ...entry,
-      initial: applyVariantOverrides(entry.initial, charOverride.initial),
-      final: applyVariantOverrides(entry.final, charOverride.final),
-    };
+    let initial = applyVariantOverrides(entry.initial, charOverride?.initial);
+    let final = applyVariantOverrides(entry.final, charOverride?.final);
+    initial = applyNewVariants(initial, charNew?.initial);
+    final = applyNewVariants(final, charNew?.final);
+    result[char] = { ...entry, initial, final };
   }
   return result;
 }
@@ -63,21 +85,23 @@ function buildConsonants() {
  */
 function buildVowelPatterns() {
   const vowelOverrides = overrides?.vowels;
-  if (!vowelOverrides || Object.keys(vowelOverrides).length === 0) {
-    return BASE_VOWEL_PATTERNS;
-  }
+  const newVowels = overrides?.newVariants?.vowels;
+  const hasOverrides = vowelOverrides && Object.keys(vowelOverrides).length > 0;
+  const hasNew = newVowels && Object.keys(newVowels).length > 0;
+
+  if (!hasOverrides && !hasNew) return BASE_VOWEL_PATTERNS;
 
   const result = {};
   for (const [id, entry] of Object.entries(BASE_VOWEL_PATTERNS)) {
-    const patternOverride = vowelOverrides[id];
-    if (!patternOverride) {
+    const patternOverride = vowelOverrides?.[id];
+    const patternNew = newVowels?.[id];
+    if (!patternOverride && !patternNew) {
       result[id] = entry;
       continue;
     }
-    result[id] = {
-      ...entry,
-      variants: applyVariantOverrides(entry.variants, patternOverride),
-    };
+    let variants = applyVariantOverrides(entry.variants, patternOverride);
+    variants = applyNewVariants(variants, patternNew);
+    result[id] = { ...entry, variants };
   }
   return result;
 }
@@ -87,10 +111,10 @@ function buildVowelPatterns() {
  */
 function buildClusterVariants(baseVariants, clusterKey) {
   const clusterOverrides = overrides?.clusters?.[clusterKey];
-  if (!clusterOverrides || Object.keys(clusterOverrides).length === 0) {
-    return baseVariants;
-  }
-  return applyVariantOverrides(baseVariants, clusterOverrides);
+  const clusterNew = overrides?.newVariants?.clusters?.[clusterKey];
+  let result = applyVariantOverrides(baseVariants, clusterOverrides);
+  result = applyNewVariants(result, clusterNew);
+  return result;
 }
 
 export const CONSONANTS = buildConsonants();

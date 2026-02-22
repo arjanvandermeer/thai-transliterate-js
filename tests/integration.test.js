@@ -271,6 +271,50 @@ describe('bestMatch - edge cases', () => {
   });
 });
 
+describe('transliterate - dictionary integration', () => {
+  it('includes Bangkok for กรุงเทพ (manual dictionary entry)', () => {
+    const result = transliterate('กรุงเทพ', { maxVariants: 30 });
+    const texts = result.map(v => v.text);
+    assert.ok(texts.includes('Bangkok'),
+      `Expected "Bangkok" in variants, got: ${texts.join(', ')}`);
+  });
+
+  it('Bangkok has weight 0.9 from manual dictionary', () => {
+    const result = transliterate('กรุงเทพ', { maxVariants: 30 });
+    const bangkok = result.find(v => v.text === 'Bangkok');
+    assert.ok(bangkok);
+    assert.strictEqual(bangkok.weight, 0.9);
+  });
+
+  it('algorithmic variants still present alongside dictionary entries', () => {
+    const result = transliterate('กรุงเทพ', { maxVariants: 30 });
+    const texts = result.map(v => v.text.toLowerCase());
+    // Should have Bangkok from dictionary AND algorithmic variants like krung thep
+    assert.ok(texts.includes('bangkok'), 'Should include dictionary "Bangkok"');
+    assert.ok(texts.some(t => t.startsWith('k') || t.startsWith('g')),
+      'Should include algorithmic variants starting with k/g');
+  });
+
+  it('no duplicate lowercase variants after merge', () => {
+    const result = transliterate('กรุงเทพ', { maxVariants: 50 });
+    const lower = result.map(v => v.text.toLowerCase());
+    const unique = new Set(lower);
+    assert.strictEqual(lower.length, unique.size, 'Should not have duplicate variants');
+  });
+
+  it('includes Thailand for ประเทศไทย (manual dictionary)', () => {
+    const result = transliterate('ประเทศไทย', { maxVariants: 30 });
+    const texts = result.map(v => v.text);
+    assert.ok(texts.includes('Thailand'),
+      `Expected "Thailand" in variants, got: ${texts.join(', ')}`);
+  });
+
+  it('respects maxVariants cap after dictionary merge', () => {
+    const result = transliterate('กรุงเทพ', { maxVariants: 3 });
+    assert.ok(result.length <= 3);
+  });
+});
+
 describe('transliterate - does not crash on long words', () => {
   it('handles นครราชสีมา without OOM', () => {
     const result = transliterate('นครราชสีมา', { maxVariants: 10 });

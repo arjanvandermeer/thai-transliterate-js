@@ -132,16 +132,25 @@ All generated:
 
 ---
 
-## Next: Dictionary/Enrichment Lookup
+## Dictionary/Enrichment Lookup ✅
 
-Build a JSON-based dictionary of known Thai↔Latin translations from the
-GeoNames/OSM data. When a Thai input matches (or partially matches) a
-dictionary entry, add the real-world spellings as variants or boost their
-scoring in the output.
+Implemented. A two-layer dictionary system injects known real-world spellings
+as additional transliteration variants.
 
-- [ ] Generate dictionary from registry data (high-confidence exact matches)
-- [ ] Integrate lookup into transliteration pipeline
-- [ ] Handle partial matches (substrings of Thai input)
+- [x] Generate dictionary from registry data (`scripts/generate-dictionary.js`)
+- [x] Levenshtein distance filter separates transliterations from translations
+- [x] Manual overrides file (`src/tables/dictionary-manual.json`) for translations
+- [x] Integrate lookup into transliteration pipeline (`src/dictionary.js`)
+- [x] Partial matches via `Intl.Segmenter` word segmentation
+
+### Results
+- 18,911 auto-generated entries, 37,529 transliteration variants
+- 20,862 translation variants filtered out
+- Manual dictionary seeded with 4 entries (Bangkok, Suvarnabhumi, Thailand)
+
+### Still TODO
+- [ ] Expand manual dictionary with more well-known translations
+- [ ] Investigate dictionary variant coverage for multi-word entries
 
 ---
 

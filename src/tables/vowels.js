@@ -5,11 +5,11 @@
 export const VOWEL_PATTERNS = {
   // === COMPOUND / DIPHTHONG VOWELS ===
 
-  sara_ia:       { id: 'sara_ia',       variants: [{ text: 'ia', weight: 1.0 }, { text: 'iya', weight: 0.4 }, { text: 'ea', weight: 0.3 }] },
+  sara_ia:       { id: 'sara_ia',       variants: [{ text: 'ia', weight: 1.0 }, { text: 'iya', weight: 0.4 }, { text: 'ea', weight: 0.3 }, { text: 'ie', weight: 0.2 }] },
   sara_ia_short: { id: 'sara_ia_short', variants: [{ text: 'ia', weight: 1.0 }] },
-  sara_uea:      { id: 'sara_uea',      variants: [{ text: 'uea', weight: 1.0 }, { text: 'ua', weight: 0.6 }, { text: 'uer', weight: 0.3 }, { text: 'eua', weight: 0.3 }] },
+  sara_uea:      { id: 'sara_uea',      variants: [{ text: 'uea', weight: 1.0 }, { text: 'ua', weight: 0.6 }, { text: 'ue', weight: 0.4 }, { text: 'uer', weight: 0.3 }, { text: 'eua', weight: 0.3 }] },
   sara_uea_short:{ id: 'sara_uea_short',variants: [{ text: 'uea', weight: 1.0 }, { text: 'ua', weight: 0.5 }] },
-  sara_ua:       { id: 'sara_ua',       variants: [{ text: 'ua', weight: 1.0 }, { text: 'uar', weight: 0.3 }] },
+  sara_ua:       { id: 'sara_ua',       variants: [{ text: 'ua', weight: 1.0 }, { text: 'aw', weight: 0.3 }, { text: 'uar', weight: 0.3 }] },
   sara_ua_short: { id: 'sara_ua_short', variants: [{ text: 'ua', weight: 1.0 }] },
 
   // === LEADING VOWELS ===
@@ -22,14 +22,14 @@ export const VOWEL_PATTERNS = {
   sara_o:        { id: 'sara_o',        variants: [{ text: 'o', weight: 1.0 }, { text: 'oh', weight: 0.3 }] },
   sara_ai_malai: { id: 'sara_ai_malai', variants: [{ text: 'ai', weight: 1.0 }, { text: 'i', weight: 0.4 }, { text: 'ay', weight: 0.3 }] },
   sara_ai_muan:  { id: 'sara_ai_muan',  variants: [{ text: 'ai', weight: 1.0 }, { text: 'i', weight: 0.4 }, { text: 'ay', weight: 0.3 }] },
-  sara_ao:       { id: 'sara_ao',       variants: [{ text: 'ao', weight: 1.0 }, { text: 'ow', weight: 0.4 }, { text: 'aw', weight: 0.3 }] },
+  sara_ao:       { id: 'sara_ao',       variants: [{ text: 'ao', weight: 1.0 }, { text: 'ow', weight: 0.4 }, { text: 'aw', weight: 0.3 }, { text: 'o', weight: 0.2 }] },
   sara_oe:       { id: 'sara_oe',       variants: [{ text: 'oe', weight: 1.0 }, { text: 'er', weight: 0.6 }, { text: 'ur', weight: 0.4 }, { text: 'or', weight: 0.3 }] },
   sara_oe_short: { id: 'sara_oe_short', variants: [{ text: 'oe', weight: 1.0 }, { text: 'er', weight: 0.5 }] },
 
   // === ABOVE / BELOW VOWELS ===
 
   sara_i_short:  { id: 'sara_i_short',  variants: [{ text: 'i', weight: 1.0 }] },
-  sara_i:        { id: 'sara_i',        variants: [{ text: 'i', weight: 1.0 }, { text: 'ee', weight: 0.4 }] },
+  sara_i:        { id: 'sara_i',        variants: [{ text: 'i', weight: 1.0 }, { text: 'ee', weight: 0.4 }, { text: 'y', weight: 0.2 }] },
   sara_ue_short: { id: 'sara_ue_short', variants: [{ text: 'ue', weight: 1.0 }, { text: 'eu', weight: 0.5 }, { text: 'u', weight: 0.3 }] },
   sara_ue:       { id: 'sara_ue',       variants: [{ text: 'ue', weight: 1.0 }, { text: 'eu', weight: 0.5 }, { text: 'oo', weight: 0.3 }, { text: 'u', weight: 0.3 }] },
   sara_u_short:  { id: 'sara_u_short',  variants: [{ text: 'u', weight: 1.0 }, { text: 'oo', weight: 0.4 }] },
