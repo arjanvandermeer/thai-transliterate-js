@@ -90,3 +90,11 @@ const CONSONANT_CLASSES = {
 export function getConsonantClass(char) {
   return CONSONANT_CLASSES[char];
 }
+
+/** Consonants that can NEVER appear in the final position of a syllable */
+const CANNOT_BE_FINAL = new Set(['ห', 'ฉ', 'ผ', 'ฝ', 'ฮ', 'อ']);
+
+/** Check if a Thai consonant can appear in the final position of a syllable */
+export function canBeFinal(char) {
+  return !CANNOT_BE_FINAL.has(char);
+}

@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { classifyChar, isThaiChar, containsThai, getConsonantClass } from '../src/classifier.js';
+import { classifyChar, isThaiChar, containsThai, getConsonantClass, canBeFinal } from '../src/classifier.js';
 
 describe('classifyChar', () => {
   it('classifies consonants', () => {
@@ -115,5 +115,24 @@ describe('getConsonantClass', () => {
 
   it('returns undefined for non-consonants', () => {
     assert.equal(getConsonantClass('า'), undefined);
+  });
+});
+
+describe('canBeFinal', () => {
+  it('returns true for consonants that can be final', () => {
+    assert.equal(canBeFinal('ก'), true);
+    assert.equal(canBeFinal('น'), true);
+    assert.equal(canBeFinal('ม'), true);
+    assert.equal(canBeFinal('ท'), true);
+    assert.equal(canBeFinal('ล'), true);
+  });
+
+  it('returns false for consonants that cannot be final', () => {
+    assert.equal(canBeFinal('ห'), false);
+    assert.equal(canBeFinal('ฉ'), false);
+    assert.equal(canBeFinal('ผ'), false);
+    assert.equal(canBeFinal('ฝ'), false);
+    assert.equal(canBeFinal('ฮ'), false);
+    assert.equal(canBeFinal('อ'), false);
   });
 });

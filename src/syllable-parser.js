@@ -1,4 +1,4 @@
-import { classifyChar } from './classifier.js';
+import { classifyChar, canBeFinal } from './classifier.js';
 import { isValidCluster } from './tables/clusters.js';
 import { isHoNam, isONam } from './tables/special-rules.js';
 import { VOWEL_PATTERNS } from './tables/vowels.js';
@@ -35,7 +35,7 @@ export function parseSyllables(text) {
         vowelPattern: '',
         isImpliedVowel: false,
         silentChars: [],
-        flags: { hoNam: false, oNam: false, roHan: false, thorSo: false },
+        flags: { hoNam: false, oNam: false, roHan: false, thorSo: false, sorRo: false },
         passthrough: true,
       });
       i++;
@@ -50,7 +50,7 @@ export function parseSyllables(text) {
         vowelPattern: 'rue',
         isImpliedVowel: false,
         silentChars: [],
-        flags: { hoNam: false, oNam: false, roHan: false, thorSo: false },
+        flags: { hoNam: false, oNam: false, roHan: false, thorSo: false, sorRo: false },
       });
       i++;
       continue;
@@ -86,6 +86,7 @@ function parseSingleSyllable(chars, start, len) {
   let oNam = false;
   let roHan = false;
   let thorSo = false;
+  let sorRo = false;
   let isImplied = false;
 
 
@@ -98,7 +99,7 @@ function parseSingleSyllable(chars, start, len) {
       // Dangling leading vowel — emit as-is
       return result(chars, start, i, {
         leadingVowel, initialConsonant: '', vowelPattern: '', isImpliedVowel: false,
-        silentChars, flags: { hoNam, oNam, roHan, thorSo }, passthrough: true,
+        silentChars, flags: { hoNam, oNam, roHan, thorSo, sorRo }, passthrough: true,
       });
     }
   }
@@ -108,7 +109,7 @@ function parseSingleSyllable(chars, start, len) {
     // No consonant found — emit what we have as passthrough
     return result(chars, start, i, {
       leadingVowel, initialConsonant: '', vowelPattern: '', isImpliedVowel: false,
-      silentChars, flags: { hoNam, oNam, roHan, thorSo }, passthrough: true,
+      silentChars, flags: { hoNam, oNam, roHan, thorSo, sorRo }, passthrough: true,
     });
   }
   initialCons = chars[i];
@@ -117,10 +118,18 @@ function parseSingleSyllable(chars, start, len) {
   // Step 3: Check for ho-nam or o-nam
   if (i < len && classifyChar(chars[i]) === 'CONS') {
     if (isHoNam(initialCons, chars[i])) {
-      hoNam = true;
-      // ห is silent, the following consonant is the true initial
-      initialCons = chars[i];
-      i++;
+      // Suppress ho-nam if the follower consonant is immediately followed by a
+      // leading vowel (เ/แ/โ/ไ/ใ). In that case the follower is more likely the
+      // final of this syllable, not a ho-nam initial.
+      // e.g., พหลโยธิน: ห+ล+โ → ล is final of ห's syllable, โ starts next syllable.
+      const afterFollower = i + 1;
+      const suppressHoNam = afterFollower < len && classifyChar(chars[afterFollower]) === 'V_LEAD';
+      if (!suppressHoNam) {
+        hoNam = true;
+        // ห is silent, the following consonant is the true initial
+        initialCons = chars[i];
+        i++;
+      }
     } else if (isONam(initialCons, chars[i])) {
       oNam = true;
       initialCons = chars[i];
@@ -141,6 +150,9 @@ function parseSingleSyllable(chars, start, len) {
       clusterCons = chars[i];
       if (initialCons === 'ท' && clusterCons === 'ร') {
         thorSo = true;
+      }
+      if (initialCons === 'ศ' && clusterCons === 'ร') {
+        sorRo = true;
       }
       i++;
     }
@@ -168,12 +180,10 @@ function parseSingleSyllable(chars, start, len) {
   const vowelIncludesFinal = vowelEntry && vowelEntry.includesFinal;
 
   if (!vowelIncludesFinal && i < len) {
-    const result = resolveFinal(chars, i, len);
-    if (result.finalConsonant) {
-      finalCons = result.finalConsonant;
-      silentChars.push(...result.silentChars);
-      i = result.nextIndex;
-    }
+    const finalResult = resolveFinal(chars, i, len);
+    finalCons = finalResult.finalConsonant;
+    silentChars.push(...finalResult.silentChars);
+    i = finalResult.nextIndex;
   }
 
   // If no explicit vowel and no leading vowel, it's an implied vowel
@@ -197,7 +207,7 @@ function parseSingleSyllable(chars, start, len) {
     finalConsonant: finalCons,
     toneMark,
     silentChars,
-    flags: { hoNam, oNam, roHan, thorSo },
+    flags: { hoNam, oNam, roHan, thorSo, sorRo },
   });
 }
 
@@ -432,6 +442,12 @@ function resolveFinal(chars, i, len) {
     return { finalConsonant: null, silentChars: [cons], nextIndex: i + 2 };
   }
 
+  // If this consonant can never be a final in Thai (ห, ฉ, ผ, ฝ, ฮ, อ),
+  // it must start the next syllable
+  if (!canBeFinal(cons)) {
+    return { finalConsonant: null, silentChars: [], nextIndex: i };
+  }
+
   // Decision: is this consonant a final, or the initial of the next syllable?
   // Use lookahead with maximal onset principle.
   const nextIdx = i + 1;
@@ -482,6 +498,11 @@ function resolveFinal(chars, i, len) {
           return { finalConsonant: null, silentChars: [], nextIndex: i };
         }
       }
+      // End-of-word cluster: first consonant is final, second is silent.
+      // Thai words can't end in consonant clusters.
+      if (afterCluster >= len) {
+        return { finalConsonant: cons, silentChars: [nextCons], nextIndex: nextIdx + 1 };
+      }
     }
 
     // If the next consonant is followed by ์ (silent), consume both cons+์
@@ -522,6 +543,12 @@ function resolveFinal(chars, i, len) {
       if (clsAfterNext === 'TONE') {
         return { finalConsonant: cons, silentChars: [], nextIndex: nextIdx };
       }
+    }
+
+    // End-of-word: two consonants that don't form a cluster.
+    // C₁ starts a new syllable with implied vowel; C₂ becomes its final.
+    if (afterNext >= len && !isValidCluster(cons, nextCons)) {
+      return { finalConsonant: null, silentChars: [], nextIndex: i };
     }
 
     // Default: this consonant is the final

@@ -1,6 +1,6 @@
 import { CONSONANTS } from './tables/consonants.js';
 import { VOWEL_PATTERNS } from './tables/vowels.js';
-import { CLUSTER_SECOND, THOR_SO_VARIANTS } from './tables/clusters.js';
+import { CLUSTER_SECOND, THOR_SO_VARIANTS, SOR_RO_VARIANTS } from './tables/clusters.js';
 
 /**
  * Romanize a single parsed syllable into an array of positional variant arrays.
@@ -28,6 +28,9 @@ export function romanizeSyllable(syllable) {
   if (syllable.flags.thorSo) {
     // ทร → "s" special case: replace initial + cluster with combined variants
     positions.push(THOR_SO_VARIANTS);
+  } else if (syllable.flags.sorRo) {
+    // ศร → "s" special case: ร is typically silent (ศรี → si)
+    positions.push(SOR_RO_VARIANTS);
   } else {
     // Normal initial
     const initEntry = CONSONANTS[syllable.initialConsonant];

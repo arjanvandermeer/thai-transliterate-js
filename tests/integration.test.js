@@ -186,6 +186,57 @@ describe('transliterateWords', () => {
   });
 });
 
+describe('transliterate - syllable parser fixes', () => {
+  const fixedCases = [
+    {
+      thai: 'สีลม',
+      expected: 'silom',
+      maxDistance: 0,
+      description: 'Silom (end-of-word non-cluster)',
+    },
+    {
+      thai: 'ถนน',
+      expected: 'thanon',
+      maxDistance: 1,
+      description: 'Thanon (end-of-word non-cluster)',
+    },
+    {
+      thai: 'จตุจักร',
+      expected: 'chatuchak',
+      maxDistance: 1,
+      description: 'Chatuchak (end-of-word cluster, silent ร)',
+    },
+    {
+      thai: 'พหลโยธิน',
+      expected: 'phahonyothin',
+      maxDistance: 1,
+      description: 'Phahon Yothin (non-final ห)',
+    },
+    {
+      thai: 'ศรี',
+      expected: 'si',
+      maxDistance: 0,
+      description: 'Si (ศร cluster)',
+    },
+  ];
+
+  for (const tc of fixedCases) {
+    it(`transliterates ${tc.description} (${tc.thai})`, () => {
+      const match = matchThai(tc.thai, tc.expected, { maxVariants: 30 });
+      assert.ok(match, `Should find a match for ${tc.thai} → ${tc.expected}`);
+      assert.ok(match.distance <= tc.maxDistance,
+        `Distance ${match.distance} > max ${tc.maxDistance} for ${tc.thai} → ${tc.expected} (got: ${match.variant})`);
+    });
+  }
+
+  it('ศรี variants include sri', () => {
+    const result = transliterate('ศรี', { maxVariants: 10 });
+    const texts = result.map(v => v.text);
+    assert.ok(texts.includes('sri'),
+      `Should include "sri", got: ${texts.join(', ')}`);
+  });
+});
+
 describe('transliterate - does not crash on long words', () => {
   it('handles นครราชสีมา without OOM', () => {
     const result = transliterate('นครราชสีมา', { maxVariants: 10 });

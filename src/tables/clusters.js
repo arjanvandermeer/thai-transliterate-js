@@ -10,6 +10,7 @@ export const VALID_CLUSTERS = new Set([
   'ฝร',
   'ฟร',
   'สร', 'สล', 'สว',
+  'ศร',
   'ทร',
   'บร', 'บล',
   'ดร',
@@ -37,6 +38,18 @@ export const CLUSTER_SECOND = {
  * - "s" is a colloquial pronunciation for certain words (ทราย → sai, ทราบ → sap)
  * - "sr" is rare
  */
+/**
+ * Special ศร cluster:
+ * - "s" is the common pronunciation (ร is silent, e.g., ศรี → si)
+ * - "sr" is etymological/literary
+ * - "sh" is used in some transliteration systems
+ */
+export const SOR_RO_VARIANTS = [
+  { text: 's', weight: 1.0 },
+  { text: 'sr', weight: 0.3 },
+  { text: 'sh', weight: 0.2 },
+];
+
 export const THOR_SO_VARIANTS = [
   { text: 'thr', weight: 0.7 },
   { text: 'tr', weight: 0.5 },
