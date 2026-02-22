@@ -44,19 +44,17 @@ export const SOR_RO_VARIANTS = [
 ];
 
 /**
- * Special ทร cluster:
+ * Special ทร cluster (RTGS + well-established variants only):
  * - "thr" is the RTGS standard (อินทรา → inthra)
- * - "dr" is Sanskrit/Pali etymological (อินทรา → indra, as in "Central Ramindra")
- *        Data: 723 observations — second most common after "thr" (1,131)
  * - "tr" is common informal (อินทรา → intra, as in "Ramintra")
  * - "s" is a colloquial pronunciation for certain words (ทราย → sai, ทราบ → sap)
  * - "sr" is rare
+ *
+ * Data-derived variants (dr, th) are in weight-overrides.json newVariants section.
  */
 export const THOR_SO_VARIANTS = [
   { text: 'thr', weight: 0.7 },
-  { text: 'dr', weight: 0.5 },
   { text: 'tr', weight: 0.5 },
   { text: 's', weight: 0.4 },
-  { text: 'th', weight: 0.3 },
   { text: 'sr', weight: 0.1 },
 ];

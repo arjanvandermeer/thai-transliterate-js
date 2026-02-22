@@ -222,18 +222,18 @@ The ์ mark silences the preceding consonant. When the parser encounters ์, i
 
 ### ทร Cluster Variants
 
-The cluster ทร has six romanization variants, discovered through analysis of 233K real-world place names:
+The cluster ทร has six romanization variants at runtime, combining base table entries with data-derived discoveries:
 
-| Variant | Weight | Usage | Example |
-|---------|--------|-------|---------|
-| thr | 0.7 | RTGS standard | อินทรา → inthra |
-| dr | 0.5 | Sanskrit/Pali etymological (723 obs) | อินทรา → indra |
-| tr | 0.5 | Common informal | อินทรา → intra |
-| s | 0.4 | Colloquial pronunciation | ทราย → sai |
-| th | 0.3 | ร-silent variant (5 obs) | ไทรงาม → thirngam |
-| sr | 0.1 | Rare | ทราบ → srap |
+| Variant | Weight | Source | Usage | Example |
+|---------|--------|--------|-------|---------|
+| thr | 0.7 | Base (RTGS) | RTGS standard | อินทรา → inthra |
+| tr | 0.5 | Base | Common informal | อินทรา → intra |
+| s | 1.0 | Base (overridden) | Colloquial pronunciation | ทราย → sai |
+| sr | 0.1 | Base | Rare | ทราบ → srap |
+| dr | 0.5 | newVariants (723 obs) | Sanskrit/Pali etymological | อินทรา → indra |
+| th | 0.3 | newVariants (5 obs) | ร-silent variant | ไทรงาม → thirngam |
 
-Data-driven calibration overrides set s weight to 1.0 at runtime.
+The base `s` weight (0.4) is overridden to 1.0 by the calibration data. `dr` and `th` are added at runtime from the `newVariants.clusters` section of `weight-overrides.json`.
 
 ---
 
@@ -312,28 +312,48 @@ The main parsing loop guarantees forward progress:
 
 `src/tables/load-weights.js` + `src/tables/weight-overrides.json`
 
-The romanizer uses weights from base tables (`consonants.js`, `vowels.js`, `clusters.js`) merged with data-derived overrides. This two-layer system separates manually-tuned defaults from empirical adjustments.
+The romanizer uses weights from base tables (`consonants.js`, `vowels.js`, `clusters.js`) merged with data-derived overrides. This separates two concerns:
+
+- **Base tables** (JS code): RTGS standard + well-established linguistic variants only
+- **Override file** (JSON): All data-derived modifications — both weight adjustments and new variant additions
 
 ### How It Works
 
 1. `load-weights.js` imports base weights from the hand-tuned table files
-2. If `weight-overrides.json` exists, it replaces matching variant weights
-3. The merged result is exported for use by the romanizer
+2. If `weight-overrides.json` exists:
+   - Weight overrides in `consonants`/`vowels`/`clusters` sections replace matching variant weights
+   - New variants in the `newVariants` section are appended to variant arrays
+3. The merged result is exported for use by the romanizer and syllable parser
 
 ### Override File Format
 
 ```json
 {
   "_meta": { "description": "Data-derived weight overrides. Regenerate with: npm run calibrate" },
-  "consonants": { "ก": { "initial": { "k": 1.0, "g": 0.01 } } },
+  "consonants": { "ก": { "initial": { "g": 0.01 } } },
   "vowels": { "implied_o": { "o": 1 } },
-  "clusters": { "ทร": { "s": 1 } }
+  "clusters": { "ทร": { "s": 1 } },
+  "newVariants": {
+    "_meta": { "description": "Data-derived romanization variants not in the base RTGS tables" },
+    "consonants": { "จ": { "initial": { "c": 0.2 } } },
+    "vowels": { "sara_ao": { "o": 0.2 } },
+    "clusters": { "ทร": { "dr": 0.5, "th": 0.3 } }
+  }
 }
 ```
+
+The file has two sections:
+
+| Section | Purpose | Effect |
+|---------|---------|--------|
+| `consonants`/`vowels`/`clusters` | Adjust weights of existing base variants | Replaces the weight value |
+| `newVariants.*` | Add variants not in base tables | Appends to the variant array |
 
 ### Calibration Pipeline
 
 Running `npm run calibrate` downloads GeoNames (265K Thai place names) and OpenStreetMap (47M entities) data, runs the transliterator against all entries, decomposes exact matches to determine which variant was chosen at each position, and normalizes the observed frequencies into weight overrides. Only overrides with ≥10 observations and >0.1 delta from base weights are included. A floor of 0.01 ensures no variant is fully eliminated.
+
+The `newVariants` section is populated from `data/variant-discoveries.json` (output of `scripts/discover-variants.js`), which analyzes close matches to find romanization patterns missing from the base tables.
 
 ---
 
@@ -423,7 +443,7 @@ Both dictionary files are lazily loaded on first use and cached. Missing files a
 
 ## Variant Discovery
 
-`scripts/discover-variants.js` — One-time analysis script that discovered 15 missing romanization variants from the 233K-entry GeoNames/OSM registry.
+`scripts/discover-variants.js` — Analysis script that discovers romanization variants missing from the base tables by examining close matches in the 233K-entry GeoNames/OSM registry.
 
 ### How It Works
 
@@ -436,12 +456,21 @@ For each registry entry with a close match (Levenshtein distance 1-5) against al
 
 ### Results
 
-From 199K close matches, 1,891 were successfully decomposed, yielding 113 unique discoveries. After manual curation (rejecting brand names like Caltex/Susco and decomposition artifacts), 15 were added to base tables. Key findings:
+From 199K close matches, 1,891 were successfully decomposed, yielding 113 unique discoveries. After manual curation (rejecting brand names like Caltex/Susco and decomposition artifacts), 16 legitimate variants were identified:
 
-- ทร→"dr" (723 obs) — second most common variant, discovered from อินทรา→indra
-- ช final→"ch" (54 obs) — ราชบุรี→rachburi
-- จ→"c" (55 obs) — ISO/Pali romanization (กาญจนบุรี→Kancanaburi)
-- sara_ao→"o" (20 obs) — เกาะ→Ko
+**Consonant initials**: จ→"c" (ISO/Pali), ช→"sh" (loanword), ธ→"dh" (Pali), ท→"d" (informal), พ→"bh" (Pali)
+
+**Consonant finals**: ช→"ch" (54 obs, ราชบุรี→rachburi), ญ→"y" (สำราญ→saray), ฬ→"l" (บึงกาฬ→bungkal), ง→"n" (ระนอง→ranon)
+
+**Vowels**: sara_ao→"o" (เกาะ→Ko), sara_ua→"aw" (หัวหิน→hawhin), sara_uea→"ue", sara_i→"y" (กระบี่→kraby), sara_ia→"ie"
+
+**Clusters**: ทร→"dr" (723 obs, อินทรา→indra), ทร→"th" (ร silent)
+
+### Where Discoveries Live
+
+Discoveries are stored in the `newVariants` section of `weight-overrides.json`, **not** in the base tables. This keeps base tables (JS code) as pure RTGS/linguistic fact, while all data-derived additions live in JSON files. At runtime, `load-weights.js` merges both layers transparently.
+
+The raw discovery output is in `data/variant-discoveries.json`. When `npm run calibrate` runs, `generate-overrides.js` reads this file and includes curated discoveries in the override file.
 
 ---
 

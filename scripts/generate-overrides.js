@@ -182,6 +182,50 @@ for (const [key, baseVariants] of Object.entries(clusterSources)) {
   }
 }
 
+// Load variant discoveries (if they exist) and add to newVariants section
+const discoveriesPath = argValue('--discoveries', join(root, 'data', 'variant-discoveries.json'));
+try {
+  const discoveries = JSON.parse(readFileSync(discoveriesPath, 'utf-8'));
+  if (discoveries.discoveries && discoveries.discoveries.length > 0) {
+    const newVariants = {
+      _meta: {
+        description: 'Data-derived romanization variants not in the base RTGS tables. Discovered by: npm run calibrate:discover',
+        source: `${discoveries.metadata.closeMatchesAnalyzed} close matches analyzed, ${discoveries.metadata.uniqueDiscoveries} unique discoveries`,
+      },
+      consonants: {},
+      vowels: {},
+      clusters: {},
+    };
+
+    for (const d of discoveries.discoveries) {
+      if (d.posType === 'consonant_initial' || d.posType === 'consonant_final') {
+        const pos = d.posType === 'consonant_initial' ? 'initial' : 'final';
+        if (!newVariants.consonants[d.key]) newVariants.consonants[d.key] = {};
+        if (!newVariants.consonants[d.key][pos]) newVariants.consonants[d.key][pos] = {};
+        newVariants.consonants[d.key][pos][d.text] = d.suggestedWeight;
+      } else if (d.posType.startsWith('vowel')) {
+        if (!newVariants.vowels[d.key]) newVariants.vowels[d.key] = {};
+        newVariants.vowels[d.key][d.text] = d.suggestedWeight;
+      } else if (d.posType.startsWith('cluster')) {
+        if (!newVariants.clusters[d.key]) newVariants.clusters[d.key] = {};
+        newVariants.clusters[d.key][d.text] = d.suggestedWeight;
+      }
+    }
+
+    // Only include non-empty sections
+    overrides.newVariants = {};
+    if (Object.keys(newVariants.consonants).length > 0) overrides.newVariants.consonants = newVariants.consonants;
+    if (Object.keys(newVariants.vowels).length > 0) overrides.newVariants.vowels = newVariants.vowels;
+    if (Object.keys(newVariants.clusters).length > 0) overrides.newVariants.clusters = newVariants.clusters;
+    if (newVariants._meta) overrides.newVariants._meta = newVariants._meta;
+
+    console.error(`\nVariant discoveries loaded from ${discoveriesPath}`);
+    console.error(`  ${discoveries.discoveries.length} new variants added to newVariants section`);
+  }
+} catch {
+  // No discoveries file — newVariants section will not be included
+}
+
 // Write overrides file
 writeFileSync(outputPath, JSON.stringify(overrides, null, 2) + '\n');
 

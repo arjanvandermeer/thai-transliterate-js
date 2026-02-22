@@ -167,10 +167,13 @@ GeoNames/OSM registry to find romanization patterns missing from the base tables
 
 ### Results
 - 199K close matches analyzed, 1,891 decompositions, 113 unique discoveries
-- 15 legitimate variants curated and added to base tables
-- ~98 rejected as brand name noise or decomposition artifacts
+- 16 legitimate variants curated (stored in `weight-overrides.json` `newVariants`)
+- ~97 rejected as brand name noise or decomposition artifacts
 
-### Variants Added to Base Tables
+### Discovered Variants (in `weight-overrides.json` newVariants section)
+
+Base JS tables contain only RTGS/well-established variants. Data-derived
+additions live in the `newVariants` section of `weight-overrides.json`:
 
 **Consonant initials**: จ→"c" (ISO/Pali), ช→"sh" (loanword), ธ→"dh" (Pali),
 ท→"d" (informal), พ→"bh" (Pali)

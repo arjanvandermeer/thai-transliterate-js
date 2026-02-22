@@ -1,7 +1,10 @@
 /**
- * Complete mapping of all 44 Thai consonants.
+ * Complete mapping of all 44 Thai consonants (RTGS + well-established variants only).
  * Each entry provides weighted romanization variants for initial and final positions.
  * Weight 1.0 = RTGS standard. Lower weights = informal/Paiboon/phonetic alternatives.
+ *
+ * Data-derived variants are in weight-overrides.json newVariants section,
+ * merged at runtime by load-weights.js.
  */
 export const CONSONANTS = {
   // === MID CLASS ===
@@ -12,7 +15,7 @@ export const CONSONANTS = {
   },
   'จ': {
     char: 'จ', class: 'mid',
-    initial: [{ text: 'ch', weight: 1.0 }, { text: 'j', weight: 0.7 }, { text: 'c', weight: 0.2 }],
+    initial: [{ text: 'ch', weight: 1.0 }, { text: 'j', weight: 0.7 }],
     final: [{ text: 't', weight: 1.0 }],
   },
   'ฎ': {
@@ -127,12 +130,12 @@ export const CONSONANTS = {
   'ง': {
     char: 'ง', class: 'low',
     initial: [{ text: 'ng', weight: 1.0 }],
-    final: [{ text: 'ng', weight: 1.0 }, { text: 'n', weight: 0.15 }],
+    final: [{ text: 'ng', weight: 1.0 }],
   },
   'ช': {
     char: 'ช', class: 'low',
-    initial: [{ text: 'ch', weight: 1.0 }, { text: 'sh', weight: 0.15 }],
-    final: [{ text: 't', weight: 1.0 }, { text: 'ch', weight: 0.4 }],
+    initial: [{ text: 'ch', weight: 1.0 }],
+    final: [{ text: 't', weight: 1.0 }],
   },
   'ซ': {
     char: 'ซ', class: 'low',
@@ -147,7 +150,7 @@ export const CONSONANTS = {
   'ญ': {
     char: 'ญ', class: 'low',
     initial: [{ text: 'y', weight: 1.0 }],
-    final: [{ text: 'n', weight: 1.0 }, { text: 'y', weight: 0.3 }],
+    final: [{ text: 'n', weight: 1.0 }],
   },
   'ฑ': {
     char: 'ฑ', class: 'low',
@@ -166,12 +169,12 @@ export const CONSONANTS = {
   },
   'ท': {
     char: 'ท', class: 'low',
-    initial: [{ text: 'th', weight: 1.0 }, { text: 't', weight: 0.5 }, { text: 'd', weight: 0.15 }],
+    initial: [{ text: 'th', weight: 1.0 }, { text: 't', weight: 0.5 }],
     final: [{ text: 't', weight: 1.0 }],
   },
   'ธ': {
     char: 'ธ', class: 'low',
-    initial: [{ text: 'th', weight: 1.0 }, { text: 't', weight: 0.5 }, { text: 'dh', weight: 0.15 }],
+    initial: [{ text: 'th', weight: 1.0 }, { text: 't', weight: 0.5 }],
     final: [{ text: 't', weight: 1.0 }],
   },
   'น': {
@@ -181,7 +184,7 @@ export const CONSONANTS = {
   },
   'พ': {
     char: 'พ', class: 'low',
-    initial: [{ text: 'ph', weight: 1.0 }, { text: 'p', weight: 0.5 }, { text: 'bh', weight: 0.1 }],
+    initial: [{ text: 'ph', weight: 1.0 }, { text: 'p', weight: 0.5 }],
     final: [{ text: 'p', weight: 1.0 }],
   },
   'ฟ': {
@@ -222,7 +225,7 @@ export const CONSONANTS = {
   'ฬ': {
     char: 'ฬ', class: 'low',
     initial: [{ text: 'l', weight: 1.0 }],
-    final: [{ text: 'n', weight: 1.0 }, { text: 'l', weight: 0.3 }],
+    final: [{ text: 'n', weight: 1.0 }],
   },
   'ฮ': {
     char: 'ฮ', class: 'low',

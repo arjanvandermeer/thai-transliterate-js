@@ -41,5 +41,31 @@
     "ทร": {
       "s": 1
     }
+  },
+  "newVariants": {
+    "_meta": {
+      "description": "Data-derived romanization variants not in the base RTGS tables. Discovered by: npm run calibrate:discover",
+      "source": "scripts/discover-variants.js analysis of 233K GeoNames/OSM entries"
+    },
+    "consonants": {
+      "จ": { "initial": { "c": 0.2 } },
+      "ช": { "initial": { "sh": 0.15 }, "final": { "ch": 0.4 } },
+      "ง": { "final": { "n": 0.15 } },
+      "ญ": { "final": { "y": 0.3 } },
+      "ท": { "initial": { "d": 0.15 } },
+      "ธ": { "initial": { "dh": 0.15 } },
+      "พ": { "initial": { "bh": 0.1 } },
+      "ฬ": { "final": { "l": 0.3 } }
+    },
+    "vowels": {
+      "sara_ia": { "ie": 0.2 },
+      "sara_uea": { "ue": 0.4 },
+      "sara_ua": { "aw": 0.3 },
+      "sara_ao": { "o": 0.2 },
+      "sara_i": { "y": 0.2 }
+    },
+    "clusters": {
+      "ทร": { "dr": 0.5, "th": 0.3 }
+    }
   }
 }

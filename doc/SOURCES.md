@@ -519,10 +519,11 @@ spellings as additional transliteration variants.
 ### Priority 5: Variant Discovery ✅ IMPLEMENTED
 
 **Status**: Complete. A wildcard-aware decomposition script analyzed close matches
-in the registry to discover 15 romanization variants missing from base tables.
+in the registry to discover 16 romanization variants missing from the RTGS base tables.
 
-**Script**: `scripts/discover-variants.js` — one-time analysis, results baked
-into `consonants.js`, `vowels.js`, `clusters.js`.
+**Script**: `scripts/discover-variants.js` — results stored in
+`data/variant-discoveries.json`, then included in `weight-overrides.json`
+`newVariants` section by `generate-overrides.js`. Base tables remain pure RTGS.
 
 **Key discoveries**: ทร→"dr" (723 obs), ช final→"ch" (54 obs), จ→"c" (55 obs),
 sara_ao→"o" (เกาะ→Ko), sara_ua→"aw" (หัวหิน→hawhin).
@@ -718,7 +719,7 @@ The Levenshtein implementation uses single-row DP for O(min(m,n)) space.
 | Ho-nam (หนำ) | `src/tables/special-rules.js` | ห + {ง,ญ,น,ม,ย,ร,ล,ว} → ห is silent, following consonant is true initial |
 | O-nam | `src/tables/special-rules.js` | อ + ย → อ is silent, ย is true initial |
 | Thanthakhat | `src/syllable-parser.js:431` | ์ silences the preceding consonant |
-| ทร → "s" | `src/tables/clusters.js:38` | ทร can be "s" (0.7), "thr" (0.5), or "sr" (0.2) |
+| ทร → "s" | `src/tables/clusters.js` | ทร base: "thr" (0.7), "tr" (0.5), "s" (0.4), "sr" (0.1); data-derived: "dr" (0.5), "th" (0.3) |
 | Final collapse | `src/tables/consonants.js` | 44 consonants → 6 final sounds (-k, -ng, -t, -n, -p, -m) |
 | Implied vowels | `src/syllable-parser.js:180` | CVC → implied 'o'; CV → implied 'a' |
 | รร (ro han) | `src/syllable-parser.js:224` | รร at end → "an"; รร + C → short "a" + C as final |
