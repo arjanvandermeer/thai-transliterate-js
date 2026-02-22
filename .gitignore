@@ -5,6 +5,7 @@ node_modules/
 # Data files (but keep curated test data)
 data/*
 !data/thai-places.json
+!data/thai-places-output.json
 
 # Logs
 *.log
