@@ -1,46 +1,87 @@
 # thai-transliterate
 
-Multi-variant Thai-to-Roman transliteration library. Takes Thai text as input and returns **multiple weighted romanization variants**, enabling fuzzy matching against English spellings via Levenshtein distance.
+Multi-variant Thai-to-Roman transliteration library. Zero dependencies, Node.js >= 20.
 
-## The Problem
-
-Thai romanization is inherently ambiguous. One Thai word can have many valid English spellings because:
-
-- 44 Thai consonants collapse to 21 initial sounds (ข/ค/ฅ/ฆ all → "kh")
-- Aspirated vs unaspirated distinction doesn't map cleanly to English (ป = "p" but sounds like "b")
-- 6+ romanization systems in active use (RTGS, Paiboon, ISO 11940, informal)
-- Final consonants collapse (44 → 6 sounds: -k, -ng, -t, -n, -p, -m)
-- Vowel length and tone information lost in most systems
-- No spaces between words in Thai script
-
-For example, รามอินทรา can be "Ramintra", "Ram Inthra", or "Ramindra".
-
-## Installation
+## Getting Started
 
 ```bash
 npm install thai-transliterate
 ```
 
-Requires Node.js >= 20.0.0. Zero runtime dependencies.
-
-## Usage
-
-### Generate all romanization variants
-
 ```js
 import { transliterate } from 'thai-transliterate';
 
-transliterate('ภูเก็ต');
+transliterate('กรุงเทพ');    // 'bangkok'
+transliterate('ภูเก็ต');      // 'phuket'
+transliterate('เชียงใหม่');   // 'chiang mai'
+transliterate('สุขุมวิท');     // 'sukhumvit'
+```
+
+That's it. `transliterate()` takes Thai text and returns the most likely romanization as a single string.
+
+## Why This Library?
+
+Thai romanization is inherently ambiguous — one Thai word can have many valid English spellings:
+
+- 44 consonants collapse to 21 initial sounds (ข/ค/ฅ/ฆ all → "kh")
+- Aspirated vs unaspirated doesn't map cleanly to English (ป = "p" but sounds like "b")
+- 6+ romanization systems in active use (RTGS, Paiboon, ISO 11940, informal)
+- No spaces between words in Thai script
+
+For example, รามอินทรา can be "Ramintra", "Ram Inthra", or "Ramindra".
+
+This library generates **all plausible romanization variants** with weights, calibrated against 265K GeoNames entries and 47M OpenStreetMap entities. The top variant is returned by default, but the full weighted list is available for fuzzy matching.
+
+## API
+
+### `transliterate(thai, options?)` → `string`
+
+Returns the most likely romanization as a single string.
+
+```js
+transliterate('กรุงเทพ');   // 'bangkok'
+transliterate('hello');      // 'hello' (non-Thai passes through)
+transliterate('');           // ''
+```
+
+### `transliterateVariants(thai, options?)` → `Array<{ text, weight }>`
+
+Returns all weighted romanization variants, sorted by weight descending.
+
+```js
+import { transliterateVariants } from 'thai-transliterate';
+
+transliterateVariants('ภูเก็ต');
 // [
 //   { text: 'phuket', weight: 1.0 },
 //   { text: 'phuget', weight: 0.6 },
 //   { text: 'phooket', weight: 0.5 },
-//   { text: 'puket', weight: 0.5 },
 //   ...
 // ]
 ```
 
-### Match Thai against an English string
+**Options:**
+- `maxVariants` (number, default 20) — Maximum variants to return
+- `minWeight` (number, default 0.01) — Minimum weight threshold
+- `includeCompact` (boolean, default true) — Include space-removed variants for multi-word output
+
+### `transliterateWords(thai, options?)` → `Array<{ thai, variants }>`
+
+Returns per-word breakdown with variants for each segmented word.
+
+```js
+import { transliterateWords } from 'thai-transliterate';
+
+transliterateWords('ถนนสุขุมวิท');
+// [
+//   { thai: 'ถนน', variants: [{ text: 'thanon', weight: 1.0 }, ...] },
+//   { thai: 'สุขุมวิท', variants: [{ text: 'sukhumvit', weight: 1.1 }, ...] }
+// ]
+```
+
+### `matchThai(thai, target, options?)` → `{ variant, distance, weight, score } | null`
+
+Transliterates Thai text and finds the best Levenshtein match against an English target.
 
 ```js
 import { matchThai } from 'thai-transliterate';
@@ -52,45 +93,29 @@ matchThai('เชียงใหม่', 'chiang mai');
 // { variant: 'chiangmai', distance: 1, weight: 1.0, score: 0.93 }
 ```
 
-### Standalone Levenshtein distance
+**Options:**
+- `maxDistance` (number) — Maximum acceptable distance (no limit by default)
+- Plus all `transliterateVariants` options
+
+### Thai Detection
+
+```js
+import { containsThai, isAllThai, isMostlyThai } from 'thai-transliterate';
+
+containsThai('hello กรุงเทพ world');  // true
+isAllThai('กรุงเทพ มหานคร');          // true
+isMostlyThai('กรุงเทพมหานคร BKK');   // true
+```
+
+### `levenshtein(a, b)` → `number`
+
+Levenshtein edit distance between two strings.
 
 ```js
 import { levenshtein } from 'thai-transliterate';
 
 levenshtein('ramintra', 'ramindra'); // 1
 ```
-
-## API
-
-### `transliterate(thai, options?)`
-
-Transliterate Thai text to Roman/Latin characters. Returns multiple weighted variants sorted by likelihood.
-
-**Parameters:**
-- `thai` (string) — Thai text to transliterate
-- `options.maxVariants` (number, default 20) — Maximum variants to return
-- `options.minWeight` (number, default 0.01) — Minimum weight threshold
-- `options.includeCompact` (boolean, default true) — Include space-removed variants for multi-word output
-
-**Returns:** `Array<{ text: string, weight: number }>`
-
-### `matchThai(thai, target, options?)`
-
-Convenience wrapper: transliterates Thai text and finds the best Levenshtein match against an English target.
-
-**Parameters:**
-- `thai` (string) — Thai text
-- `target` (string) — English string to match against
-- `options.maxDistance` (number) — Maximum acceptable distance (no limit by default)
-- Plus all `transliterate` options
-
-**Returns:** `{ variant: string, distance: number, weight: number, score: number } | null`
-
-### `levenshtein(a, b)`
-
-Compute the Levenshtein edit distance between two strings.
-
-**Returns:** `number`
 
 ## Accuracy
 
@@ -126,7 +151,7 @@ See [doc/DETAILS.md](doc/DETAILS.md) for the full technical deep-dive.
 
 ```
 src/
-  index.js              # Public API: transliterate(), matchThai(), levenshtein()
+  index.js              # Public API: transliterate(), transliterateVariants(), matchThai(), etc.
   classifier.js         # Thai character classification by Unicode range
   syllable-parser.js    # State machine: Thai text → syllable objects
   romanizer.js          # Syllable → weighted variant arrays
