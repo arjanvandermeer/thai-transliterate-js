@@ -217,8 +217,9 @@ This downloads fresh data and regenerates `src/tables/weight-overrides.json` and
 | 3 | `calibrate:extract-osm` | Parse OSM PBF → `data/registry-osm.json` (with category multipliers) |
 | 4 | `calibrate:merge` | Merge registries → `data/registry.json` |
 | 5 | `calibrate:analyze` | Run transliterator against corpus → `data/analysis.json` |
-| 6 | `calibrate:generate` | Generate `src/tables/weight-overrides.json` |
-| 7 | `calibrate:dictionary` | Generate `src/tables/dictionary.json` |
+| 6 | `calibrate:discover` | Discover missing romanization variants from close matches |
+| 7 | `calibrate:generate` | Generate `src/tables/weight-overrides.json` |
+| 8 | `calibrate:dictionary` | Generate `src/tables/dictionary.json` |
 
 Intermediate `data/*.json` files are gitignored. Only `weight-overrides.json` and `dictionary.json` are tracked.
 
