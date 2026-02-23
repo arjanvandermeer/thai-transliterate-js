@@ -1,15 +1,41 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { transliterate, transliterateWords, matchThai, bestMatch } from '../src/index.js';
+import { transliterate, transliterateVariants, transliterateWords, matchThai, bestMatch } from '../src/index.js';
 
 describe('transliterate', () => {
+  it('returns a single string for Thai input', () => {
+    const result = transliterate('กรุงเทพ');
+    assert.equal(typeof result, 'string');
+    assert.ok(result.length > 0);
+  });
+
+  it('returns bangkok for กรุงเทพ', () => {
+    assert.equal(transliterate('กรุงเทพ'), 'bangkok');
+  });
+
+  it('returns empty string for empty input', () => {
+    assert.equal(transliterate(''), '');
+    assert.equal(transliterate(null), '');
+  });
+
+  it('handles multi-word Thai text', () => {
+    const result = transliterate('เชียงใหม่');
+    assert.ok(result.includes('chiang'));
+  });
+
+  it('passes through non-Thai text', () => {
+    assert.equal(transliterate('hello'), 'hello');
+  });
+});
+
+describe('transliterateVariants', () => {
   it('returns empty array for empty input', () => {
-    assert.deepEqual(transliterate(''), []);
-    assert.deepEqual(transliterate(null), []);
+    assert.deepEqual(transliterateVariants(''), []);
+    assert.deepEqual(transliterateVariants(null), []);
   });
 
   it('returns variants sorted by weight descending', () => {
-    const result = transliterate('กา');
+    const result = transliterateVariants('กา');
     assert.ok(result.length > 0);
     for (let i = 1; i < result.length; i++) {
       assert.ok(result[i].weight <= result[i - 1].weight,
@@ -18,18 +44,18 @@ describe('transliterate', () => {
   });
 
   it('respects maxVariants option', () => {
-    const result = transliterate('กรุงเทพ', { maxVariants: 3 });
+    const result = transliterateVariants('กรุงเทพ', { maxVariants: 3 });
     assert.ok(result.length <= 3);
   });
 
   it('passes through non-Thai text', () => {
-    const result = transliterate('hello');
+    const result = transliterateVariants('hello');
     assert.equal(result.length, 1);
     assert.equal(result[0].text, 'hello');
   });
 });
 
-describe('transliterate - place names', () => {
+describe('transliterateVariants - place names', () => {
   const testCases = [
     {
       thai: 'ภูเก็ต',
@@ -79,30 +105,30 @@ describe('transliterate - place names', () => {
   }
 });
 
-describe('transliterate - variant generation', () => {
+describe('transliterateVariants - variant generation', () => {
   it('generates both RTGS and informal variants for ก', () => {
-    const result = transliterate('กา');
+    const result = transliterateVariants('กา');
     const texts = result.map(v => v.text);
     assert.ok(texts.includes('ka'), 'Should include RTGS "ka"');
     assert.ok(texts.includes('ga'), 'Should include informal "ga"');
   });
 
   it('generates aspirated and non-aspirated variants', () => {
-    const result = transliterate('ขา');
+    const result = transliterateVariants('ขา');
     const texts = result.map(v => v.text);
     assert.ok(texts.includes('kha'), 'Should include RTGS "kha"');
     assert.ok(texts.includes('ka'), 'Should include informal "ka"');
   });
 
   it('generates ทร→s variant', () => {
-    const result = transliterate('ทราย', { maxVariants: 10 });
+    const result = transliterateVariants('ทราย', { maxVariants: 10 });
     const texts = result.map(v => v.text);
     assert.ok(texts.includes('sai'), 'Should include "sai" (ทร→s)');
   });
 
   it('handles ho-nam correctly', () => {
     // หม in ใหม่ - ห is silent, ม is the real initial
-    const result = transliterate('หมา');
+    const result = transliterateVariants('หมา');
     const texts = result.map(v => v.text);
     assert.ok(texts.some(t => t.startsWith('m')),
       `Should start with 'm' (ho-nam), got: ${texts.join(', ')}`);
@@ -186,7 +212,7 @@ describe('transliterateWords', () => {
   });
 });
 
-describe('transliterate - syllable parser fixes', () => {
+describe('transliterateVariants - syllable parser fixes', () => {
   const fixedCases = [
     {
       thai: 'สีลม',
@@ -230,32 +256,29 @@ describe('transliterate - syllable parser fixes', () => {
   }
 
   it('ศรี variants include sri', () => {
-    const result = transliterate('ศรี', { maxVariants: 10 });
+    const result = transliterateVariants('ศรี', { maxVariants: 10 });
     const texts = result.map(v => v.text);
     assert.ok(texts.includes('sri'),
       `Should include "sri", got: ${texts.join(', ')}`);
   });
 });
 
-describe('transliterate - multi-word combining', () => {
+describe('transliterateVariants - multi-word combining', () => {
   it('combines variants across segmented words', () => {
-    // ถนนสุขุมวิท segments into multiple words, exercising combineWordVariants
-    const result = transliterate('ถนนสุขุมวิท', { maxVariants: 10 });
+    const result = transliterateVariants('ถนนสุขุมวิท', { maxVariants: 10 });
     assert.ok(result.length > 0);
     assert.ok(result.length <= 10);
   });
 
   it('handles space-separated multi-word input', () => {
-    // Explicit space ensures multiple words
-    const result = transliterate('กา นา', { maxVariants: 10 });
+    const result = transliterateVariants('กา นา', { maxVariants: 10 });
     assert.ok(result.length > 0);
-    // Multi-word results should contain a space
     assert.ok(result.some(v => v.text.includes(' ')),
       `Expected space-separated variants, got: ${result.map(v => v.text).join(', ')}`);
   });
 
   it('deduplicates combined multi-word variants', () => {
-    const result = transliterate('กา นา', { maxVariants: 30 });
+    const result = transliterateVariants('กา นา', { maxVariants: 30 });
     const texts = result.map(v => v.text.toLowerCase());
     const unique = new Set(texts);
     assert.strictEqual(texts.length, unique.size, 'Should not have duplicate variants');
@@ -271,64 +294,63 @@ describe('bestMatch - edge cases', () => {
   });
 });
 
-describe('transliterate - dictionary integration', () => {
+describe('transliterateVariants - dictionary integration', () => {
   it('includes Bangkok for กรุงเทพ (manual dictionary entry)', () => {
-    const result = transliterate('กรุงเทพ', { maxVariants: 30 });
+    const result = transliterateVariants('กรุงเทพ', { maxVariants: 30 });
     const texts = result.map(v => v.text);
     assert.ok(texts.includes('bangkok'),
       `Expected "bangkok" in variants, got: ${texts.join(', ')}`);
   });
 
   it('Bangkok has weight 1.5 from manual dictionary', () => {
-    const result = transliterate('กรุงเทพ', { maxVariants: 30 });
+    const result = transliterateVariants('กรุงเทพ', { maxVariants: 30 });
     const bangkok = result.find(v => v.text === 'bangkok');
     assert.ok(bangkok);
     assert.strictEqual(bangkok.weight, 1.5);
   });
 
   it('algorithmic variants still present alongside dictionary entries', () => {
-    const result = transliterate('กรุงเทพ', { maxVariants: 30 });
+    const result = transliterateVariants('กรุงเทพ', { maxVariants: 30 });
     const texts = result.map(v => v.text.toLowerCase());
-    // Should have Bangkok from dictionary AND algorithmic variants like krung thep
     assert.ok(texts.includes('bangkok'), 'Should include dictionary "Bangkok"');
     assert.ok(texts.some(t => t.startsWith('k') || t.startsWith('g')),
       'Should include algorithmic variants starting with k/g');
   });
 
   it('no duplicate lowercase variants after merge', () => {
-    const result = transliterate('กรุงเทพ', { maxVariants: 50 });
+    const result = transliterateVariants('กรุงเทพ', { maxVariants: 50 });
     const lower = result.map(v => v.text.toLowerCase());
     const unique = new Set(lower);
     assert.strictEqual(lower.length, unique.size, 'Should not have duplicate variants');
   });
 
   it('includes Thailand for ประเทศไทย (manual dictionary)', () => {
-    const result = transliterate('ประเทศไทย', { maxVariants: 30 });
+    const result = transliterateVariants('ประเทศไทย', { maxVariants: 30 });
     const texts = result.map(v => v.text);
     assert.ok(texts.includes('thailand'),
       `Expected "thailand" in variants, got: ${texts.join(', ')}`);
   });
 
   it('respects maxVariants cap after dictionary merge', () => {
-    const result = transliterate('กรุงเทพ', { maxVariants: 3 });
+    const result = transliterateVariants('กรุงเทพ', { maxVariants: 3 });
     assert.ok(result.length <= 3);
   });
 });
 
-describe('transliterate - does not crash on long words', () => {
+describe('transliterateVariants - does not crash on long words', () => {
   it('handles นครราชสีมา without OOM', () => {
-    const result = transliterate('นครราชสีมา', { maxVariants: 10 });
+    const result = transliterateVariants('นครราชสีมา', { maxVariants: 10 });
     assert.ok(result.length > 0);
     assert.ok(result.length <= 10);
   });
 
   it('handles สุวรรณภูมิ', () => {
-    const result = transliterate('สุวรรณภูมิ', { maxVariants: 10 });
+    const result = transliterateVariants('สุวรรณภูมิ', { maxVariants: 10 });
     assert.ok(result.length > 0);
   });
 
   it('handles สมุทรปราการ', () => {
-    const result = transliterate('สมุทรปราการ', { maxVariants: 10 });
+    const result = transliterateVariants('สมุทรปราการ', { maxVariants: 10 });
     assert.ok(result.length > 0);
   });
 });

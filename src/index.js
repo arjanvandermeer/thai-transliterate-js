@@ -11,6 +11,37 @@ export { bestMatch } from './matcher.js';
 
 /**
  * Transliterate Thai text to Roman/Latin characters.
+ * Returns the single most likely romanization as a string.
+ *
+ * @param {string} thai - Thai text to transliterate
+ * @param {object} [options]
+ * @returns {string} Best romanization, or empty string if input is not Thai
+ */
+export function transliterate(thai, options = {}) {
+  const variants = transliterateVariants(thai, options);
+  return variants.length > 0 ? variants[0].text : '';
+}
+
+/**
+ * Transliterate Thai text to Roman/Latin characters.
+ * Returns multiple weighted variants sorted by likelihood.
+ *
+ * @param {string} thai - Thai text to transliterate
+ * @param {object} [options]
+ * @param {number} [options.maxVariants=20] - maximum variants to return
+ * @param {number} [options.minWeight=0.01] - minimum weight threshold
+ * @param {boolean} [options.includeCompact=true] - include space-removed variants
+ * @returns {Array<{text: string, weight: number}>}
+ */
+export function transliterateVariants(thai, options = {}) {
+  if (!thai || typeof thai !== 'string') return [];
+  const wordResults = processWords(thai, options);
+  const wordVariantArrays = wordResults.map(w => w.variants);
+  return combineWordVariants(wordVariantArrays, options);
+}
+
+/**
+ * Transliterate Thai text to Roman/Latin characters.
  * Returns per-word variant arrays, preserving word boundaries.
  *
  * @param {string} thai - Thai text to transliterate
@@ -26,22 +57,17 @@ export function transliterateWords(thai, options = {}) {
 }
 
 /**
- * Transliterate Thai text to Roman/Latin characters.
- * Returns multiple weighted variants sorted by likelihood.
- * Convenience wrapper that flattens transliterateWords() into combined strings.
+ * Transliterate Thai text and match against an English target string.
+ * Convenience wrapper around transliterateVariants() + bestMatch().
  *
- * @param {string} thai - Thai text to transliterate
+ * @param {string} thai - Thai text
+ * @param {string} target - English string to match against
  * @param {object} [options]
- * @param {number} [options.maxVariants=20] - maximum variants to return
- * @param {number} [options.minWeight=0.01] - minimum weight threshold
- * @param {boolean} [options.includeCompact=true] - include space-removed variants
- * @returns {Array<{text: string, weight: number}>}
+ * @returns {{ variant: string, distance: number, weight: number, score: number } | null}
  */
-export function transliterate(thai, options = {}) {
-  if (!thai || typeof thai !== 'string') return [];
-  const wordResults = processWords(thai, options);
-  const wordVariantArrays = wordResults.map(w => w.variants);
-  return combineWordVariants(wordVariantArrays, options);
+export function matchThai(thai, target, options = {}) {
+  const variants = transliterateVariants(thai, options);
+  return bestMatch(variants, target, options);
 }
 
 /** Process Thai text into per-word variant arrays */
@@ -87,20 +113,6 @@ function mergeDictionaryVariants(variants, dictVariants, options) {
   const merged = [...map.values()];
   merged.sort((a, b) => b.weight - a.weight);
   return merged.slice(0, maxVariants);
-}
-
-/**
- * Transliterate Thai text and match against an English target string.
- * Convenience wrapper around transliterate() + bestMatch().
- *
- * @param {string} thai - Thai text
- * @param {string} target - English string to match against
- * @param {object} [options]
- * @returns {{ variant: string, distance: number, weight: number, score: number } | null}
- */
-export function matchThai(thai, target, options = {}) {
-  const variants = transliterate(thai, options);
-  return bestMatch(variants, target, options);
 }
 
 /** Module-level Thai word segmenter (created once, reused) */
