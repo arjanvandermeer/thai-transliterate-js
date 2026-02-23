@@ -19,12 +19,12 @@
             "weight": 1
           },
           {
-            "text": "grungthepmahankhra",
-            "weight": 0.6
+            "text": "krungthephmhankhr",
+            "weight": 0.63
           },
           {
-            "text": "krungthephmhankhr",
-            "weight": 0.53
+            "text": "grungthepmahankhra",
+            "weight": 0.6
           }
         ]
       }
@@ -47,11 +47,11 @@
           },
           {
             "text": "kraby",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "krampi",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "krabee",
@@ -116,8 +116,8 @@
             "weight": 0.5
           },
           {
-            "text": "kansinthoo",
-            "weight": 0.4
+            "text": "kalasindhu",
+            "weight": 0.45
           }
         ]
       }
@@ -206,11 +206,11 @@
           },
           {
             "text": "chandaburi",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "chandha buri",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -392,11 +392,11 @@
           },
           {
             "text": "chiangraj",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "chiengrai",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -508,7 +508,7 @@
           },
           {
             "text": "takas",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "tag",
@@ -732,12 +732,12 @@
             "weight": 0.5
           },
           {
-            "text": "nonthaburee",
-            "weight": 0.4
+            "text": "montburi",
+            "weight": 0.42
           },
           {
-            "text": "nonthaboori",
-            "weight": 0.4
+            "text": "nondaburi",
+            "weight": 0.42
           }
         ]
       }
@@ -760,15 +760,15 @@
           },
           {
             "text": "naradhivas",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "naratkhivat",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "nrathiwas",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -783,7 +783,7 @@
         "variants": [
           {
             "text": "nan",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "nana",
@@ -799,7 +799,7 @@
           },
           {
             "text": "nanas",
-            "weight": 0.21
+            "weight": 0.25
           }
         ]
       }
@@ -860,8 +860,8 @@
             "weight": 0.4
           },
           {
-            "text": "buriramy",
-            "weight": 0.37
+            "text": "burilam",
+            "weight": 0.3
           }
         ]
       }
@@ -892,7 +892,7 @@
           },
           {
             "text": "padumdhani",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -976,16 +976,16 @@
             "weight": 0.4
           },
           {
-            "text": "patani",
-            "weight": 0.31
-          },
-          {
             "text": "pattaani",
             "weight": 0.3
           },
           {
             "text": "patdtani",
             "weight": 0.3
+          },
+          {
+            "text": "patani",
+            "weight": 0.22
           }
         ]
       }
@@ -1039,7 +1039,7 @@
           },
           {
             "text": "phayea",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "phayow",
@@ -1069,16 +1069,16 @@
             "weight": 1
           },
           {
+            "text": "pangnga",
+            "weight": 0.5
+          },
+          {
             "text": "pkhangnga",
-            "weight": 0.55
+            "weight": 0.5
           },
           {
             "text": "phang-nga",
-            "weight": 0.55
-          },
-          {
-            "text": "pangnga",
-            "weight": 0.5
+            "weight": 0.4
           }
         ]
       }
@@ -1109,7 +1109,7 @@
           },
           {
             "text": "patalung",
-            "weight": 0.37
+            "weight": 0.29
           }
         ]
       }
@@ -1135,12 +1135,12 @@
             "weight": 0.5
           },
           {
-            "text": "phicitr",
-            "weight": 0.37
-          },
-          {
             "text": "pijit",
             "weight": 0.35
+          },
+          {
+            "text": "phicitr",
+            "weight": 0.31
           }
         ]
       }
@@ -1170,8 +1170,8 @@
             "weight": 0.4
           },
           {
-            "text": "bhisanulok",
-            "weight": 0.37
+            "text": "phitnulog",
+            "weight": 0.3
           }
         ]
       }
@@ -1233,7 +1233,7 @@
           },
           {
             "text": "pkhetchabun",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -1264,7 +1264,7 @@
           },
           {
             "text": "bhre",
-            "weight": 0.37
+            "weight": 0.39
           }
         ]
       }
@@ -1295,7 +1295,7 @@
           },
           {
             "text": "bhuket",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -1322,11 +1322,11 @@
           },
           {
             "text": "maha sarakam",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "mhasarkham",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -1415,11 +1415,11 @@
           },
           {
             "text": "jasotkhon",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "ysothr",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -1442,15 +1442,15 @@
           },
           {
             "text": "jala",
-            "weight": 0.22
+            "weight": 0.18
           },
           {
             "text": "giala",
-            "weight": 0.11
+            "weight": 0.1
           },
           {
             "text": "iyala",
-            "weight": 0.11
+            "weight": 0.1
           }
         ]
       }
@@ -1465,7 +1465,7 @@
         "variants": [
           {
             "text": "roi et",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "rayaet",
@@ -1496,7 +1496,7 @@
         "variants": [
           {
             "text": "ranong",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "ranang",
@@ -1507,12 +1507,12 @@
             "weight": 0.3
           },
           {
-            "text": "ranon'nk",
-            "weight": 0.21
+            "text": "ranaong",
+            "weight": 0.25
           },
           {
-            "text": "ranona",
-            "weight": 0.21
+            "text": "ranaung",
+            "weight": 0.25
           }
         ]
       }
@@ -1539,7 +1539,7 @@
           },
           {
             "text": "rajong",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "rayang",
@@ -1624,11 +1624,11 @@
           },
           {
             "text": "lampangas",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "lapang",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "lumpang",
@@ -1667,7 +1667,7 @@
           },
           {
             "text": "laphun",
-            "weight": 0.37
+            "weight": 0.31
           }
         ]
       }
@@ -1694,11 +1694,11 @@
           },
           {
             "text": "leui",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "loey",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -1787,11 +1787,11 @@
           },
           {
             "text": "songkkhla",
-            "weight": 0.37
+            "weight": 0.39
           },
           {
             "text": "sngkhla",
-            "weight": 0.37
+            "weight": 0.39
           }
         ]
       }
@@ -1814,7 +1814,7 @@
           },
           {
             "text": "stul",
-            "weight": 0.47
+            "weight": 0.46
           },
           {
             "text": "satul",
@@ -1849,11 +1849,11 @@
           },
           {
             "text": "samudh prakarn",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "samutprakan",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -1884,7 +1884,7 @@
           },
           {
             "text": "samut songkram",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -1976,8 +1976,8 @@
             "weight": 0.4
           },
           {
-            "text": "sara buri",
-            "weight": 0.35
+            "text": "srabuli",
+            "weight": 0.3
           }
         ]
       }
@@ -1992,7 +1992,7 @@
         "variants": [
           {
             "text": "sing buri",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "singburi",
@@ -2178,15 +2178,11 @@
         "variants": [
           {
             "text": "nong bua lamphu",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "naongbualamphu",
             "weight": 1
-          },
-          {
-            "text": "nong bua lam phu",
-            "weight": 0.53
           },
           {
             "text": "naongbualamphoo",
@@ -2194,6 +2190,10 @@
           },
           {
             "text": "naongbualampu",
+            "weight": 0.5
+          },
+          {
+            "text": "naangbualamphu",
             "weight": 0.5
           }
         ]
@@ -2240,7 +2240,7 @@
         "variants": [
           {
             "text": "amnat charoen",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "amnatcherin",
@@ -2317,8 +2317,8 @@
             "weight": 0.4
           },
           {
-            "text": "utaradit",
-            "weight": 0.37
+            "text": "utradtit",
+            "weight": 0.3
           }
         ]
       }
@@ -2333,7 +2333,7 @@
         "variants": [
           {
             "text": "uthai thani",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "uthaithani",
@@ -3199,12 +3199,12 @@
         "thai": "ธนบุรี",
         "variants": [
           {
-            "text": "thon buri",
+            "text": "thonburi",
             "weight": 1.1
           },
           {
-            "text": "thonburi",
-            "weight": 1
+            "text": "thon buri",
+            "weight": 0.92
           },
           {
             "text": "thanburi",
@@ -3215,8 +3215,8 @@
             "weight": 0.5
           },
           {
-            "text": "dhonburi",
-            "weight": 0.44
+            "text": "thonburee",
+            "weight": 0.4
           }
         ]
       }
@@ -4371,7 +4371,7 @@
         "thai": "ดอนเมือง",
         "variants": [
           {
-            "text": "don mueang",
+            "text": "don muang",
             "weight": 1.1
           },
           {
@@ -4379,12 +4379,12 @@
             "weight": 1
           },
           {
-            "text": "don muang",
-            "weight": 0.94
-          },
-          {
             "text": "daonmuang",
             "weight": 0.6
+          },
+          {
+            "text": "don mueang",
+            "weight": 0.53
           },
           {
             "text": "daanmueang",
@@ -5350,7 +5350,7 @@
         "variants": [
           {
             "text": "sukhumvit",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "sukhumwit",
@@ -5406,7 +5406,7 @@
         "variants": [
           {
             "text": "si lom",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "silom",
@@ -6530,6 +6530,10 @@
         "thai": "ราชปรารภ",
         "variants": [
           {
+            "text": "ratchaprarop",
+            "weight": 1.1
+          },
+          {
             "text": "ratprarop",
             "weight": 1
           },
@@ -6543,10 +6547,6 @@
           },
           {
             "text": "ratpralop",
-            "weight": 0.3
-          },
-          {
-            "text": "ratpraarop",
             "weight": 0.3
           }
         ]
@@ -6643,7 +6643,7 @@
         "variants": [
           {
             "text": "asok",
-            "weight": 1
+            "weight": 1.1
           },
           {
             "text": "osok",
@@ -6723,6 +6723,10 @@
         "thai": "ทองหล่อ",
         "variants": [
           {
+            "text": "thong lo",
+            "weight": 1.05
+          },
+          {
             "text": "thaonglaa",
             "weight": 1
           },
@@ -6736,10 +6740,6 @@
           },
           {
             "text": "thaonglao",
-            "weight": 0.4
-          },
-          {
-            "text": "thaongloa",
             "weight": 0.4
           }
         ]
@@ -6783,6 +6783,10 @@
             "weight": 1
           },
           {
+            "text": "ekkamai",
+            "weight": 0.9
+          },
+          {
             "text": "ekmay",
             "weight": 0.7
           },
@@ -6793,10 +6797,6 @@
           {
             "text": "aykmai",
             "weight": 0.3
-          },
-          {
-            "text": "egmay",
-            "weight": 0.21
           }
         ]
       }
@@ -6844,15 +6844,15 @@
           },
           {
             "text": "naradhivas",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "naratkhivat",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "nrathiwas",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       },
@@ -7765,6 +7765,10 @@
         "thai": "รามคำแหง",
         "variants": [
           {
+            "text": "ramkhamhaeng",
+            "weight": 1.05
+          },
+          {
             "text": "ramkhamngae",
             "weight": 1
           },
@@ -7778,10 +7782,6 @@
           },
           {
             "text": "ramkhamnge",
-            "weight": 0.4
-          },
-          {
-            "text": "ramkhumngae",
             "weight": 0.4
           }
         ]
@@ -7878,7 +7878,7 @@
         "variants": [
           {
             "text": "on nut",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "aonnut",
@@ -9252,7 +9252,7 @@
         "variants": [
           {
             "text": "khu khot",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "khukhot",
@@ -9667,6 +9667,10 @@
         "thai": "บางบัว",
         "variants": [
           {
+            "text": "bang bua",
+            "weight": 1.05
+          },
+          {
             "text": "bangbua",
             "weight": 1
           },
@@ -9681,10 +9685,6 @@
           {
             "text": "banbua",
             "weight": 0.15
-          },
-          {
-            "text": "baangbaw",
-            "weight": 0.09
           }
         ]
       }
@@ -9816,7 +9816,7 @@
         "variants": [
           {
             "text": "sena nikhom",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "senanikhom",
@@ -9963,6 +9963,10 @@
         "thai": "หมอชิต",
         "variants": [
           {
+            "text": "mo chit",
+            "weight": 1.05
+          },
+          {
             "text": "maachit",
             "weight": 1
           },
@@ -9977,10 +9981,6 @@
           {
             "text": "moochit",
             "weight": 0.16
-          },
-          {
-            "text": "maashit",
-            "weight": 0.15
           }
         ]
       }
@@ -9993,6 +9993,10 @@
       {
         "thai": "สะพานควาย",
         "variants": [
+          {
+            "text": "saphan khwai",
+            "weight": 1.1
+          },
           {
             "text": "saphankhwai",
             "weight": 1
@@ -10008,10 +10012,6 @@
           {
             "text": "sapankhwai",
             "weight": 0.5
-          },
-          {
-            "text": "saphankway",
-            "weight": 0.35
           }
         ]
       }
@@ -10026,7 +10026,7 @@
         "variants": [
           {
             "text": "ari",
-            "weight": 1
+            "weight": 1.1
           },
           {
             "text": "aree",
@@ -10261,6 +10261,10 @@
         "thai": "ชิดลม",
         "variants": [
           {
+            "text": "chit lom",
+            "weight": 1.1
+          },
+          {
             "text": "chitlom",
             "weight": 1
           },
@@ -10275,10 +10279,6 @@
           {
             "text": "chidlam",
             "weight": 0.2
-          },
-          {
-            "text": "shitlom",
-            "weight": 0.15
           }
         ]
       }
@@ -10291,6 +10291,10 @@
       {
         "thai": "เพลินจิต",
         "variants": [
+          {
+            "text": "phloen chit",
+            "weight": 1.05
+          },
           {
             "text": "phlenachit",
             "weight": 1
@@ -10306,10 +10310,6 @@
           {
             "text": "phlenochit",
             "weight": 0.4
-          },
-          {
-            "text": "plenajit",
-            "weight": 0.35
           }
         ]
       }
@@ -10324,7 +10324,7 @@
         "variants": [
           {
             "text": "nana",
-            "weight": 1
+            "weight": 1.05
           },
           {
             "text": "nanaa",
@@ -10355,7 +10355,7 @@
         "variants": [
           {
             "text": "asok",
-            "weight": 1
+            "weight": 1.1
           },
           {
             "text": "osok",
@@ -10441,6 +10441,10 @@
         "thai": "ทองหล่อ",
         "variants": [
           {
+            "text": "thong lo",
+            "weight": 1.05
+          },
+          {
             "text": "thaonglaa",
             "weight": 1
           },
@@ -10454,10 +10458,6 @@
           },
           {
             "text": "thaonglao",
-            "weight": 0.4
-          },
-          {
-            "text": "thaongloa",
             "weight": 0.4
           }
         ]
@@ -10476,6 +10476,10 @@
             "weight": 1
           },
           {
+            "text": "ekkamai",
+            "weight": 0.9
+          },
+          {
             "text": "ekmay",
             "weight": 0.7
           },
@@ -10486,10 +10490,6 @@
           {
             "text": "aykmai",
             "weight": 0.3
-          },
-          {
-            "text": "egmay",
-            "weight": 0.21
           }
         ]
       }
@@ -10535,7 +10535,7 @@
         "variants": [
           {
             "text": "on nut",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "aonnut",
@@ -10648,6 +10648,10 @@
         "thai": "อุดมสุข",
         "variants": [
           {
+            "text": "udom suk",
+            "weight": 1.05
+          },
+          {
             "text": "utmasuk",
             "weight": 1
           },
@@ -10661,10 +10665,6 @@
           },
           {
             "text": "udmasuk",
-            "weight": 0.4
-          },
-          {
-            "text": "ootmasuk",
             "weight": 0.4
           }
         ]
@@ -10767,7 +10767,7 @@
           },
           {
             "text": "sarong",
-            "weight": 0.3
+            "weight": 0.26
           },
           {
             "text": "samron",
@@ -11438,6 +11438,10 @@
         "thai": "กรุงธนบุรี",
         "variants": [
           {
+            "text": "krung thon buri",
+            "weight": 1.1
+          },
+          {
             "text": "krungthonburi",
             "weight": 1
           },
@@ -11452,10 +11456,6 @@
           {
             "text": "krungtonburi",
             "weight": 0.5
-          },
-          {
-            "text": "krungthonburee",
-            "weight": 0.4
           }
         ]
       }
@@ -11542,6 +11542,10 @@
         "thai": "โพธิ์นิมิตร",
         "variants": [
           {
+            "text": "pho nimit",
+            "weight": 1.05
+          },
+          {
             "text": "phothinimit",
             "weight": 1
           },
@@ -11556,10 +11560,6 @@
           {
             "text": "potinimit",
             "weight": 0.25
-          },
-          {
-            "text": "phodhinimit",
-            "weight": 0.15
           }
         ]
       }
@@ -11604,6 +11604,10 @@
         "thai": "วุฒากาศ",
         "variants": [
           {
+            "text": "wutthakat",
+            "weight": 1.1
+          },
+          {
             "text": "wuthakat",
             "weight": 1
           },
@@ -11618,10 +11622,6 @@
           {
             "text": "woothakat",
             "weight": 0.4
-          },
-          {
-            "text": "wuthakas",
-            "weight": 0.3
           }
         ]
       }
@@ -11780,6 +11780,10 @@
         "thai": "ไฟฉาย",
         "variants": [
           {
+            "text": "fai chai",
+            "weight": 1.05
+          },
+          {
             "text": "faichai",
             "weight": 1
           },
@@ -11793,10 +11797,6 @@
           },
           {
             "text": "faichaai",
-            "weight": 0.3
-          },
-          {
-            "text": "faychai",
             "weight": 0.3
           }
         ]
@@ -11843,7 +11843,7 @@
         "variants": [
           {
             "text": "bang yi khan",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "bangyikhan",
@@ -11958,7 +11958,7 @@
         "variants": [
           {
             "text": "bang o",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "bangaa",
@@ -11988,6 +11988,10 @@
         "thai": "บางโพ",
         "variants": [
           {
+            "text": "bang pho",
+            "weight": 1.1
+          },
+          {
             "text": "bangpho",
             "weight": 1
           },
@@ -12002,10 +12006,6 @@
           {
             "text": "baangpo",
             "weight": 0.15
-          },
-          {
-            "text": "banpho",
-            "weight": 0.15
           }
         ]
       }
@@ -12019,7 +12019,7 @@
         "thai": "เตาปูน",
         "variants": [
           {
-            "text": "tao pun",
+            "text": "tao poon",
             "weight": 1.1
           },
           {
@@ -12027,8 +12027,8 @@
             "weight": 1
           },
           {
-            "text": "tao poon",
-            "weight": 0.88
+            "text": "tao pun",
+            "weight": 0.67
           },
           {
             "text": "taopoon",
@@ -12472,7 +12472,7 @@
         "variants": [
           {
             "text": "sukhumvit",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "sukhumwit",
@@ -12752,7 +12752,7 @@
         "variants": [
           {
             "text": "si lom",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "silom",
@@ -12826,6 +12826,10 @@
         "thai": "หัวลำโพง",
         "variants": [
           {
+            "text": "hua lamphong",
+            "weight": 1.1
+          },
+          {
             "text": "hualamphong",
             "weight": 1
           },
@@ -12840,10 +12844,6 @@
           {
             "text": "hawlamphong",
             "weight": 0.3
-          },
-          {
-            "text": "hualumpong",
-            "weight": 0.2
           }
         ]
       }
@@ -12988,6 +12988,10 @@
         "thai": "อิสรภาพ",
         "variants": [
           {
+            "text": "itsaraphap",
+            "weight": 1.05
+          },
+          {
             "text": "itraphap",
             "weight": 1
           },
@@ -13001,10 +13005,6 @@
           },
           {
             "text": "itraphaap",
-            "weight": 0.3
-          },
-          {
-            "text": "itlaphap",
             "weight": 0.3
           }
         ]
@@ -13228,7 +13228,7 @@
         "variants": [
           {
             "text": "mahatthai",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "mahatthaii",
@@ -14065,7 +14065,7 @@
         "variants": [
           {
             "text": "thani",
-            "weight": 1.05
+            "weight": 1
           },
           {
             "text": "tani",
@@ -14845,6 +14845,10 @@
         "thai": "ราชปรารภ",
         "variants": [
           {
+            "text": "ratchaprarop",
+            "weight": 1.1
+          },
+          {
             "text": "ratprarop",
             "weight": 1
           },
@@ -14858,10 +14862,6 @@
           },
           {
             "text": "ratpralop",
-            "weight": 0.3
-          },
-          {
-            "text": "ratpraarop",
             "weight": 0.3
           }
         ]
@@ -14903,6 +14903,10 @@
         "thai": "รามคำแหง",
         "variants": [
           {
+            "text": "ramkhamhaeng",
+            "weight": 1.05
+          },
+          {
             "text": "ramkhamngae",
             "weight": 1
           },
@@ -14916,10 +14920,6 @@
           },
           {
             "text": "ramkhamnge",
-            "weight": 0.4
-          },
-          {
-            "text": "ramkhumngae",
             "weight": 0.4
           }
         ]
@@ -15043,15 +15043,15 @@
         "variants": [
           {
             "text": "suvarnabhumi",
-            "weight": 1.5
-          },
-          {
-            "text": "suwannaphum",
             "weight": 1.1
           },
           {
             "text": "suwanphumi",
             "weight": 1
+          },
+          {
+            "text": "suwannaphum",
+            "weight": 0.61
           },
           {
             "text": "suwanphoomi",
@@ -15077,20 +15077,20 @@
             "weight": 1.5
           },
           {
-            "text": "krungthep",
-            "weight": 1
-          },
-          {
             "text": "krung thep",
-            "weight": 0.9
+            "weight": 1.05
           },
           {
             "text": "krungdeb",
-            "weight": 0.9
+            "weight": 1.05
           },
           {
             "text": "krungtheph",
-            "weight": 0.9
+            "weight": 1.05
+          },
+          {
+            "text": "krungthep",
+            "weight": 1
           }
         ]
       },
@@ -15252,6 +15252,10 @@
         "thai": "ทุ่งสองห้อง",
         "variants": [
           {
+            "text": "thung song hong",
+            "weight": 1.1
+          },
+          {
             "text": "thungsaonghaong",
             "weight": 1
           },
@@ -15266,10 +15270,6 @@
           {
             "text": "tungsaonghaong",
             "weight": 0.5
-          },
-          {
-            "text": "thungsaonghoong",
-            "weight": 0.4
           }
         ]
       }
@@ -15339,7 +15339,7 @@
         "thai": "ดอนเมือง",
         "variants": [
           {
-            "text": "don mueang",
+            "text": "don muang",
             "weight": 1.1
           },
           {
@@ -15347,12 +15347,12 @@
             "weight": 1
           },
           {
-            "text": "don muang",
-            "weight": 0.94
-          },
-          {
             "text": "daonmuang",
             "weight": 0.6
+          },
+          {
+            "text": "don mueang",
+            "weight": 0.53
           },
           {
             "text": "daanmueang",
@@ -16654,11 +16654,11 @@
           },
           {
             "text": "lampangas",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "lapang",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "lumpang",
@@ -18138,10 +18138,6 @@
         "thai": "สวนลุมพินี",
         "variants": [
           {
-            "text": "suan lumphini",
-            "weight": 1.05
-          },
-          {
             "text": "sownalumphini",
             "weight": 1
           },
@@ -18155,6 +18151,10 @@
           },
           {
             "text": "sownalumphinee",
+            "weight": 0.4
+          },
+          {
+            "text": "sownaloomphini",
             "weight": 0.4
           }
         ]
@@ -18438,12 +18438,12 @@
             "weight": 1
           },
           {
-            "text": "grungthepmahankhra",
-            "weight": 0.6
+            "text": "krungthephmhankhr",
+            "weight": 0.63
           },
           {
-            "text": "krungthephmhankhr",
-            "weight": 0.53
+            "text": "grungthepmahankhra",
+            "weight": 0.6
           }
         ]
       }
@@ -19117,7 +19117,7 @@
         "variants": [
           {
             "text": "pattaya",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "phatya",
@@ -19133,7 +19133,7 @@
           },
           {
             "text": "pataja",
-            "weight": 0.21
+            "weight": 0.16
           }
         ]
       }
@@ -19156,7 +19156,7 @@
           },
           {
             "text": "hawhin",
-            "weight": 0.37
+            "weight": 0.3
           },
           {
             "text": "huarhin",
@@ -19190,8 +19190,8 @@
             "weight": 0.6
           },
           {
-            "text": "keaasmuy",
-            "weight": 0.47
+            "text": "gaosamuy",
+            "weight": 0.42
           }
         ]
       }
@@ -19214,11 +19214,11 @@
           },
           {
             "text": "keaaphangan",
-            "weight": 0.92
+            "weight": 0.83
           },
           {
             "text": "ko pha-ngan",
-            "weight": 0.73
+            "weight": 0.64
           },
           {
             "text": "gaophangan",
@@ -19374,7 +19374,7 @@
         "variants": [
           {
             "text": "ko lanta",
-            "weight": 1.1
+            "weight": 1.05
           },
           {
             "text": "kaolanta",
@@ -19386,11 +19386,11 @@
           },
           {
             "text": "keaalanta",
-            "weight": 0.55
+            "weight": 0.53
           },
           {
-            "text": "koh lanta",
-            "weight": 0.55
+            "text": "kowlanta",
+            "weight": 0.4
           }
         ]
       }
@@ -19747,12 +19747,12 @@
             "weight": 0.4
           },
           {
-            "text": "sha-am",
-            "weight": 0.18
-          },
-          {
             "text": "shaam",
             "weight": 0.15
+          },
+          {
+            "text": "sha-am",
+            "weight": 0.14
           }
         ]
       }
@@ -20401,7 +20401,7 @@
         "thai": "แม่น้ำ",
         "variants": [
           {
-            "text": "maenam",
+            "text": "mae nam",
             "weight": 1.05
           },
           {
@@ -20409,8 +20409,8 @@
             "weight": 1
           },
           {
-            "text": "mae nam",
-            "weight": 0.7
+            "text": "maenam",
+            "weight": 0.79
           },
           {
             "text": "mana",
@@ -21878,15 +21878,15 @@
         "variants": [
           {
             "text": "suvarnabhumi",
-            "weight": 1.5
-          },
-          {
-            "text": "suwannaphum",
             "weight": 1.1
           },
           {
             "text": "suwanphumi",
             "weight": 1
+          },
+          {
+            "text": "suwannaphum",
+            "weight": 0.61
           },
           {
             "text": "suwanphoomi",
@@ -21908,7 +21908,7 @@
         "thai": "ดอนเมือง",
         "variants": [
           {
-            "text": "don mueang",
+            "text": "don muang",
             "weight": 1.1
           },
           {
@@ -21916,12 +21916,12 @@
             "weight": 1
           },
           {
-            "text": "don muang",
-            "weight": 0.94
-          },
-          {
             "text": "daonmuang",
             "weight": 0.6
+          },
+          {
+            "text": "don mueang",
+            "weight": 0.53
           },
           {
             "text": "daanmueang",
@@ -22055,7 +22055,7 @@
           },
           {
             "text": "bhuket",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -22868,6 +22868,10 @@
         "thai": "พระจอมเกล้า",
         "variants": [
           {
+            "text": "phra chom klao",
+            "weight": 1.05
+          },
+          {
             "text": "phratomkle",
             "weight": 1
           },
@@ -22882,10 +22886,6 @@
           {
             "text": "pratomkle",
             "weight": 0.5
-          },
-          {
-            "text": "phratomklay",
-            "weight": 0.3
           }
         ]
       },
@@ -23394,11 +23394,11 @@
           },
           {
             "text": "chiangraj",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "chiengrai",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -24238,16 +24238,16 @@
             "weight": 1
           },
           {
+            "text": "pangnga",
+            "weight": 0.5
+          },
+          {
             "text": "pkhangnga",
-            "weight": 0.55
+            "weight": 0.5
           },
           {
             "text": "phang-nga",
-            "weight": 0.55
-          },
-          {
-            "text": "pangnga",
-            "weight": 0.5
+            "weight": 0.4
           }
         ]
       }
@@ -25922,15 +25922,15 @@
         "variants": [
           {
             "text": "suvarnabhumi",
-            "weight": 1.5
-          },
-          {
-            "text": "suwannaphum",
             "weight": 1.1
           },
           {
             "text": "suwanphumi",
             "weight": 1
+          },
+          {
+            "text": "suwannaphum",
+            "weight": 0.61
           },
           {
             "text": "suwanphoomi",
@@ -26002,7 +26002,7 @@
         "thai": "ดอนเมือง",
         "variants": [
           {
-            "text": "don mueang",
+            "text": "don muang",
             "weight": 1.1
           },
           {
@@ -26010,12 +26010,12 @@
             "weight": 1
           },
           {
-            "text": "don muang",
-            "weight": 0.94
-          },
-          {
             "text": "daonmuang",
             "weight": 0.6
+          },
+          {
+            "text": "don mueang",
+            "weight": 0.53
           },
           {
             "text": "daanmueang",
@@ -26177,11 +26177,11 @@
           },
           {
             "text": "chiangraj",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "chiengrai",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -26262,7 +26262,7 @@
           },
           {
             "text": "bhuket",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -26591,11 +26591,11 @@
           },
           {
             "text": "kraby",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "krampi",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "krabee",
@@ -27158,15 +27158,15 @@
           },
           {
             "text": "naradhivas",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "naratkhivat",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "nrathiwas",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -27231,7 +27231,7 @@
         "variants": [
           {
             "text": "nan",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "nana",
@@ -27247,7 +27247,7 @@
           },
           {
             "text": "nanas",
-            "weight": 0.21
+            "weight": 0.25
           }
         ]
       },
@@ -27340,8 +27340,8 @@
             "weight": 0.4
           },
           {
-            "text": "buriramy",
-            "weight": 0.37
+            "text": "burilam",
+            "weight": 0.3
           }
         ]
       }
@@ -27421,8 +27421,8 @@
             "weight": 0.4
           },
           {
-            "text": "bhisanulok",
-            "weight": 0.37
+            "text": "phitnulog",
+            "weight": 0.3
           }
         ]
       }
@@ -27503,7 +27503,7 @@
           },
           {
             "text": "pkhetchabun",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -27584,7 +27584,7 @@
           },
           {
             "text": "bhre",
-            "weight": 0.37
+            "weight": 0.39
           }
         ]
       }
@@ -27811,7 +27811,7 @@
         "variants": [
           {
             "text": "roi et",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "rayaet",
@@ -27892,7 +27892,7 @@
         "variants": [
           {
             "text": "ranong",
-            "weight": 1.05
+            "weight": 1.1
           },
           {
             "text": "ranang",
@@ -27903,12 +27903,12 @@
             "weight": 0.3
           },
           {
-            "text": "ranon'nk",
-            "weight": 0.21
+            "text": "ranaong",
+            "weight": 0.25
           },
           {
-            "text": "ranona",
-            "weight": 0.21
+            "text": "ranaung",
+            "weight": 0.25
           }
         ]
       }
@@ -27985,11 +27985,11 @@
           },
           {
             "text": "leui",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "loey",
-            "weight": 0.44
+            "weight": 0.42
           }
         ]
       }
@@ -28058,11 +28058,11 @@
           },
           {
             "text": "lampangas",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "lapang",
-            "weight": 0.44
+            "weight": 0.42
           },
           {
             "text": "lumpang",
@@ -28467,7 +28467,7 @@
           },
           {
             "text": "hawhin",
-            "weight": 0.37
+            "weight": 0.3
           },
           {
             "text": "huarhin",

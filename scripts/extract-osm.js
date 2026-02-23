@@ -25,6 +25,21 @@ const outputPath = argValue('--output', join(root, 'data', 'registry-osm.json'))
 const THAI_RE = /[\u0E01-\u0E5B]/;
 const LATIN_START_RE = /^[A-Za-z]/;
 
+// Category weight multipliers — controls how much each OSM category counts
+// Higher multiplier = more influence on variant ranking in the merged dictionary
+const CATEGORY_MULTIPLIERS = {
+  aeroway: 3,      // airports
+  station: 3,      // train/BTS/MRT stations
+  tourism: 1.5,    // tourist attractions, museums
+  place: 1,        // cities, villages, districts
+  boundary: 1,     // admin boundaries
+  highway: 0.8,    // roads
+  building: 0.5,   // generic buildings
+  amenity: 0.5,    // restaurants, banks, etc.
+  shop: 0.3,       // retail
+  other: 0.5,      // uncategorized
+};
+
 /**
  * Check if a string contains Thai characters.
  */
@@ -110,6 +125,7 @@ for await (const item of osmStream) {
 
   // Determine feature type from OSM tags
   const featureClass = categorizeOSMTags(tags);
+  const multiplier = CATEGORY_MULTIPLIERS[featureClass] ?? 1;
 
   for (const thai of thaiNames) {
     let entry = registry.get(thai);
@@ -120,7 +136,7 @@ for await (const item of osmStream) {
 
     for (const latin of latinNames) {
       const existing = entry.variants.get(latin) || 0;
-      entry.variants.set(latin, existing + 1);
+      entry.variants.set(latin, existing + multiplier);
       totalPairs++;
     }
 
@@ -134,14 +150,15 @@ process.stderr.write('\n');
  * Categorize an OSM entity by its tags into a feature class.
  */
 function categorizeOSMTags(tags) {
-  if (tags.place) return 'place';
-  if (tags.highway) return 'highway';
+  if (tags.aeroway) return 'aeroway';
   if (tags.railway || tags.station) return 'station';
+  if (tags.place) return 'place';
+  if (tags.tourism) return 'tourism';
+  if (tags.boundary) return 'boundary';
+  if (tags.highway) return 'highway';
   if (tags.amenity) return 'amenity';
   if (tags.shop) return 'shop';
-  if (tags.tourism) return 'tourism';
   if (tags.building) return 'building';
-  if (tags.boundary) return 'boundary';
   return 'other';
 }
 

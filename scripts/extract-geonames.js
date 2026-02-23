@@ -26,6 +26,37 @@ const outputPath = argValue('--output', join(root, 'data', 'registry-geonames.js
 const THAI_RE = /[\u0E01-\u0E5B]/;
 const LATIN_START_RE = /^[A-Za-z]/;
 
+// Feature code multipliers — granular GeoNames codes (checked first)
+const FEATURE_CODE_MULTIPLIERS = {
+  AIRP: 3,     // airport
+  AIRF: 3,     // airfield
+  AIRB: 3,     // airbase
+  RSTN: 3,     // railroad station
+  BUSTN: 2,    // bus station
+  PPLC: 2,     // capital of a country
+  PPLA: 1.5,   // capital of a first-order admin division (province capital)
+  MNMT: 1.5,   // monument
+  SHRN: 1.5,   // shrine
+  RLG: 1.5,    // religious site
+  TMPL: 1.5,   // temple
+};
+
+// Feature class multipliers — broad GeoNames classes (fallback)
+const FEATURE_CLASS_MULTIPLIERS = {
+  A: 1,      // administrative (provinces, districts)
+  P: 1,      // populated places
+  S: 0.8,    // structures (schools, temples, misc buildings)
+  H: 0.5,    // hydrographic (streams, canals)
+  T: 0.5,    // terrain (mountains, hills)
+  L: 0.5,    // parks, areas
+  R: 0.5,    // roads, railroads
+  V: 0.5,    // vegetation
+};
+
+function getGeonamesMultiplier(featureClass, featureCode) {
+  return FEATURE_CODE_MULTIPLIERS[featureCode] ?? FEATURE_CLASS_MULTIPLIERS[featureClass] ?? 1;
+}
+
 /**
  * Detect ISO 11940 machine transliterations.
  * These use: x for sara oe, æ, and produce sequences like khlxng, dxy, hwy.
@@ -112,20 +143,21 @@ for (const line of lines) {
   const parsed = parseLine(line);
   if (!parsed) continue;
 
-  const { name, asciiName, thaiNames, latinAlts, featureClass, population } = parsed;
+  const { name, asciiName, thaiNames, latinAlts, featureClass, featureCode, population } = parsed;
 
   // Collect all valid Latin variants for this entry
   const latinVariants = new Map(); // text → count increment
+  const multiplier = getGeonamesMultiplier(featureClass, featureCode);
 
-  // Primary name and ASCII name get a boost (count as 2)
+  // Primary name and ASCII name get a boost (count as 2 × multiplier)
   if (!isJunkLatin(name)) {
-    latinVariants.set(name, 2);
+    latinVariants.set(name, 2 * multiplier);
   }
   if (asciiName && asciiName !== name && !isJunkLatin(asciiName)) {
-    latinVariants.set(asciiName, 2);
+    latinVariants.set(asciiName, 2 * multiplier);
   }
 
-  // Alternate Latin names count as 1
+  // Alternate Latin names count as 1 × multiplier
   for (const alt of latinAlts) {
     if (isJunkLatin(alt)) {
       skippedJunk++;
@@ -136,7 +168,7 @@ for (const line of lines) {
       continue;
     }
     const existing = latinVariants.get(alt) || 0;
-    latinVariants.set(alt, existing + 1);
+    latinVariants.set(alt, existing + 1 * multiplier);
   }
 
   if (latinVariants.size === 0) continue;

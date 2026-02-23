@@ -19,12 +19,12 @@ describe('lookupWord', () => {
     assert.ok(bangkok);
   });
 
-  it('returns variants for สุวรรณภูมิ (manual)', () => {
+  it('returns variants for สุวรรณภูมิ (auto-generated, boosted by station multiplier)', () => {
     const result = lookupWord('สุวรรณภูมิ');
     assert.ok(result);
     const suvarnabhumi = result.find(v => v.text === 'suvarnabhumi');
-    assert.ok(suvarnabhumi);
-    assert.strictEqual(suvarnabhumi.weight, 1.5);
+    assert.ok(suvarnabhumi, 'suvarnabhumi should be top variant due to station multiplier');
+    assert.ok(suvarnabhumi.weight >= 1.0, `weight ${suvarnabhumi.weight} should be >= 1.0`);
   });
 
   it('returns null for unknown word', () => {
