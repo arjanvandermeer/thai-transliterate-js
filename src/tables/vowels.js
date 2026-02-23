@@ -29,6 +29,10 @@ export const VOWEL_PATTERNS = {
   sara_oe:       { id: 'sara_oe',       variants: [{ text: 'oe', weight: 1.0 }, { text: 'er', weight: 0.6 }, { text: 'ur', weight: 0.4 }, { text: 'or', weight: 0.3 }] },
   sara_oe_short: { id: 'sara_oe_short', variants: [{ text: 'oe', weight: 1.0 }, { text: 'er', weight: 0.5 }] },
 
+  // === MEDIAL VOWEL (อ as vowel between consonants) ===
+
+  sara_aw:       { id: 'sara_aw',       variants: [{ text: 'o', weight: 1.0 }, { text: 'aw', weight: 0.3 }, { text: 'or', weight: 0.2 }] },
+
   // === ABOVE / BELOW VOWELS ===
 
   sara_i_short:  { id: 'sara_i_short',  variants: [{ text: 'i', weight: 1.0 }] },

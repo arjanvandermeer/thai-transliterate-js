@@ -266,6 +266,22 @@ function resolveVowel(chars, i, len, leadingVowel, _initialCons, _clusterCons) {
     return { id: 'none', nextIndex: i + 1, hasShortener: true };
   }
 
+  // Sara aw (สระ ออ): อ functioning as vowel /ɔː/ between consonants
+  // Pattern: C₁อ(C₂) — the อ IS the vowel, not a consonant
+  // Triggers when อ is followed by: CONS, TONE, or end-of-word
+  // Does NOT trigger when followed by: V_ABOVE, V_BELOW, V_FOLLOW, V_LEAD, SILENT
+  // (those cases mean อ is the initial consonant of the next syllable)
+  if (chars[i] === 'อ') {
+    const afterO = i + 1;
+    if (afterO >= len) {
+      return { id: 'sara_aw', nextIndex: afterO };
+    }
+    const clsAfterO = classifyChar(chars[afterO]);
+    if (clsAfterO === 'CONS' || clsAfterO === 'TONE') {
+      return { id: 'sara_aw', nextIndex: afterO };
+    }
+  }
+
   // No vowel found
   return { id: 'none', nextIndex: i };
 }

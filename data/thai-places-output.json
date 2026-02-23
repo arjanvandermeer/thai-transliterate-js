@@ -166,19 +166,19 @@
             "weight": 1.1
           },
           {
-            "text": "khaonkaen",
+            "text": "khonkaen",
             "weight": 1
           },
           {
-            "text": "khaongaen",
+            "text": "khongaen",
             "weight": 0.6
           },
           {
-            "text": "khaonkan",
+            "text": "khonkan",
             "weight": 0.5
           },
           {
-            "text": "khaankaen",
+            "text": "konkaen",
             "weight": 0.5
           }
         ]
@@ -1375,20 +1375,20 @@
             "weight": 1.1
           },
           {
-            "text": "maehaongsaon",
+            "text": "maehaongson",
             "weight": 1
           },
           {
-            "text": "maehaongsaan",
+            "text": "maehaangson",
             "weight": 0.5
           },
           {
-            "text": "maehaangsaon",
+            "text": "mahaongson",
             "weight": 0.5
           },
           {
-            "text": "mahaongsaon",
-            "weight": 0.5
+            "text": "maehoongson",
+            "weight": 0.4
           }
         ]
       }
@@ -2150,20 +2150,20 @@
             "weight": 1.1
           },
           {
-            "text": "naongkhai",
+            "text": "nongkhai",
             "weight": 1
           },
           {
-            "text": "naongkhay",
+            "text": "nongkhay",
             "weight": 0.7
           },
           {
-            "text": "naongkai",
+            "text": "nongkai",
             "weight": 0.5
           },
           {
-            "text": "naangkhai",
-            "weight": 0.5
+            "text": "nongkay",
+            "weight": 0.35
           }
         ]
       }
@@ -2181,20 +2181,20 @@
             "weight": 1.1
           },
           {
-            "text": "naongbualamphu",
+            "text": "nongbualamphu",
             "weight": 1
           },
           {
-            "text": "naongbualamphoo",
+            "text": "nongbualamphoo",
             "weight": 0.5
           },
           {
-            "text": "naongbualampu",
+            "text": "nongbualampu",
             "weight": 0.5
           },
           {
-            "text": "naangbualamphu",
-            "weight": 0.5
+            "text": "nongbualumphu",
+            "weight": 0.4
           }
         ]
       }
@@ -2531,20 +2531,20 @@
             "weight": 1.1
           },
           {
-            "text": "naongchaok",
+            "text": "nongchok",
             "weight": 1
           },
           {
-            "text": "naongjaok",
+            "text": "nongjok",
             "weight": 0.7
           },
           {
-            "text": "naongchaak",
-            "weight": 0.5
+            "text": "nongchog",
+            "weight": 0.3
           },
           {
-            "text": "naangchaok",
-            "weight": 0.5
+            "text": "nongchawk",
+            "weight": 0.3
           }
         ]
       }
@@ -3259,20 +3259,20 @@
             "weight": 1.05
           },
           {
-            "text": "bangkaokyai",
+            "text": "bangkokyai",
             "weight": 1
           },
           {
-            "text": "banggaokyai",
+            "text": "banggokyai",
             "weight": 0.6
           },
           {
-            "text": "bangkaakyai",
-            "weight": 0.5
+            "text": "bangkokyi",
+            "weight": 0.4
           },
           {
-            "text": "bangkaokyi",
-            "weight": 0.4
+            "text": "bangkokyay",
+            "weight": 0.3
           }
         ]
       }
@@ -3483,19 +3483,19 @@
             "weight": 1.05
           },
           {
-            "text": "bangkaoknaya",
+            "text": "bangkoknaya",
             "weight": 1
           },
           {
-            "text": "banggaoknaya",
+            "text": "banggoknaya",
             "weight": 0.6
           },
           {
-            "text": "bangkaaknaya",
-            "weight": 0.5
+            "text": "bangkoknayo",
+            "weight": 0.4
           },
           {
-            "text": "bangkaoknayo",
+            "text": "bangkoknoya",
             "weight": 0.4
           }
         ]
@@ -3651,20 +3651,20 @@
             "weight": 1.1
           },
           {
-            "text": "naongkhaem",
+            "text": "nongkhaem",
             "weight": 1
           },
           {
-            "text": "naongkham",
+            "text": "nongkham",
             "weight": 0.5
           },
           {
-            "text": "naongkaem",
+            "text": "nongkaem",
             "weight": 0.5
           },
           {
-            "text": "naangkhaem",
-            "weight": 0.5
+            "text": "nongkhem",
+            "weight": 0.4
           }
         ]
       }
@@ -4319,20 +4319,20 @@
             "weight": 1.1
           },
           {
-            "text": "chaomthaong",
+            "text": "chomthong",
             "weight": 1
           },
           {
-            "text": "jaomthaong",
+            "text": "jomthong",
             "weight": 0.7
           },
           {
-            "text": "chaomthaang",
+            "text": "chomtong",
             "weight": 0.5
           },
           {
-            "text": "chaomtaong",
-            "weight": 0.5
+            "text": "jomtong",
+            "weight": 0.35
           }
         ]
       }
@@ -4375,11 +4375,11 @@
             "weight": 1.1
           },
           {
-            "text": "daonmueang",
+            "text": "donmueang",
             "weight": 1
           },
           {
-            "text": "daonmuang",
+            "text": "donmuang",
             "weight": 0.6
           },
           {
@@ -4387,8 +4387,8 @@
             "weight": 0.53
           },
           {
-            "text": "daanmueang",
-            "weight": 0.5
+            "text": "donmueng",
+            "weight": 0.4
           }
         ]
       }
@@ -4900,20 +4900,20 @@
             "weight": 1.1
           },
           {
-            "text": "wangthaonglang",
+            "text": "wangthonglang",
             "weight": 1
           },
           {
-            "text": "wangthaanglang",
+            "text": "wangtonglang",
             "weight": 0.5
           },
           {
-            "text": "wangtaonglang",
-            "weight": 0.5
+            "text": "wangthonglaang",
+            "weight": 0.3
           },
           {
-            "text": "wangthoonglang",
-            "weight": 0.4
+            "text": "wangthawnglang",
+            "weight": 0.3
           }
         ]
       }
@@ -5293,23 +5293,15 @@
         "thai": "บอน",
         "variants": [
           {
-            "text": "baon",
+            "text": "bon",
             "weight": 1
           },
           {
-            "text": "bon",
-            "weight": 0.9
+            "text": "bawn",
+            "weight": 0.3
           },
           {
-            "text": "baan",
-            "weight": 0.5
-          },
-          {
-            "text": "boon",
-            "weight": 0.4
-          },
-          {
-            "text": "boan",
+            "text": "born",
             "weight": 0.2
           }
         ]
@@ -6250,24 +6242,24 @@
         "thai": "ดินสอ",
         "variants": [
           {
-            "text": "dinsaa",
+            "text": "dinso",
             "weight": 1
           },
           {
-            "text": "dinsao",
-            "weight": 0.4
-          },
-          {
-            "text": "dinsoa",
-            "weight": 0.4
-          },
-          {
-            "text": "dtinsaa",
+            "text": "dinsaw",
             "weight": 0.3
           },
           {
-            "text": "dinsoo",
-            "weight": 0.16
+            "text": "dtinso",
+            "weight": 0.3
+          },
+          {
+            "text": "dinsor",
+            "weight": 0.2
+          },
+          {
+            "text": "dtinsaw",
+            "weight": 0.09
           }
         ]
       }
@@ -6727,19 +6719,19 @@
             "weight": 1.05
           },
           {
-            "text": "thaonglaa",
+            "text": "thonglaa",
             "weight": 1
           },
           {
-            "text": "thaanglaa",
+            "text": "tonglaa",
             "weight": 0.5
           },
           {
-            "text": "taonglaa",
-            "weight": 0.5
+            "text": "thonglao",
+            "weight": 0.4
           },
           {
-            "text": "thaonglao",
+            "text": "thongloa",
             "weight": 0.4
           }
         ]
@@ -9307,24 +9299,24 @@
         "thai": "กองทัพ",
         "variants": [
           {
-            "text": "kaongthap",
+            "text": "kongthap",
             "weight": 1
           },
           {
-            "text": "gaongthap",
+            "text": "gongthap",
             "weight": 0.6
           },
           {
-            "text": "kaongtap",
+            "text": "kongtap",
             "weight": 0.5
           },
           {
-            "text": "kaangthap",
-            "weight": 0.5
+            "text": "gongtap",
+            "weight": 0.3
           },
           {
-            "text": "koongthap",
-            "weight": 0.4
+            "text": "kawngthap",
+            "weight": 0.3
           }
         ]
       },
@@ -9967,20 +9959,20 @@
             "weight": 1.05
           },
           {
-            "text": "maachit",
+            "text": "mochit",
             "weight": 1
           },
           {
-            "text": "maochit",
-            "weight": 0.4
+            "text": "mawchit",
+            "weight": 0.3
           },
           {
-            "text": "moachit",
-            "weight": 0.4
+            "text": "morchit",
+            "weight": 0.2
           },
           {
-            "text": "moochit",
-            "weight": 0.16
+            "text": "moshit",
+            "weight": 0.15
           }
         ]
       }
@@ -10445,19 +10437,19 @@
             "weight": 1.05
           },
           {
-            "text": "thaonglaa",
+            "text": "thonglaa",
             "weight": 1
           },
           {
-            "text": "thaanglaa",
+            "text": "tonglaa",
             "weight": 0.5
           },
           {
-            "text": "taonglaa",
-            "weight": 0.5
+            "text": "thonglao",
+            "weight": 0.4
           },
           {
-            "text": "thaonglao",
+            "text": "thongloa",
             "weight": 0.4
           }
         ]
@@ -12926,24 +12918,24 @@
         "thai": "ยอด",
         "variants": [
           {
-            "text": "yaot",
+            "text": "yot",
             "weight": 1
           },
           {
-            "text": "yot",
-            "weight": 0.9
-          },
-          {
-            "text": "yaat",
-            "weight": 0.5
-          },
-          {
-            "text": "yaod",
+            "text": "yod",
             "weight": 0.4
           },
           {
-            "text": "yoot",
-            "weight": 0.4
+            "text": "yawt",
+            "weight": 0.3
+          },
+          {
+            "text": "yort",
+            "weight": 0.2
+          },
+          {
+            "text": "yawd",
+            "weight": 0.12
           }
         ]
       }
@@ -13129,20 +13121,20 @@
             "weight": 1.05
           },
           {
-            "text": "saong",
-            "weight": 1
+            "text": "sawng",
+            "weight": 0.3
           },
           {
-            "text": "saang",
-            "weight": 0.5
-          },
-          {
-            "text": "soong",
-            "weight": 0.4
-          },
-          {
-            "text": "soang",
+            "text": "sorng",
             "weight": 0.2
+          },
+          {
+            "text": "son",
+            "weight": 0.15
+          },
+          {
+            "text": "sawn",
+            "weight": 0.05
           }
         ]
       }
@@ -14039,7 +14031,7 @@
         "thai": "เมืองทอง",
         "variants": [
           {
-            "text": "mueangthaong",
+            "text": "mueangthong",
             "weight": 1
           },
           {
@@ -14047,16 +14039,16 @@
             "weight": 0.9
           },
           {
-            "text": "muangthaong",
+            "text": "muangthong",
             "weight": 0.6
           },
           {
-            "text": "mueangthaang",
+            "text": "mueangtong",
             "weight": 0.5
           },
           {
-            "text": "mueangtaong",
-            "weight": 0.5
+            "text": "muengthong",
+            "weight": 0.4
           }
         ]
       },
@@ -15256,20 +15248,20 @@
             "weight": 1.1
           },
           {
-            "text": "thungsaonghaong",
+            "text": "thungsonghaong",
             "weight": 1
           },
           {
-            "text": "thungsaonghaang",
+            "text": "thungsonghaang",
             "weight": 0.5
           },
           {
-            "text": "thungsaanghaong",
+            "text": "tungsonghaong",
             "weight": 0.5
           },
           {
-            "text": "tungsaonghaong",
-            "weight": 0.5
+            "text": "thungsonghoong",
+            "weight": 0.4
           }
         ]
       }
@@ -15343,11 +15335,11 @@
             "weight": 1.1
           },
           {
-            "text": "daonmueang",
+            "text": "donmueang",
             "weight": 1
           },
           {
-            "text": "daonmuang",
+            "text": "donmuang",
             "weight": 0.6
           },
           {
@@ -15355,8 +15347,8 @@
             "weight": 0.53
           },
           {
-            "text": "daanmueang",
-            "weight": 0.5
+            "text": "donmueng",
+            "weight": 0.4
           }
         ]
       }
@@ -16363,24 +16355,24 @@
         "thai": "ดอย",
         "variants": [
           {
-            "text": "daya",
+            "text": "doi",
             "weight": 1
           },
           {
-            "text": "dayo",
-            "weight": 0.4
+            "text": "doy",
+            "weight": 0.7
           },
           {
-            "text": "doya",
-            "weight": 0.4
-          },
-          {
-            "text": "dtaya",
+            "text": "dawi",
             "weight": 0.3
           },
           {
-            "text": "doyo",
-            "weight": 0.16
+            "text": "dtoi",
+            "weight": 0.3
+          },
+          {
+            "text": "dawy",
+            "weight": 0.21
           }
         ]
       },
@@ -18334,20 +18326,16 @@
         "thai": "หอ",
         "variants": [
           {
-            "text": "haa",
+            "text": "ho",
             "weight": 1
           },
           {
-            "text": "hao",
-            "weight": 0.4
+            "text": "haw",
+            "weight": 0.3
           },
           {
-            "text": "hoa",
-            "weight": 0.4
-          },
-          {
-            "text": "hoo",
-            "weight": 0.16
+            "text": "hor",
+            "weight": 0.2
           }
         ]
       },
@@ -21912,11 +21900,11 @@
             "weight": 1.1
           },
           {
-            "text": "daonmueang",
+            "text": "donmueang",
             "weight": 1
           },
           {
-            "text": "daonmuang",
+            "text": "donmuang",
             "weight": 0.6
           },
           {
@@ -21924,8 +21912,8 @@
             "weight": 0.53
           },
           {
-            "text": "daanmueang",
-            "weight": 0.5
+            "text": "donmueng",
+            "weight": 0.4
           }
         ]
       }
@@ -22200,24 +22188,24 @@
         "thai": "กอน",
         "variants": [
           {
-            "text": "kaon",
+            "text": "kon",
             "weight": 1
           },
           {
-            "text": "gaon",
+            "text": "gon",
             "weight": 0.6
           },
           {
-            "text": "kaan",
-            "weight": 0.5
-          },
-          {
-            "text": "koon",
-            "weight": 0.4
-          },
-          {
-            "text": "gaan",
+            "text": "kawn",
             "weight": 0.3
+          },
+          {
+            "text": "korn",
+            "weight": 0.2
+          },
+          {
+            "text": "gawn",
+            "weight": 0.18
           }
         ]
       }
@@ -23509,19 +23497,19 @@
             "weight": 1.1
           },
           {
-            "text": "khaonkaen",
+            "text": "khonkaen",
             "weight": 1
           },
           {
-            "text": "khaongaen",
+            "text": "khongaen",
             "weight": 0.6
           },
           {
-            "text": "khaonkan",
+            "text": "khonkan",
             "weight": 0.5
           },
           {
-            "text": "khaankaen",
+            "text": "konkaen",
             "weight": 0.5
           }
         ]
@@ -23754,24 +23742,24 @@
         "thai": "ตอง",
         "variants": [
           {
-            "text": "taong",
+            "text": "tong",
             "weight": 1
           },
           {
-            "text": "taang",
-            "weight": 0.5
-          },
-          {
-            "text": "toong",
-            "weight": 0.4
-          },
-          {
-            "text": "dtaong",
+            "text": "tawng",
             "weight": 0.3
           },
           {
-            "text": "toang",
+            "text": "dtong",
+            "weight": 0.3
+          },
+          {
+            "text": "torng",
             "weight": 0.2
+          },
+          {
+            "text": "ton",
+            "weight": 0.15
           }
         ]
       }
@@ -24679,24 +24667,24 @@
         "thai": "ดอย",
         "variants": [
           {
-            "text": "daya",
+            "text": "doi",
             "weight": 1
           },
           {
-            "text": "dayo",
-            "weight": 0.4
+            "text": "doy",
+            "weight": 0.7
           },
           {
-            "text": "doya",
-            "weight": 0.4
-          },
-          {
-            "text": "dtaya",
+            "text": "dawi",
             "weight": 0.3
           },
           {
-            "text": "doyo",
-            "weight": 0.16
+            "text": "dtoi",
+            "weight": 0.3
+          },
+          {
+            "text": "dawy",
+            "weight": 0.21
           }
         ]
       },
@@ -24757,24 +24745,24 @@
         "thai": "ดอย",
         "variants": [
           {
-            "text": "daya",
+            "text": "doi",
             "weight": 1
           },
           {
-            "text": "dayo",
-            "weight": 0.4
+            "text": "doy",
+            "weight": 0.7
           },
           {
-            "text": "doya",
-            "weight": 0.4
-          },
-          {
-            "text": "dtaya",
+            "text": "dawi",
             "weight": 0.3
           },
           {
-            "text": "doyo",
-            "weight": 0.16
+            "text": "dtoi",
+            "weight": 0.3
+          },
+          {
+            "text": "dawy",
+            "weight": 0.21
           }
         ]
       },
@@ -24838,24 +24826,24 @@
         "thai": "ทองคำ",
         "variants": [
           {
-            "text": "thaongkham",
+            "text": "thongkham",
             "weight": 1
           },
           {
-            "text": "thaongkam",
+            "text": "thongkam",
             "weight": 0.5
           },
           {
-            "text": "thaangkham",
+            "text": "tongkham",
             "weight": 0.5
           },
           {
-            "text": "taongkham",
-            "weight": 0.5
-          },
-          {
-            "text": "thaongkhum",
+            "text": "thongkhum",
             "weight": 0.4
+          },
+          {
+            "text": "thawngkham",
+            "weight": 0.3
           }
         ]
       }
@@ -25133,24 +25121,24 @@
         "thai": "ดอย",
         "variants": [
           {
-            "text": "daya",
+            "text": "doi",
             "weight": 1
           },
           {
-            "text": "dayo",
-            "weight": 0.4
+            "text": "doy",
+            "weight": 0.7
           },
           {
-            "text": "doya",
-            "weight": 0.4
-          },
-          {
-            "text": "dtaya",
+            "text": "dawi",
             "weight": 0.3
           },
           {
-            "text": "doyo",
-            "weight": 0.16
+            "text": "dtoi",
+            "weight": 0.3
+          },
+          {
+            "text": "dawy",
+            "weight": 0.21
           }
         ]
       },
@@ -26006,11 +25994,11 @@
             "weight": 1.1
           },
           {
-            "text": "daonmueang",
+            "text": "donmueang",
             "weight": 1
           },
           {
-            "text": "daonmuang",
+            "text": "donmuang",
             "weight": 0.6
           },
           {
@@ -26018,8 +26006,8 @@
             "weight": 0.53
           },
           {
-            "text": "daanmueang",
-            "weight": 0.5
+            "text": "donmueng",
+            "weight": 0.4
           }
         ]
       }
@@ -26667,19 +26655,19 @@
             "weight": 1.1
           },
           {
-            "text": "khaonkaen",
+            "text": "khonkaen",
             "weight": 1
           },
           {
-            "text": "khaongaen",
+            "text": "khongaen",
             "weight": 0.6
           },
           {
-            "text": "khaonkan",
+            "text": "khonkan",
             "weight": 0.5
           },
           {
-            "text": "khaankaen",
+            "text": "konkaen",
             "weight": 0.5
           }
         ]
@@ -27652,20 +27640,20 @@
             "weight": 1.1
           },
           {
-            "text": "maehaongsaon",
+            "text": "maehaongson",
             "weight": 1
           },
           {
-            "text": "maehaongsaan",
+            "text": "maehaangson",
             "weight": 0.5
           },
           {
-            "text": "maehaangsaon",
+            "text": "mahaongson",
             "weight": 0.5
           },
           {
-            "text": "mahaongsaon",
-            "weight": 0.5
+            "text": "maehoongson",
+            "weight": 0.4
           }
         ]
       }

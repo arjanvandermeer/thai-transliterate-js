@@ -337,6 +337,62 @@ describe('transliterateVariants - dictionary integration', () => {
   });
 });
 
+describe('transliterateVariants - sara aw (อ as vowel) words', () => {
+  const saraAwCases = [
+    {
+      thai: 'ซอย',
+      expected: 'soi',
+      maxDistance: 0,
+      description: 'Soi (alley)',
+    },
+    {
+      thai: 'ทอง',
+      expected: 'thong',
+      maxDistance: 1,
+      description: 'Thong (gold)',
+    },
+    {
+      thai: 'ดอน',
+      expected: 'don',
+      maxDistance: 0,
+      description: 'Don (highland)',
+    },
+    {
+      thai: 'ดอย',
+      expected: 'doi',
+      maxDistance: 0,
+      description: 'Doi (mountain)',
+    },
+    {
+      thai: 'กอง',
+      expected: 'kong',
+      maxDistance: 1,
+      description: 'Kong (pile/division)',
+    },
+  ];
+
+  for (const tc of saraAwCases) {
+    it(`transliterates ${tc.description} (${tc.thai})`, () => {
+      const match = matchThai(tc.thai, tc.expected, { maxVariants: 30 });
+      assert.ok(match, `Should find a match for ${tc.thai} → ${tc.expected}`);
+      assert.ok(match.distance <= tc.maxDistance,
+        `Distance ${match.distance} > max ${tc.maxDistance} for ${tc.thai} → ${tc.expected} (got: ${match.variant})`);
+    });
+  }
+
+  it('ซอย top variant is soi (not saya)', () => {
+    const result = transliterate('ซอย');
+    assert.strictEqual(result, 'soi');
+  });
+
+  it('คอย variants include khoi', () => {
+    const result = transliterateVariants('คอย', { maxVariants: 20 });
+    const texts = result.map(v => v.text);
+    assert.ok(texts.some(t => t.includes('kho')),
+      `Expected a variant with "kho", got: ${texts.join(', ')}`);
+  });
+});
+
 describe('transliterateVariants - does not crash on long words', () => {
   it('handles นครราชสีมา without OOM', () => {
     const result = transliterateVariants('นครราชสีมา', { maxVariants: 10 });

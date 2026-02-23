@@ -341,6 +341,65 @@ describe('parseSyllables - resolveFinal edge cases', () => {
   });
 });
 
+describe('parseSyllables - sara aw (อ as vowel)', () => {
+  it('parses ซอย as one syllable with sara_aw + final ย', () => {
+    const syls = parseSyllables('ซอย');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'ซ');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[0].finalConsonant, 'ย');
+  });
+
+  it('parses ทอง as one syllable with sara_aw + final ง', () => {
+    const syls = parseSyllables('ทอง');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'ท');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[0].finalConsonant, 'ง');
+  });
+
+  it('parses หอ as one syllable with sara_aw (open, no final)', () => {
+    const syls = parseSyllables('หอ');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'ห');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[0].finalConsonant, null);
+  });
+
+  it('preserves o-nam for อย at word start (อยู่)', () => {
+    const syls = parseSyllables('อยู่');
+    assert.strictEqual(syls[0].flags.oNam, true);
+    assert.strictEqual(syls[0].initialConsonant, 'ย');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_u');
+  });
+
+  it('does not trigger sara_aw when อ is followed by a vowel marker (สะอาด)', () => {
+    const syls = parseSyllables('สะอาด');
+    // First syllable: ส+ะ
+    assert.strictEqual(syls[0].initialConsonant, 'ส');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_a_short');
+    // Second syllable: อ+า+ด (อ is consonant initial, not sara_aw)
+    assert.strictEqual(syls[1].initialConsonant, 'อ');
+    assert.strictEqual(syls[1].vowelPattern, 'sara_a');
+  });
+
+  it('parses ดอน as one syllable with sara_aw + final น', () => {
+    const syls = parseSyllables('ดอน');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'ด');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[0].finalConsonant, 'น');
+  });
+
+  it('parses ออก as อ initial + sara_aw + final ก', () => {
+    const syls = parseSyllables('ออก');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'อ');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[0].finalConsonant, 'ก');
+  });
+});
+
 describe('parseSyllables - edge cases', () => {
   it('returns empty for empty string', () => {
     const syls = parseSyllables('');
