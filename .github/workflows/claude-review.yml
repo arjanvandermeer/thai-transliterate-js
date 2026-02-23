@@ -52,6 +52,6 @@ jobs:
         if: steps.override.outputs.override != 'true'
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          claude_args: --model claude-haiku-4-5-20251001
+          claude_args: --model claude-opus-4-6
           settings: .github/claude-review-settings.md
           prompt: Review this pull request following the rules in your settings.
