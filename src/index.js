@@ -5,6 +5,7 @@ import { generateVariants } from './variant-generator.js';
 import { bestMatch } from './matcher.js';
 import { lookupWord } from './dictionary.js';
 
+export { containsThai, isAllThai, isMostlyThai } from './classifier.js';
 export { levenshtein } from './levenshtein.js';
 export { bestMatch } from './matcher.js';
 

@@ -70,6 +70,30 @@ export function containsThai(text) {
   return false;
 }
 
+/** Check if all non-whitespace/punctuation characters are Thai */
+export function isAllThai(text) {
+  if (!text) return false;
+  let hasThai = false;
+  for (const char of text) {
+    if (/\s/.test(char)) continue;
+    if (isThaiChar(char)) { hasThai = true; continue; }
+    return false;
+  }
+  return hasThai;
+}
+
+/** Check if the majority of alphabetic characters are Thai (>50%) */
+export function isMostlyThai(text) {
+  if (!text) return false;
+  let thai = 0;
+  let other = 0;
+  for (const char of text) {
+    if (isThaiChar(char)) thai++;
+    else if (/[A-Za-z]/.test(char)) other++;
+  }
+  return thai > 0 && thai > other;
+}
+
 /** Consonant class lookup (mid/high/low) */
 const CONSONANT_CLASSES = {
   // Mid class

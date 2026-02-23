@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { classifyChar, isThaiChar, containsThai, getConsonantClass, canBeFinal } from '../src/classifier.js';
+import { classifyChar, isThaiChar, containsThai, isAllThai, isMostlyThai, getConsonantClass, canBeFinal } from '../src/classifier.js';
 
 describe('classifyChar', () => {
   it('classifies consonants', () => {
@@ -91,6 +91,58 @@ describe('containsThai', () => {
 
   it('returns false for empty string', () => {
     assert.equal(containsThai(''), false);
+  });
+});
+
+describe('isAllThai', () => {
+  it('returns true for pure Thai text', () => {
+    assert.equal(isAllThai('กรุงเทพ'), true);
+  });
+
+  it('returns true for Thai with spaces', () => {
+    assert.equal(isAllThai('กรุงเทพ มหานคร'), true);
+  });
+
+  it('returns false for mixed Thai and Latin', () => {
+    assert.equal(isAllThai('กรุงเทพ Bangkok'), false);
+  });
+
+  it('returns false for pure Latin', () => {
+    assert.equal(isAllThai('Bangkok'), false);
+  });
+
+  it('returns false for empty string', () => {
+    assert.equal(isAllThai(''), false);
+  });
+
+  it('returns false for whitespace only', () => {
+    assert.equal(isAllThai('   '), false);
+  });
+});
+
+describe('isMostlyThai', () => {
+  it('returns true for pure Thai', () => {
+    assert.equal(isMostlyThai('กรุงเทพ'), true);
+  });
+
+  it('returns true for mostly Thai with some Latin', () => {
+    assert.equal(isMostlyThai('กรุงเทพมหานคร BKK'), true);
+  });
+
+  it('returns false for mostly Latin with some Thai', () => {
+    assert.equal(isMostlyThai('Bangkok กทม'), false);
+  });
+
+  it('returns false for pure Latin', () => {
+    assert.equal(isMostlyThai('Bangkok'), false);
+  });
+
+  it('returns false for empty string', () => {
+    assert.equal(isMostlyThai(''), false);
+  });
+
+  it('ignores numbers and punctuation', () => {
+    assert.equal(isMostlyThai('กรุงเทพ 123!'), true);
   });
 });
 
