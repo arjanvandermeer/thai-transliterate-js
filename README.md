@@ -5,7 +5,7 @@ Multi-variant Thai-to-Roman transliteration library. Zero dependencies, Node.js 
 ## Getting Started
 
 ```bash
-npm install thai-transliterate
+npm install arjanvandermeer/thai-transliterate-js
 ```
 
 ```js
