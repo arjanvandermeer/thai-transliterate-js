@@ -18,6 +18,7 @@ export { bestMatch } from './matcher.js';
  * @returns {string} Best romanization, or empty string if input is not Thai
  */
 export function transliterate(thai, options = {}) {
+  if (!thai || typeof thai !== 'string') return '';
   const variants = transliterateVariants(thai, options);
   return variants.length > 0 ? variants[0].text : '';
 }
@@ -157,7 +158,9 @@ function combineWordVariants(wordVariantArrays, options) {
         }
       }
     }
-    combined = next;
+    // Prune intermediate results to prevent combinatorial explosion
+    next.sort((a, b) => b.weight - a.weight);
+    combined = next.slice(0, 50);
     if (combined.length === 0) break;
   }
 

@@ -53,9 +53,10 @@ import { transliterateVariants } from 'thai-transliterate';
 
 transliterateVariants('ภูเก็ต');
 // [
-//   { text: 'phuket', weight: 1.0 },
+//   { text: 'phuket', weight: 1.1 },
 //   { text: 'phuget', weight: 0.6 },
 //   { text: 'phooket', weight: 0.5 },
+//   { text: 'puket', weight: 0.5 },
 //   ...
 // ]
 ```

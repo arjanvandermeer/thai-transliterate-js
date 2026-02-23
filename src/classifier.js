@@ -56,6 +56,9 @@ export function classifyChar(char) {
   return 'OTHER';
 }
 
+const WHITESPACE_RE = /\s/;
+const LATIN_RE = /[A-Za-z]/;
+
 /** Check if character is in the Thai Unicode block */
 export function isThaiChar(char) {
   const cp = char.codePointAt(0);
@@ -75,7 +78,7 @@ export function isAllThai(text) {
   if (!text) return false;
   let hasThai = false;
   for (const char of text) {
-    if (/\s/.test(char)) continue;
+    if (WHITESPACE_RE.test(char)) continue;
     if (isThaiChar(char)) { hasThai = true; continue; }
     return false;
   }
@@ -89,7 +92,7 @@ export function isMostlyThai(text) {
   let other = 0;
   for (const char of text) {
     if (isThaiChar(char)) thai++;
-    else if (/[A-Za-z]/.test(char)) other++;
+    else if (LATIN_RE.test(char)) other++;
   }
   return thai > 0 && thai > other;
 }
