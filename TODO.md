@@ -1,55 +1,5 @@
 # TODO
 
-## Separate Translations from Transliterations
-
-Currently `dictionary.js` loads both `dictionary.json` (auto-generated phonetic
-entries) and `dictionary-manual.json` (hand-curated), merges them, and treats
-them identically. There's no way for a caller to opt out of translations like
-"Bangkok" while keeping phonetic help like "sukhumvit".
-
-### What needs to change
-
-**1. Split `dictionary-manual.json` into two concepts:**
-
-- **Translations** — non-phonetic English names (Bangkok, Thailand). These
-  should be disableable via `{ translations: false }`.
-- **Phonetic overrides** — entries that help the algorithm pick the right
-  spelling (e.g. สุขุมวิท → "sukhumvit"). These stay always-on until the
-  algorithm is good enough to not need them.
-
-**2. Allow explicit weights in `dictionary-manual.json`:**
-
-Currently `dictionary.js` forces all manual entries to `MANUAL_WEIGHT = 1.5`,
-ignoring any weight in the file. Manual entries should respect the weight in
-the JSON, just like `dictionary.json` does. Remove the hardcoded `MANUAL_WEIGHT`
-constant and let the file control weights:
-
-```json
-{
-  "entries": {
-    "กรุงเทพ": [
-      { "text": "bangkok", "weight": 1.5, "type": "translation" }
-    ],
-    "สุขุมวิท": [
-      { "text": "sukhumvit", "weight": 1.2, "type": "phonetic" }
-    ]
-  }
-}
-```
-
-**3. Add `{ translations: false }` option flag:**
-
-Thread the option from `transliterate()` → `processWords()` → `lookupWord()`.
-When `translations: false`, skip entries marked as translations but keep
-phonetic entries:
-
-```js
-transliterate('กรุงเทพ')                          // → "bangkok" (default)
-transliterate('กรุงเทพ', { translations: false })  // → "krung thep"
-```
-
-Use case: karaoke machines, language learning apps, phonetic guides.
-
 ## Improve Algorithm to Eliminate dictionary.json
 
 The phonetic dictionary (`dictionary.json`, `dictionary.js`) is a crutch —
