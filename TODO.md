@@ -34,6 +34,22 @@ Track how many dictionary entries are still needed after each calibration run.
 When the algorithm produces the correct top-1 variant for every entry in
 `dictionary.json`, the file can be deleted.
 
+## Pure Algorithmic Mode (`{ dictionary: false }`)
+
+Add a `dictionary` option (default: `true`) that, when set to `false`, skips all
+dictionary lookup — both auto-generated (`dictionary.json`) and manual
+(`dictionary-manual.json`). This gives callers access to the raw algorithmic
+transliteration without any dictionary overrides or corrections.
+
+Use cases:
+- Debugging/development: see what the algorithm produces before dictionary patching
+- Measuring algorithm quality: compare pure output against known-good dictionary entries
+- Callers who want deterministic, rule-based output without external data dependencies
+
+Implementation: thread `options.dictionary` through `processWords()` in `src/index.js`
+and skip the `lookupWord()` call when `dictionary === false`. Works orthogonally with
+the existing `{ translations: false }` option.
+
 ## Stretch Goals
 
 ### ML Reranking Model
