@@ -1,6 +1,6 @@
 {
   "name": "thai-transliterate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Multi-variant Thai-to-Roman transliteration library",
   "type": "module",
   "main": "src/index.js",
