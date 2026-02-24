@@ -125,6 +125,7 @@ Tested against common Thai place names:
 | Thai | Expected | Best Match | Distance |
 |------|----------|------------|----------|
 | ภูเก็ต | phuket | phuket | 0 |
+| ซอย | soi | soi | 0 |
 | ทราย | sai | sai | 0 |
 | เชียงใหม่ | chiang mai | chiangmai | 1 |
 | กรุงเทพ | krung thep | krungthep | 1 |

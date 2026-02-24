@@ -192,6 +192,16 @@ When no explicit vowel marker is written between two consonants in a closed syll
 - `implied_o`: o (0.8), a (0.5) — used in closed syllables (CVC)
 - `implied_a`: a (0.8), o (0.4) — used in open syllables
 
+### Medial Vowel
+
+| Pattern | Thai | Sound | Variants |
+|---------|------|-------|----------|
+| sara_aw | C₁อC₂ | ɔː | o (1.0), aw (0.3), or (0.2) |
+
+When อ appears between consonants (or at word-end after a consonant), it functions as the vowel /ɔː/ (sara aw, สระ ออ) rather than a consonant. Examples: ซอย → "soi", ทอง → "thong", ดอน → "don".
+
+Does **not** trigger when อ is followed by a vowel marker (V_ABOVE, V_BELOW, V_FOLLOW, V_LEAD) — in those cases อ is the initial consonant of the next syllable (e.g., สะอาด).
+
 ### Special Vowel Patterns
 
 | Pattern | Thai | Sound | Variants |
@@ -260,6 +270,7 @@ RESOLVE_VOWEL
   ├─ V_BELOW? → resolve (ุ, ู)
   ├─ V_FOLLOW? → resolve (ะ, า, ำ)
   ├─ ร+ร? → ro_han pattern
+  ├─ อ + (CONS|TONE|end)? → sara_aw (medial vowel)
   └─ none → implied vowel
 
 AFTER_VOWEL
@@ -527,8 +538,6 @@ This means that even if a non-standard variant is slightly closer in edit distan
 ### Syllable Boundary Ambiguity
 
 Without a dictionary, the parser uses heuristics (maximal onset principle + lookahead) to decide syllable boundaries. This works well for most words but can misparse some:
-
-- **อ as vowel carrier**: In words like ขอน (khon), the อ functions as part of the vowel structure, but the parser treats it as a consonant. This produces "khon" via the implied vowel, but with อ as a spurious final.
 
 - **Sanskrit/Pali loanwords**: Words like สุวรรณภูมิ (Suvarnabhumi) have etymological spellings that differ from pronunciation-based romanization. The parser produces "suwanphumi" (phonetic) rather than "suvarnabhumi" (etymological).
 
