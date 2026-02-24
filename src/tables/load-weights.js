@@ -120,4 +120,6 @@ function buildClusterVariants(baseVariants, clusterKey) {
 export const CONSONANTS = buildConsonants();
 export const VOWEL_PATTERNS = buildVowelPatterns();
 export const THOR_SO_VARIANTS = buildClusterVariants(BASE_THOR_SO, 'ทร');
+// ทร mid-word (อินทรา, จันทร์) is never pronounced "s" — filter it out
+export const THOR_SO_VARIANTS_MEDIAL = THOR_SO_VARIANTS.filter(v => v.text !== 's');
 export const SOR_RO_VARIANTS = buildClusterVariants(BASE_SOR_RO, 'ศร');

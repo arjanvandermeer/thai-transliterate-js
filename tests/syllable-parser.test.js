@@ -178,6 +178,27 @@ describe('parseSyllables - consonant clusters', () => {
   });
 });
 
+describe('parseSyllables - isFirstSyllable flag', () => {
+  it('marks first syllable of single-syllable word', () => {
+    const syls = parseSyllables('ทราย');
+    assert.strictEqual(syls[0].isFirstSyllable, true);
+  });
+
+  it('marks first syllable true and rest false in multi-syllable word', () => {
+    const syls = parseSyllables('รามอินทรา');
+    assert.strictEqual(syls[0].isFirstSyllable, true);
+    for (let i = 1; i < syls.length; i++) {
+      assert.strictEqual(syls[i].isFirstSyllable, false,
+        `Syllable ${i} ("${syls[i].raw}") should have isFirstSyllable=false`);
+    }
+  });
+
+  it('single consonant syllable gets isFirstSyllable=true', () => {
+    const syls = parseSyllables('กา');
+    assert.strictEqual(syls[0].isFirstSyllable, true);
+  });
+});
+
 describe('parseSyllables - compound above vowels (ua)', () => {
   it('parses ัว (sara ua long)', () => {
     const syls = parseSyllables('กัว');

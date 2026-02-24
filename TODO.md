@@ -97,24 +97,6 @@ Track how many dictionary entries are still needed after each calibration run.
 When the algorithm produces the correct top-1 variant for every entry in
 `dictionary.json`, the file can be deleted.
 
-## MCP Server
-
-Expose the transliteration library as an MCP (Model Context Protocol) server
-so LLMs and AI tools can call it directly. Useful for:
-
-- AI assistants working with Thai text
-- Translation/localization pipelines
-- Any MCP-compatible client (Claude, IDEs, etc.)
-
-Tools to expose:
-- `transliterate(thai)` → best romanization string
-- `transliterate_variants(thai, maxVariants?)` → ranked variant list
-- `match_thai(thai, target)` → best match with distance/score
-- `transliterate_words(thai)` → per-word variant arrays
-
-Lightweight implementation: stdio transport, no dependencies beyond the
-core library. Could also serve as a good example/demo of the library.
-
 ## Stretch Goals
 
 ### ML Reranking Model

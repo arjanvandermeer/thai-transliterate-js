@@ -393,6 +393,34 @@ describe('transliterateVariants - sara aw (อ as vowel) words', () => {
   });
 });
 
+describe('transliterateVariants - ทร position-aware (word-initial vs mid-word)', () => {
+  it('ทราย (word-initial ทร) includes "s" variant', () => {
+    const result = transliterateVariants('ทราย', { maxVariants: 10 });
+    const texts = result.map(v => v.text);
+    assert.ok(texts.includes('sai'), `Word-initial ทร should include "sai", got: ${texts.join(', ')}`);
+  });
+
+  it('รามอินทรา (mid-word ทร) does NOT include "s" variant', () => {
+    const result = transliterateVariants('รามอินทรา', { maxVariants: 30 });
+    const texts = result.map(v => v.text);
+    assert.ok(!texts.some(t => t.includes('sa')),
+      `Mid-word ทร should not produce "s" variant, got: ${texts.join(', ')}`);
+  });
+
+  it('รามอินทรา top variant matches ramintra', () => {
+    const match = matchThai('รามอินทรา', 'ramintra', { maxVariants: 30 });
+    assert.ok(match, 'Should find a match for รามอินทรา → ramintra');
+    assert.ok(match.distance <= 2,
+      `Distance ${match.distance} > 2 for รามอินทรา → ramintra (got: ${match.variant})`);
+  });
+
+  it('transliterate of รามอินทรา does not start with raminsa', () => {
+    const top = transliterate('รามอินทรา');
+    assert.ok(!top.includes('sa'),
+      `Top variant should not contain "sa" from mid-word ทร→s, got: "${top}"`);
+  });
+});
+
 describe('transliterateVariants - does not crash on long words', () => {
   it('handles นครราชสีมา without OOM', () => {
     const result = transliterateVariants('นครราชสีมา', { maxVariants: 10 });

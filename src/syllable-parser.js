@@ -70,6 +70,12 @@ export function parseSyllables(text) {
     i = Math.max(syl.nextIndex, i + 1);
   }
 
+  // Mark syllable position so the romanizer can apply position-aware rules
+  // (e.g., ทร→"s" only in word-initial position)
+  for (let s = 0; s < syllables.length; s++) {
+    syllables[s].isFirstSyllable = s === 0;
+  }
+
   return syllables;
 }
 

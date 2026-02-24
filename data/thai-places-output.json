@@ -228,10 +228,6 @@
             "weight": 1.1
           },
           {
-            "text": "chachengasao",
-            "weight": 1
-          },
-          {
             "text": "chachengathrao",
             "weight": 0.7
           },
@@ -242,6 +238,10 @@
           {
             "text": "chachengadrao",
             "weight": 0.5
+          },
+          {
+            "text": "chaxerngsao",
+            "weight": 0.42
           }
         ]
       }
@@ -7375,10 +7375,6 @@
         "thai": "รามอินทรา",
         "variants": [
           {
-            "text": "raminsa",
-            "weight": 1
-          },
-          {
             "text": "ram inthra",
             "weight": 0.9
           },
@@ -7393,6 +7389,10 @@
           {
             "text": "ramindra",
             "weight": 0.5
+          },
+          {
+            "text": "ramintha",
+            "weight": 0.3
           }
         ]
       }
@@ -11313,7 +11313,7 @@
         "variants": [
           {
             "text": "nonsi",
-            "weight": 1
+            "weight": 0.9
           },
           {
             "text": "nonthri",
@@ -11328,8 +11328,8 @@
             "weight": 0.5
           },
           {
-            "text": "nansi",
-            "weight": 0.5
+            "text": "nanthri",
+            "weight": 0.35
           }
         ]
       }
@@ -14425,10 +14425,6 @@
         "thai": "รามอินทรา",
         "variants": [
           {
-            "text": "raminsa",
-            "weight": 1
-          },
-          {
             "text": "ram inthra",
             "weight": 0.9
           },
@@ -14443,6 +14439,10 @@
           {
             "text": "ramindra",
             "weight": 0.5
+          },
+          {
+            "text": "ramintha",
+            "weight": 0.3
           }
         ]
       }
@@ -22219,10 +22219,6 @@
         "thai": "เซ็นทรัล",
         "variants": [
           {
-            "text": "sensan",
-            "weight": 1
-          },
-          {
             "text": "senthran",
             "weight": 0.7
           },
@@ -22235,8 +22231,12 @@
             "weight": 0.5
           },
           {
-            "text": "sensal",
-            "weight": 0.4
+            "text": "senthan",
+            "weight": 0.3
+          },
+          {
+            "text": "senthral",
+            "weight": 0.28
           }
         ]
       },

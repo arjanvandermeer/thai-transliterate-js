@@ -1,4 +1,4 @@
-import { CONSONANTS, VOWEL_PATTERNS, THOR_SO_VARIANTS, SOR_RO_VARIANTS } from './tables/load-weights.js';
+import { CONSONANTS, VOWEL_PATTERNS, THOR_SO_VARIANTS, THOR_SO_VARIANTS_MEDIAL, SOR_RO_VARIANTS } from './tables/load-weights.js';
 import { CLUSTER_SECOND } from './tables/clusters.js';
 
 /**
@@ -25,8 +25,9 @@ export function romanizeSyllable(syllable) {
 
   // 1. Initial consonant
   if (syllable.flags.thorSo) {
-    // ทร → "s" special case: replace initial + cluster with combined variants
-    positions.push(THOR_SO_VARIANTS);
+    // ทร cluster: use full variants (including "s") only for word-initial position.
+    // Mid-word ทร (อินทรา, จันทร์) is never pronounced "s".
+    positions.push(syllable.isFirstSyllable ? THOR_SO_VARIANTS : THOR_SO_VARIANTS_MEDIAL);
   } else if (syllable.flags.sorRo) {
     // ศร → "s" special case: ร is typically silent (ศรี → si)
     positions.push(SOR_RO_VARIANTS);

@@ -57,19 +57,34 @@ describe('romanizeSyllable - clusters', () => {
 });
 
 describe('romanizeSyllable - special flags', () => {
-  it('uses THOR_SO_VARIANTS for ทร cluster', () => {
+  it('uses THOR_SO_VARIANTS (including "s") for word-initial ทร cluster', () => {
     const syllable = {
       initialConsonant: 'ท',
       clusterConsonant: 'ร',
       vowelPattern: 'sara_ai_malai',
       finalConsonant: null,
       flags: { hoNam: false, oNam: false, roHan: false, thorSo: true, sorRo: false },
+      isFirstSyllable: true,
     };
     const positions = romanizeSyllable(syllable);
-    // thorSo replaces initial+cluster with combined variants
     const initTexts = positions[0].map(v => v.text);
-    assert.ok(initTexts.includes('s'), `Should include "s", got: ${initTexts.join(', ')}`);
-    assert.ok(initTexts.includes('thr'), `Should include "thr", got: ${initTexts.join(', ')}`);
+    assert.ok(initTexts.includes('s'), `Word-initial ทร should include "s", got: ${initTexts.join(', ')}`);
+    assert.ok(initTexts.includes('thr'), `Word-initial ทร should include "thr", got: ${initTexts.join(', ')}`);
+  });
+
+  it('uses THOR_SO_VARIANTS_MEDIAL (no "s") for mid-word ทร cluster', () => {
+    const syllable = {
+      initialConsonant: 'ท',
+      clusterConsonant: 'ร',
+      vowelPattern: 'sara_aa',
+      finalConsonant: null,
+      flags: { hoNam: false, oNam: false, roHan: false, thorSo: true, sorRo: false },
+      isFirstSyllable: false,
+    };
+    const positions = romanizeSyllable(syllable);
+    const initTexts = positions[0].map(v => v.text);
+    assert.ok(!initTexts.includes('s'), `Mid-word ทร should NOT include "s", got: ${initTexts.join(', ')}`);
+    assert.ok(initTexts.includes('thr'), `Mid-word ทร should include "thr", got: ${initTexts.join(', ')}`);
   });
 
   it('uses SOR_RO_VARIANTS for ศร cluster', () => {
