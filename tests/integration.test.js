@@ -421,6 +421,39 @@ describe('transliterateVariants - ทร position-aware (word-initial vs mid-wor
   });
 });
 
+describe('transliterate - cluster + consonant (implied vowel)', () => {
+  it('ทรง → "song"', () => {
+    const match = matchThai('ทรง', 'song');
+    assert.ok(match, 'Should match ทรง → song');
+    assert.strictEqual(match.distance, 0);
+  });
+
+  it('กรม → "krom"', () => {
+    const match = matchThai('กรม', 'krom');
+    assert.ok(match, 'Should match กรม → krom');
+    assert.strictEqual(match.distance, 0);
+  });
+
+  it('ตรง → "trong"', () => {
+    const match = matchThai('ตรง', 'trong');
+    assert.ok(match, 'Should match ตรง → trong');
+    assert.strictEqual(match.distance, 0);
+  });
+
+  it('กลม → "klom"', () => {
+    const match = matchThai('กลม', 'klom');
+    assert.ok(match, 'Should match กลม → klom');
+    assert.strictEqual(match.distance, 0);
+  });
+
+  it('ครบ → "khrop"', () => {
+    const match = matchThai('ครบ', 'khrop', { maxVariants: 20 });
+    assert.ok(match, 'Should match ครบ → khrop');
+    assert.ok(match.distance <= 1,
+      `Distance ${match.distance} > 1 for ครบ → khrop (got: ${match.variant})`);
+  });
+});
+
 describe('transliterateVariants - does not crash on long words', () => {
   it('handles นครราชสีมา without OOM', () => {
     const result = transliterateVariants('นครราชสีมา', { maxVariants: 10 });

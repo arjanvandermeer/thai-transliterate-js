@@ -1003,20 +1003,20 @@
             "weight": 1.05
           },
           {
-            "text": "phrankhonsiyutya",
+            "text": "phrankhrasiyutya",
             "weight": 1
           },
           {
-            "text": "phrankhansiyutya",
+            "text": "phrankrasiyutya",
             "weight": 0.5
           },
           {
-            "text": "phrankonsiyutya",
+            "text": "prankhrasiyutya",
             "weight": 0.5
           },
           {
-            "text": "prankhonsiyutya",
-            "weight": 0.5
+            "text": "phrankhrasiyootya",
+            "weight": 0.4
           }
         ]
       }
@@ -4259,24 +4259,24 @@
         "thai": "สวนหลวง",
         "variants": [
           {
-            "text": "sownalawong",
+            "text": "swonlawong",
             "weight": 1
           },
           {
-            "text": "sownalawang",
+            "text": "swonlawang",
             "weight": 0.5
           },
           {
-            "text": "sawnalawong",
+            "text": "swanlawong",
             "weight": 0.5
           },
           {
-            "text": "sownalowong",
+            "text": "swonlowong",
             "weight": 0.4
           },
           {
-            "text": "sownolawong",
-            "weight": 0.4
+            "text": "swonlavong",
+            "weight": 0.3
           }
         ]
       }
@@ -7045,24 +7045,20 @@
         "thai": "บรม",
         "variants": [
           {
-            "text": "barom",
+            "text": "brom",
             "weight": 1
           },
           {
-            "text": "baram",
+            "text": "bram",
             "weight": 0.5
           },
           {
-            "text": "borom",
-            "weight": 0.4
-          },
-          {
-            "text": "balom",
-            "weight": 0.3
-          },
-          {
-            "text": "boram",
+            "text": "blom",
             "weight": 0.2
+          },
+          {
+            "text": "blam",
+            "weight": 0.1
           }
         ]
       },
@@ -9690,24 +9686,24 @@
         "thai": "กรม",
         "variants": [
           {
-            "text": "karom",
+            "text": "krom",
             "weight": 1
           },
           {
-            "text": "garom",
+            "text": "grom",
             "weight": 0.6
           },
           {
-            "text": "karam",
+            "text": "kram",
             "weight": 0.5
           },
           {
-            "text": "korom",
-            "weight": 0.4
+            "text": "gram",
+            "weight": 0.3
           },
           {
-            "text": "kalom",
-            "weight": 0.3
+            "text": "klom",
+            "weight": 0.2
           }
         ]
       },
@@ -12104,24 +12100,24 @@
         "thai": "สวนจตุจักร",
         "variants": [
           {
-            "text": "sownottuchak",
+            "text": "swonchatuchak",
             "weight": 1
           },
           {
-            "text": "sownottujak",
+            "text": "swonchatujak",
             "weight": 0.7
           },
           {
-            "text": "sownattuchak",
+            "text": "swonjatuchak",
+            "weight": 0.7
+          },
+          {
+            "text": "swanchatuchak",
             "weight": 0.5
           },
           {
-            "text": "sawnottuchak",
-            "weight": 0.5
-          },
-          {
-            "text": "sownottoochak",
-            "weight": 0.4
+            "text": "swonjatujak",
+            "weight": 0.49
           }
         ]
       }
@@ -18130,23 +18126,23 @@
         "thai": "สวนลุมพินี",
         "variants": [
           {
-            "text": "sownalumphini",
+            "text": "swonlumphini",
             "weight": 1
           },
           {
-            "text": "sownalumpini",
+            "text": "swonlumpini",
             "weight": 0.5
           },
           {
-            "text": "sawnalumphini",
+            "text": "swanlumphini",
             "weight": 0.5
           },
           {
-            "text": "sownalumphinee",
+            "text": "swonlumphinee",
             "weight": 0.4
           },
           {
-            "text": "sownaloomphini",
+            "text": "swonloomphini",
             "weight": 0.4
           }
         ]
@@ -18161,24 +18157,24 @@
         "thai": "สวนจตุจักร",
         "variants": [
           {
-            "text": "sownottuchak",
+            "text": "swonchatuchak",
             "weight": 1
           },
           {
-            "text": "sownottujak",
+            "text": "swonchatujak",
             "weight": 0.7
           },
           {
-            "text": "sownattuchak",
+            "text": "swonjatuchak",
+            "weight": 0.7
+          },
+          {
+            "text": "swanchatuchak",
             "weight": 0.5
           },
           {
-            "text": "sawnottuchak",
-            "weight": 0.5
-          },
-          {
-            "text": "sownottoochak",
-            "weight": 0.4
+            "text": "swonjatujak",
+            "weight": 0.49
           }
         ]
       }
@@ -18192,24 +18188,12 @@
         "thai": "สวน",
         "variants": [
           {
-            "text": "sawon",
+            "text": "swon",
             "weight": 1
           },
           {
-            "text": "sawan",
+            "text": "swan",
             "weight": 0.5
-          },
-          {
-            "text": "sowon",
-            "weight": 0.4
-          },
-          {
-            "text": "savon",
-            "weight": 0.3
-          },
-          {
-            "text": "sowan",
-            "weight": 0.2
           }
         ]
       },
@@ -18761,24 +18745,12 @@
         "thai": "สวน",
         "variants": [
           {
-            "text": "sawon",
+            "text": "swon",
             "weight": 1
           },
           {
-            "text": "sawan",
+            "text": "swan",
             "weight": 0.5
-          },
-          {
-            "text": "sowon",
-            "weight": 0.4
-          },
-          {
-            "text": "savon",
-            "weight": 0.3
-          },
-          {
-            "text": "sowan",
-            "weight": 0.2
           }
         ]
       },
@@ -19002,20 +18974,20 @@
             "weight": 1.05
           },
           {
-            "text": "phrankhonsiyutya",
+            "text": "phrankhrasiyutya",
             "weight": 1
           },
           {
-            "text": "phrankhansiyutya",
+            "text": "phrankrasiyutya",
             "weight": 0.5
           },
           {
-            "text": "phrankonsiyutya",
+            "text": "prankhrasiyutya",
             "weight": 0.5
           },
           {
-            "text": "prankhonsiyutya",
-            "weight": 0.5
+            "text": "phrankhrasiyootya",
+            "weight": 0.4
           }
         ]
       }
@@ -20274,24 +20246,12 @@
         "thai": "สวน",
         "variants": [
           {
-            "text": "sawon",
+            "text": "swon",
             "weight": 1
           },
           {
-            "text": "sawan",
+            "text": "swan",
             "weight": 0.5
-          },
-          {
-            "text": "sowon",
-            "weight": 0.4
-          },
-          {
-            "text": "savon",
-            "weight": 0.3
-          },
-          {
-            "text": "sowan",
-            "weight": 0.2
           }
         ]
       },
@@ -20637,24 +20597,12 @@
         "thai": "สวน",
         "variants": [
           {
-            "text": "sawon",
+            "text": "swon",
             "weight": 1
           },
           {
-            "text": "sawan",
+            "text": "swan",
             "weight": 0.5
-          },
-          {
-            "text": "sowon",
-            "weight": 0.4
-          },
-          {
-            "text": "savon",
-            "weight": 0.3
-          },
-          {
-            "text": "sowan",
-            "weight": 0.2
           }
         ]
       },
@@ -20977,24 +20925,12 @@
         "thai": "สวน",
         "variants": [
           {
-            "text": "sawon",
+            "text": "swon",
             "weight": 1
           },
           {
-            "text": "sawan",
+            "text": "swan",
             "weight": 0.5
-          },
-          {
-            "text": "sowon",
-            "weight": 0.4
-          },
-          {
-            "text": "savon",
-            "weight": 0.3
-          },
-          {
-            "text": "sowan",
-            "weight": 0.2
           }
         ]
       },

@@ -149,9 +149,17 @@ function parseSingleSyllable(chars, start, len) {
     const isVowelAhead = nextCls === 'V_ABOVE' || nextCls === 'V_BELOW' ||
                          nextCls === 'V_FOLLOW' || nextCls === 'TONE' ||
                          nextCls === 'SHORTENER' || nextCls === 'OTHER';
-    // Accept cluster if: followed by a vowel, has a leading vowel wrapping it,
-    // or at end of input
-    if (isVowelAhead || leadingVowel || i + 1 >= len) {
+    // Accept cluster when followed by a consonant that serves as final
+    // (implied vowel, closed syllable: ทรง→"song", กรม→"krom", ตรง→"trong").
+    // Reject if that consonant is actually the initial of the next syllable
+    // (a vowel attaches directly after it).
+    const afterNext = i + 2 < len ? classifyChar(chars[i + 2]) : null;
+    const isConsAsFinal = nextCls === 'CONS' && canBeFinal(chars[i + 1]) &&
+      !(chars[i] === 'ร' && chars[i + 1] === 'ร') &&  // don't swallow รร (ro-han)
+      (afterNext === null || (afterNext !== 'V_FOLLOW' && afterNext !== 'V_ABOVE' && afterNext !== 'V_BELOW'));
+    // Accept cluster if: followed by a vowel, a final consonant, a leading
+    // vowel wrapping it, or at end of input
+    if (isVowelAhead || isConsAsFinal || leadingVowel || i + 1 >= len) {
       clusterCons = chars[i];
       if (initialCons === 'ท' && clusterCons === 'ร') {
         thorSo = true;

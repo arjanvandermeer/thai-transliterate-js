@@ -178,6 +178,40 @@ describe('parseSyllables - consonant clusters', () => {
   });
 });
 
+describe('parseSyllables - cluster + consonant (implied vowel)', () => {
+  it('parses ทรง as 1 syllable with ทร cluster + implied_o + ง final', () => {
+    const syls = parseSyllables('ทรง');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].flags.thorSo, true);
+    assert.strictEqual(syls[0].clusterConsonant, 'ร');
+    assert.strictEqual(syls[0].finalConsonant, 'ง');
+    assert.strictEqual(syls[0].vowelPattern, 'implied_o');
+  });
+
+  it('parses กรม as 1 syllable with กร cluster + implied_o + ม final', () => {
+    const syls = parseSyllables('กรม');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'ก');
+    assert.strictEqual(syls[0].clusterConsonant, 'ร');
+    assert.strictEqual(syls[0].finalConsonant, 'ม');
+    assert.strictEqual(syls[0].vowelPattern, 'implied_o');
+  });
+
+  it('parses ตรง as 1 syllable with ตร cluster + implied_o + ง final', () => {
+    const syls = parseSyllables('ตรง');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].clusterConsonant, 'ร');
+    assert.strictEqual(syls[0].finalConsonant, 'ง');
+  });
+
+  it('still parses ทราย correctly (cluster + vowel, no change)', () => {
+    const syls = parseSyllables('ทราย');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].flags.thorSo, true);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_a');
+  });
+});
+
 describe('parseSyllables - isFirstSyllable flag', () => {
   it('marks first syllable of single-syllable word', () => {
     const syls = parseSyllables('ทราย');
