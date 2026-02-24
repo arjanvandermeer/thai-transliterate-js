@@ -9,6 +9,7 @@ import { writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createOSMStream } from 'osm-pbf-parser-node';
+import { hasThai, isValidLatin } from './lib/filters.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -21,9 +22,6 @@ function argValue(name, fallback) {
 }
 const inputPath = argValue('--input', join(root, 'data', 'thailand-latest.osm.pbf'));
 const outputPath = argValue('--output', join(root, 'data', 'registry-osm.json'));
-
-const THAI_RE = /[\u0E01-\u0E5B]/;
-const LATIN_START_RE = /^[A-Za-z]/;
 
 // Category weight multipliers — controls how much each OSM category counts
 // Higher multiplier = more influence on variant ranking in the merged dictionary
@@ -39,25 +37,6 @@ const CATEGORY_MULTIPLIERS = {
   shop: 0.3,       // retail
   other: 0.5,      // uncategorized
 };
-
-/**
- * Check if a string contains Thai characters.
- */
-function hasThai(str) {
-  return str && THAI_RE.test(str);
-}
-
-/**
- * Check if a string is a plausible Latin romanization.
- */
-function isValidLatin(str) {
-  if (!str || str.length < 2) return false;
-  if (!LATIN_START_RE.test(str)) return false;
-  if (THAI_RE.test(str)) return false;
-  // Only allow printable ASCII
-  if (/[^\x20-\x7E]/.test(str)) return false;
-  return true;
-}
 
 console.error('Parsing OSM PBF from', inputPath);
 

@@ -1,6 +1,6 @@
 {
   "name": "thai-transliterate",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Multi-variant Thai-to-Roman transliteration library",
   "type": "module",
   "main": "src/index.js",
@@ -15,12 +15,14 @@
     "calibrate:download": "node scripts/download-data.js",
     "calibrate:extract-geonames": "node scripts/extract-geonames.js",
     "calibrate:extract-osm": "node scripts/extract-osm.js",
+    "calibrate:extract-wikidata": "node scripts/extract-wikidata.js",
+    "calibrate:extract-wikipedia": "node scripts/extract-wikipedia.js",
     "calibrate:merge": "node scripts/merge-registries.js",
     "calibrate:analyze": "node scripts/analyze-registry.js",
     "calibrate:discover": "node scripts/discover-variants.js",
     "calibrate:generate": "node scripts/generate-overrides.js",
     "calibrate:dictionary": "node scripts/generate-dictionary.js",
-    "calibrate": "npm run calibrate:download && npm run calibrate:extract-geonames && npm run calibrate:extract-osm && npm run calibrate:merge && npm run calibrate:analyze && npm run calibrate:discover && npm run calibrate:generate && npm run calibrate:dictionary"
+    "calibrate": "npm run calibrate:download && npm run calibrate:extract-geonames && npm run calibrate:extract-osm && npm run calibrate:extract-wikidata && npm run calibrate:extract-wikipedia && npm run calibrate:merge && npm run calibrate:analyze && npm run calibrate:discover && npm run calibrate:generate && npm run calibrate:dictionary"
   },
   "keywords": [
     "thai",

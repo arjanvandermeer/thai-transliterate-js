@@ -1,14 +1,16 @@
 #!/usr/bin/env node
 /**
- * Download fresh GeoNames and OSM data files for calibration.
+ * Download fresh data files for calibration.
  *
  * Usage: node scripts/download-data.js [--force]
  *
  * Downloads:
  *   - GeoNames TH.zip from download.geonames.org
  *   - Thailand OSM PBF from download.geofabrik.de
+ *   - Wikipedia langlinks and page SQL dumps from dumps.wikimedia.org
  *
  * Skips download if file exists and is < 24h old (use --force to override).
+ * Non-critical downloads (Wikipedia) warn on failure instead of aborting.
  */
 
 import { existsSync, statSync, createWriteStream, mkdirSync } from 'node:fs';
@@ -33,6 +35,18 @@ const DOWNLOADS = [
     name: 'Thailand OSM PBF',
     url: 'https://download.geofabrik.de/asia/thailand-latest.osm.pbf',
     path: join(dataDir, 'thailand-latest.osm.pbf'),
+  },
+  {
+    name: 'Wikipedia langlinks SQL',
+    url: 'https://dumps.wikimedia.org/thwiki/latest/thwiki-latest-langlinks.sql.gz',
+    path: join(dataDir, 'thwiki-latest-langlinks.sql.gz'),
+    optional: true,
+  },
+  {
+    name: 'Wikipedia page SQL',
+    url: 'https://dumps.wikimedia.org/thwiki/latest/thwiki-latest-page.sql.gz',
+    path: join(dataDir, 'thwiki-latest-page.sql.gz'),
+    optional: true,
   },
 ];
 
@@ -71,16 +85,24 @@ async function download(url, destPath) {
 // Ensure data directory exists
 mkdirSync(dataDir, { recursive: true });
 
-for (const { name, url, path } of DOWNLOADS) {
+for (const { name, url, path, optional } of DOWNLOADS) {
   if (!force && isRecent(path)) {
     console.error(`${name}: skipping (file < 24h old, use --force to re-download)`);
     continue;
   }
 
   console.error(`${name}: downloading from ${url}`);
-  await download(url, path);
-  const size = (statSync(path).size / 1024 / 1024).toFixed(1);
-  console.error(`${name}: saved ${size}MB to ${path}`);
+  try {
+    await download(url, path);
+    const size = (statSync(path).size / 1024 / 1024).toFixed(1);
+    console.error(`${name}: saved ${size}MB to ${path}`);
+  } catch (err) {
+    if (optional) {
+      console.error(`${name}: download failed (${err.message}) — skipping (optional)`);
+    } else {
+      throw err;
+    }
+  }
 }
 
 console.error('Done.');

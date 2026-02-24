@@ -9,6 +9,7 @@ import { execSync } from 'node:child_process';
 import { writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { THAI_RE, LATIN_START_RE, isIsoTransliteration, isJunkLatin } from './lib/filters.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -21,10 +22,6 @@ function argValue(name, fallback) {
 }
 const inputPath = argValue('--input', join(root, 'data', 'TH.zip'));
 const outputPath = argValue('--output', join(root, 'data', 'registry-geonames.json'));
-
-// Thai character range
-const THAI_RE = /[\u0E01-\u0E5B]/;
-const LATIN_START_RE = /^[A-Za-z]/;
 
 // Feature code multipliers — granular GeoNames codes (checked first)
 const FEATURE_CODE_MULTIPLIERS = {
@@ -55,44 +52,6 @@ const FEATURE_CLASS_MULTIPLIERS = {
 
 function getGeonamesMultiplier(featureClass, featureCode) {
   return FEATURE_CODE_MULTIPLIERS[featureCode] ?? FEATURE_CLASS_MULTIPLIERS[featureClass] ?? 1;
-}
-
-/**
- * Detect ISO 11940 machine transliterations.
- * These use: x for sara oe, æ, and produce sequences like khlxng, dxy, hwy.
- * They're always all-lowercase with no capitals.
- */
-function isIsoTransliteration(name) {
-  // Must start with a Latin character
-  if (!LATIN_START_RE.test(name)) return false;
-  // ISO 11940 is always all-lowercase
-  if (name !== name.toLowerCase()) return false;
-  // Contains x (sara oe marker) or æ
-  if (/[xæ]/.test(name)) return true;
-  // Contains typical ISO 11940 sequences not found in natural romanization
-  if (/(?:hwy|khlxng|thung|khea|phel|helk|ywn|dxy)/.test(name)) return true;
-  return false;
-}
-
-/**
- * Check if a Latin name should be filtered out.
- */
-function isJunkLatin(name) {
-  if (!name || name.length < 2) return true;
-  // Contains Thai characters — not a Latin variant
-  if (THAI_RE.test(name)) return true;
-  // Doesn't start with Latin letter
-  if (!LATIN_START_RE.test(name)) return true;
-  // IATA/ICAO airport codes (2-4 letter all-caps)
-  if (/^[A-Z]{2,4}$/.test(name)) return true;
-  // ISO 11940 machine transliteration
-  if (isIsoTransliteration(name)) return true;
-  // Contains non-ASCII Latin chars (ı, ʹ, zero-width joiners, combining marks, etc.)
-  // Valid romanizations only use basic ASCII a-z, spaces, hyphens, apostrophes
-  if (/[^\x20-\x7E]/.test(name)) return true;
-  // Contains only digits after letters (e.g. highway numbers)
-  if (/^[A-Za-z]+\d+$/.test(name)) return true;
-  return false;
 }
 
 /**

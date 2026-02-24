@@ -27,6 +27,13 @@ needed, just more observations:
 
 Wikidata + Wikipedia are the most impactful next step — structured, clean,
 and cover far more than just geography (people, food, organizations, etc.).
+UNGEGN data is smaller but authoritative — useful for validating and weighting
+RTGS-aligned variants.
+
+Note: GeoNames + OSM already cover most Thai geographic romanizations, including
+postal/district data, transit stations, and government-sourced place names. The
+sources above are chosen specifically because they expand into non-geographic
+domains (Wikidata/Wikipedia) or provide authoritative standards (UNGEGN).
 
 ### Measuring progress
 
