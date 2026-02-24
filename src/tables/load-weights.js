@@ -120,6 +120,12 @@ function buildClusterVariants(baseVariants, clusterKey) {
 export const CONSONANTS = buildConsonants();
 export const VOWEL_PATTERNS = buildVowelPatterns();
 export const THOR_SO_VARIANTS = buildClusterVariants(BASE_THOR_SO, 'ทร');
-// ทร mid-word (อินทรา, จันทร์) is never pronounced "s" — filter it out
-export const THOR_SO_VARIANTS_MEDIAL = THOR_SO_VARIANTS.filter(v => v.text !== 's');
+// ทร mid-word (อินทรา, จันทร์) is never pronounced "s" — filter it out.
+// Also reweight: real-world medial ทร strongly favours "tr"/"dr" over formal "thr".
+const MEDIAL_THOR_SO_WEIGHTS = { tr: 0.8, dr: 0.7, thr: 0.5 };
+export const THOR_SO_VARIANTS_MEDIAL = THOR_SO_VARIANTS
+  .filter(v => v.text !== 's')
+  .map(v => MEDIAL_THOR_SO_WEIGHTS[v.text] !== undefined
+    ? { ...v, weight: MEDIAL_THOR_SO_WEIGHTS[v.text] }
+    : v);
 export const SOR_RO_VARIANTS = buildClusterVariants(BASE_SOR_RO, 'ศร');

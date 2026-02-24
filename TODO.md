@@ -1,18 +1,5 @@
 # TODO
 
-## Space-Insertion Variants
-
-Add variants with spaces at syllable boundaries. Many real-world romanizations
-split syllables (Google Maps, street signs, user input). Currently สีลม only
-produces "silom" — it should also generate "si lom" as a variant.
-
-Examples:
-- สีลม → "silom" (1.0) + "si lom" (0.9)
-- สุขุมวิท → "sukhumvit" (1.0) + "su khum wit" (0.9)
-
-The inverse of this already exists (compact variants strip spaces). This would
-add the spaced-out form using syllable boundary info from the parser.
-
 ## Separate Translations from Transliterations
 
 Currently `dictionary.js` loads both `dictionary.json` (auto-generated phonetic

@@ -228,15 +228,15 @@
             "weight": 1.1
           },
           {
-            "text": "chachengathrao",
-            "weight": 0.7
-          },
-          {
             "text": "chachengatrao",
-            "weight": 0.5
+            "weight": 0.8
           },
           {
             "text": "chachengadrao",
+            "weight": 0.7
+          },
+          {
+            "text": "chachengathrao",
             "weight": 0.5
           },
           {
@@ -7375,15 +7375,15 @@
             "weight": 0.9
           },
           {
-            "text": "raminthra",
-            "weight": 0.7
-          },
-          {
             "text": "ramintra",
-            "weight": 0.5
+            "weight": 0.8
           },
           {
             "text": "ramindra",
+            "weight": 0.7
+          },
+          {
+            "text": "raminthra",
             "weight": 0.5
           },
           {
@@ -11312,20 +11312,20 @@
             "weight": 0.9
           },
           {
-            "text": "nonthri",
-            "weight": 0.7
-          },
-          {
             "text": "nontri",
-            "weight": 0.5
+            "weight": 0.8
           },
           {
             "text": "nondri",
+            "weight": 0.7
+          },
+          {
+            "text": "nonthri",
             "weight": 0.5
           },
           {
-            "text": "nanthri",
-            "weight": 0.35
+            "text": "nantri",
+            "weight": 0.4
           }
         ]
       }
@@ -14425,15 +14425,15 @@
             "weight": 0.9
           },
           {
-            "text": "raminthra",
-            "weight": 0.7
-          },
-          {
             "text": "ramintra",
-            "weight": 0.5
+            "weight": 0.8
           },
           {
             "text": "ramindra",
+            "weight": 0.7
+          },
+          {
+            "text": "raminthra",
             "weight": 0.5
           },
           {
@@ -22155,24 +22155,24 @@
         "thai": "เซ็นทรัล",
         "variants": [
           {
-            "text": "senthran",
-            "weight": 0.7
-          },
-          {
             "text": "sentran",
-            "weight": 0.5
+            "weight": 0.8
           },
           {
             "text": "sendran",
+            "weight": 0.7
+          },
+          {
+            "text": "senthran",
             "weight": 0.5
+          },
+          {
+            "text": "sentral",
+            "weight": 0.32
           },
           {
             "text": "senthan",
             "weight": 0.3
-          },
-          {
-            "text": "senthral",
-            "weight": 0.28
           }
         ]
       },
