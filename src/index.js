@@ -83,7 +83,7 @@ function processWords(thai, options) {
     let variants = generateVariants(syllablePositions, options);
 
     // Merge dictionary variants if available
-    const dictVariants = lookupWord(word);
+    const dictVariants = lookupWord(word, options);
     if (dictVariants) {
       variants = mergeDictionaryVariants(variants, dictVariants, options);
     }

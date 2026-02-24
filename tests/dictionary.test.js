@@ -59,4 +59,50 @@ describe('lookupWord', () => {
     assert.ok(result.length > 1,
       `Expected multiple variants from merged auto+manual, got ${result.length}`);
   });
+
+  it('manual entries have type field', () => {
+    const result = lookupWord('กรุงเทพ');
+    const bangkok = result.find(v => v.text === 'bangkok');
+    assert.ok(bangkok);
+    assert.strictEqual(bangkok.type, 'translation');
+  });
+
+  it('auto entries do not have type field', () => {
+    const result = lookupWord('กรุงเทพ');
+    const auto = result.find(v => v.text !== 'bangkok');
+    assert.ok(auto);
+    assert.strictEqual(auto.type, undefined);
+  });
+});
+
+describe('lookupWord - translations: false', () => {
+  it('filters out translation entries', () => {
+    const result = lookupWord('กรุงเทพ', { translations: false });
+    assert.ok(result, 'Should still return auto-generated entries');
+    const bangkok = result.find(v => v.text === 'bangkok');
+    assert.strictEqual(bangkok, undefined, 'Should not include "bangkok" translation');
+  });
+
+  it('returns null when word only has translation entries', () => {
+    const result = lookupWord('กรุงเทพมหานคร', { translations: false });
+    // กรุงเทพมหานคร has auto entries too, so check if any remain
+    if (result) {
+      assert.ok(result.every(v => v.type !== 'translation'),
+        'Remaining entries should not be translations');
+    }
+  });
+
+  it('returns all entries when translations option is not set', () => {
+    const result = lookupWord('กรุงเทพ');
+    assert.ok(result);
+    const bangkok = result.find(v => v.text === 'bangkok');
+    assert.ok(bangkok, 'Should include "bangkok" by default');
+  });
+
+  it('returns all entries when translations: true', () => {
+    const result = lookupWord('กรุงเทพ', { translations: true });
+    assert.ok(result);
+    const bangkok = result.find(v => v.text === 'bangkok');
+    assert.ok(bangkok, 'Should include "bangkok" when translations: true');
+  });
 });

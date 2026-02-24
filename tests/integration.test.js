@@ -337,6 +337,40 @@ describe('transliterateVariants - dictionary integration', () => {
   });
 });
 
+describe('translations: false option', () => {
+  it('transliterate returns phonetic for กรุงเทพ', () => {
+    const result = transliterate('กรุงเทพ', { translations: false });
+    assert.notStrictEqual(result, 'bangkok',
+      'Should return phonetic, not "bangkok"');
+    assert.ok(result.startsWith('k') || result.startsWith('g'),
+      `Expected phonetic starting with k/g, got: "${result}"`);
+  });
+
+  it('transliterate returns "bangkok" by default', () => {
+    assert.strictEqual(transliterate('กรุงเทพ'), 'bangkok');
+  });
+
+  it('transliterateVariants excludes "bangkok" when translations: false', () => {
+    const result = transliterateVariants('กรุงเทพ', { translations: false, maxVariants: 30 });
+    const texts = result.map(v => v.text);
+    assert.ok(!texts.includes('bangkok'),
+      `Should not include "bangkok", got: ${texts.join(', ')}`);
+  });
+
+  it('transliterateVariants excludes "thailand" when translations: false', () => {
+    const result = transliterateVariants('ประเทศไทย', { translations: false, maxVariants: 30 });
+    const texts = result.map(v => v.text);
+    assert.ok(!texts.includes('thailand'),
+      `Should not include "thailand", got: ${texts.join(', ')}`);
+  });
+
+  it('matchThai still works with translations: false', () => {
+    const result = matchThai('กรุงเทพ', 'krung thep', { translations: false, maxVariants: 30 });
+    assert.ok(result, 'Should find phonetic match');
+    assert.ok(result.distance <= 2);
+  });
+});
+
 describe('transliterateVariants - sara aw (อ as vowel) words', () => {
   const saraAwCases = [
     {

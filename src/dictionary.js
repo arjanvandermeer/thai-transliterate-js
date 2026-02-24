@@ -9,10 +9,6 @@
  */
 import { readFileSync } from 'node:fs';
 
-// Manual entries are hand-curated overrides (Bangkok, Suvarnabhumi, etc.)
-// They must always outrank both algorithmic (1.0) and data-derived (up to 1.1) weights.
-const MANUAL_WEIGHT = 1.5;
-
 let dict = null;
 let loaded = false;
 
@@ -35,7 +31,11 @@ function loadDictionary() {
   // Merge: start with auto, overlay manual entries (manual always wins)
   dict = { ...auto };
   for (const [thai, variants] of Object.entries(manual)) {
-    const boosted = variants.map(v => ({ ...v, weight: MANUAL_WEIGHT }));
+    const boosted = variants.map(v => ({
+      text: v.text,
+      weight: v.weight ?? 1.5,
+      type: v.type ?? 'phonetic',
+    }));
     const existing = dict[thai];
     if (!existing) {
       dict[thai] = boosted;
@@ -60,10 +60,17 @@ function loadDictionary() {
  * Look up a Thai word in the dictionary.
  *
  * @param {string} thai - Thai word to look up
- * @returns {Array<{text: string, weight: number}>|null} variants or null if not found
+ * @param {object} [options]
+ * @param {boolean} [options.translations] - Set to false to exclude translation entries (e.g. "bangkok", "thailand")
+ * @returns {Array<{text: string, weight: number, type?: string}>|null} variants or null if not found
  */
-export function lookupWord(thai) {
+export function lookupWord(thai, options = {}) {
   const d = loadDictionary();
   if (!d) return null;
-  return d[thai] || null;
+  let entries = d[thai] || null;
+  if (entries && options.translations === false) {
+    entries = entries.filter(e => e.type !== 'translation');
+    if (entries.length === 0) return null;
+  }
+  return entries;
 }
