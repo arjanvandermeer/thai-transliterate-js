@@ -15,12 +15,10 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseSyllables } from '../src/syllable-parser.js';
-import { romanizeSyllable } from '../src/romanizer.js';
-import { generateVariants } from '../src/variant-generator.js';
 import { levenshtein } from '../src/levenshtein.js';
 
 import { argValue } from './lib/args.js';
+import { algorithmicVariantsText } from './lib/algorithmic.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -32,54 +30,8 @@ const minCount = parseInt(argValue('--min-count', '3'), 10);
 const maxVariantsPerEntry = parseInt(argValue('--max-variants', '5'), 10);
 const maxDistanceRatio = parseFloat(argValue('--max-distance-ratio', '0.4'));
 
-// Thai word segmenter
-let segmenter = null;
-try {
-  if (typeof Intl !== 'undefined' && Intl.Segmenter) {
-    segmenter = new Intl.Segmenter('th', { granularity: 'word' });
-  }
-} catch { /* unavailable */ }
-
-/**
- * Pure algorithmic transliteration (no dictionary lookup).
- * Returns lowercase variant texts for distance comparison.
- */
-function algorithmicVariants(thai) {
-  // Segment into words first
-  let words;
-  if (segmenter) {
-    words = [...segmenter.segment(thai)]
-      .filter(seg => seg.isWordLike)
-      .map(seg => seg.segment);
-  } else {
-    words = [thai];
-  }
-
-  // Generate variants per word, combine
-  const perWord = words.map(word => {
-    const syllables = parseSyllables(word);
-    const positions = syllables.map(syl => romanizeSyllable(syl));
-    return generateVariants(positions, { maxVariants: 15 });
-  });
-
-  if (perWord.length === 1) {
-    return perWord[0].map(v => v.text.toLowerCase());
-  }
-
-  // Combine across words (simplified — just concatenate top variants)
-  let combined = perWord[0].map(v => v.text.toLowerCase());
-  for (let i = 1; i < perWord.length; i++) {
-    const next = [];
-    for (const acc of combined) {
-      for (const v of perWord[i]) {
-        next.push(acc + v.text.toLowerCase());
-        next.push(acc + ' ' + v.text.toLowerCase());
-      }
-    }
-    combined = next.slice(0, 50); // cap to prevent explosion
-  }
-  return combined;
-}
+/** @type {(thai: string) => string[]} */
+const algorithmicVariants = algorithmicVariantsText;
 
 /**
  * Check if a Latin variant is a transliteration (not a translation) of the Thai text.

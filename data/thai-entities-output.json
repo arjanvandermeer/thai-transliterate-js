@@ -1,10 +1,11 @@
 {
   "_meta": {
-    "version": "1.3.0",
-    "commit": "4de20f2",
-    "generatedAt": "2026-02-25T20:38:03.072Z",
+    "version": "1.5.0",
+    "commit": "4d25ab9",
+    "generatedAt": "2026-02-25T22:08:36.636Z",
     "input": "data/thai-entities.json",
-    "entries": 80
+    "entries": 80,
+    "dictionary": true
   },
   "results": [
     {
@@ -19,20 +20,20 @@
               "weight": 0.64
             },
             {
+              "text": "sundra",
+              "weight": 0.56
+            },
+            {
               "text": "sunthra",
               "weight": 0.4
             },
             {
-              "text": "sunta",
-              "weight": 0.29
+              "text": "suntrd",
+              "weight": 0.2
             },
             {
               "text": "suntro",
               "weight": 0.18
-            },
-            {
-              "text": "sontra",
-              "weight": 0.17
             }
           ]
         },
@@ -44,20 +45,20 @@
               "weight": 1
             },
             {
-              "text": "phou",
-              "weight": 0.32
-            },
-            {
               "text": "pu",
-              "weight": 0.29
+              "weight": 0.5
             },
             {
               "text": "phoo",
               "weight": 0.28
             },
             {
-              "text": "pho",
-              "weight": 0.16
+              "text": "phsou",
+              "weight": 0.17
+            },
+            {
+              "text": "poo",
+              "weight": 0.14
             }
           ]
         }
@@ -75,19 +76,19 @@
               "weight": 0.64
             },
             {
-              "text": "naratwon",
-              "weight": 0.38
-            },
-            {
-              "text": "naretwun",
-              "weight": 0.23
-            },
-            {
               "text": "naretwan",
               "weight": 0.22
             },
             {
+              "text": "ndretwon",
+              "weight": 0.2
+            },
+            {
               "text": "nareswon",
+              "weight": 0.19
+            },
+            {
+              "text": "naraytwon",
               "weight": 0.19
             }
           ]
@@ -106,20 +107,8 @@
               "weight": 1
             },
             {
-              "text": "so",
-              "weight": 0.26
-            },
-            {
               "text": "soo",
               "weight": 0.22
-            },
-            {
-              "text": "sou",
-              "weight": 0.18
-            },
-            {
-              "text": "sa",
-              "weight": 0.08
             }
           ]
         },
@@ -131,20 +120,8 @@
               "weight": 1
             },
             {
-              "text": "re",
-              "weight": 0.3
-            },
-            {
               "text": "li",
               "weight": 0.3
-            },
-            {
-              "text": "ry",
-              "weight": 0.26
-            },
-            {
-              "text": "le",
-              "weight": 0.09
             }
           ]
         },
@@ -156,20 +133,8 @@
               "weight": 1
             },
             {
-              "text": "yho",
-              "weight": 0.18
-            },
-            {
               "text": "yoh",
               "weight": 0.16
-            },
-            {
-              "text": "ya",
-              "weight": 0.12
-            },
-            {
-              "text": "yau",
-              "weight": 0.11
             }
           ]
         },
@@ -181,20 +146,20 @@
               "weight": 1
             },
             {
-              "text": "thui",
-              "weight": 0.53
-            },
-            {
               "text": "thay",
               "weight": 0.37
             },
             {
-              "text": "thoi",
-              "weight": 0.3
-            },
-            {
               "text": "tai",
               "weight": 0.28
+            },
+            {
+              "text": "thsoi",
+              "weight": 0.18
+            },
+            {
+              "text": "tay",
+              "weight": 0.1
             }
           ]
         }
@@ -213,7 +178,7 @@
             },
             {
               "text": "ja",
-              "weight": 0.42
+              "weight": 0.41
             },
             {
               "text": "chaa",
@@ -224,8 +189,8 @@
               "weight": 0.2
             },
             {
-              "text": "chha",
-              "weight": 0.19
+              "text": "chta",
+              "weight": 0.16
             }
           ]
         },
@@ -234,19 +199,19 @@
           "variants": [
             {
               "text": "phanom",
-              "weight": 1.05
-            },
-            {
-              "text": "phanum",
-              "weight": 0.23
+              "weight": 0.64
             },
             {
               "text": "phanam",
               "weight": 0.22
             },
             {
+              "text": "phdnom",
+              "weight": 0.2
+            },
+            {
               "text": "panom",
-              "weight": 0.19
+              "weight": 0.18
             },
             {
               "text": "phonom",
@@ -268,20 +233,20 @@
               "weight": 1
             },
             {
-              "text": "pha",
-              "weight": 0.6
+              "text": "phay",
+              "weight": 0.3
             },
             {
               "text": "pe",
-              "weight": 0.29
+              "weight": 0.28
             },
             {
               "text": "phei",
               "weight": 0.2
             },
             {
-              "text": "phay",
-              "weight": 0.18
+              "text": "pay",
+              "weight": 0.08
             }
           ]
         },
@@ -291,6 +256,10 @@
             {
               "text": "chara",
               "weight": 0.8
+            },
+            {
+              "text": "chdra",
+              "weight": 0.25
             },
             {
               "text": "charaa",
@@ -303,10 +272,6 @@
             {
               "text": "chora",
               "weight": 0.22
-            },
-            {
-              "text": "charar",
-              "weight": 0.16
             }
           ]
         },
@@ -322,16 +287,16 @@
               "weight": 0.54
             },
             {
-              "text": "chauw",
-              "weight": 0.51
+              "text": "chow",
+              "weight": 0.46
+            },
+            {
+              "text": "choww",
+              "weight": 0.4
             },
             {
               "text": "chaww",
               "weight": 0.3
-            },
-            {
-              "text": "chauo",
-              "weight": 0.28
             }
           ]
         },
@@ -343,8 +308,8 @@
               "weight": 0.8
             },
             {
-              "text": "rasda",
-              "weight": 0.24
+              "text": "ratdd",
+              "weight": 0.25
             },
             {
               "text": "raatda",
@@ -372,22 +337,6 @@
             {
               "text": "mit",
               "weight": 1
-            },
-            {
-              "text": "met",
-              "weight": 0.3
-            },
-            {
-              "text": "myt",
-              "weight": 0.26
-            },
-            {
-              "text": "mhit",
-              "weight": 0.07
-            },
-            {
-              "text": "meit",
-              "weight": 0.06
             }
           ]
         },
@@ -399,20 +348,16 @@
               "weight": 1
             },
             {
-              "text": "chui",
-              "weight": 0.53
-            },
-            {
               "text": "chay",
               "weight": 0.37
             },
             {
-              "text": "choi",
-              "weight": 0.3
+              "text": "chsoi",
+              "weight": 0.18
             },
             {
-              "text": "chuy",
-              "weight": 0.2
+              "text": "chsoy",
+              "weight": 0.07
             }
           ]
         },
@@ -424,20 +369,20 @@
               "weight": 1
             },
             {
-              "text": "buncha",
-              "weight": 0.53
-            },
-            {
               "text": "banchaa",
-              "weight": 0.3
-            },
-            {
-              "text": "boncha",
               "weight": 0.3
             },
             {
               "text": "banchar",
               "weight": 0.2
+            },
+            {
+              "text": "bsoncha",
+              "weight": 0.18
+            },
+            {
+              "text": "banchta",
+              "weight": 0.16
             }
           ]
         }
@@ -455,20 +400,16 @@
               "weight": 0.8
             },
             {
-              "text": "thung",
-              "weight": 0.29
+              "text": "tong",
+              "weight": 0.4
             },
             {
               "text": "thang",
               "weight": 0.28
             },
             {
-              "text": "tong",
-              "weight": 0.24
-            },
-            {
-              "text": "thcng",
-              "weight": 0.19
+              "text": "tang",
+              "weight": 0.14
             }
           ]
         },
@@ -484,16 +425,16 @@
               "weight": 0.37
             },
             {
-              "text": "chyi",
-              "weight": 0.32
+              "text": "chayi",
+              "weight": 0.3
+            },
+            {
+              "text": "chhiri",
+              "weight": 0.29
             },
             {
               "text": "chii",
               "weight": 0.23
-            },
-            {
-              "text": "chayi",
-              "weight": 0.18
             }
           ]
         },
@@ -509,10 +450,6 @@
               "weight": 0.4
             },
             {
-              "text": "mha",
-              "weight": 0.31
-            },
-            {
               "text": "ma",
               "weight": 0.28
             }
@@ -526,8 +463,8 @@
               "weight": 0.8
             },
             {
-              "text": "khaen",
-              "weight": 0.24
+              "text": "khdin",
+              "weight": 0.25
             },
             {
               "text": "kain",
@@ -538,8 +475,8 @@
               "weight": 0.22
             },
             {
-              "text": "khayn",
-              "weight": 0.21
+              "text": "kdin",
+              "weight": 0.07
             }
           ]
         },
@@ -551,20 +488,20 @@
               "weight": 1
             },
             {
-              "text": "ty",
-              "weight": 0.32
+              "text": "tay",
+              "weight": 0.3
             },
             {
               "text": "dtai",
               "weight": 0.3
             },
             {
-              "text": "ti",
-              "weight": 0.23
+              "text": "thir",
+              "weight": 0.29
             },
             {
-              "text": "tay",
-              "weight": 0.18
+              "text": "ti",
+              "weight": 0.23
             }
           ]
         }
@@ -582,20 +519,20 @@
               "weight": 0.8
             },
             {
-              "text": "aphe",
-              "weight": 0.24
+              "text": "api",
+              "weight": 0.4
             },
             {
-              "text": "api",
-              "weight": 0.23
+              "text": "dphi",
+              "weight": 0.25
             },
             {
               "text": "ophi",
               "weight": 0.22
             },
             {
-              "text": "aphy",
-              "weight": 0.21
+              "text": "dpi",
+              "weight": 0.13
             }
           ]
         },
@@ -607,10 +544,6 @@
               "weight": 1
             },
             {
-              "text": "chate",
-              "weight": 0.3
-            },
-            {
               "text": "chadti",
               "weight": 0.3
             },
@@ -619,8 +552,12 @@
               "weight": 0.3
             },
             {
-              "text": "chaty",
-              "weight": 0.26
+              "text": "charti",
+              "weight": 0.2
+            },
+            {
+              "text": "chtati",
+              "weight": 0.16
             }
           ]
         },
@@ -632,20 +569,16 @@
               "weight": 0.8
             },
             {
-              "text": "phung",
-              "weight": 0.29
-            },
-            {
               "text": "phang",
               "weight": 0.28
             },
             {
               "text": "pong",
-              "weight": 0.23
+              "weight": 0.22
             },
             {
-              "text": "phcng",
-              "weight": 0.19
+              "text": "pang",
+              "weight": 0.08
             }
           ]
         },
@@ -657,20 +590,20 @@
               "weight": 1
             },
             {
-              "text": "wera",
-              "weight": 0.58
+              "text": "wyra",
+              "weight": 0.8
             },
             {
               "text": "wila",
               "weight": 0.3
             },
             {
-              "text": "weera",
-              "weight": 0.22
+              "text": "wyla",
+              "weight": 0.24
             },
             {
-              "text": "wire",
-              "weight": 0.2
+              "text": "weera",
+              "weight": 0.22
             }
           ]
         },
@@ -682,20 +615,20 @@
               "weight": 0.8
             },
             {
-              "text": "sasot",
-              "weight": 0.48
-            },
-            {
-              "text": "sesut",
-              "weight": 0.29
-            },
-            {
               "text": "sesat",
               "weight": 0.28
             },
             {
-              "text": "sresot",
+              "text": "saysot",
               "weight": 0.24
+            },
+            {
+              "text": "seisot",
+              "weight": 0.16
+            },
+            {
+              "text": "shesot",
+              "weight": 0.16
             }
           ]
         },
@@ -715,12 +648,12 @@
               "weight": 0.26
             },
             {
-              "text": "kon",
-              "weight": 0.26
-            },
-            {
               "text": "koon",
               "weight": 0.22
+            },
+            {
+              "text": "gul",
+              "weight": 0.09
             }
           ]
         }
@@ -738,20 +671,16 @@
               "weight": 1
             },
             {
-              "text": "rut",
-              "weight": 0.53
-            },
-            {
-              "text": "rot",
-              "weight": 0.3
-            },
-            {
               "text": "lat",
               "weight": 0.3
             },
             {
-              "text": "lut",
-              "weight": 0.16
+              "text": "rsot",
+              "weight": 0.18
+            },
+            {
+              "text": "lsot",
+              "weight": 0.05
             }
           ]
         },
@@ -763,20 +692,16 @@
               "weight": 0.8
             },
             {
-              "text": "nuk",
-              "weight": 0.29
-            },
-            {
               "text": "nak",
               "weight": 0.28
             },
             {
               "text": "nog",
-              "weight": 0.24
+              "weight": 0.14
             },
             {
-              "text": "nck",
-              "weight": 0.19
+              "text": "nag",
+              "weight": 0.05
             }
           ]
         },
@@ -786,22 +711,6 @@
             {
               "text": "in",
               "weight": 1
-            },
-            {
-              "text": "en",
-              "weight": 0.3
-            },
-            {
-              "text": "yn",
-              "weight": 0.26
-            },
-            {
-              "text": "hin",
-              "weight": 0.07
-            },
-            {
-              "text": "ein",
-              "weight": 0.06
             }
           ]
         },
@@ -813,10 +722,6 @@
               "weight": 0.8
             },
             {
-              "text": "thun",
-              "weight": 0.29
-            },
-            {
               "text": "than",
               "weight": 0.28
             },
@@ -825,8 +730,8 @@
               "weight": 0.22
             },
             {
-              "text": "thcn",
-              "weight": 0.19
+              "text": "tan",
+              "weight": 0.08
             }
           ]
         },
@@ -838,20 +743,12 @@
               "weight": 0.8
             },
             {
+              "text": "nd",
+              "weight": 0.25
+            },
+            {
               "text": "no",
               "weight": 0.22
-            },
-            {
-              "text": "nk",
-              "weight": 0.14
-            },
-            {
-              "text": "ns",
-              "weight": 0.13
-            },
-            {
-              "text": "ne",
-              "weight": 0.1
             }
           ]
         }
@@ -869,20 +766,20 @@
               "weight": 1
             },
             {
-              "text": "phane",
-              "weight": 0.3
-            },
-            {
               "text": "phaani",
               "weight": 0.3
             },
             {
               "text": "pani",
-              "weight": 0.29
+              "weight": 0.28
             },
             {
-              "text": "phany",
-              "weight": 0.26
+              "text": "pharni",
+              "weight": 0.2
+            },
+            {
+              "text": "phtani",
+              "weight": 0.16
             }
           ]
         },
@@ -894,20 +791,16 @@
               "weight": 1
             },
             {
-              "text": "phuk",
-              "weight": 0.53
-            },
-            {
-              "text": "phok",
-              "weight": 0.3
-            },
-            {
               "text": "pak",
-              "weight": 0.29
+              "weight": 0.5
             },
             {
-              "text": "puk",
-              "weight": 0.15
+              "text": "phsok",
+              "weight": 0.18
+            },
+            {
+              "text": "psok",
+              "weight": 0.09
             }
           ]
         },
@@ -919,20 +812,16 @@
               "weight": 0.8
             },
             {
-              "text": "wung",
-              "weight": 0.29
-            },
-            {
               "text": "wang",
               "weight": 0.28
             },
             {
-              "text": "wcng",
-              "weight": 0.19
+              "text": "vong",
+              "weight": 0.13
             },
             {
-              "text": "whong",
-              "weight": 0.17
+              "text": "vang",
+              "weight": 0.04
             }
           ]
         },
@@ -944,20 +833,20 @@
               "weight": 1
             },
             {
-              "text": "phutna",
-              "weight": 0.53
-            },
-            {
               "text": "phatnaa",
               "weight": 0.3
             },
             {
-              "text": "photna",
-              "weight": 0.3
+              "text": "patna",
+              "weight": 0.28
             },
             {
-              "text": "patna",
-              "weight": 0.29
+              "text": "phatnar",
+              "weight": 0.2
+            },
+            {
+              "text": "phsotna",
+              "weight": 0.18
             }
           ]
         },
@@ -971,18 +860,6 @@
             {
               "text": "git",
               "weight": 0.33
-            },
-            {
-              "text": "ket",
-              "weight": 0.3
-            },
-            {
-              "text": "kyt",
-              "weight": 0.26
-            },
-            {
-              "text": "get",
-              "weight": 0.1
             }
           ]
         }
@@ -1000,20 +877,8 @@
               "weight": 0.8
             },
             {
-              "text": "sum",
-              "weight": 0.29
-            },
-            {
               "text": "sam",
               "weight": 0.28
-            },
-            {
-              "text": "scm",
-              "weight": 0.19
-            },
-            {
-              "text": "shom",
-              "weight": 0.17
             }
           ]
         },
@@ -1025,20 +890,20 @@
               "weight": 1
             },
             {
-              "text": "ruk",
-              "weight": 0.53
+              "text": "lak",
+              "weight": 0.3
+            },
+            {
+              "text": "rsok",
+              "weight": 0.18
             },
             {
               "text": "rag",
-              "weight": 0.3
+              "weight": 0.17
             },
             {
-              "text": "rok",
-              "weight": 0.3
-            },
-            {
-              "text": "lak",
-              "weight": 0.3
+              "text": "lsok",
+              "weight": 0.05
             }
           ]
         },
@@ -1050,10 +915,6 @@
               "weight": 1
             },
             {
-              "text": "kha",
-              "weight": 0.8
-            },
-            {
               "text": "khum",
               "weight": 0.4
             },
@@ -1062,8 +923,8 @@
               "weight": 0.28
             },
             {
-              "text": "ka",
-              "weight": 0.22
+              "text": "kum",
+              "weight": 0.11
             }
           ]
         },
@@ -1072,23 +933,7 @@
           "variants": [
             {
               "text": "sing",
-              "weight": 1.1
-            },
-            {
-              "text": "singh",
-              "weight": 0.37
-            },
-            {
-              "text": "seng",
-              "weight": 0.3
-            },
-            {
-              "text": "syng",
-              "weight": 0.26
-            },
-            {
-              "text": "shing",
-              "weight": 0.07
+              "weight": 1
             }
           ]
         }
@@ -1106,10 +951,6 @@
               "weight": 0.8
             },
             {
-              "text": "samarut",
-              "weight": 0.29
-            },
-            {
               "text": "samarat",
               "weight": 0.28
             },
@@ -1119,6 +960,10 @@
             },
             {
               "text": "samaarot",
+              "weight": 0.24
+            },
+            {
+              "text": "saamarot",
               "weight": 0.24
             }
           ]
@@ -1131,20 +976,20 @@
               "weight": 0.8
             },
             {
-              "text": "phayuk",
-              "weight": 0.42
-            },
-            {
-              "text": "phayok",
-              "weight": 0.24
+              "text": "phdyak",
+              "weight": 0.25
             },
             {
               "text": "payak",
-              "weight": 0.23
+              "weight": 0.22
             },
             {
               "text": "phoyak",
               "weight": 0.22
+            },
+            {
+              "text": "phaysok",
+              "weight": 0.14
             }
           ]
         },
@@ -1156,16 +1001,16 @@
               "weight": 0.8
             },
             {
+              "text": "drun",
+              "weight": 0.25
+            },
+            {
               "text": "alun",
               "weight": 0.24
             },
             {
               "text": "orun",
               "weight": 0.22
-            },
-            {
-              "text": "aron",
-              "weight": 0.21
             },
             {
               "text": "aroon",
@@ -1187,8 +1032,8 @@
               "weight": 1
             },
             {
-              "text": "bua khao",
-              "weight": 0.9
+              "text": "bawkhaw",
+              "weight": 0.56
             },
             {
               "text": "buakhao",
@@ -1199,7 +1044,7 @@
               "weight": 0.5
             },
             {
-              "text": "buakhaaw",
+              "text": "bawkhao",
               "weight": 0.3
             }
           ]
@@ -1212,20 +1057,20 @@
               "weight": 1
             },
             {
-              "text": "buncha",
-              "weight": 0.53
-            },
-            {
               "text": "banchaa",
-              "weight": 0.3
-            },
-            {
-              "text": "boncha",
               "weight": 0.3
             },
             {
               "text": "banchar",
               "weight": 0.2
+            },
+            {
+              "text": "bsoncha",
+              "weight": 0.18
+            },
+            {
+              "text": "banchta",
+              "weight": 0.16
             }
           ]
         },
@@ -1237,20 +1082,12 @@
               "weight": 1
             },
             {
-              "text": "mak",
-              "weight": 0.6
+              "text": "mayk",
+              "weight": 0.3
             },
             {
               "text": "meik",
               "weight": 0.2
-            },
-            {
-              "text": "mayk",
-              "weight": 0.18
-            },
-            {
-              "text": "maik",
-              "weight": 0.09
             }
           ]
         }
@@ -1272,10 +1109,6 @@
               "weight": 0.4
             },
             {
-              "text": "shan",
-              "weight": 0.31
-            },
-            {
               "text": "san",
               "weight": 0.28
             }
@@ -1289,20 +1122,16 @@
               "weight": 1
             },
             {
-              "text": "chui",
-              "weight": 0.53
-            },
-            {
               "text": "chay",
               "weight": 0.37
             },
             {
-              "text": "choi",
-              "weight": 0.3
+              "text": "chsoi",
+              "weight": 0.18
             },
             {
-              "text": "chuy",
-              "weight": 0.2
+              "text": "chsoy",
+              "weight": 0.07
             }
           ]
         }
@@ -1320,20 +1149,20 @@
               "weight": 1
             },
             {
-              "text": "disan",
-              "weight": 0.6
+              "text": "dysen",
+              "weight": 0.8
             },
             {
-              "text": "desen",
-              "weight": 0.58
-            },
-            {
-              "text": "desan",
-              "weight": 0.35
+              "text": "disayn",
+              "weight": 0.3
             },
             {
               "text": "dtisen",
               "weight": 0.3
+            },
+            {
+              "text": "disel",
+              "weight": 0.26
             }
           ]
         },
@@ -1345,20 +1174,20 @@
               "weight": 0.64
             },
             {
+              "text": "nayd",
+              "weight": 0.2
+            },
+            {
+              "text": "ndya",
+              "weight": 0.2
+            },
+            {
               "text": "nayo",
               "weight": 0.18
             },
             {
               "text": "noya",
               "weight": 0.18
-            },
-            {
-              "text": "nayk",
-              "weight": 0.11
-            },
-            {
-              "text": "nkya",
-              "weight": 0.11
             }
           ]
         },
@@ -1371,19 +1200,19 @@
             },
             {
               "text": "cha.tana",
-              "weight": 0.19
+              "weight": 0.32
+            },
+            {
+              "text": "cha.thdna",
+              "weight": 0.2
+            },
+            {
+              "text": "chd.thana",
+              "weight": 0.2
             },
             {
               "text": "cha.thona",
               "weight": 0.18
-            },
-            {
-              "text": "cho.thana",
-              "weight": 0.18
-            },
-            {
-              "text": "cha.thane",
-              "weight": 0.13
             }
           ]
         },
@@ -1395,20 +1224,8 @@
               "weight": 1
             },
             {
-              "text": "so",
-              "weight": 0.26
-            },
-            {
               "text": "soo",
               "weight": 0.22
-            },
-            {
-              "text": "sou",
-              "weight": 0.18
-            },
-            {
-              "text": "sa",
-              "weight": 0.08
             }
           ]
         },
@@ -1432,8 +1249,8 @@
               "weight": 0.2
             },
             {
-              "text": "khan",
-              "weight": 0.19
+              "text": "ktan",
+              "weight": 0.16
             }
           ]
         },
@@ -1446,19 +1263,19 @@
             },
             {
               "text": "ja",
-              "weight": 0.34
+              "weight": 0.33
+            },
+            {
+              "text": "chd",
+              "weight": 0.25
             },
             {
               "text": "cho",
               "weight": 0.22
             },
             {
-              "text": "chk",
-              "weight": 0.14
-            },
-            {
-              "text": "chs",
-              "weight": 0.13
+              "text": "jd",
+              "weight": 0.1
             }
           ]
         }
@@ -1476,20 +1293,20 @@
               "weight": 0.8
             },
             {
-              "text": "sakut",
-              "weight": 0.42
-            },
-            {
               "text": "sagat",
               "weight": 0.26
             },
             {
-              "text": "sakot",
-              "weight": 0.24
+              "text": "sdkat",
+              "weight": 0.25
             },
             {
               "text": "sokat",
               "weight": 0.22
+            },
+            {
+              "text": "sakad",
+              "weight": 0.17
             }
           ]
         },
@@ -1501,20 +1318,20 @@
               "weight": 0.8
             },
             {
-              "text": "phachon",
-              "weight": 0.48
-            },
-            {
-              "text": "phechun",
-              "weight": 0.29
-            },
-            {
               "text": "phechan",
               "weight": 0.28
             },
             {
+              "text": "phaychon",
+              "weight": 0.24
+            },
+            {
               "text": "pechon",
-              "weight": 0.23
+              "weight": 0.22
+            },
+            {
+              "text": "phechor",
+              "weight": 0.2
             }
           ]
         },
@@ -1526,20 +1343,20 @@
               "weight": 1
             },
             {
-              "text": "yinde",
-              "weight": 0.58
+              "text": "yindy",
+              "weight": 0.8
             },
             {
               "text": "yindti",
               "weight": 0.3
             },
             {
-              "text": "yendi",
-              "weight": 0.3
+              "text": "yindty",
+              "weight": 0.24
             },
             {
-              "text": "yyndi",
-              "weight": 0.26
+              "text": "yindee",
+              "weight": 0.22
             }
           ]
         }
@@ -1569,8 +1386,8 @@
               "weight": 0.2
             },
             {
-              "text": "nhai",
-              "weight": 0.19
+              "text": "ntai",
+              "weight": 0.16
             }
           ]
         },
@@ -1586,12 +1403,12 @@
               "weight": 0.32
             },
             {
-              "text": "khanum",
-              "weight": 0.23
-            },
-            {
               "text": "khanam",
               "weight": 0.22
+            },
+            {
+              "text": "khdnom",
+              "weight": 0.2
             },
             {
               "text": "khonom",
@@ -1607,10 +1424,6 @@
               "weight": 0.8
             },
             {
-              "text": "tum",
-              "weight": 0.29
-            },
-            {
               "text": "tam",
               "weight": 0.28
             },
@@ -1619,8 +1432,8 @@
               "weight": 0.24
             },
             {
-              "text": "tcm",
-              "weight": 0.19
+              "text": "dtam",
+              "weight": 0.08
             }
           ]
         }
@@ -1638,20 +1451,20 @@
               "weight": 1
             },
             {
-              "text": "phut",
-              "weight": 0.53
-            },
-            {
-              "text": "phot",
-              "weight": 0.3
-            },
-            {
               "text": "pat",
-              "weight": 0.3
+              "weight": 0.5
             },
             {
               "text": "phad",
               "weight": 0.21
+            },
+            {
+              "text": "phsot",
+              "weight": 0.18
+            },
+            {
+              "text": "pad",
+              "weight": 0.11
             }
           ]
         },
@@ -1663,20 +1476,20 @@
               "weight": 1
             },
             {
-              "text": "thai",
-              "weight": 0.9
-            },
-            {
-              "text": "tha'i",
-              "weight": 0.82
-            },
-            {
               "text": "thaiy",
               "weight": 0.37
             },
             {
-              "text": "thyi",
-              "weight": 0.32
+              "text": "thayi",
+              "weight": 0.3
+            },
+            {
+              "text": "thhiri",
+              "weight": 0.29
+            },
+            {
+              "text": "taii",
+              "weight": 0.28
             }
           ]
         }
@@ -1694,20 +1507,20 @@
               "weight": 0.8
             },
             {
-              "text": "tomya",
-              "weight": 0.64
-            },
-            {
               "text": "tomyum",
               "weight": 0.32
             },
             {
-              "text": "tumyam",
-              "weight": 0.29
-            },
-            {
               "text": "tamyam",
               "weight": 0.28
+            },
+            {
+              "text": "dtomyam",
+              "weight": 0.24
+            },
+            {
+              "text": "tamyum",
+              "weight": 0.11
             }
           ]
         },
@@ -1723,16 +1536,12 @@
               "weight": 0.33
             },
             {
-              "text": "kong",
-              "weight": 0.26
-            },
-            {
               "text": "koong",
               "weight": 0.22
             },
             {
-              "text": "koung",
-              "weight": 0.18
+              "text": "goong",
+              "weight": 0.07
             }
           ]
         }
@@ -1750,20 +1559,20 @@
               "weight": 0.8
             },
             {
-              "text": "somta",
-              "weight": 0.64
-            },
-            {
               "text": "somtum",
               "weight": 0.32
             },
             {
-              "text": "sumtam",
-              "weight": 0.29
-            },
-            {
               "text": "samtam",
               "weight": 0.28
+            },
+            {
+              "text": "somdtam",
+              "weight": 0.24
+            },
+            {
+              "text": "samtum",
+              "weight": 0.11
             }
           ]
         }
@@ -1789,12 +1598,12 @@
               "weight": 0.33
             },
             {
-              "text": "khang",
-              "weight": 0.31
-            },
-            {
               "text": "kang",
               "weight": 0.28
+            },
+            {
+              "text": "geng",
+              "weight": 0.13
             }
           ]
         },
@@ -1818,8 +1627,8 @@
               "weight": 0.4
             },
             {
-              "text": "khiuw",
-              "weight": 0.33
+              "text": "kheaw",
+              "weight": 0.3
             }
           ]
         },
@@ -1839,12 +1648,12 @@
               "weight": 0.2
             },
             {
-              "text": "whan",
-              "weight": 0.19
+              "text": "wtan",
+              "weight": 0.16
             },
             {
-              "text": "wen",
-              "weight": 0.17
+              "text": "van",
+              "weight": 0.16
             }
           ]
         }
@@ -1870,12 +1679,12 @@
               "weight": 0.33
             },
             {
-              "text": "khang",
-              "weight": 0.31
-            },
-            {
               "text": "kang",
               "weight": 0.28
+            },
+            {
+              "text": "geng",
+              "weight": 0.13
             }
           ]
         },
@@ -1887,20 +1696,20 @@
               "weight": 1
             },
             {
-              "text": "matmun",
-              "weight": 0.53
-            },
-            {
-              "text": "mutman",
-              "weight": 0.53
-            },
-            {
-              "text": "matmon",
-              "weight": 0.3
-            },
-            {
               "text": "masman",
               "weight": 0.3
+            },
+            {
+              "text": "matmson",
+              "weight": 0.18
+            },
+            {
+              "text": "msotman",
+              "weight": 0.18
+            },
+            {
+              "text": "masmson",
+              "weight": 0.05
             }
           ]
         }
@@ -1926,12 +1735,12 @@
               "weight": 0.33
             },
             {
-              "text": "khang",
-              "weight": 0.31
-            },
-            {
               "text": "kang",
               "weight": 0.28
+            },
+            {
+              "text": "geng",
+              "weight": 0.13
             }
           ]
         },
@@ -1944,7 +1753,7 @@
             },
             {
               "text": "pet",
-              "weight": 0.3
+              "weight": 0.5
             },
             {
               "text": "phed",
@@ -1952,7 +1761,7 @@
             },
             {
               "text": "ped",
-              "weight": 0.06
+              "weight": 0.11
             }
           ]
         }
@@ -1978,12 +1787,12 @@
               "weight": 0.33
             },
             {
-              "text": "khang",
-              "weight": 0.31
-            },
-            {
               "text": "kang",
               "weight": 0.28
+            },
+            {
+              "text": "geng",
+              "weight": 0.13
             }
           ]
         },
@@ -1999,16 +1808,16 @@
               "weight": 0.4
             },
             {
-              "text": "phanhang",
-              "weight": 0.31
+              "text": "phanang",
+              "weight": 0.28
             },
             {
               "text": "panaeng",
-              "weight": 0.29
+              "weight": 0.28
             },
             {
-              "text": "phanang",
-              "weight": 0.28
+              "text": "paneng",
+              "weight": 0.11
             }
           ]
         }
@@ -2026,20 +1835,20 @@
               "weight": 1
             },
             {
-              "text": "phut",
-              "weight": 0.53
-            },
-            {
-              "text": "phot",
-              "weight": 0.3
-            },
-            {
               "text": "pat",
-              "weight": 0.3
+              "weight": 0.5
             },
             {
               "text": "phad",
               "weight": 0.21
+            },
+            {
+              "text": "phsot",
+              "weight": 0.18
+            },
+            {
+              "text": "pad",
+              "weight": 0.11
             }
           ]
         },
@@ -2051,8 +1860,12 @@
               "weight": 1
             },
             {
-              "text": "kaphrau",
-              "weight": 0.51
+              "text": "kaphro",
+              "weight": 0.46
+            },
+            {
+              "text": "kaphrow",
+              "weight": 0.4
             },
             {
               "text": "gaphrao",
@@ -2061,10 +1874,6 @@
             {
               "text": "kaphraw",
               "weight": 0.3
-            },
-            {
-              "text": "kaprao",
-              "weight": 0.29
             }
           ]
         }
@@ -2082,20 +1891,20 @@
               "weight": 1
             },
             {
-              "text": "phut",
-              "weight": 0.53
-            },
-            {
-              "text": "phot",
-              "weight": 0.3
-            },
-            {
               "text": "pat",
-              "weight": 0.3
+              "weight": 0.5
             },
             {
               "text": "phad",
               "weight": 0.21
+            },
+            {
+              "text": "phsot",
+              "weight": 0.18
+            },
+            {
+              "text": "pad",
+              "weight": 0.11
             }
           ]
         },
@@ -2107,20 +1916,20 @@
               "weight": 1
             },
             {
-              "text": "seiw",
-              "weight": 0.58
+              "text": "syiw",
+              "weight": 0.8
             },
             {
               "text": "siio",
               "weight": 0.54
             },
             {
-              "text": "seio",
-              "weight": 0.31
+              "text": "syio",
+              "weight": 0.43
             },
             {
-              "text": "siew",
-              "weight": 0.3
+              "text": "seeiw",
+              "weight": 0.22
             }
           ]
         }
@@ -2138,20 +1947,20 @@
               "weight": 1
             },
             {
-              "text": "phut",
-              "weight": 0.53
-            },
-            {
-              "text": "phot",
-              "weight": 0.3
-            },
-            {
               "text": "pat",
-              "weight": 0.3
+              "weight": 0.5
             },
             {
               "text": "phad",
               "weight": 0.21
+            },
+            {
+              "text": "phsot",
+              "weight": 0.18
+            },
+            {
+              "text": "pad",
+              "weight": 0.11
             }
           ]
         },
@@ -2163,16 +1972,16 @@
               "weight": 1
             },
             {
-              "text": "khe",
-              "weight": 0.58
+              "text": "khy",
+              "weight": 0.8
             },
             {
               "text": "ki",
               "weight": 0.5
             },
             {
-              "text": "ke",
-              "weight": 0.29
+              "text": "ky",
+              "weight": 0.4
             },
             {
               "text": "khee",
@@ -2188,20 +1997,20 @@
               "weight": 1
             },
             {
-              "text": "mau",
-              "weight": 0.51
+              "text": "mo",
+              "weight": 0.46
+            },
+            {
+              "text": "mow",
+              "weight": 0.4
             },
             {
               "text": "maw",
               "weight": 0.3
             },
             {
-              "text": "mow",
-              "weight": 0.23
-            },
-            {
-              "text": "mea",
-              "weight": 0.14
+              "text": "mouse",
+              "weight": 0.11
             }
           ]
         }
@@ -2223,16 +2032,16 @@
               "weight": 0.32
             },
             {
+              "text": "khawd",
+              "weight": 0.2
+            },
+            {
+              "text": "khdwa",
+              "weight": 0.2
+            },
+            {
               "text": "khawo",
               "weight": 0.18
-            },
-            {
-              "text": "khowa",
-              "weight": 0.18
-            },
-            {
-              "text": "khawk",
-              "weight": 0.11
             }
           ]
         },
@@ -2244,20 +2053,20 @@
               "weight": 1
             },
             {
-              "text": "sai",
-              "weight": 0.42
-            },
-            {
               "text": "soy",
               "weight": 0.37
             },
             {
-              "text": "saui",
-              "weight": 0.33
+              "text": "sawi",
+              "weight": 0.3
             },
             {
               "text": "sori",
               "weight": 0.2
+            },
+            {
+              "text": "zoi",
+              "weight": 0.17
             }
           ]
         }
@@ -2279,16 +2088,16 @@
               "weight": 0.32
             },
             {
+              "text": "khawd",
+              "weight": 0.2
+            },
+            {
+              "text": "khdwa",
+              "weight": 0.2
+            },
+            {
               "text": "khawo",
               "weight": 0.18
-            },
-            {
-              "text": "khowa",
-              "weight": 0.18
-            },
-            {
-              "text": "khawk",
-              "weight": 0.11
             }
           ]
         },
@@ -2300,20 +2109,20 @@
               "weight": 1
             },
             {
-              "text": "phut",
-              "weight": 0.53
-            },
-            {
-              "text": "phot",
-              "weight": 0.3
-            },
-            {
               "text": "pat",
-              "weight": 0.3
+              "weight": 0.5
             },
             {
               "text": "phad",
               "weight": 0.21
+            },
+            {
+              "text": "phsot",
+              "weight": 0.18
+            },
+            {
+              "text": "pad",
+              "weight": 0.11
             }
           ]
         }
@@ -2335,16 +2144,16 @@
               "weight": 0.32
             },
             {
+              "text": "khawd",
+              "weight": 0.2
+            },
+            {
+              "text": "khdwa",
+              "weight": 0.2
+            },
+            {
               "text": "khawo",
               "weight": 0.18
-            },
-            {
-              "text": "khowa",
-              "weight": 0.18
-            },
-            {
-              "text": "khawk",
-              "weight": 0.11
             }
           ]
         },
@@ -2364,12 +2173,12 @@
               "weight": 0.4
             },
             {
-              "text": "niuw",
-              "weight": 0.33
-            },
-            {
               "text": "neaw",
               "weight": 0.3
+            },
+            {
+              "text": "niyao",
+              "weight": 0.22
             }
           ]
         },
@@ -2381,20 +2190,20 @@
               "weight": 0.64
             },
             {
-              "text": "mamawung",
-              "weight": 0.23
-            },
-            {
               "text": "mamawang",
               "weight": 0.22
+            },
+            {
+              "text": "mamdwong",
+              "weight": 0.2
             },
             {
               "text": "mamowong",
               "weight": 0.18
             },
             {
-              "text": "mamawcng",
-              "weight": 0.15
+              "text": "mamavong",
+              "weight": 0.1
             }
           ]
         }
@@ -2416,12 +2225,12 @@
               "weight": 0.32
             },
             {
-              "text": "tumkha",
-              "weight": 0.23
-            },
-            {
               "text": "tamkha",
               "weight": 0.22
+            },
+            {
+              "text": "tomkhd",
+              "weight": 0.2
             },
             {
               "text": "dtomkha",
@@ -2441,16 +2250,16 @@
               "weight": 0.33
             },
             {
-              "text": "ky",
-              "weight": 0.32
+              "text": "kay",
+              "weight": 0.3
+            },
+            {
+              "text": "khir",
+              "weight": 0.29
             },
             {
               "text": "ki",
               "weight": 0.23
-            },
-            {
-              "text": "kay",
-              "weight": 0.18
             }
           ]
         }
@@ -2480,8 +2289,8 @@
               "weight": 0.2
             },
             {
-              "text": "lhap",
-              "weight": 0.19
+              "text": "ltap",
+              "weight": 0.16
             }
           ]
         }
@@ -2499,8 +2308,8 @@
               "weight": 1
             },
             {
-              "text": "sata",
-              "weight": 0.6
+              "text": "satay",
+              "weight": 0.3
             },
             {
               "text": "sadte",
@@ -2511,8 +2320,8 @@
               "weight": 0.2
             },
             {
-              "text": "sete",
-              "weight": 0.2
+              "text": "sadtay",
+              "weight": 0.09
             }
           ]
         }
@@ -2534,16 +2343,16 @@
               "weight": 0.33
             },
             {
-              "text": "ky",
-              "weight": 0.32
+              "text": "kay",
+              "weight": 0.3
+            },
+            {
+              "text": "khir",
+              "weight": 0.29
             },
             {
               "text": "ki",
               "weight": 0.23
-            },
-            {
-              "text": "kay",
-              "weight": 0.18
             }
           ]
         },
@@ -2555,20 +2364,20 @@
               "weight": 0.64
             },
             {
+              "text": "yangd",
+              "weight": 0.2
+            },
+            {
+              "text": "ydnga",
+              "weight": 0.2
+            },
+            {
               "text": "yango",
               "weight": 0.18
             },
             {
               "text": "yonga",
               "weight": 0.18
-            },
-            {
-              "text": "yangk",
-              "weight": 0.11
-            },
-            {
-              "text": "yknga",
-              "weight": 0.11
             }
           ]
         }
@@ -2582,24 +2391,24 @@
           "thai": "น้ำตก",
           "variants": [
             {
-              "text": "namtok",
-              "weight": 1.1
-            },
-            {
               "text": "natok",
               "weight": 0.64
             },
             {
-              "text": "natk",
-              "weight": 0.24
-            },
-            {
-              "text": "natuk",
-              "weight": 0.23
-            },
-            {
               "text": "natak",
               "weight": 0.22
+            },
+            {
+              "text": "ndtok",
+              "weight": 0.2
+            },
+            {
+              "text": "nadtok",
+              "weight": 0.19
+            },
+            {
+              "text": "notok",
+              "weight": 0.18
             }
           ]
         }
@@ -2621,16 +2430,16 @@
               "weight": 0.32
             },
             {
+              "text": "khawd",
+              "weight": 0.2
+            },
+            {
+              "text": "khdwa",
+              "weight": 0.2
+            },
+            {
               "text": "khawo",
               "weight": 0.18
-            },
-            {
-              "text": "khowa",
-              "weight": 0.18
-            },
-            {
-              "text": "khawk",
-              "weight": 0.11
             }
           ]
         },
@@ -2642,20 +2451,8 @@
               "weight": 1
             },
             {
-              "text": "mun",
-              "weight": 0.53
-            },
-            {
-              "text": "mon",
-              "weight": 0.3
-            },
-            {
-              "text": "mucn",
-              "weight": 0.04
-            },
-            {
-              "text": "mhan",
-              "weight": 0.04
+              "text": "mson",
+              "weight": 0.18
             }
           ]
         },
@@ -2671,16 +2468,16 @@
               "weight": 0.33
             },
             {
-              "text": "ky",
-              "weight": 0.32
+              "text": "kay",
+              "weight": 0.3
+            },
+            {
+              "text": "khir",
+              "weight": 0.29
             },
             {
               "text": "ki",
               "weight": 0.23
-            },
-            {
-              "text": "kay",
-              "weight": 0.18
             }
           ]
         }
@@ -2702,16 +2499,16 @@
               "weight": 0.32
             },
             {
+              "text": "khawd",
+              "weight": 0.2
+            },
+            {
+              "text": "khdwa",
+              "weight": 0.2
+            },
+            {
               "text": "khawo",
               "weight": 0.18
-            },
-            {
-              "text": "khowa",
-              "weight": 0.18
-            },
-            {
-              "text": "khawk",
-              "weight": 0.11
             }
           ]
         },
@@ -2735,8 +2532,8 @@
               "weight": 0.2
             },
             {
-              "text": "khha",
-              "weight": 0.19
+              "text": "khta",
+              "weight": 0.16
             }
           ]
         },
@@ -2748,20 +2545,12 @@
               "weight": 1
             },
             {
-              "text": "mou",
-              "weight": 0.32
-            },
-            {
               "text": "moo",
               "weight": 0.28
             },
             {
-              "text": "mo",
-              "weight": 0.16
-            },
-            {
-              "text": "mwoo",
-              "weight": 0.11
+              "text": "msou",
+              "weight": 0.17
             }
           ]
         }
@@ -2787,11 +2576,11 @@
               "weight": 0.33
             },
             {
-              "text": "kanbinthyi",
-              "weight": 0.32
+              "text": "kanbinthayi",
+              "weight": 0.3
             },
             {
-              "text": "kanbenthaii",
+              "text": "kaanbinthaii",
               "weight": 0.3
             }
           ]
@@ -2810,20 +2599,16 @@
               "weight": 0.8
             },
             {
-              "text": "nuk",
-              "weight": 0.29
-            },
-            {
               "text": "nak",
               "weight": 0.28
             },
             {
               "text": "nog",
-              "weight": 0.24
+              "weight": 0.14
             },
             {
-              "text": "nck",
-              "weight": 0.19
+              "text": "nag",
+              "weight": 0.05
             }
           ]
         },
@@ -2837,10 +2622,6 @@
             {
               "text": "e",
               "weight": 0.4
-            },
-            {
-              "text": "ha",
-              "weight": 0.31
             },
             {
               "text": "a",
@@ -2871,7 +2652,7 @@
             },
             {
               "text": "kar",
-              "weight": 0.27
+              "weight": 0.25
             },
             {
               "text": "ka",
@@ -2885,22 +2666,6 @@
             {
               "text": "bin",
               "weight": 1
-            },
-            {
-              "text": "ben",
-              "weight": 0.3
-            },
-            {
-              "text": "byn",
-              "weight": 0.26
-            },
-            {
-              "text": "bhin",
-              "weight": 0.07
-            },
-            {
-              "text": "bein",
-              "weight": 0.06
             }
           ]
         },
@@ -2943,20 +2708,20 @@
               "weight": 0.8
             },
             {
+              "text": "tanakhan",
+              "weight": 0.4
+            },
+            {
+              "text": "thdnakhan",
+              "weight": 0.25
+            },
+            {
               "text": "thanakhaan",
               "weight": 0.24
             },
             {
               "text": "thanaakhan",
               "weight": 0.24
-            },
-            {
-              "text": "tanakhan",
-              "weight": 0.24
-            },
-            {
-              "text": "thanakan",
-              "weight": 0.22
             }
           ]
         },
@@ -2972,16 +2737,16 @@
               "weight": 0.26
             },
             {
-              "text": "kasig",
-              "weight": 0.24
-            },
-            {
-              "text": "kasek",
-              "weight": 0.24
+              "text": "kdsik",
+              "weight": 0.25
             },
             {
               "text": "kosik",
               "weight": 0.22
+            },
+            {
+              "text": "kasig",
+              "weight": 0.14
             }
           ]
         },
@@ -2993,20 +2758,20 @@
               "weight": 1
             },
             {
-              "text": "thai",
-              "weight": 0.9
-            },
-            {
-              "text": "tha'i",
-              "weight": 0.82
-            },
-            {
               "text": "thaiy",
               "weight": 0.37
             },
             {
-              "text": "thyi",
-              "weight": 0.32
+              "text": "thayi",
+              "weight": 0.3
+            },
+            {
+              "text": "thhiri",
+              "weight": 0.29
+            },
+            {
+              "text": "taii",
+              "weight": 0.28
             }
           ]
         }
@@ -3024,20 +2789,20 @@
               "weight": 0.8
             },
             {
+              "text": "tanakhan",
+              "weight": 0.4
+            },
+            {
+              "text": "thdnakhan",
+              "weight": 0.25
+            },
+            {
               "text": "thanakhaan",
               "weight": 0.24
             },
             {
               "text": "thanaakhan",
               "weight": 0.24
-            },
-            {
-              "text": "tanakhan",
-              "weight": 0.24
-            },
-            {
-              "text": "thanakan",
-              "weight": 0.22
             }
           ]
         },
@@ -3049,20 +2814,20 @@
               "weight": 1
             },
             {
-              "text": "thai",
-              "weight": 0.9
-            },
-            {
-              "text": "tha'i",
-              "weight": 0.82
-            },
-            {
               "text": "thaiy",
               "weight": 0.37
             },
             {
-              "text": "thyi",
-              "weight": 0.32
+              "text": "thayi",
+              "weight": 0.3
+            },
+            {
+              "text": "thhiri",
+              "weight": 0.29
+            },
+            {
+              "text": "taii",
+              "weight": 0.28
             }
           ]
         },
@@ -3074,20 +2839,20 @@
               "weight": 1
             },
             {
-              "text": "phanet",
-              "weight": 0.3
-            },
-            {
               "text": "phaanit",
               "weight": 0.3
             },
             {
               "text": "panit",
-              "weight": 0.29
+              "weight": 0.28
             },
             {
-              "text": "phanyt",
-              "weight": 0.26
+              "text": "pharnit",
+              "weight": 0.2
+            },
+            {
+              "text": "phtanit",
+              "weight": 0.16
             }
           ]
         }
@@ -3105,20 +2870,20 @@
               "weight": 0.8
             },
             {
+              "text": "tanakhan",
+              "weight": 0.4
+            },
+            {
+              "text": "thdnakhan",
+              "weight": 0.25
+            },
+            {
               "text": "thanakhaan",
               "weight": 0.24
             },
             {
               "text": "thanaakhan",
               "weight": 0.24
-            },
-            {
-              "text": "tanakhan",
-              "weight": 0.24
-            },
-            {
-              "text": "thanakan",
-              "weight": 0.22
             }
           ]
         },
@@ -3161,20 +2926,20 @@
               "weight": 0.8
             },
             {
+              "text": "tanakhan",
+              "weight": 0.4
+            },
+            {
+              "text": "thdnakhan",
+              "weight": 0.25
+            },
+            {
               "text": "thanakhaan",
               "weight": 0.24
             },
             {
               "text": "thanaakhan",
               "weight": 0.24
-            },
-            {
-              "text": "tanakhan",
-              "weight": 0.24
-            },
-            {
-              "text": "thanakan",
-              "weight": 0.22
             }
           ]
         },
@@ -3190,16 +2955,16 @@
               "weight": 0.33
             },
             {
-              "text": "krong",
-              "weight": 0.26
-            },
-            {
               "text": "kroong",
               "weight": 0.22
             },
             {
               "text": "klung",
               "weight": 0.2
+            },
+            {
+              "text": "groong",
+              "weight": 0.07
             }
           ]
         },
@@ -3211,20 +2976,20 @@
               "weight": 1
             },
             {
-              "text": "thai",
-              "weight": 0.9
-            },
-            {
-              "text": "tha'i",
-              "weight": 0.82
-            },
-            {
               "text": "thaiy",
               "weight": 0.37
             },
             {
-              "text": "thyi",
-              "weight": 0.32
+              "text": "thayi",
+              "weight": 0.3
+            },
+            {
+              "text": "thhiri",
+              "weight": 0.29
+            },
+            {
+              "text": "taii",
+              "weight": 0.28
             }
           ]
         }
@@ -3243,15 +3008,15 @@
             },
             {
               "text": "julanngokra",
-              "weight": 0.27
-            },
-            {
-              "text": "chulanngukra",
-              "weight": 0.23
+              "weight": 0.26
             },
             {
               "text": "chulanngakra",
               "weight": 0.22
+            },
+            {
+              "text": "chulanngokrd",
+              "weight": 0.2
             },
             {
               "text": "chulanngokla",
@@ -3267,19 +3032,19 @@
               "weight": 0.8
             },
             {
-              "text": "mahawityalui",
-              "weight": 0.42
-            },
-            {
               "text": "mahawityalay",
               "weight": 0.3
             },
             {
-              "text": "mahawityaloi",
-              "weight": 0.24
+              "text": "mdhawityalai",
+              "weight": 0.25
             },
             {
               "text": "mahawityaalai",
+              "weight": 0.24
+            },
+            {
+              "text": "mahaawityalai",
               "weight": 0.24
             }
           ]
@@ -3298,19 +3063,19 @@
               "weight": 0.8
             },
             {
-              "text": "mahawityalui",
-              "weight": 0.42
-            },
-            {
               "text": "mahawityalay",
               "weight": 0.3
             },
             {
-              "text": "mahawityaloi",
-              "weight": 0.24
+              "text": "mdhawityalai",
+              "weight": 0.25
             },
             {
               "text": "mahawityaalai",
+              "weight": 0.24
+            },
+            {
+              "text": "mahaawityalai",
               "weight": 0.24
             }
           ]
@@ -3323,8 +3088,12 @@
               "weight": 0.8
             },
             {
-              "text": "thrrmsatta",
-              "weight": 0.5
+              "text": "tamsatta",
+              "weight": 0.4
+            },
+            {
+              "text": "thamsattd",
+              "weight": 0.25
             },
             {
               "text": "thamsatdta",
@@ -3332,10 +3101,6 @@
             },
             {
               "text": "thamsasta",
-              "weight": 0.24
-            },
-            {
-              "text": "thamsaatta",
               "weight": 0.24
             }
           ]
@@ -3354,19 +3119,19 @@
               "weight": 0.8
             },
             {
-              "text": "mahawityalui",
-              "weight": 0.42
-            },
-            {
               "text": "mahawityalay",
               "weight": 0.3
             },
             {
-              "text": "mahawityaloi",
-              "weight": 0.24
+              "text": "mdhawityalai",
+              "weight": 0.25
             },
             {
               "text": "mahawityaalai",
+              "weight": 0.24
+            },
+            {
+              "text": "mahaawityalai",
               "weight": 0.24
             }
           ]
@@ -3379,20 +3144,20 @@
               "weight": 0.64
             },
             {
-              "text": "mahidun",
-              "weight": 0.23
-            },
-            {
               "text": "mahidan",
               "weight": 0.22
+            },
+            {
+              "text": "mdhidon",
+              "weight": 0.2
             },
             {
               "text": "mahidton",
               "weight": 0.19
             },
             {
-              "text": "mahedon",
-              "weight": 0.19
+              "text": "mohidon",
+              "weight": 0.18
             }
           ]
         }
@@ -3410,19 +3175,19 @@
               "weight": 0.8
             },
             {
-              "text": "mahawityalui",
-              "weight": 0.42
-            },
-            {
               "text": "mahawityalay",
               "weight": 0.3
             },
             {
-              "text": "mahawityaloi",
-              "weight": 0.24
+              "text": "mdhawityalai",
+              "weight": 0.25
             },
             {
               "text": "mahawityaalai",
+              "weight": 0.24
+            },
+            {
+              "text": "mahaawityalai",
               "weight": 0.24
             }
           ]
@@ -3435,20 +3200,20 @@
               "weight": 0.64
             },
             {
-              "text": "kattonsatta",
-              "weight": 0.38
-            },
-            {
-              "text": "kettunsatta",
-              "weight": 0.23
-            },
-            {
               "text": "kettansatta",
               "weight": 0.22
             },
             {
               "text": "gettonsatta",
               "weight": 0.21
+            },
+            {
+              "text": "kettonsattd",
+              "weight": 0.2
+            },
+            {
+              "text": "kettonsatdta",
+              "weight": 0.19
             }
           ]
         }
@@ -3466,6 +3231,10 @@
               "weight": 0.8
             },
             {
+              "text": "sapakachatthaii",
+              "weight": 0.4
+            },
+            {
               "text": "saphakachatthaiy",
               "weight": 0.3
             },
@@ -3474,12 +3243,8 @@
               "weight": 0.26
             },
             {
-              "text": "saphakachatthyi",
-              "weight": 0.26
-            },
-            {
-              "text": "saphakachaatthaii",
-              "weight": 0.24
+              "text": "sdphakachatthaii",
+              "weight": 0.25
             }
           ]
         }
@@ -3497,20 +3262,12 @@
               "weight": 1
             },
             {
-              "text": "poun",
-              "weight": 0.32
-            },
-            {
               "text": "poon",
               "weight": 0.28
             },
             {
-              "text": "pon",
-              "weight": 0.16
-            },
-            {
-              "text": "pwoon",
-              "weight": 0.11
+              "text": "psoun",
+              "weight": 0.17
             }
           ]
         },
@@ -3522,20 +3279,8 @@
               "weight": 1
             },
             {
-              "text": "se",
-              "weight": 0.3
-            },
-            {
-              "text": "sy",
-              "weight": 0.26
-            },
-            {
               "text": "zi",
               "weight": 0.17
-            },
-            {
-              "text": "shi",
-              "weight": 0.07
             }
           ]
         },
@@ -3547,20 +3292,12 @@
               "weight": 1
             },
             {
-              "text": "man",
-              "weight": 0.6
+              "text": "mayn",
+              "weight": 0.3
             },
             {
               "text": "mein",
               "weight": 0.2
-            },
-            {
-              "text": "mayn",
-              "weight": 0.18
-            },
-            {
-              "text": "main",
-              "weight": 0.09
             }
           ]
         },
@@ -3572,6 +3309,10 @@
               "weight": 0.8
             },
             {
+              "text": "td",
+              "weight": 0.25
+            },
+            {
               "text": "dta",
               "weight": 0.24
             },
@@ -3580,12 +3321,8 @@
               "weight": 0.22
             },
             {
-              "text": "tk",
-              "weight": 0.14
-            },
-            {
-              "text": "ts",
-              "weight": 0.13
+              "text": "dtd",
+              "weight": 0.08
             }
           ]
         },
@@ -3597,20 +3334,20 @@
               "weight": 1
             },
             {
-              "text": "thai",
-              "weight": 0.9
-            },
-            {
-              "text": "tha'i",
-              "weight": 0.82
-            },
-            {
               "text": "thaiy",
               "weight": 0.37
             },
             {
-              "text": "thyi",
-              "weight": 0.32
+              "text": "thayi",
+              "weight": 0.3
+            },
+            {
+              "text": "thhiri",
+              "weight": 0.29
+            },
+            {
+              "text": "taii",
+              "weight": 0.28
             }
           ]
         }
@@ -3640,8 +3377,8 @@
               "weight": 0.2
             },
             {
-              "text": "khha",
-              "weight": 0.19
+              "text": "khta",
+              "weight": 0.16
             }
           ]
         },
@@ -3665,8 +3402,8 @@
               "weight": 0.2
             },
             {
-              "text": "rha",
-              "weight": 0.19
+              "text": "rta",
+              "weight": 0.16
             }
           ]
         },
@@ -3690,8 +3427,8 @@
               "weight": 0.2
             },
             {
-              "text": "bhaw",
-              "weight": 0.19
+              "text": "baao",
+              "weight": 0.16
             }
           ]
         }
@@ -3709,10 +3446,6 @@
               "weight": 0.8
             },
             {
-              "text": "sungkran",
-              "weight": 0.29
-            },
-            {
               "text": "sangkran",
               "weight": 0.28
             },
@@ -3723,6 +3456,10 @@
             {
               "text": "songkraan",
               "weight": 0.24
+            },
+            {
+              "text": "songkrarn",
+              "weight": 0.16
             }
           ]
         }
@@ -3740,20 +3477,20 @@
               "weight": 1
             },
             {
-              "text": "lai",
-              "weight": 0.42
-            },
-            {
               "text": "loy",
               "weight": 0.37
             },
             {
-              "text": "laui",
-              "weight": 0.33
+              "text": "lawi",
+              "weight": 0.3
             },
             {
               "text": "lori",
               "weight": 0.2
+            },
+            {
+              "text": "lawy",
+              "weight": 0.11
             }
           ]
         },
@@ -3763,10 +3500,6 @@
             {
               "text": "krathong",
               "weight": 0.8
-            },
-            {
-              "text": "krathung",
-              "weight": 0.29
             },
             {
               "text": "krathang",
@@ -3779,6 +3512,10 @@
             {
               "text": "kratong",
               "weight": 0.22
+            },
+            {
+              "text": "klathong",
+              "weight": 0.16
             }
           ]
         }
@@ -3800,16 +3537,12 @@
               "weight": 0.5
             },
             {
-              "text": "khhon",
-              "weight": 0.18
-            },
-            {
               "text": "khohn",
               "weight": 0.16
             },
             {
-              "text": "khan",
-              "weight": 0.12
+              "text": "kohn",
+              "weight": 0.08
             }
           ]
         }
@@ -3831,15 +3564,15 @@
               "weight": 0.4
             },
             {
-              "text": "ramkiunti",
-              "weight": 0.33
-            },
-            {
               "text": "ramgianti",
               "weight": 0.33
             },
             {
-              "text": "ramkiante",
+              "text": "ramkiandti",
+              "weight": 0.3
+            },
+            {
+              "text": "ramkeanti",
               "weight": 0.3
             }
           ]
@@ -3859,19 +3592,15 @@
             },
             {
               "text": "pra",
-              "weight": 0.29
-            },
-            {
-              "text": "phre",
-              "weight": 0.2
+              "weight": 0.28
             },
             {
               "text": "phla",
               "weight": 0.2
             },
             {
-              "text": "phrha",
-              "weight": 0.18
+              "text": "pla",
+              "weight": 0.06
             }
           ]
         },
@@ -3883,20 +3612,20 @@
               "weight": 0.8
             },
             {
-              "text": "aphui",
-              "weight": 0.42
+              "text": "apai",
+              "weight": 0.4
             },
             {
               "text": "aphay",
               "weight": 0.3
             },
             {
-              "text": "aphoi",
-              "weight": 0.24
+              "text": "dphai",
+              "weight": 0.25
             },
             {
-              "text": "apai",
-              "weight": 0.23
+              "text": "ophai",
+              "weight": 0.22
             }
           ]
         },
@@ -3908,20 +3637,20 @@
               "weight": 0.8
             },
             {
-              "text": "mane",
-              "weight": 0.46
+              "text": "many",
+              "weight": 0.64
+            },
+            {
+              "text": "mdni",
+              "weight": 0.25
             },
             {
               "text": "moni",
               "weight": 0.22
             },
             {
-              "text": "manee",
-              "weight": 0.18
-            },
-            {
-              "text": "mkni",
-              "weight": 0.14
+              "text": "mdny",
+              "weight": 0.2
             }
           ]
         }
@@ -3939,20 +3668,20 @@
               "weight": 1
             },
             {
-              "text": "lika",
-              "weight": 0.6
-            },
-            {
               "text": "lige",
               "weight": 0.33
             },
             {
-              "text": "leke",
+              "text": "likay",
               "weight": 0.3
             },
             {
-              "text": "lyke",
-              "weight": 0.26
+              "text": "likei",
+              "weight": 0.2
+            },
+            {
+              "text": "ligay",
+              "weight": 0.1
             }
           ]
         }
@@ -3970,20 +3699,20 @@
               "weight": 1
             },
             {
-              "text": "louk",
-              "weight": 0.32
-            },
-            {
-              "text": "lug",
-              "weight": 0.3
-            },
-            {
               "text": "look",
               "weight": 0.28
             },
             {
-              "text": "lok",
-              "weight": 0.16
+              "text": "lug",
+              "weight": 0.17
+            },
+            {
+              "text": "lsouk",
+              "weight": 0.17
+            },
+            {
+              "text": "loog",
+              "weight": 0.05
             }
           ]
         },
@@ -3999,16 +3728,12 @@
               "weight": 0.28
             },
             {
-              "text": "thong",
-              "weight": 0.26
-            },
-            {
               "text": "thoong",
               "weight": 0.22
             },
             {
-              "text": "thoung",
-              "weight": 0.18
+              "text": "toong",
+              "weight": 0.06
             }
           ]
         }
@@ -4026,20 +3751,20 @@
               "weight": 1
             },
             {
-              "text": "mola",
-              "weight": 0.8
-            },
-            {
-              "text": "malam",
-              "weight": 0.42
-            },
-            {
               "text": "molum",
               "weight": 0.4
             },
             {
-              "text": "mala",
-              "weight": 0.34
+              "text": "mawlam",
+              "weight": 0.3
+            },
+            {
+              "text": "morlam",
+              "weight": 0.2
+            },
+            {
+              "text": "mawlum",
+              "weight": 0.12
             }
           ]
         }
@@ -4057,20 +3782,20 @@
               "weight": 1
             },
             {
-              "text": "tug",
-              "weight": 0.3
-            },
-            {
               "text": "dtuk",
               "weight": 0.3
             },
             {
-              "text": "tok",
-              "weight": 0.26
-            },
-            {
               "text": "took",
               "weight": 0.22
+            },
+            {
+              "text": "tug",
+              "weight": 0.17
+            },
+            {
+              "text": "dtook",
+              "weight": 0.07
             }
           ]
         },
@@ -4082,20 +3807,20 @@
               "weight": 1
             },
             {
-              "text": "tug",
-              "weight": 0.3
-            },
-            {
               "text": "dtuk",
               "weight": 0.3
             },
             {
-              "text": "tok",
-              "weight": 0.26
-            },
-            {
               "text": "took",
               "weight": 0.22
+            },
+            {
+              "text": "tug",
+              "weight": 0.17
+            },
+            {
+              "text": "dtook",
+              "weight": 0.07
             }
           ]
         }
@@ -4117,16 +3842,16 @@
               "weight": 0.3
             },
             {
+              "text": "sdbai",
+              "weight": 0.25
+            },
+            {
               "text": "sabaai",
               "weight": 0.24
             },
             {
               "text": "sobai",
               "weight": 0.22
-            },
-            {
-              "text": "sabari",
-              "weight": 0.16
             }
           ]
         }
@@ -4144,20 +3869,20 @@
               "weight": 1
             },
             {
-              "text": "wy",
-              "weight": 0.32
+              "text": "way",
+              "weight": 0.3
+            },
+            {
+              "text": "whir",
+              "weight": 0.29
             },
             {
               "text": "wi",
               "weight": 0.23
             },
             {
-              "text": "way",
-              "weight": 0.18
-            },
-            {
-              "text": "wei",
-              "weight": 0.17
+              "text": "vai",
+              "weight": 0.16
             }
           ]
         }
@@ -4175,10 +3900,6 @@
               "weight": 0.8
             },
             {
-              "text": "krathung",
-              "weight": 0.29
-            },
-            {
               "text": "krathang",
               "weight": 0.28
             },
@@ -4189,6 +3910,10 @@
             {
               "text": "kratong",
               "weight": 0.22
+            },
+            {
+              "text": "klathong",
+              "weight": 0.16
             }
           ]
         }
@@ -4206,20 +3931,16 @@
               "weight": 1
             },
             {
-              "text": "ye",
-              "weight": 0.58
+              "text": "yy",
+              "weight": 0.8
             },
             {
               "text": "yee",
               "weight": 0.22
             },
             {
-              "text": "yey",
-              "weight": 0.16
-            },
-            {
-              "text": "yea",
-              "weight": 0.11
+              "text": "yyi",
+              "weight": 0.07
             }
           ]
         },
@@ -4246,20 +3967,8 @@
               "weight": 0.8
             },
             {
-              "text": "ung",
-              "weight": 0.29
-            },
-            {
               "text": "ang",
               "weight": 0.28
-            },
-            {
-              "text": "cng",
-              "weight": 0.19
-            },
-            {
-              "text": "hong",
-              "weight": 0.17
             }
           ]
         },
@@ -4271,10 +3980,6 @@
               "weight": 1
             },
             {
-              "text": "bag",
-              "weight": 0.3
-            },
-            {
               "text": "baak",
               "weight": 0.3
             },
@@ -4283,8 +3988,12 @@
               "weight": 0.2
             },
             {
-              "text": "bhak",
-              "weight": 0.19
+              "text": "bag",
+              "weight": 0.17
+            },
+            {
+              "text": "btak",
+              "weight": 0.16
             }
           ]
         }
@@ -4310,12 +4019,8 @@
               "weight": 0.2
             },
             {
-              "text": "nhang",
-              "weight": 0.19
-            },
-            {
-              "text": "neng",
-              "weight": 0.17
+              "text": "ntang",
+              "weight": 0.16
             }
           ]
         },
@@ -4327,10 +4032,6 @@
               "weight": 1
             },
             {
-              "text": "nag",
-              "weight": 0.3
-            },
-            {
               "text": "naak",
               "weight": 0.3
             },
@@ -4339,8 +4040,12 @@
               "weight": 0.2
             },
             {
-              "text": "nhak",
-              "weight": 0.19
+              "text": "nag",
+              "weight": 0.17
+            },
+            {
+              "text": "ntak",
+              "weight": 0.16
             }
           ]
         }
@@ -4358,20 +4063,20 @@
               "weight": 1
             },
             {
-              "text": "phe",
-              "weight": 0.58
+              "text": "phy",
+              "weight": 0.8
             },
             {
               "text": "pi",
-              "weight": 0.29
+              "weight": 0.28
+            },
+            {
+              "text": "py",
+              "weight": 0.22
             },
             {
               "text": "phee",
               "weight": 0.22
-            },
-            {
-              "text": "pe",
-              "weight": 0.17
             }
           ]
         },
@@ -4383,10 +4088,6 @@
               "weight": 1
             },
             {
-              "text": "mag",
-              "weight": 0.3
-            },
-            {
               "text": "maak",
               "weight": 0.3
             },
@@ -4395,18 +4096,18 @@
               "weight": 0.2
             },
             {
-              "text": "mhak",
-              "weight": 0.19
+              "text": "mag",
+              "weight": 0.17
+            },
+            {
+              "text": "mtak",
+              "weight": 0.16
             }
           ]
         },
         {
           "thai": "พระโขนง",
           "variants": [
-            {
-              "text": "phra khanong",
-              "weight": 1.1
-            },
             {
               "text": "phrakhonong",
               "weight": 0.8
@@ -4416,12 +4117,16 @@
               "weight": 0.4
             },
             {
-              "text": "phrakhonung",
-              "weight": 0.29
-            },
-            {
               "text": "phrakhonang",
               "weight": 0.28
+            },
+            {
+              "text": "prakhonong",
+              "weight": 0.22
+            },
+            {
+              "text": "phlakhonong",
+              "weight": 0.16
             }
           ]
         }
@@ -4439,6 +4144,10 @@
               "weight": 0.8
             },
             {
+              "text": "chdlat",
+              "weight": 0.25
+            },
+            {
               "text": "chalaat",
               "weight": 0.24
             },
@@ -4449,10 +4158,6 @@
             {
               "text": "chalad",
               "weight": 0.17
-            },
-            {
-              "text": "chalart",
-              "weight": 0.16
             }
           ]
         },
@@ -4464,20 +4169,20 @@
               "weight": 1
             },
             {
-              "text": "kam",
-              "weight": 0.6
-            },
-            {
               "text": "gem",
               "weight": 0.33
+            },
+            {
+              "text": "kaym",
+              "weight": 0.3
             },
             {
               "text": "keim",
               "weight": 0.2
             },
             {
-              "text": "gam",
-              "weight": 0.2
+              "text": "gaym",
+              "weight": 0.1
             }
           ]
         },
@@ -4493,16 +4198,12 @@
               "weight": 0.33
             },
             {
-              "text": "khong",
-              "weight": 0.18
-            },
-            {
               "text": "kohng",
               "weight": 0.16
             },
             {
-              "text": "kang",
-              "weight": 0.12
+              "text": "gohng",
+              "weight": 0.05
             }
           ]
         }
@@ -4520,20 +4221,8 @@
               "weight": 0.8
             },
             {
-              "text": "mun",
-              "weight": 0.29
-            },
-            {
               "text": "man",
               "weight": 0.28
-            },
-            {
-              "text": "mcn",
-              "weight": 0.19
-            },
-            {
-              "text": "mhon",
-              "weight": 0.17
             }
           ]
         },
@@ -4545,20 +4234,20 @@
               "weight": 1
             },
             {
-              "text": "ruk",
-              "weight": 0.53
+              "text": "lak",
+              "weight": 0.3
+            },
+            {
+              "text": "rsok",
+              "weight": 0.18
             },
             {
               "text": "rag",
-              "weight": 0.3
+              "weight": 0.17
             },
             {
-              "text": "rok",
-              "weight": 0.3
-            },
-            {
-              "text": "lak",
-              "weight": 0.3
+              "text": "lsok",
+              "weight": 0.05
             }
           ]
         },
@@ -4570,20 +4259,20 @@
               "weight": 1
             },
             {
-              "text": "louk",
-              "weight": 0.32
-            },
-            {
-              "text": "lug",
-              "weight": 0.3
-            },
-            {
               "text": "look",
               "weight": 0.28
             },
             {
-              "text": "lok",
-              "weight": 0.16
+              "text": "lug",
+              "weight": 0.17
+            },
+            {
+              "text": "lsouk",
+              "weight": 0.17
+            },
+            {
+              "text": "loog",
+              "weight": 0.05
             }
           ]
         },
@@ -4599,16 +4288,12 @@
               "weight": 0.28
             },
             {
-              "text": "thong",
-              "weight": 0.26
-            },
-            {
               "text": "thoong",
               "weight": 0.22
             },
             {
-              "text": "thoung",
-              "weight": 0.18
+              "text": "toong",
+              "weight": 0.06
             }
           ]
         }
@@ -4626,20 +4311,12 @@
               "weight": 0.8
             },
             {
+              "text": "fd",
+              "weight": 0.25
+            },
+            {
               "text": "fo",
               "weight": 0.22
-            },
-            {
-              "text": "fk",
-              "weight": 0.14
-            },
-            {
-              "text": "fs",
-              "weight": 0.13
-            },
-            {
-              "text": "fe",
-              "weight": 0.1
             }
           ]
         },
@@ -4677,19 +4354,19 @@
             },
             {
               "text": "jon",
-              "weight": 0.42
+              "weight": 0.41
             },
             {
               "text": "chor",
-              "weight": 0.27
+              "weight": 0.25
             },
             {
               "text": "cho",
               "weight": 0.2
             },
             {
-              "text": "chhon",
-              "weight": 0.18
+              "text": "chohn",
+              "weight": 0.16
             }
           ]
         }
@@ -4715,12 +4392,12 @@
               "weight": 0.24
             },
             {
-              "text": "muwyathaii",
-              "weight": 0.23
-            },
-            {
               "text": "mawyathaii",
               "weight": 0.22
+            },
+            {
+              "text": "mowydthaii",
+              "weight": 0.2
             }
           ]
         }
@@ -4742,12 +4419,12 @@
               "weight": 0.24
             },
             {
-              "text": "mawui",
-              "weight": 0.23
-            },
-            {
               "text": "mawai",
               "weight": 0.22
+            },
+            {
+              "text": "mdwoi",
+              "weight": 0.2
             },
             {
               "text": "mowoi",
@@ -4763,6 +4440,10 @@
               "weight": 0.8
             },
             {
+              "text": "brond",
+              "weight": 0.25
+            },
+            {
               "text": "brono",
               "weight": 0.22
             },
@@ -4771,12 +4452,8 @@
               "weight": 0.16
             },
             {
-              "text": "brhona",
-              "weight": 0.14
-            },
-            {
-              "text": "bronk",
-              "weight": 0.14
+              "text": "brohna",
+              "weight": 0.13
             }
           ]
         }
@@ -4791,23 +4468,23 @@
           "variants": [
             {
               "text": "krabi",
-              "weight": 1.1
-            },
-            {
-              "text": "krabe",
-              "weight": 0.58
-            },
-            {
-              "text": "krampi",
-              "weight": 0.41
+              "weight": 1
             },
             {
               "text": "kraby",
-              "weight": 0.41
+              "weight": 0.8
             },
             {
               "text": "grabi",
               "weight": 0.33
+            },
+            {
+              "text": "graby",
+              "weight": 0.26
+            },
+            {
+              "text": "krabee",
+              "weight": 0.22
             }
           ]
         },
@@ -4817,10 +4494,6 @@
             {
               "text": "krapong",
               "weight": 0.8
-            },
-            {
-              "text": "krapung",
-              "weight": 0.29
             },
             {
               "text": "krapang",
@@ -4833,6 +4506,10 @@
             {
               "text": "krabong",
               "weight": 0.19
+            },
+            {
+              "text": "klapong",
+              "weight": 0.16
             }
           ]
         }
@@ -4850,20 +4527,20 @@
               "weight": 1
             },
             {
-              "text": "wy",
-              "weight": 0.32
+              "text": "way",
+              "weight": 0.3
+            },
+            {
+              "text": "whir",
+              "weight": 0.29
             },
             {
               "text": "wi",
               "weight": 0.23
             },
             {
-              "text": "way",
-              "weight": 0.18
-            },
-            {
-              "text": "wei",
-              "weight": 0.17
+              "text": "vai",
+              "weight": 0.16
             }
           ]
         },
@@ -4873,10 +4550,6 @@
             {
               "text": "khru",
               "weight": 1
-            },
-            {
-              "text": "khrou",
-              "weight": 0.32
             },
             {
               "text": "khroo",
@@ -4889,6 +4562,10 @@
             {
               "text": "khlu",
               "weight": 0.2
+            },
+            {
+              "text": "khrsou",
+              "weight": 0.17
             }
           ]
         }
@@ -4906,10 +4583,6 @@
               "weight": 1
             },
             {
-              "text": "ra",
-              "weight": 0.8
-            },
-            {
               "text": "rum",
               "weight": 0.4
             },
@@ -4918,8 +4591,8 @@
               "weight": 0.3
             },
             {
-              "text": "la",
-              "weight": 0.24
+              "text": "lum",
+              "weight": 0.12
             }
           ]
         },
@@ -4935,12 +4608,12 @@
               "weight": 0.24
             },
             {
-              "text": "mawui",
-              "weight": 0.23
-            },
-            {
               "text": "mawai",
               "weight": 0.22
+            },
+            {
+              "text": "mdwoi",
+              "weight": 0.2
             },
             {
               "text": "mowoi",
@@ -4962,12 +4635,12 @@
               "weight": 0.64
             },
             {
-              "text": "mungkhla",
-              "weight": 0.23
-            },
-            {
               "text": "mangkhla",
               "weight": 0.22
+            },
+            {
+              "text": "mongkhld",
+              "weight": 0.2
             },
             {
               "text": "mongkla",
@@ -4994,19 +4667,19 @@
             },
             {
               "text": "prajiat",
-              "weight": 0.42
+              "weight": 0.41
             },
             {
               "text": "prachiyat",
               "weight": 0.4
             },
             {
-              "text": "prachiut",
-              "weight": 0.33
-            },
-            {
               "text": "pracheat",
               "weight": 0.3
+            },
+            {
+              "text": "prachiad",
+              "weight": 0.21
             }
           ]
         }
@@ -5024,6 +4697,10 @@
               "weight": 0.8
             },
             {
+              "text": "sdmot",
+              "weight": 0.25
+            },
+            {
               "text": "samos",
               "weight": 0.24
             },
@@ -5032,12 +4709,8 @@
               "weight": 0.22
             },
             {
-              "text": "samhot",
-              "weight": 0.14
-            },
-            {
-              "text": "skmot",
-              "weight": 0.14
+              "text": "samoht",
+              "weight": 0.13
             }
           ]
         },
@@ -5049,20 +4722,20 @@
               "weight": 1
             },
             {
-              "text": "futban",
-              "weight": 0.42
-            },
-            {
-              "text": "futbaun",
-              "weight": 0.33
+              "text": "futbawn",
+              "weight": 0.3
             },
             {
               "text": "futbol",
               "weight": 0.26
             },
             {
-              "text": "fotbon",
-              "weight": 0.26
+              "text": "footbon",
+              "weight": 0.22
+            },
+            {
+              "text": "futborn",
+              "weight": 0.2
             }
           ]
         },
@@ -5070,24 +4743,24 @@
           "thai": "บุรีรัมย์",
           "variants": [
             {
-              "text": "buri ram",
-              "weight": 1.1
-            },
-            {
               "text": "buriram",
               "weight": 1
             },
             {
-              "text": "bureram",
-              "weight": 0.58
+              "text": "buryram",
+              "weight": 0.8
             },
             {
-              "text": "burirum",
-              "weight": 0.53
+              "text": "burilam",
+              "weight": 0.3
             },
             {
-              "text": "burerum",
-              "weight": 0.31
+              "text": "buliram",
+              "weight": 0.3
+            },
+            {
+              "text": "burylam",
+              "weight": 0.24
             }
           ]
         },
@@ -5099,16 +4772,16 @@
               "weight": 1
             },
             {
-              "text": "yunytet",
-              "weight": 0.32
-            },
-            {
-              "text": "younaitet",
-              "weight": 0.32
-            },
-            {
               "text": "yunaidtet",
               "weight": 0.3
+            },
+            {
+              "text": "yunaytet",
+              "weight": 0.3
+            },
+            {
+              "text": "yunhirtet",
+              "weight": 0.29
             },
             {
               "text": "yoonaitet",
@@ -5130,6 +4803,10 @@
               "weight": 0.8
             },
             {
+              "text": "sdmot",
+              "weight": 0.25
+            },
+            {
               "text": "samos",
               "weight": 0.24
             },
@@ -5138,12 +4815,8 @@
               "weight": 0.22
             },
             {
-              "text": "samhot",
-              "weight": 0.14
-            },
-            {
-              "text": "skmot",
-              "weight": 0.14
+              "text": "samoht",
+              "weight": 0.13
             }
           ]
         },
@@ -5155,20 +4828,20 @@
               "weight": 1
             },
             {
-              "text": "futban",
-              "weight": 0.42
-            },
-            {
-              "text": "futbaun",
-              "weight": 0.33
+              "text": "futbawn",
+              "weight": 0.3
             },
             {
               "text": "futbol",
               "weight": 0.26
             },
             {
-              "text": "fotbon",
-              "weight": 0.26
+              "text": "footbon",
+              "weight": 0.22
+            },
+            {
+              "text": "futborn",
+              "weight": 0.2
             }
           ]
         },
@@ -5180,20 +4853,20 @@
               "weight": 1
             },
             {
-              "text": "mueang thong",
-              "weight": 0.9
-            },
-            {
               "text": "muangthong",
               "weight": 0.6
             },
             {
-              "text": "mueangthang",
-              "weight": 0.42
+              "text": "mueangthawng",
+              "weight": 0.3
             },
             {
-              "text": "mueangthaung",
-              "weight": 0.33
+              "text": "muerngthong",
+              "weight": 0.3
+            },
+            {
+              "text": "meuangthong",
+              "weight": 0.3
             }
           ]
         },
@@ -5205,16 +4878,16 @@
               "weight": 1
             },
             {
-              "text": "yunytet",
-              "weight": 0.32
-            },
-            {
-              "text": "younaitet",
-              "weight": 0.32
-            },
-            {
               "text": "yunaidtet",
               "weight": 0.3
+            },
+            {
+              "text": "yunaytet",
+              "weight": 0.3
+            },
+            {
+              "text": "yunhirtet",
+              "weight": 0.29
             },
             {
               "text": "yoonaitet",
@@ -5236,6 +4909,10 @@
               "weight": 0.8
             },
             {
+              "text": "sdmot",
+              "weight": 0.25
+            },
+            {
               "text": "samos",
               "weight": 0.24
             },
@@ -5244,12 +4921,8 @@
               "weight": 0.22
             },
             {
-              "text": "samhot",
-              "weight": 0.14
-            },
-            {
-              "text": "skmot",
-              "weight": 0.14
+              "text": "samoht",
+              "weight": 0.13
             }
           ]
         },
@@ -5261,20 +4934,20 @@
               "weight": 1
             },
             {
-              "text": "futban",
-              "weight": 0.42
-            },
-            {
-              "text": "futbaun",
-              "weight": 0.33
+              "text": "futbawn",
+              "weight": 0.3
             },
             {
               "text": "futbol",
               "weight": 0.26
             },
             {
-              "text": "fotbon",
-              "weight": 0.26
+              "text": "footbon",
+              "weight": 0.22
+            },
+            {
+              "text": "futborn",
+              "weight": 0.2
             }
           ]
         },
@@ -5282,24 +4955,24 @@
           "thai": "ชลบุรี",
           "variants": [
             {
-              "text": "chon buri",
-              "weight": 1.1
-            },
-            {
               "text": "chonburi",
               "weight": 0.8
             },
             {
-              "text": "chonbure",
-              "weight": 0.46
-            },
-            {
-              "text": "chunburi",
-              "weight": 0.29
+              "text": "chonbury",
+              "weight": 0.64
             },
             {
               "text": "chanburi",
               "weight": 0.28
+            },
+            {
+              "text": "chonbuli",
+              "weight": 0.24
+            },
+            {
+              "text": "chanbury",
+              "weight": 0.22
             }
           ]
         }

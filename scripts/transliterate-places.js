@@ -2,7 +2,7 @@
 /**
  * Transliterate Thai names from a JSON data file and output word-by-word results.
  *
- * Usage: node scripts/transliterate-places.js [--input FILE] [--max-variants N] [--json]
+ * Usage: node scripts/transliterate-places.js [--input FILE] [--max-variants N] [--json] [--no-dictionary] [--compare]
  *
  * Input file should have a "places" or "entries" array of {thai, category} objects.
  * Defaults to data/thai-places.json.
@@ -19,6 +19,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const dataPath = argValue('--input', join(__dirname, '..', 'data', 'thai-places.json'));
 const jsonMode = hasFlag('--json');
+const compareMode = hasFlag('--compare');
+const noDictionary = hasFlag('--no-dictionary');
 const maxVariants = parseInt(argValue('--max-variants', '5'), 10);
 
 const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf-8'));
@@ -27,10 +29,31 @@ const gitCommit = execSync('git rev-parse --short HEAD', { cwd: join(__dirname, 
 const data = JSON.parse(readFileSync(dataPath, 'utf-8'));
 const places = data.places || data.entries;
 
-if (jsonMode) {
+const opts = { maxVariants };
+if (noDictionary) opts.dictionary = false;
+
+if (compareMode) {
+  // Side-by-side: algorithm vs dictionary
+  let same = 0;
+  let diff = 0;
+  for (const place of places) {
+    const withDict = transliterateWords(place.thai, { maxVariants });
+    const withoutDict = transliterateWords(place.thai, { maxVariants, dictionary: false });
+    const topWith = withDict.map(w => w.variants[0]?.text ?? '?').join(' ');
+    const topWithout = withoutDict.map(w => w.variants[0]?.text ?? '?').join(' ');
+    if (topWith === topWithout) {
+      same++;
+      console.log(`= ${place.thai}  ${topWithout}`);
+    } else {
+      diff++;
+      console.log(`! ${place.thai}  algo: ${topWithout}  dict: ${topWith}`);
+    }
+  }
+  console.error(`\n${same} same, ${diff} different (${((same / (same + diff)) * 100).toFixed(1)}% algorithm-only match)`);
+} else if (jsonMode) {
   const results = [];
   for (const place of places) {
-    const words = transliterateWords(place.thai, { maxVariants });
+    const words = transliterateWords(place.thai, opts);
     results.push({
       thai: place.thai,
       category: place.category,
@@ -50,13 +73,14 @@ if (jsonMode) {
       generatedAt: new Date().toISOString(),
       input: dataPath,
       entries: results.length,
+      dictionary: !noDictionary,
     },
     results,
   };
   process.stdout.write(JSON.stringify(output, null, 2) + '\n');
 } else {
   for (const place of places) {
-    const words = transliterateWords(place.thai, { maxVariants });
+    const words = transliterateWords(place.thai, opts);
     const top = words.map(w => w.variants[0]?.text ?? '?').join(' ');
     const wordDetail = words.map(w => {
       const variants = w.variants.slice(0, maxVariants).map(v => `${v.text}(${v.weight.toFixed(2)})`).join(', ');

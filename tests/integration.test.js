@@ -371,6 +371,34 @@ describe('translations: false option', () => {
   });
 });
 
+describe('dictionary: false option', () => {
+  it('transliterate returns pure algorithmic output for กรุงเทพ', () => {
+    const result = transliterate('กรุงเทพ', { dictionary: false });
+    assert.notStrictEqual(result, 'bangkok');
+    assert.ok(result.startsWith('k') || result.startsWith('g'),
+      `Expected phonetic starting with k/g, got: "${result}"`);
+  });
+
+  it('transliterateVariants excludes all dictionary entries', () => {
+    const result = transliterateVariants('กรุงเทพ', { dictionary: false, maxVariants: 30 });
+    const texts = result.map(v => v.text);
+    assert.ok(!texts.includes('bangkok'), 'Should not include "bangkok"');
+    assert.ok(result.length > 0, 'Should still produce algorithmic variants');
+  });
+
+  it('matchThai still works without dictionary', () => {
+    const result = matchThai('ภูเก็ต', 'phuket', { dictionary: false });
+    assert.ok(result, 'Should find match without dictionary');
+    assert.ok(result.distance <= 3, `Distance ${result.distance} should be small`);
+  });
+
+  it('default behavior unchanged (dictionary: true is default)', () => {
+    const withDefault = transliterate('กรุงเทพ');
+    const withExplicitTrue = transliterate('กรุงเทพ', { dictionary: true });
+    assert.strictEqual(withDefault, withExplicitTrue);
+  });
+});
+
 describe('transliterateVariants - sara aw (อ as vowel) words', () => {
   const saraAwCases = [
     {

@@ -19,11 +19,11 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseSyllables } from '../src/syllable-parser.js';
 import { romanizeSyllable } from '../src/romanizer.js';
-import { generateVariants } from '../src/variant-generator.js';
 import { levenshtein } from '../src/levenshtein.js';
 
 import { argValue } from './lib/args.js';
 import { inferPositionType } from './lib/position.js';
+import { segmentWords, algorithmicVariantsWord } from './lib/algorithmic.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -33,31 +33,8 @@ const outputPath = argValue('--output', join(root, 'data', 'variant-discoveries.
 const minObservations = parseInt(argValue('--min-observations', '5'), 10);
 const maxDistance = parseInt(argValue('--max-distance', '5'), 10);
 
-// Thai word segmenter
-let segmenter = null;
-try {
-  if (typeof Intl !== 'undefined' && Intl.Segmenter) {
-    segmenter = new Intl.Segmenter('th', { granularity: 'word' });
-  }
-} catch { /* unavailable */ }
-
-function segmentWords(thai) {
-  if (segmenter) {
-    return [...segmenter.segment(thai)]
-      .filter(seg => seg.isWordLike)
-      .map(seg => seg.segment);
-  }
-  return thai.split(/\s+/).filter(Boolean);
-}
-
-/**
- * Pure algorithmic transliteration for a single Thai word (no dictionary).
- */
-function algorithmicVariants(word) {
-  const syllables = parseSyllables(word);
-  const positions = syllables.map(syl => romanizeSyllable(syl));
-  return generateVariants(positions, { maxVariants: 15 });
-}
+/** @type {(word: string, maxVariants?: number) => Array<{text: string, weight: number}>} */
+const algorithmicVariants = algorithmicVariantsWord;
 
 /**
  * Find best algorithmic variant for a target string.
