@@ -11,7 +11,7 @@
  * Expected runtime: 30–60 minutes for full extraction.
  */
 
-import { readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, statSync, unlinkSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hasThai, isValidLatin } from './lib/filters.js';
@@ -32,11 +32,16 @@ const force = args.includes('--force');
 const SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql';
 const MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const REQUEST_DELAY_MS = 2000;
-const PAGE_SIZE = 10000;
-const MAX_RETRIES = 3;
+const PAGE_SIZE = 2000;   // keep small — large responses get truncated by the endpoint
+const MAX_RETRIES = 5;
 
 /**
  * Entity type categories with Wikidata Q-IDs and weight multipliers.
+ *
+ * Type-based categories use `wdt:P31` queries scoped to specific entity types.
+ * The `wiki_entities` category uses a Wikipedia-side query (no P31 filter) to
+ * capture all Thai Wikipedia entities — people, orgs, films, etc. — without
+ * crashing Blazegraph on broad type joins like Q5 (human, ~10M entities).
  */
 const CATEGORIES = [
   {
@@ -45,29 +50,18 @@ const CATEGORIES = [
     types: ['Q55488', 'Q1248784', 'Q62447'],  // railway station, airport, bus station
   },
   {
-    name: 'places',
-    multiplier: 1.5,
-    types: ['Q515', 'Q5119', 'Q3957', 'Q532', 'Q23442', 'Q34763'],  // city, capital, town, village, island, peninsula
-  },
-  {
     name: 'admin',
     multiplier: 1.5,
     types: ['Q6256', 'Q36784', 'Q50198', 'Q2093656'],  // country, province, district, subdistrict of Thailand
   },
   {
-    name: 'people',
-    multiplier: 0.8,
-    types: ['Q5'],  // human
-  },
-  {
-    name: 'organizations',
-    multiplier: 0.6,
-    types: ['Q43229', 'Q4830453', 'Q7278'],  // organization, business, political party
-  },
-  {
-    name: 'other',
-    multiplier: 0.3,
-    types: ['Q11424', 'Q7889', 'Q482994', 'Q134556'],  // film, video game, album, single
+    // Queries FROM Thai Wikipedia articles (~180K) instead of by entity type.
+    // Broad type+sitelink joins (places, people, orgs) crash Blazegraph, so we
+    // start from the Wikipedia side which is bounded and reliable.
+    // Places are already well-covered by GeoNames + OSM with proper weighting.
+    name: 'wiki_entities',
+    multiplier: 0.5,
+    wikiQuery: true,
   },
 ];
 
@@ -94,7 +88,68 @@ async function sparqlQuery(query) {
     throw new Error(`SPARQL ${response.status}: ${response.statusText} — ${body.slice(0, 200)}`);
   }
 
-  return response.json();
+  // Read as text — the SPARQL endpoint sometimes returns truncated JSON
+  // (partial response + error marker like "SPARQL-QUERY-..."), or labels
+  // with unescaped control characters in string values.
+  let text = await response.text();
+
+  // Strip control characters inside JSON string values (not structural whitespace)
+  // Replace chars 0x00-0x08, 0x0B-0x0C, 0x0E-0x1F (NOT \t \n \r which are valid JSON whitespace)
+  text = text.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, '');
+
+  // If the response is truncated, the JSON won't end with proper closing braces.
+  // Truncate at the last complete binding (last "}") before any trailing garbage.
+  try {
+    return JSON.parse(text);
+  } catch {
+    // Try to salvage: find the last valid JSON closing sequence
+    const lastBrace = text.lastIndexOf('}}');
+    if (lastBrace > 0) {
+      const truncated = text.slice(0, lastBrace + 2) + ']}';
+      try {
+        return JSON.parse(truncated);
+      } catch {
+        // noop — fall through to throw
+      }
+    }
+    throw new Error(`Invalid JSON response (${text.length} bytes, ends with: "${text.slice(-60)}")`);
+  }
+}
+
+/**
+ * Build the SPARQL labels query for a category at a given offset.
+ */
+function buildLabelsQuery(category, offset) {
+  if (category.wikiQuery) {
+    // Query from Thai Wikipedia side — avoids expensive P31 joins that crash Blazegraph
+    return `
+      SELECT ?item ?thLabel ?enLabel ?sitelinks WHERE {
+        ?article schema:about ?item ;
+                 schema:isPartOf <https://th.wikipedia.org/> .
+        ?item rdfs:label ?thLabel . FILTER(LANG(?thLabel) = "th")
+        ?item rdfs:label ?enLabel . FILTER(LANG(?enLabel) = "en")
+        ?item wikibase:sitelinks ?sitelinks .
+      }
+      LIMIT ${PAGE_SIZE} OFFSET ${offset}
+    `;
+  }
+
+  const typeValues = category.types.map(t => `wd:${t}`).join(' ');
+  const thaiWikiFilter = category.requireThaiWiki
+    ? '?thWikiArticle schema:about ?item ; schema:isPartOf <https://th.wikipedia.org/> .'
+    : '';
+
+  return `
+    SELECT ?item ?thLabel ?enLabel ?sitelinks WHERE {
+      ?item wdt:P31 ?type .
+      VALUES ?type { ${typeValues} }
+      ${thaiWikiFilter}
+      ?item rdfs:label ?thLabel . FILTER(LANG(?thLabel) = "th")
+      ?item rdfs:label ?enLabel . FILTER(LANG(?enLabel) = "en")
+      ?item wikibase:sitelinks ?sitelinks .
+    }
+    LIMIT ${PAGE_SIZE} OFFSET ${offset}
+  `;
 }
 
 /**
@@ -105,19 +160,8 @@ async function paginatedQuery(category) {
   const allBindings = [];
   let offset = 0;
 
-  const typeValues = category.types.map(t => `wd:${t}`).join(' ');
-
   while (true) {
-    const query = `
-      SELECT ?item ?thLabel ?enLabel ?sitelinks WHERE {
-        ?item wdt:P31 ?type .
-        VALUES ?type { ${typeValues} }
-        ?item rdfs:label ?thLabel . FILTER(LANG(?thLabel) = "th")
-        ?item rdfs:label ?enLabel . FILTER(LANG(?enLabel) = "en")
-        ?item wikibase:sitelinks ?sitelinks .
-      }
-      LIMIT ${PAGE_SIZE} OFFSET ${offset}
-    `;
+    const query = buildLabelsQuery(category, offset);
 
     let result;
     let retries = 0;
@@ -152,19 +196,14 @@ async function paginatedQuery(category) {
 }
 
 /**
- * Fetch aliases (skos:altLabel) for a category.
+ * Build the SPARQL aliases query for a category at a given offset.
  */
-async function fetchAliases(category) {
-  const allBindings = [];
-  let offset = 0;
-
-  const typeValues = category.types.map(t => `wd:${t}`).join(' ');
-
-  while (true) {
-    const query = `
+function buildAliasesQuery(category, offset) {
+  if (category.wikiQuery) {
+    return `
       SELECT ?item ?thAlt ?enAlt WHERE {
-        ?item wdt:P31 ?type .
-        VALUES ?type { ${typeValues} }
+        ?article schema:about ?item ;
+                 schema:isPartOf <https://th.wikipedia.org/> .
         {
           ?item skos:altLabel ?thAlt . FILTER(LANG(?thAlt) = "th")
           ?item rdfs:label ?enAlt . FILTER(LANG(?enAlt) = "en")
@@ -175,6 +214,39 @@ async function fetchAliases(category) {
       }
       LIMIT ${PAGE_SIZE} OFFSET ${offset}
     `;
+  }
+
+  const typeValues = category.types.map(t => `wd:${t}`).join(' ');
+  const thaiWikiFilter = category.requireThaiWiki
+    ? '?thWikiArticle schema:about ?item ; schema:isPartOf <https://th.wikipedia.org/> .'
+    : '';
+
+  return `
+    SELECT ?item ?thAlt ?enAlt WHERE {
+      ?item wdt:P31 ?type .
+      VALUES ?type { ${typeValues} }
+      ${thaiWikiFilter}
+      {
+        ?item skos:altLabel ?thAlt . FILTER(LANG(?thAlt) = "th")
+        ?item rdfs:label ?enAlt . FILTER(LANG(?enAlt) = "en")
+      } UNION {
+        ?item rdfs:label ?thAlt . FILTER(LANG(?thAlt) = "th")
+        ?item skos:altLabel ?enAlt . FILTER(LANG(?enAlt) = "en")
+      }
+    }
+    LIMIT ${PAGE_SIZE} OFFSET ${offset}
+  `;
+}
+
+/**
+ * Fetch aliases (skos:altLabel) for a category.
+ */
+async function fetchAliases(category) {
+  const allBindings = [];
+  let offset = 0;
+
+  while (true) {
+    const query = buildAliasesQuery(category, offset);
 
     let result;
     let retries = 0;
@@ -208,25 +280,49 @@ async function fetchAliases(category) {
   return allBindings;
 }
 
+// Validate cached data: must have all expected categories with non-empty results
+function isCacheValid(data) {
+  if (!data?.categories || data.categories.length !== CATEGORIES.length) return false;
+  for (const cat of data.categories) {
+    if (!cat.labels?.length && !cat.aliases?.length) return false;
+  }
+  return true;
+}
+
 // Check cache
 let rawData;
 
 if (!force && existsSync(cachePath)) {
   const stats = statSync(cachePath);
   if (Date.now() - stats.mtimeMs < MAX_AGE_MS) {
-    console.error('Loading cached Wikidata results from', cachePath);
-    rawData = JSON.parse(readFileSync(cachePath, 'utf-8'));
+    try {
+      const cached = JSON.parse(readFileSync(cachePath, 'utf-8'));
+      if (isCacheValid(cached)) {
+        console.error('Loading cached Wikidata results from', cachePath);
+        rawData = cached;
+      } else {
+        console.error('Cache incomplete (previous run failed?) — re-fetching');
+      }
+    } catch {
+      console.error('Cache corrupt — re-fetching');
+    }
   }
 }
 
 if (!rawData) {
+  // Delete stale/incomplete cache before starting fresh
+  if (existsSync(cachePath)) {
+    unlinkSync(cachePath);
+  }
+
   console.error('Fetching data from Wikidata SPARQL endpoint...');
   console.error('This may take 30–60 minutes due to rate limiting.\n');
 
   rawData = { categories: [], fetchedAt: new Date().toISOString() };
 
   for (const category of CATEGORIES) {
-    console.error(`  Fetching ${category.name} (types: ${category.types.join(', ')})...`);
+    const desc = category.wikiQuery ? 'Thai Wikipedia entities' : `types: ${category.types.join(', ')}`;
+    console.error(`  Fetching ${category.name} (${desc})...`);
 
     const labels = await paginatedQuery(category);
     console.error(`    ${category.name} labels: ${labels.length}`);
@@ -246,9 +342,13 @@ if (!rawData) {
     await sleep(REQUEST_DELAY_MS);
   }
 
-  // Cache raw results
-  writeFileSync(cachePath, JSON.stringify(rawData, null, 2) + '\n');
-  console.error(`\nCached raw results to ${cachePath}`);
+  // Only cache if all categories have data (don't persist partial failures)
+  if (isCacheValid(rawData)) {
+    writeFileSync(cachePath, JSON.stringify(rawData, null, 2) + '\n');
+    console.error(`\nCached raw results to ${cachePath}`);
+  } else {
+    console.error('\nWarning: some categories had no results — not caching');
+  }
 }
 
 // Build registry from raw data
