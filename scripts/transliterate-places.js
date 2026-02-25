@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 /**
- * Transliterate all Thai place names from data/thai-places.json
- * and output word-by-word results to stdout.
+ * Transliterate Thai names from a JSON data file and output word-by-word results.
  *
- * Usage: node scripts/transliterate-places.js [--max-variants N] [--json]
+ * Usage: node scripts/transliterate-places.js [--input FILE] [--max-variants N] [--json]
+ *
+ * Input file should have a "places" or "entries" array of {thai, category} objects.
+ * Defaults to data/thai-places.json.
  */
 
 import { readFileSync } from 'node:fs';
@@ -12,16 +14,20 @@ import { fileURLToPath } from 'node:url';
 import { transliterateWords } from '../src/index.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const dataPath = join(__dirname, '..', 'data', 'thai-places.json');
 
 // Parse args
 const args = process.argv.slice(2);
+function argValue(name, fallback) {
+  const idx = args.indexOf(name);
+  return idx !== -1 ? args[idx + 1] : fallback;
+}
+const dataPath = argValue('--input', join(__dirname, '..', 'data', 'thai-places.json'));
 const jsonMode = args.includes('--json');
 const maxIdx = args.indexOf('--max-variants');
 const maxVariants = maxIdx !== -1 ? parseInt(args[maxIdx + 1], 10) : 5;
 
 const data = JSON.parse(readFileSync(dataPath, 'utf-8'));
-const places = data.places;
+const places = data.places || data.entries;
 
 if (jsonMode) {
   const results = [];

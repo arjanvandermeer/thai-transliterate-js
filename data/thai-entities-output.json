@@ -1,0 +1,4920 @@
+[
+  {
+    "thai": "สุนทรภู่",
+    "category": "person",
+    "words": [
+      {
+        "thai": "สุนทร",
+        "variants": [
+          {
+            "text": "suntra",
+            "weight": 0.8
+          },
+          {
+            "text": "sundra",
+            "weight": 0.7
+          },
+          {
+            "text": "sunthra",
+            "weight": 0.5
+          },
+          {
+            "text": "suntro",
+            "weight": 0.32
+          },
+          {
+            "text": "soontra",
+            "weight": 0.32
+          }
+        ]
+      },
+      {
+        "thai": "ภู่",
+        "variants": [
+          {
+            "text": "phu",
+            "weight": 1
+          },
+          {
+            "text": "phoo",
+            "weight": 0.5
+          },
+          {
+            "text": "pu",
+            "weight": 0.5
+          },
+          {
+            "text": "poo",
+            "weight": 0.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "นเรศวร",
+    "category": "person",
+    "words": [
+      {
+        "thai": "นเรศวร",
+        "variants": [
+          {
+            "text": "naretwon",
+            "weight": 1
+          },
+          {
+            "text": "naretwan",
+            "weight": 0.5
+          },
+          {
+            "text": "naretwor",
+            "weight": 0.4
+          },
+          {
+            "text": "noretwon",
+            "weight": 0.4
+          },
+          {
+            "text": "naretvon",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สุริโยทัย",
+    "category": "person",
+    "words": [
+      {
+        "thai": "สุ",
+        "variants": [
+          {
+            "text": "su",
+            "weight": 1
+          },
+          {
+            "text": "soo",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "ริ",
+        "variants": [
+          {
+            "text": "ri",
+            "weight": 1
+          },
+          {
+            "text": "li",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "โย",
+        "variants": [
+          {
+            "text": "yo",
+            "weight": 1
+          },
+          {
+            "text": "yoh",
+            "weight": 0.01
+          }
+        ]
+      },
+      {
+        "thai": "ทัย",
+        "variants": [
+          {
+            "text": "thai",
+            "weight": 1
+          },
+          {
+            "text": "thay",
+            "weight": 0.7
+          },
+          {
+            "text": "tai",
+            "weight": 0.5
+          },
+          {
+            "text": "tay",
+            "weight": 0.35
+          },
+          {
+            "text": "dai",
+            "weight": 0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "จา พนม",
+    "category": "person",
+    "words": [
+      {
+        "thai": "จา",
+        "variants": [
+          {
+            "text": "cha",
+            "weight": 1
+          },
+          {
+            "text": "ja",
+            "weight": 0.7
+          },
+          {
+            "text": "chaa",
+            "weight": 0.3
+          },
+          {
+            "text": "jaa",
+            "weight": 0.21
+          },
+          {
+            "text": "ca",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "พนม",
+        "variants": [
+          {
+            "text": "phanom",
+            "weight": 1.05
+          },
+          {
+            "text": "phanam",
+            "weight": 0.5
+          },
+          {
+            "text": "panom",
+            "weight": 0.5
+          },
+          {
+            "text": "phonom",
+            "weight": 0.4
+          },
+          {
+            "text": "panam",
+            "weight": 0.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "เพชรา เชาวราษฎร์",
+    "category": "person",
+    "words": [
+      {
+        "thai": "เพ",
+        "variants": [
+          {
+            "text": "phe",
+            "weight": 1
+          },
+          {
+            "text": "pe",
+            "weight": 0.5
+          },
+          {
+            "text": "phay",
+            "weight": 0.3
+          },
+          {
+            "text": "phei",
+            "weight": 0.2
+          },
+          {
+            "text": "pay",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "ชรา",
+        "variants": [
+          {
+            "text": "chara",
+            "weight": 1
+          },
+          {
+            "text": "chora",
+            "weight": 0.4
+          },
+          {
+            "text": "charaa",
+            "weight": 0.3
+          },
+          {
+            "text": "chala",
+            "weight": 0.3
+          },
+          {
+            "text": "shara",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "เชาว",
+        "variants": [
+          {
+            "text": "chaow",
+            "weight": 1
+          },
+          {
+            "text": "choww",
+            "weight": 0.4
+          },
+          {
+            "text": "chaoo",
+            "weight": 0.3
+          },
+          {
+            "text": "chaww",
+            "weight": 0.3
+          },
+          {
+            "text": "chow",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "ราษฎร์",
+        "variants": [
+          {
+            "text": "ratda",
+            "weight": 1
+          },
+          {
+            "text": "ratdo",
+            "weight": 0.4
+          },
+          {
+            "text": "rasda",
+            "weight": 0.3
+          },
+          {
+            "text": "raatda",
+            "weight": 0.3
+          },
+          {
+            "text": "latda",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "มิตร ชัยบัญชา",
+    "category": "person",
+    "words": [
+      {
+        "thai": "มิตร",
+        "variants": [
+          {
+            "text": "mit",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "thai": "ชัย",
+        "variants": [
+          {
+            "text": "chai",
+            "weight": 1
+          },
+          {
+            "text": "chay",
+            "weight": 0.7
+          },
+          {
+            "text": "shai",
+            "weight": 0.15
+          },
+          {
+            "text": "shay",
+            "weight": 0.11
+          }
+        ]
+      },
+      {
+        "thai": "บัญชา",
+        "variants": [
+          {
+            "text": "bancha",
+            "weight": 1
+          },
+          {
+            "text": "banchaa",
+            "weight": 0.3
+          },
+          {
+            "text": "baycha",
+            "weight": 0.3
+          },
+          {
+            "text": "bansha",
+            "weight": 0.15
+          },
+          {
+            "text": "baychaa",
+            "weight": 0.09
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ธงไชย แมคอินไตย์",
+    "category": "person",
+    "words": [
+      {
+        "thai": "ธง",
+        "variants": [
+          {
+            "text": "thong",
+            "weight": 1
+          },
+          {
+            "text": "thang",
+            "weight": 0.5
+          },
+          {
+            "text": "tong",
+            "weight": 0.5
+          },
+          {
+            "text": "tang",
+            "weight": 0.25
+          },
+          {
+            "text": "thon",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "ไชย",
+        "variants": [
+          {
+            "text": "chaii",
+            "weight": 1
+          },
+          {
+            "text": "chaiy",
+            "weight": 0.7
+          },
+          {
+            "text": "chii",
+            "weight": 0.4
+          },
+          {
+            "text": "chayi",
+            "weight": 0.3
+          },
+          {
+            "text": "chiy",
+            "weight": 0.28
+          }
+        ]
+      },
+      {
+        "thai": "แม",
+        "variants": [
+          {
+            "text": "mae",
+            "weight": 1
+          },
+          {
+            "text": "ma",
+            "weight": 0.5
+          },
+          {
+            "text": "me",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "คอิน",
+        "variants": [
+          {
+            "text": "khain",
+            "weight": 1
+          },
+          {
+            "text": "kain",
+            "weight": 0.5
+          },
+          {
+            "text": "khoin",
+            "weight": 0.4
+          },
+          {
+            "text": "koin",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "ไตย์",
+        "variants": [
+          {
+            "text": "tai",
+            "weight": 1
+          },
+          {
+            "text": "ti",
+            "weight": 0.4
+          },
+          {
+            "text": "tay",
+            "weight": 0.3
+          },
+          {
+            "text": "dtai",
+            "weight": 0.3
+          },
+          {
+            "text": "dti",
+            "weight": 0.12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "อภิชาติพงศ์ วีระเศรษฐกุล",
+    "category": "person",
+    "words": [
+      {
+        "thai": "อภิ",
+        "variants": [
+          {
+            "text": "aphi",
+            "weight": 1
+          },
+          {
+            "text": "api",
+            "weight": 0.5
+          },
+          {
+            "text": "ophi",
+            "weight": 0.4
+          },
+          {
+            "text": "opi",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "ชาติ",
+        "variants": [
+          {
+            "text": "chati",
+            "weight": 1
+          },
+          {
+            "text": "chadti",
+            "weight": 0.3
+          },
+          {
+            "text": "chaati",
+            "weight": 0.3
+          },
+          {
+            "text": "shati",
+            "weight": 0.15
+          },
+          {
+            "text": "chaadti",
+            "weight": 0.09
+          }
+        ]
+      },
+      {
+        "thai": "พงศ์",
+        "variants": [
+          {
+            "text": "phong",
+            "weight": 1
+          },
+          {
+            "text": "phang",
+            "weight": 0.5
+          },
+          {
+            "text": "pong",
+            "weight": 0.5
+          },
+          {
+            "text": "pang",
+            "weight": 0.25
+          },
+          {
+            "text": "phon",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "วีระ",
+        "variants": [
+          {
+            "text": "wira",
+            "weight": 1
+          },
+          {
+            "text": "weera",
+            "weight": 0.4
+          },
+          {
+            "text": "wila",
+            "weight": 0.3
+          },
+          {
+            "text": "vira",
+            "weight": 0.3
+          },
+          {
+            "text": "wyra",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "เศรษฐ",
+        "variants": [
+          {
+            "text": "sesot",
+            "weight": 1
+          },
+          {
+            "text": "sesat",
+            "weight": 0.5
+          },
+          {
+            "text": "saysot",
+            "weight": 0.3
+          },
+          {
+            "text": "sresot",
+            "weight": 0.3
+          },
+          {
+            "text": "seisot",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "กุล",
+        "variants": [
+          {
+            "text": "kun",
+            "weight": 1
+          },
+          {
+            "text": "gun",
+            "weight": 0.6
+          },
+          {
+            "text": "kul",
+            "weight": 0.4
+          },
+          {
+            "text": "koon",
+            "weight": 0.4
+          },
+          {
+            "text": "gul",
+            "weight": 0.24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "รัชนก อินทนนท์",
+    "category": "person",
+    "words": [
+      {
+        "thai": "รัช",
+        "variants": [
+          {
+            "text": "rat",
+            "weight": 1
+          },
+          {
+            "text": "rach",
+            "weight": 0.4
+          },
+          {
+            "text": "lat",
+            "weight": 0.3
+          },
+          {
+            "text": "lach",
+            "weight": 0.12
+          }
+        ]
+      },
+      {
+        "thai": "นก",
+        "variants": [
+          {
+            "text": "nok",
+            "weight": 1
+          },
+          {
+            "text": "nak",
+            "weight": 0.5
+          },
+          {
+            "text": "nog",
+            "weight": 0.3
+          },
+          {
+            "text": "nag",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "อิน",
+        "variants": [
+          {
+            "text": "in",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "thai": "ทน",
+        "variants": [
+          {
+            "text": "thon",
+            "weight": 1
+          },
+          {
+            "text": "than",
+            "weight": 0.5
+          },
+          {
+            "text": "ton",
+            "weight": 0.5
+          },
+          {
+            "text": "tan",
+            "weight": 0.25
+          },
+          {
+            "text": "don",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "นท์",
+        "variants": [
+          {
+            "text": "na",
+            "weight": 1
+          },
+          {
+            "text": "no",
+            "weight": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "พาณิภัค วงศ์พัฒนากิจ",
+    "category": "person",
+    "words": [
+      {
+        "thai": "พาณิ",
+        "variants": [
+          {
+            "text": "phani",
+            "weight": 1
+          },
+          {
+            "text": "pani",
+            "weight": 0.5
+          },
+          {
+            "text": "phaani",
+            "weight": 0.3
+          },
+          {
+            "text": "paani",
+            "weight": 0.15
+          },
+          {
+            "text": "bhani",
+            "weight": 0.1
+          }
+        ]
+      },
+      {
+        "thai": "ภัค",
+        "variants": [
+          {
+            "text": "phak",
+            "weight": 1
+          },
+          {
+            "text": "pak",
+            "weight": 0.5
+          }
+        ]
+      },
+      {
+        "thai": "วงศ์",
+        "variants": [
+          {
+            "text": "wong",
+            "weight": 1
+          },
+          {
+            "text": "wang",
+            "weight": 0.5
+          },
+          {
+            "text": "vong",
+            "weight": 0.3
+          },
+          {
+            "text": "won",
+            "weight": 0.15
+          },
+          {
+            "text": "vang",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "พัฒนา",
+        "variants": [
+          {
+            "text": "phatna",
+            "weight": 1
+          },
+          {
+            "text": "patna",
+            "weight": 0.5
+          },
+          {
+            "text": "phatnaa",
+            "weight": 0.3
+          },
+          {
+            "text": "patnaa",
+            "weight": 0.15
+          },
+          {
+            "text": "bhatna",
+            "weight": 0.1
+          }
+        ]
+      },
+      {
+        "thai": "กิจ",
+        "variants": [
+          {
+            "text": "kit",
+            "weight": 1
+          },
+          {
+            "text": "git",
+            "weight": 0.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สมรักษ์ คำสิงห์",
+    "category": "person",
+    "words": [
+      {
+        "thai": "สม",
+        "variants": [
+          {
+            "text": "som",
+            "weight": 1
+          },
+          {
+            "text": "sam",
+            "weight": 0.5
+          }
+        ]
+      },
+      {
+        "thai": "รักษ์",
+        "variants": [
+          {
+            "text": "rak",
+            "weight": 1
+          },
+          {
+            "text": "rag",
+            "weight": 0.3
+          },
+          {
+            "text": "lak",
+            "weight": 0.3
+          },
+          {
+            "text": "lag",
+            "weight": 0.09
+          }
+        ]
+      },
+      {
+        "thai": "คำ",
+        "variants": [
+          {
+            "text": "kham",
+            "weight": 1
+          },
+          {
+            "text": "kam",
+            "weight": 0.5
+          },
+          {
+            "text": "khum",
+            "weight": 0.4
+          },
+          {
+            "text": "kum",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "สิงห์",
+        "variants": [
+          {
+            "text": "sing",
+            "weight": 1.1
+          },
+          {
+            "text": "singh",
+            "weight": 0.37
+          },
+          {
+            "text": "sin",
+            "weight": 0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สามารถ พยัคฆ์อรุณ",
+    "category": "person",
+    "words": [
+      {
+        "thai": "สามารถ",
+        "variants": [
+          {
+            "text": "samarot",
+            "weight": 1
+          },
+          {
+            "text": "samarat",
+            "weight": 0.5
+          },
+          {
+            "text": "samalot",
+            "weight": 0.3
+          },
+          {
+            "text": "samaarot",
+            "weight": 0.3
+          },
+          {
+            "text": "saamarot",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "พยัคฆ์",
+        "variants": [
+          {
+            "text": "phayak",
+            "weight": 1
+          },
+          {
+            "text": "payak",
+            "weight": 0.5
+          },
+          {
+            "text": "phoyak",
+            "weight": 0.4
+          },
+          {
+            "text": "poyak",
+            "weight": 0.2
+          },
+          {
+            "text": "bhayak",
+            "weight": 0.1
+          }
+        ]
+      },
+      {
+        "thai": "อรุณ",
+        "variants": [
+          {
+            "text": "arun",
+            "weight": 1
+          },
+          {
+            "text": "aroon",
+            "weight": 0.4
+          },
+          {
+            "text": "orun",
+            "weight": 0.4
+          },
+          {
+            "text": "alun",
+            "weight": 0.3
+          },
+          {
+            "text": "oroon",
+            "weight": 0.16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "บัวขาว บัญชาเมฆ",
+    "category": "person",
+    "words": [
+      {
+        "thai": "บัวขาว",
+        "variants": [
+          {
+            "text": "buakhaw",
+            "weight": 1
+          },
+          {
+            "text": "bua khao",
+            "weight": 0.9
+          },
+          {
+            "text": "buakaw",
+            "weight": 0.5
+          },
+          {
+            "text": "buakhao",
+            "weight": 0.3
+          },
+          {
+            "text": "buakhaaw",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "บัญชา",
+        "variants": [
+          {
+            "text": "bancha",
+            "weight": 1
+          },
+          {
+            "text": "banchaa",
+            "weight": 0.3
+          },
+          {
+            "text": "baycha",
+            "weight": 0.3
+          },
+          {
+            "text": "bansha",
+            "weight": 0.15
+          },
+          {
+            "text": "baychaa",
+            "weight": 0.09
+          }
+        ]
+      },
+      {
+        "thai": "เมฆ",
+        "variants": [
+          {
+            "text": "mek",
+            "weight": 1
+          },
+          {
+            "text": "mayk",
+            "weight": 0.3
+          },
+          {
+            "text": "meik",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "แสนชัย",
+    "category": "person",
+    "words": [
+      {
+        "thai": "แสน",
+        "variants": [
+          {
+            "text": "saen",
+            "weight": 1
+          },
+          {
+            "text": "san",
+            "weight": 0.5
+          },
+          {
+            "text": "sen",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "ชัย",
+        "variants": [
+          {
+            "text": "chai",
+            "weight": 1
+          },
+          {
+            "text": "chay",
+            "weight": 0.7
+          },
+          {
+            "text": "shai",
+            "weight": 0.15
+          },
+          {
+            "text": "shay",
+            "weight": 0.11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ดีเซลน้อย ช.ธนะสุกาญจน์",
+    "category": "person",
+    "words": [
+      {
+        "thai": "ดีเซล",
+        "variants": [
+          {
+            "text": "disen",
+            "weight": 1
+          },
+          {
+            "text": "disel",
+            "weight": 0.4
+          },
+          {
+            "text": "deesen",
+            "weight": 0.4
+          },
+          {
+            "text": "disayn",
+            "weight": 0.3
+          },
+          {
+            "text": "dizen",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "น้อย",
+        "variants": [
+          {
+            "text": "naya",
+            "weight": 1
+          },
+          {
+            "text": "nayo",
+            "weight": 0.4
+          },
+          {
+            "text": "noya",
+            "weight": 0.4
+          },
+          {
+            "text": "noyo",
+            "weight": 0.16
+          }
+        ]
+      },
+      {
+        "thai": "ช.ธนะ",
+        "variants": [
+          {
+            "text": "cha.thana",
+            "weight": 1
+          },
+          {
+            "text": "cha.tana",
+            "weight": 0.5
+          },
+          {
+            "text": "cha.thona",
+            "weight": 0.4
+          },
+          {
+            "text": "cho.thana",
+            "weight": 0.4
+          },
+          {
+            "text": "cha.tona",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "สุ",
+        "variants": [
+          {
+            "text": "su",
+            "weight": 1
+          },
+          {
+            "text": "soo",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "กาญ",
+        "variants": [
+          {
+            "text": "kan",
+            "weight": 1
+          },
+          {
+            "text": "gan",
+            "weight": 0.6
+          },
+          {
+            "text": "kay",
+            "weight": 0.3
+          },
+          {
+            "text": "kaan",
+            "weight": 0.3
+          },
+          {
+            "text": "gay",
+            "weight": 0.18
+          }
+        ]
+      },
+      {
+        "thai": "จน์",
+        "variants": [
+          {
+            "text": "cha",
+            "weight": 1
+          },
+          {
+            "text": "ja",
+            "weight": 0.7
+          },
+          {
+            "text": "cho",
+            "weight": 0.4
+          },
+          {
+            "text": "jo",
+            "weight": 0.28
+          },
+          {
+            "text": "ca",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สกัด เพชรยินดี",
+    "category": "person",
+    "words": [
+      {
+        "thai": "สกัด",
+        "variants": [
+          {
+            "text": "sakat",
+            "weight": 1
+          },
+          {
+            "text": "sagat",
+            "weight": 0.6
+          },
+          {
+            "text": "sakad",
+            "weight": 0.4
+          },
+          {
+            "text": "sokat",
+            "weight": 0.4
+          },
+          {
+            "text": "sagad",
+            "weight": 0.24
+          }
+        ]
+      },
+      {
+        "thai": "เพชร",
+        "variants": [
+          {
+            "text": "phechon",
+            "weight": 1
+          },
+          {
+            "text": "phechan",
+            "weight": 0.5
+          },
+          {
+            "text": "pechon",
+            "weight": 0.5
+          },
+          {
+            "text": "phechor",
+            "weight": 0.4
+          },
+          {
+            "text": "phaychon",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "ยินดี",
+        "variants": [
+          {
+            "text": "yindi",
+            "weight": 1
+          },
+          {
+            "text": "yindee",
+            "weight": 0.4
+          },
+          {
+            "text": "yindti",
+            "weight": 0.3
+          },
+          {
+            "text": "yindy",
+            "weight": 0.2
+          },
+          {
+            "text": "yindtee",
+            "weight": 0.12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "นายขนมต้ม",
+    "category": "person",
+    "words": [
+      {
+        "thai": "นาย",
+        "variants": [
+          {
+            "text": "nai",
+            "weight": 1
+          },
+          {
+            "text": "nay",
+            "weight": 0.7
+          },
+          {
+            "text": "naai",
+            "weight": 0.3
+          },
+          {
+            "text": "naay",
+            "weight": 0.21
+          },
+          {
+            "text": "nari",
+            "weight": 0.05
+          }
+        ]
+      },
+      {
+        "thai": "ขนม",
+        "variants": [
+          {
+            "text": "khanom",
+            "weight": 1
+          },
+          {
+            "text": "khanam",
+            "weight": 0.5
+          },
+          {
+            "text": "kanom",
+            "weight": 0.5
+          },
+          {
+            "text": "khonom",
+            "weight": 0.4
+          },
+          {
+            "text": "kanam",
+            "weight": 0.25
+          }
+        ]
+      },
+      {
+        "thai": "ต้ม",
+        "variants": [
+          {
+            "text": "tom",
+            "weight": 1
+          },
+          {
+            "text": "tam",
+            "weight": 0.5
+          },
+          {
+            "text": "dtom",
+            "weight": 0.3
+          },
+          {
+            "text": "dtam",
+            "weight": 0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ผัดไทย",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ผัด",
+        "variants": [
+          {
+            "text": "phat",
+            "weight": 1
+          },
+          {
+            "text": "pat",
+            "weight": 0.5
+          },
+          {
+            "text": "phad",
+            "weight": 0.4
+          },
+          {
+            "text": "pad",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "ไทย",
+        "variants": [
+          {
+            "text": "tai",
+            "weight": 1.05
+          },
+          {
+            "text": "thaysuyu",
+            "weight": 1.05
+          },
+          {
+            "text": "tha'i",
+            "weight": 1.05
+          },
+          {
+            "text": "thiy",
+            "weight": 1.05
+          },
+          {
+            "text": "thaii",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ต้มยำกุ้ง",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ต้มยำ",
+        "variants": [
+          {
+            "text": "tomyam",
+            "weight": 1
+          },
+          {
+            "text": "tamyam",
+            "weight": 0.5
+          },
+          {
+            "text": "tomyum",
+            "weight": 0.4
+          },
+          {
+            "text": "dtomyam",
+            "weight": 0.3
+          },
+          {
+            "text": "tamyum",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "กุ้ง",
+        "variants": [
+          {
+            "text": "kung",
+            "weight": 1
+          },
+          {
+            "text": "gung",
+            "weight": 0.6
+          },
+          {
+            "text": "koong",
+            "weight": 0.4
+          },
+          {
+            "text": "goong",
+            "weight": 0.24
+          },
+          {
+            "text": "kun",
+            "weight": 0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ส้มตำ",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ส้มตำ",
+        "variants": [
+          {
+            "text": "somtam",
+            "weight": 1
+          },
+          {
+            "text": "samtam",
+            "weight": 0.5
+          },
+          {
+            "text": "somtum",
+            "weight": 0.4
+          },
+          {
+            "text": "somdtam",
+            "weight": 0.3
+          },
+          {
+            "text": "samtum",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "แกงเขียวหวาน",
+    "category": "food",
+    "words": [
+      {
+        "thai": "แกง",
+        "variants": [
+          {
+            "text": "kaeng",
+            "weight": 1
+          },
+          {
+            "text": "gaeng",
+            "weight": 0.6
+          },
+          {
+            "text": "kang",
+            "weight": 0.5
+          },
+          {
+            "text": "keng",
+            "weight": 0.4
+          },
+          {
+            "text": "gang",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "เขียว",
+        "variants": [
+          {
+            "text": "khiaw",
+            "weight": 1
+          },
+          {
+            "text": "kiaw",
+            "weight": 0.5
+          },
+          {
+            "text": "khiyaw",
+            "weight": 0.4
+          },
+          {
+            "text": "khiao",
+            "weight": 0.3
+          },
+          {
+            "text": "kheaw",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "หวาน",
+        "variants": [
+          {
+            "text": "wan",
+            "weight": 1
+          },
+          {
+            "text": "waan",
+            "weight": 0.3
+          },
+          {
+            "text": "van",
+            "weight": 0.3
+          },
+          {
+            "text": "vaan",
+            "weight": 0.09
+          },
+          {
+            "text": "warn",
+            "weight": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "แกงมัสมั่น",
+    "category": "food",
+    "words": [
+      {
+        "thai": "แกง",
+        "variants": [
+          {
+            "text": "kaeng",
+            "weight": 1
+          },
+          {
+            "text": "gaeng",
+            "weight": 0.6
+          },
+          {
+            "text": "kang",
+            "weight": 0.5
+          },
+          {
+            "text": "keng",
+            "weight": 0.4
+          },
+          {
+            "text": "gang",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "มัสมั่น",
+        "variants": [
+          {
+            "text": "matman",
+            "weight": 1
+          },
+          {
+            "text": "masman",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "แกงเผ็ด",
+    "category": "food",
+    "words": [
+      {
+        "thai": "แกง",
+        "variants": [
+          {
+            "text": "kaeng",
+            "weight": 1
+          },
+          {
+            "text": "gaeng",
+            "weight": 0.6
+          },
+          {
+            "text": "kang",
+            "weight": 0.5
+          },
+          {
+            "text": "keng",
+            "weight": 0.4
+          },
+          {
+            "text": "gang",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "เผ็ด",
+        "variants": [
+          {
+            "text": "phet",
+            "weight": 1
+          },
+          {
+            "text": "pet",
+            "weight": 0.5
+          },
+          {
+            "text": "phed",
+            "weight": 0.4
+          },
+          {
+            "text": "ped",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "แกงพะแนง",
+    "category": "food",
+    "words": [
+      {
+        "thai": "แกง",
+        "variants": [
+          {
+            "text": "kaeng",
+            "weight": 1
+          },
+          {
+            "text": "gaeng",
+            "weight": 0.6
+          },
+          {
+            "text": "kang",
+            "weight": 0.5
+          },
+          {
+            "text": "keng",
+            "weight": 0.4
+          },
+          {
+            "text": "gang",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "พะแนง",
+        "variants": [
+          {
+            "text": "phanaeng",
+            "weight": 1
+          },
+          {
+            "text": "phanang",
+            "weight": 0.5
+          },
+          {
+            "text": "panaeng",
+            "weight": 0.5
+          },
+          {
+            "text": "phaneng",
+            "weight": 0.4
+          },
+          {
+            "text": "panang",
+            "weight": 0.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ผัดกะเพรา",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ผัด",
+        "variants": [
+          {
+            "text": "phat",
+            "weight": 1
+          },
+          {
+            "text": "pat",
+            "weight": 0.5
+          },
+          {
+            "text": "phad",
+            "weight": 0.4
+          },
+          {
+            "text": "pad",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "กะเพรา",
+        "variants": [
+          {
+            "text": "kaphrao",
+            "weight": 1
+          },
+          {
+            "text": "gaphrao",
+            "weight": 0.6
+          },
+          {
+            "text": "kaprao",
+            "weight": 0.5
+          },
+          {
+            "text": "kaphrow",
+            "weight": 0.4
+          },
+          {
+            "text": "kaphraw",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ผัดซีอิ๊ว",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ผัด",
+        "variants": [
+          {
+            "text": "phat",
+            "weight": 1
+          },
+          {
+            "text": "pat",
+            "weight": 0.5
+          },
+          {
+            "text": "phad",
+            "weight": 0.4
+          },
+          {
+            "text": "pad",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "ซีอิ๊ว",
+        "variants": [
+          {
+            "text": "siiw",
+            "weight": 1
+          },
+          {
+            "text": "seeiw",
+            "weight": 0.4
+          },
+          {
+            "text": "siio",
+            "weight": 0.3
+          },
+          {
+            "text": "ziiw",
+            "weight": 0.3
+          },
+          {
+            "text": "syiw",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ผัดขี้เมา",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ผัด",
+        "variants": [
+          {
+            "text": "phat",
+            "weight": 1
+          },
+          {
+            "text": "pat",
+            "weight": 0.5
+          },
+          {
+            "text": "phad",
+            "weight": 0.4
+          },
+          {
+            "text": "pad",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "ขี้",
+        "variants": [
+          {
+            "text": "khi",
+            "weight": 1
+          },
+          {
+            "text": "ki",
+            "weight": 0.5
+          },
+          {
+            "text": "khee",
+            "weight": 0.4
+          },
+          {
+            "text": "khy",
+            "weight": 0.2
+          },
+          {
+            "text": "kee",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "เมา",
+        "variants": [
+          {
+            "text": "mao",
+            "weight": 1
+          },
+          {
+            "text": "mow",
+            "weight": 0.4
+          },
+          {
+            "text": "maw",
+            "weight": 0.3
+          },
+          {
+            "text": "mo",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ข้าวซอย",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ข้าว",
+        "variants": [
+          {
+            "text": "khawa",
+            "weight": 1
+          },
+          {
+            "text": "kawa",
+            "weight": 0.5
+          },
+          {
+            "text": "khawo",
+            "weight": 0.4
+          },
+          {
+            "text": "khowa",
+            "weight": 0.4
+          },
+          {
+            "text": "khava",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "ซอย",
+        "variants": [
+          {
+            "text": "soi",
+            "weight": 1
+          },
+          {
+            "text": "soy",
+            "weight": 0.7
+          },
+          {
+            "text": "sawi",
+            "weight": 0.3
+          },
+          {
+            "text": "zoi",
+            "weight": 0.3
+          },
+          {
+            "text": "sawy",
+            "weight": 0.21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ข้าวผัด",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ข้าว",
+        "variants": [
+          {
+            "text": "khawa",
+            "weight": 1
+          },
+          {
+            "text": "kawa",
+            "weight": 0.5
+          },
+          {
+            "text": "khawo",
+            "weight": 0.4
+          },
+          {
+            "text": "khowa",
+            "weight": 0.4
+          },
+          {
+            "text": "khava",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "ผัด",
+        "variants": [
+          {
+            "text": "phat",
+            "weight": 1
+          },
+          {
+            "text": "pat",
+            "weight": 0.5
+          },
+          {
+            "text": "phad",
+            "weight": 0.4
+          },
+          {
+            "text": "pad",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ข้าวเหนียวมะม่วง",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ข้าว",
+        "variants": [
+          {
+            "text": "khawa",
+            "weight": 1
+          },
+          {
+            "text": "kawa",
+            "weight": 0.5
+          },
+          {
+            "text": "khawo",
+            "weight": 0.4
+          },
+          {
+            "text": "khowa",
+            "weight": 0.4
+          },
+          {
+            "text": "khava",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "เหนียว",
+        "variants": [
+          {
+            "text": "niaw",
+            "weight": 1
+          },
+          {
+            "text": "niyaw",
+            "weight": 0.4
+          },
+          {
+            "text": "niao",
+            "weight": 0.3
+          },
+          {
+            "text": "neaw",
+            "weight": 0.3
+          },
+          {
+            "text": "niew",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "มะม่วง",
+        "variants": [
+          {
+            "text": "mamawong",
+            "weight": 1
+          },
+          {
+            "text": "mamawang",
+            "weight": 0.5
+          },
+          {
+            "text": "mamowong",
+            "weight": 0.4
+          },
+          {
+            "text": "mamavong",
+            "weight": 0.3
+          },
+          {
+            "text": "mamowang",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ต้มข่าไก่",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ต้มข่า",
+        "variants": [
+          {
+            "text": "tomkha",
+            "weight": 1
+          },
+          {
+            "text": "tomka",
+            "weight": 0.5
+          },
+          {
+            "text": "tamkha",
+            "weight": 0.5
+          },
+          {
+            "text": "tomkho",
+            "weight": 0.4
+          },
+          {
+            "text": "dtomkha",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "ไก่",
+        "variants": [
+          {
+            "text": "kai",
+            "weight": 1
+          },
+          {
+            "text": "gai",
+            "weight": 0.6
+          },
+          {
+            "text": "ki",
+            "weight": 0.4
+          },
+          {
+            "text": "kay",
+            "weight": 0.3
+          },
+          {
+            "text": "gi",
+            "weight": 0.24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ลาบ",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ลาบ",
+        "variants": [
+          {
+            "text": "lap",
+            "weight": 1
+          },
+          {
+            "text": "lab",
+            "weight": 0.4
+          },
+          {
+            "text": "laap",
+            "weight": 0.3
+          },
+          {
+            "text": "laab",
+            "weight": 0.12
+          },
+          {
+            "text": "larp",
+            "weight": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สะเต๊ะ",
+    "category": "food",
+    "words": [
+      {
+        "thai": "สะเต๊ะ",
+        "variants": [
+          {
+            "text": "sate",
+            "weight": 1
+          },
+          {
+            "text": "satay",
+            "weight": 0.3
+          },
+          {
+            "text": "sadte",
+            "weight": 0.3
+          },
+          {
+            "text": "satei",
+            "weight": 0.2
+          },
+          {
+            "text": "sadtay",
+            "weight": 0.09
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ไก่ย่าง",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ไก่",
+        "variants": [
+          {
+            "text": "kai",
+            "weight": 1
+          },
+          {
+            "text": "gai",
+            "weight": 0.6
+          },
+          {
+            "text": "ki",
+            "weight": 0.4
+          },
+          {
+            "text": "kay",
+            "weight": 0.3
+          },
+          {
+            "text": "gi",
+            "weight": 0.24
+          }
+        ]
+      },
+      {
+        "thai": "ย่าง",
+        "variants": [
+          {
+            "text": "yanga",
+            "weight": 1
+          },
+          {
+            "text": "yango",
+            "weight": 0.4
+          },
+          {
+            "text": "yonga",
+            "weight": 0.4
+          },
+          {
+            "text": "yongo",
+            "weight": 0.16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "น้ำตก",
+    "category": "food",
+    "words": [
+      {
+        "thai": "น้ำตก",
+        "variants": [
+          {
+            "text": "namtok",
+            "weight": 1.1
+          },
+          {
+            "text": "natok",
+            "weight": 1
+          },
+          {
+            "text": "natak",
+            "weight": 0.5
+          },
+          {
+            "text": "notok",
+            "weight": 0.4
+          },
+          {
+            "text": "natog",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ข้าวมันไก่",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ข้าว",
+        "variants": [
+          {
+            "text": "khawa",
+            "weight": 1
+          },
+          {
+            "text": "kawa",
+            "weight": 0.5
+          },
+          {
+            "text": "khawo",
+            "weight": 0.4
+          },
+          {
+            "text": "khowa",
+            "weight": 0.4
+          },
+          {
+            "text": "khava",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "มัน",
+        "variants": [
+          {
+            "text": "man",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "thai": "ไก่",
+        "variants": [
+          {
+            "text": "kai",
+            "weight": 1
+          },
+          {
+            "text": "gai",
+            "weight": 0.6
+          },
+          {
+            "text": "ki",
+            "weight": 0.4
+          },
+          {
+            "text": "kay",
+            "weight": 0.3
+          },
+          {
+            "text": "gi",
+            "weight": 0.24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ข้าวขาหมู",
+    "category": "food",
+    "words": [
+      {
+        "thai": "ข้าว",
+        "variants": [
+          {
+            "text": "khawa",
+            "weight": 1
+          },
+          {
+            "text": "kawa",
+            "weight": 0.5
+          },
+          {
+            "text": "khawo",
+            "weight": 0.4
+          },
+          {
+            "text": "khowa",
+            "weight": 0.4
+          },
+          {
+            "text": "khava",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "ขา",
+        "variants": [
+          {
+            "text": "kha",
+            "weight": 1
+          },
+          {
+            "text": "ka",
+            "weight": 0.5
+          },
+          {
+            "text": "khaa",
+            "weight": 0.3
+          },
+          {
+            "text": "kaa",
+            "weight": 0.15
+          },
+          {
+            "text": "khar",
+            "weight": 0.05
+          }
+        ]
+      },
+      {
+        "thai": "หมู",
+        "variants": [
+          {
+            "text": "mu",
+            "weight": 1
+          },
+          {
+            "text": "moo",
+            "weight": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "การบินไทย",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "การบินไทย",
+        "variants": [
+          {
+            "text": "kanbinthaii",
+            "weight": 1
+          },
+          {
+            "text": "kanbinthaiy",
+            "weight": 0.7
+          },
+          {
+            "text": "ganbinthaii",
+            "weight": 0.6
+          },
+          {
+            "text": "kanbintaii",
+            "weight": 0.5
+          },
+          {
+            "text": "ganbinthaiy",
+            "weight": 0.42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "นกแอร์",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "นก",
+        "variants": [
+          {
+            "text": "nok",
+            "weight": 1
+          },
+          {
+            "text": "nak",
+            "weight": 0.5
+          },
+          {
+            "text": "nog",
+            "weight": 0.3
+          },
+          {
+            "text": "nag",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "แอร์",
+        "variants": [
+          {
+            "text": "ae",
+            "weight": 1
+          },
+          {
+            "text": "a",
+            "weight": 0.5
+          },
+          {
+            "text": "e",
+            "weight": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "การบินกรุงเทพ",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "การ",
+        "variants": [
+          {
+            "text": "kan",
+            "weight": 1
+          },
+          {
+            "text": "gan",
+            "weight": 0.6
+          },
+          {
+            "text": "kar",
+            "weight": 0.4
+          },
+          {
+            "text": "kaan",
+            "weight": 0.3
+          },
+          {
+            "text": "gar",
+            "weight": 0.24
+          }
+        ]
+      },
+      {
+        "thai": "บิน",
+        "variants": [
+          {
+            "text": "bin",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "thai": "กรุงเทพ",
+        "variants": [
+          {
+            "text": "bangkok",
+            "weight": 1.5
+          },
+          {
+            "text": "krung thep",
+            "weight": 1.05
+          },
+          {
+            "text": "krungdeb",
+            "weight": 1.05
+          },
+          {
+            "text": "krungtheph",
+            "weight": 1.05
+          },
+          {
+            "text": "krungthep",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ธนาคารกสิกรไทย",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "ธนาคาร",
+        "variants": [
+          {
+            "text": "thanakhan",
+            "weight": 1
+          },
+          {
+            "text": "thanakan",
+            "weight": 0.5
+          },
+          {
+            "text": "tanakhan",
+            "weight": 0.5
+          },
+          {
+            "text": "thanakhar",
+            "weight": 0.4
+          },
+          {
+            "text": "thonakhan",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "กสิกร",
+        "variants": [
+          {
+            "text": "kasik",
+            "weight": 1
+          },
+          {
+            "text": "gasik",
+            "weight": 0.6
+          },
+          {
+            "text": "kosik",
+            "weight": 0.4
+          },
+          {
+            "text": "kasig",
+            "weight": 0.3
+          },
+          {
+            "text": "gosik",
+            "weight": 0.24
+          }
+        ]
+      },
+      {
+        "thai": "ไทย",
+        "variants": [
+          {
+            "text": "tai",
+            "weight": 1.05
+          },
+          {
+            "text": "thaysuyu",
+            "weight": 1.05
+          },
+          {
+            "text": "tha'i",
+            "weight": 1.05
+          },
+          {
+            "text": "thiy",
+            "weight": 1.05
+          },
+          {
+            "text": "thaii",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ธนาคารไทยพาณิชย์",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "ธนาคาร",
+        "variants": [
+          {
+            "text": "thanakhan",
+            "weight": 1
+          },
+          {
+            "text": "thanakan",
+            "weight": 0.5
+          },
+          {
+            "text": "tanakhan",
+            "weight": 0.5
+          },
+          {
+            "text": "thanakhar",
+            "weight": 0.4
+          },
+          {
+            "text": "thonakhan",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "ไทย",
+        "variants": [
+          {
+            "text": "tai",
+            "weight": 1.05
+          },
+          {
+            "text": "thaysuyu",
+            "weight": 1.05
+          },
+          {
+            "text": "tha'i",
+            "weight": 1.05
+          },
+          {
+            "text": "thiy",
+            "weight": 1.05
+          },
+          {
+            "text": "thaii",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "thai": "พาณิชย์",
+        "variants": [
+          {
+            "text": "phanit",
+            "weight": 1
+          },
+          {
+            "text": "panit",
+            "weight": 0.5
+          },
+          {
+            "text": "phanich",
+            "weight": 0.4
+          },
+          {
+            "text": "phaanit",
+            "weight": 0.3
+          },
+          {
+            "text": "panich",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ธนาคารกรุงเทพ",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "ธนาคาร",
+        "variants": [
+          {
+            "text": "thanakhan",
+            "weight": 1
+          },
+          {
+            "text": "thanakan",
+            "weight": 0.5
+          },
+          {
+            "text": "tanakhan",
+            "weight": 0.5
+          },
+          {
+            "text": "thanakhar",
+            "weight": 0.4
+          },
+          {
+            "text": "thonakhan",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "กรุงเทพ",
+        "variants": [
+          {
+            "text": "bangkok",
+            "weight": 1.5
+          },
+          {
+            "text": "krung thep",
+            "weight": 1.05
+          },
+          {
+            "text": "krungdeb",
+            "weight": 1.05
+          },
+          {
+            "text": "krungtheph",
+            "weight": 1.05
+          },
+          {
+            "text": "krungthep",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ธนาคารกรุงไทย",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "ธนาคาร",
+        "variants": [
+          {
+            "text": "thanakhan",
+            "weight": 1
+          },
+          {
+            "text": "thanakan",
+            "weight": 0.5
+          },
+          {
+            "text": "tanakhan",
+            "weight": 0.5
+          },
+          {
+            "text": "thanakhar",
+            "weight": 0.4
+          },
+          {
+            "text": "thonakhan",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "กรุง",
+        "variants": [
+          {
+            "text": "krung",
+            "weight": 1
+          },
+          {
+            "text": "grung",
+            "weight": 0.6
+          },
+          {
+            "text": "kroong",
+            "weight": 0.4
+          },
+          {
+            "text": "groong",
+            "weight": 0.24
+          },
+          {
+            "text": "klung",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "ไทย",
+        "variants": [
+          {
+            "text": "tai",
+            "weight": 1.05
+          },
+          {
+            "text": "thaysuyu",
+            "weight": 1.05
+          },
+          {
+            "text": "tha'i",
+            "weight": 1.05
+          },
+          {
+            "text": "thiy",
+            "weight": 1.05
+          },
+          {
+            "text": "thaii",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "จุฬาลงกรณ์",
+        "variants": [
+          {
+            "text": "chulanngokra",
+            "weight": 1
+          },
+          {
+            "text": "julanngokra",
+            "weight": 0.7
+          },
+          {
+            "text": "chulanngakra",
+            "weight": 0.5
+          },
+          {
+            "text": "chulanngokro",
+            "weight": 0.4
+          },
+          {
+            "text": "chulalngokra",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "มหาวิทยาลัย",
+        "variants": [
+          {
+            "text": "mahawityalai",
+            "weight": 1
+          },
+          {
+            "text": "mahawityalay",
+            "weight": 0.7
+          },
+          {
+            "text": "mohawityalai",
+            "weight": 0.4
+          },
+          {
+            "text": "mahawityaalai",
+            "weight": 0.3
+          },
+          {
+            "text": "mahavityalai",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "มหาวิทยาลัยธรรมศาสตร์",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "มหาวิทยาลัย",
+        "variants": [
+          {
+            "text": "mahawityalai",
+            "weight": 1
+          },
+          {
+            "text": "mahawityalay",
+            "weight": 0.7
+          },
+          {
+            "text": "mohawityalai",
+            "weight": 0.4
+          },
+          {
+            "text": "mahawityaalai",
+            "weight": 0.3
+          },
+          {
+            "text": "mahavityalai",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "ธรรมศาสตร์",
+        "variants": [
+          {
+            "text": "thamsatta",
+            "weight": 1
+          },
+          {
+            "text": "tamsatta",
+            "weight": 0.5
+          },
+          {
+            "text": "thamsatto",
+            "weight": 0.4
+          },
+          {
+            "text": "thamsatdta",
+            "weight": 0.3
+          },
+          {
+            "text": "thamsasta",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "มหาวิทยาลัยมหิดล",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "มหาวิทยาลัย",
+        "variants": [
+          {
+            "text": "mahawityalai",
+            "weight": 1
+          },
+          {
+            "text": "mahawityalay",
+            "weight": 0.7
+          },
+          {
+            "text": "mohawityalai",
+            "weight": 0.4
+          },
+          {
+            "text": "mahawityaalai",
+            "weight": 0.3
+          },
+          {
+            "text": "mahavityalai",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "มหิดล",
+        "variants": [
+          {
+            "text": "mahidon",
+            "weight": 1
+          },
+          {
+            "text": "mahidan",
+            "weight": 0.5
+          },
+          {
+            "text": "mahidol",
+            "weight": 0.4
+          },
+          {
+            "text": "mohidon",
+            "weight": 0.4
+          },
+          {
+            "text": "mahidton",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "มหาวิทยาลัยเกษตรศาสตร์",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "มหาวิทยาลัย",
+        "variants": [
+          {
+            "text": "mahawityalai",
+            "weight": 1
+          },
+          {
+            "text": "mahawityalay",
+            "weight": 0.7
+          },
+          {
+            "text": "mohawityalai",
+            "weight": 0.4
+          },
+          {
+            "text": "mahawityaalai",
+            "weight": 0.3
+          },
+          {
+            "text": "mahavityalai",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "เกษตรศาสตร์",
+        "variants": [
+          {
+            "text": "kettonsatta",
+            "weight": 1
+          },
+          {
+            "text": "gettonsatta",
+            "weight": 0.6
+          },
+          {
+            "text": "kettansatta",
+            "weight": 0.5
+          },
+          {
+            "text": "kettonsatto",
+            "weight": 0.4
+          },
+          {
+            "text": "kettorsatta",
+            "weight": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สภากาชาดไทย",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "สภากาชาดไทย",
+        "variants": [
+          {
+            "text": "saphakachatthaii",
+            "weight": 1
+          },
+          {
+            "text": "saphakachatthaiy",
+            "weight": 0.7
+          },
+          {
+            "text": "saphagachatthaii",
+            "weight": 0.6
+          },
+          {
+            "text": "saphakachattaii",
+            "weight": 0.5
+          },
+          {
+            "text": "sapakachatthaii",
+            "weight": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ปูนซิเมนต์ไทย",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "ปูน",
+        "variants": [
+          {
+            "text": "pun",
+            "weight": 1
+          },
+          {
+            "text": "poon",
+            "weight": 0.5
+          }
+        ]
+      },
+      {
+        "thai": "ซิ",
+        "variants": [
+          {
+            "text": "si",
+            "weight": 1
+          },
+          {
+            "text": "zi",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "เมน",
+        "variants": [
+          {
+            "text": "men",
+            "weight": 1
+          },
+          {
+            "text": "mayn",
+            "weight": 0.3
+          },
+          {
+            "text": "mein",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "ต์",
+        "variants": [
+          {
+            "text": "ta",
+            "weight": 1
+          },
+          {
+            "text": "to",
+            "weight": 0.4
+          },
+          {
+            "text": "dta",
+            "weight": 0.3
+          },
+          {
+            "text": "dto",
+            "weight": 0.12
+          }
+        ]
+      },
+      {
+        "thai": "ไทย",
+        "variants": [
+          {
+            "text": "tai",
+            "weight": 1.05
+          },
+          {
+            "text": "thaysuyu",
+            "weight": 1.05
+          },
+          {
+            "text": "tha'i",
+            "weight": 1.05
+          },
+          {
+            "text": "thiy",
+            "weight": 1.05
+          },
+          {
+            "text": "thaii",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "คาราบาว",
+    "category": "organization",
+    "words": [
+      {
+        "thai": "คา",
+        "variants": [
+          {
+            "text": "kha",
+            "weight": 1
+          },
+          {
+            "text": "ka",
+            "weight": 0.5
+          },
+          {
+            "text": "khaa",
+            "weight": 0.3
+          },
+          {
+            "text": "kaa",
+            "weight": 0.15
+          },
+          {
+            "text": "khar",
+            "weight": 0.05
+          }
+        ]
+      },
+      {
+        "thai": "รา",
+        "variants": [
+          {
+            "text": "ra",
+            "weight": 1
+          },
+          {
+            "text": "raa",
+            "weight": 0.3
+          },
+          {
+            "text": "la",
+            "weight": 0.3
+          },
+          {
+            "text": "laa",
+            "weight": 0.09
+          },
+          {
+            "text": "rar",
+            "weight": 0.05
+          }
+        ]
+      },
+      {
+        "thai": "บาว",
+        "variants": [
+          {
+            "text": "baw",
+            "weight": 1
+          },
+          {
+            "text": "bao",
+            "weight": 0.3
+          },
+          {
+            "text": "baaw",
+            "weight": 0.3
+          },
+          {
+            "text": "baao",
+            "weight": 0.09
+          },
+          {
+            "text": "barw",
+            "weight": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สงกรานต์",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "สงกรานต์",
+        "variants": [
+          {
+            "text": "songkran",
+            "weight": 1
+          },
+          {
+            "text": "songgran",
+            "weight": 0.6
+          },
+          {
+            "text": "sangkran",
+            "weight": 0.5
+          },
+          {
+            "text": "songkraan",
+            "weight": 0.3
+          },
+          {
+            "text": "sanggran",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ลอยกระทง",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "ลอย",
+        "variants": [
+          {
+            "text": "loi",
+            "weight": 1
+          },
+          {
+            "text": "loy",
+            "weight": 0.7
+          },
+          {
+            "text": "lawi",
+            "weight": 0.3
+          },
+          {
+            "text": "lawy",
+            "weight": 0.21
+          },
+          {
+            "text": "lori",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "กระทง",
+        "variants": [
+          {
+            "text": "krathong",
+            "weight": 1
+          },
+          {
+            "text": "grathong",
+            "weight": 0.6
+          },
+          {
+            "text": "krathang",
+            "weight": 0.5
+          },
+          {
+            "text": "kratong",
+            "weight": 0.5
+          },
+          {
+            "text": "grathang",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "โขน",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "โขน",
+        "variants": [
+          {
+            "text": "khon",
+            "weight": 1
+          },
+          {
+            "text": "kon",
+            "weight": 0.5
+          },
+          {
+            "text": "khohn",
+            "weight": 0.01
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "รามเกียรติ์",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "รามเกียรติ์",
+        "variants": [
+          {
+            "text": "ramkianti",
+            "weight": 1
+          },
+          {
+            "text": "ramgianti",
+            "weight": 0.6
+          },
+          {
+            "text": "ramkiarti",
+            "weight": 0.4
+          },
+          {
+            "text": "ramkiyanti",
+            "weight": 0.4
+          },
+          {
+            "text": "ramkiandti",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "พระอภัยมณี",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "พระ",
+        "variants": [
+          {
+            "text": "phra",
+            "weight": 1
+          },
+          {
+            "text": "pra",
+            "weight": 0.5
+          },
+          {
+            "text": "phla",
+            "weight": 0.2
+          },
+          {
+            "text": "pla",
+            "weight": 0.1
+          },
+          {
+            "text": "bhra",
+            "weight": 0.1
+          }
+        ]
+      },
+      {
+        "thai": "อภัย",
+        "variants": [
+          {
+            "text": "aphai",
+            "weight": 1
+          },
+          {
+            "text": "aphay",
+            "weight": 0.7
+          },
+          {
+            "text": "apai",
+            "weight": 0.5
+          },
+          {
+            "text": "ophai",
+            "weight": 0.4
+          },
+          {
+            "text": "apay",
+            "weight": 0.35
+          }
+        ]
+      },
+      {
+        "thai": "มณี",
+        "variants": [
+          {
+            "text": "mani",
+            "weight": 1
+          },
+          {
+            "text": "manee",
+            "weight": 0.4
+          },
+          {
+            "text": "moni",
+            "weight": 0.4
+          },
+          {
+            "text": "many",
+            "weight": 0.2
+          },
+          {
+            "text": "monee",
+            "weight": 0.16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ลิเก",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "ลิเก",
+        "variants": [
+          {
+            "text": "like",
+            "weight": 1
+          },
+          {
+            "text": "lige",
+            "weight": 0.6
+          },
+          {
+            "text": "likay",
+            "weight": 0.3
+          },
+          {
+            "text": "likei",
+            "weight": 0.2
+          },
+          {
+            "text": "ligay",
+            "weight": 0.18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ลูกทุ่ง",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "ลูก",
+        "variants": [
+          {
+            "text": "luk",
+            "weight": 1
+          },
+          {
+            "text": "look",
+            "weight": 0.5
+          },
+          {
+            "text": "lug",
+            "weight": 0.3
+          },
+          {
+            "text": "loog",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "ทุ่ง",
+        "variants": [
+          {
+            "text": "thung",
+            "weight": 1
+          },
+          {
+            "text": "tung",
+            "weight": 0.5
+          },
+          {
+            "text": "thoong",
+            "weight": 0.4
+          },
+          {
+            "text": "toong",
+            "weight": 0.2
+          },
+          {
+            "text": "thun",
+            "weight": 0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "หมอลำ",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "หมอลำ",
+        "variants": [
+          {
+            "text": "molam",
+            "weight": 1
+          },
+          {
+            "text": "molum",
+            "weight": 0.4
+          },
+          {
+            "text": "mawlam",
+            "weight": 0.3
+          },
+          {
+            "text": "morlam",
+            "weight": 0.2
+          },
+          {
+            "text": "mawlum",
+            "weight": 0.12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ตุ๊กตุ๊ก",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "ตุ๊ก",
+        "variants": [
+          {
+            "text": "tuk",
+            "weight": 1
+          },
+          {
+            "text": "took",
+            "weight": 0.4
+          },
+          {
+            "text": "tug",
+            "weight": 0.3
+          },
+          {
+            "text": "dtuk",
+            "weight": 0.3
+          },
+          {
+            "text": "toog",
+            "weight": 0.12
+          }
+        ]
+      },
+      {
+        "thai": "ตุ๊ก",
+        "variants": [
+          {
+            "text": "tuk",
+            "weight": 1
+          },
+          {
+            "text": "took",
+            "weight": 0.4
+          },
+          {
+            "text": "tug",
+            "weight": 0.3
+          },
+          {
+            "text": "dtuk",
+            "weight": 0.3
+          },
+          {
+            "text": "toog",
+            "weight": 0.12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สบาย",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "สบาย",
+        "variants": [
+          {
+            "text": "sabai",
+            "weight": 1
+          },
+          {
+            "text": "sabay",
+            "weight": 0.7
+          },
+          {
+            "text": "sobai",
+            "weight": 0.4
+          },
+          {
+            "text": "sabaai",
+            "weight": 0.3
+          },
+          {
+            "text": "sobay",
+            "weight": 0.28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ไหว้",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "ไหว้",
+        "variants": [
+          {
+            "text": "wai",
+            "weight": 1
+          },
+          {
+            "text": "wi",
+            "weight": 0.4
+          },
+          {
+            "text": "way",
+            "weight": 0.3
+          },
+          {
+            "text": "vai",
+            "weight": 0.3
+          },
+          {
+            "text": "vi",
+            "weight": 0.12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "กระทง",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "กระทง",
+        "variants": [
+          {
+            "text": "krathong",
+            "weight": 1
+          },
+          {
+            "text": "grathong",
+            "weight": 0.6
+          },
+          {
+            "text": "krathang",
+            "weight": 0.5
+          },
+          {
+            "text": "kratong",
+            "weight": 0.5
+          },
+          {
+            "text": "grathang",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ยี่เป็ง",
+    "category": "culture",
+    "words": [
+      {
+        "thai": "ยี่",
+        "variants": [
+          {
+            "text": "yi",
+            "weight": 1
+          },
+          {
+            "text": "yee",
+            "weight": 0.4
+          },
+          {
+            "text": "yy",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "เป็ง",
+        "variants": [
+          {
+            "text": "peng",
+            "weight": 1
+          },
+          {
+            "text": "pen",
+            "weight": 0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "องค์บาก",
+    "category": "media",
+    "words": [
+      {
+        "thai": "องค์",
+        "variants": [
+          {
+            "text": "ong",
+            "weight": 1
+          },
+          {
+            "text": "ang",
+            "weight": 0.5
+          },
+          {
+            "text": "on",
+            "weight": 0.15
+          },
+          {
+            "text": "an",
+            "weight": 0.08
+          }
+        ]
+      },
+      {
+        "thai": "บาก",
+        "variants": [
+          {
+            "text": "bak",
+            "weight": 1
+          },
+          {
+            "text": "bag",
+            "weight": 0.3
+          },
+          {
+            "text": "baak",
+            "weight": 0.3
+          },
+          {
+            "text": "baag",
+            "weight": 0.09
+          },
+          {
+            "text": "bark",
+            "weight": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "นางนาก",
+    "category": "media",
+    "words": [
+      {
+        "thai": "นาง",
+        "variants": [
+          {
+            "text": "nang",
+            "weight": 1
+          },
+          {
+            "text": "naang",
+            "weight": 0.3
+          },
+          {
+            "text": "nan",
+            "weight": 0.15
+          },
+          {
+            "text": "narng",
+            "weight": 0.05
+          },
+          {
+            "text": "naan",
+            "weight": 0.05
+          }
+        ]
+      },
+      {
+        "thai": "นาก",
+        "variants": [
+          {
+            "text": "nak",
+            "weight": 1
+          },
+          {
+            "text": "nag",
+            "weight": 0.3
+          },
+          {
+            "text": "naak",
+            "weight": 0.3
+          },
+          {
+            "text": "naag",
+            "weight": 0.09
+          },
+          {
+            "text": "nark",
+            "weight": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "พี่มาก..พระโขนง",
+    "category": "media",
+    "words": [
+      {
+        "thai": "พี่",
+        "variants": [
+          {
+            "text": "phi",
+            "weight": 1
+          },
+          {
+            "text": "pi",
+            "weight": 0.5
+          },
+          {
+            "text": "phee",
+            "weight": 0.4
+          },
+          {
+            "text": "phy",
+            "weight": 0.2
+          },
+          {
+            "text": "pee",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "มาก",
+        "variants": [
+          {
+            "text": "mak",
+            "weight": 1
+          },
+          {
+            "text": "mag",
+            "weight": 0.3
+          },
+          {
+            "text": "maak",
+            "weight": 0.3
+          },
+          {
+            "text": "maag",
+            "weight": 0.09
+          },
+          {
+            "text": "mark",
+            "weight": 0.05
+          }
+        ]
+      },
+      {
+        "thai": "พระโขนง",
+        "variants": [
+          {
+            "text": "phra khanong",
+            "weight": 1.1
+          },
+          {
+            "text": "phrakhonong",
+            "weight": 1
+          },
+          {
+            "text": "phrakhonang",
+            "weight": 0.5
+          },
+          {
+            "text": "phrakonong",
+            "weight": 0.5
+          },
+          {
+            "text": "prakhonong",
+            "weight": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ฉลาดเกมส์โกง",
+    "category": "media",
+    "words": [
+      {
+        "thai": "ฉลาด",
+        "variants": [
+          {
+            "text": "chalat",
+            "weight": 1
+          },
+          {
+            "text": "chalad",
+            "weight": 0.4
+          },
+          {
+            "text": "cholat",
+            "weight": 0.4
+          },
+          {
+            "text": "chalaat",
+            "weight": 0.3
+          },
+          {
+            "text": "cholad",
+            "weight": 0.16
+          }
+        ]
+      },
+      {
+        "thai": "เกมส์",
+        "variants": [
+          {
+            "text": "kem",
+            "weight": 1
+          },
+          {
+            "text": "gem",
+            "weight": 0.6
+          },
+          {
+            "text": "kaym",
+            "weight": 0.3
+          },
+          {
+            "text": "keim",
+            "weight": 0.2
+          },
+          {
+            "text": "gaym",
+            "weight": 0.18
+          }
+        ]
+      },
+      {
+        "thai": "โกง",
+        "variants": [
+          {
+            "text": "kong",
+            "weight": 1
+          },
+          {
+            "text": "gong",
+            "weight": 0.6
+          },
+          {
+            "text": "kon",
+            "weight": 0.15
+          },
+          {
+            "text": "gon",
+            "weight": 0.09
+          },
+          {
+            "text": "kohng",
+            "weight": 0.01
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "มนต์รักลูกทุ่ง",
+    "category": "media",
+    "words": [
+      {
+        "thai": "มนต์",
+        "variants": [
+          {
+            "text": "mon",
+            "weight": 1
+          },
+          {
+            "text": "man",
+            "weight": 0.5
+          }
+        ]
+      },
+      {
+        "thai": "รัก",
+        "variants": [
+          {
+            "text": "rak",
+            "weight": 1
+          },
+          {
+            "text": "rag",
+            "weight": 0.3
+          },
+          {
+            "text": "lak",
+            "weight": 0.3
+          },
+          {
+            "text": "lag",
+            "weight": 0.09
+          }
+        ]
+      },
+      {
+        "thai": "ลูก",
+        "variants": [
+          {
+            "text": "luk",
+            "weight": 1
+          },
+          {
+            "text": "look",
+            "weight": 0.5
+          },
+          {
+            "text": "lug",
+            "weight": 0.3
+          },
+          {
+            "text": "loog",
+            "weight": 0.15
+          }
+        ]
+      },
+      {
+        "thai": "ทุ่ง",
+        "variants": [
+          {
+            "text": "thung",
+            "weight": 1
+          },
+          {
+            "text": "tung",
+            "weight": 0.5
+          },
+          {
+            "text": "thoong",
+            "weight": 0.4
+          },
+          {
+            "text": "toong",
+            "weight": 0.2
+          },
+          {
+            "text": "thun",
+            "weight": 0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ฟ้าทะลายโจร",
+    "category": "media",
+    "words": [
+      {
+        "thai": "ฟ้า",
+        "variants": [
+          {
+            "text": "fa",
+            "weight": 1
+          },
+          {
+            "text": "fo",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "ทะลาย",
+        "variants": [
+          {
+            "text": "thalai",
+            "weight": 1
+          },
+          {
+            "text": "thalay",
+            "weight": 0.7
+          },
+          {
+            "text": "talai",
+            "weight": 0.5
+          },
+          {
+            "text": "talay",
+            "weight": 0.35
+          },
+          {
+            "text": "thalaai",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "โจร",
+        "variants": [
+          {
+            "text": "chon",
+            "weight": 1
+          },
+          {
+            "text": "jon",
+            "weight": 0.7
+          },
+          {
+            "text": "chor",
+            "weight": 0.4
+          },
+          {
+            "text": "jor",
+            "weight": 0.28
+          },
+          {
+            "text": "cho",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "มวยไทย",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "มวยไทย",
+        "variants": [
+          {
+            "text": "mowyathaii",
+            "weight": 1
+          },
+          {
+            "text": "mowyathaiy",
+            "weight": 0.7
+          },
+          {
+            "text": "mowyataii",
+            "weight": 0.5
+          },
+          {
+            "text": "mawyathaii",
+            "weight": 0.5
+          },
+          {
+            "text": "mowyathii",
+            "weight": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "มวยโบราณ",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "มวย",
+        "variants": [
+          {
+            "text": "mawoi",
+            "weight": 1
+          },
+          {
+            "text": "mawoy",
+            "weight": 0.7
+          },
+          {
+            "text": "mawai",
+            "weight": 0.5
+          },
+          {
+            "text": "mowoi",
+            "weight": 0.4
+          },
+          {
+            "text": "maway",
+            "weight": 0.35
+          }
+        ]
+      },
+      {
+        "thai": "โบราณ",
+        "variants": [
+          {
+            "text": "brona",
+            "weight": 1
+          },
+          {
+            "text": "brono",
+            "weight": 0.4
+          },
+          {
+            "text": "blona",
+            "weight": 0.2
+          },
+          {
+            "text": "blono",
+            "weight": 0.08
+          },
+          {
+            "text": "brohna",
+            "weight": 0.01
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "กระบี่กระบอง",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "กระบี่",
+        "variants": [
+          {
+            "text": "krabi",
+            "weight": 1.1
+          },
+          {
+            "text": "grabi",
+            "weight": 0.6
+          },
+          {
+            "text": "kraby",
+            "weight": 0.42
+          },
+          {
+            "text": "krampi",
+            "weight": 0.42
+          },
+          {
+            "text": "krabee",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "กระบอง",
+        "variants": [
+          {
+            "text": "krapong",
+            "weight": 1
+          },
+          {
+            "text": "grapong",
+            "weight": 0.6
+          },
+          {
+            "text": "krapang",
+            "weight": 0.5
+          },
+          {
+            "text": "krabong",
+            "weight": 0.4
+          },
+          {
+            "text": "grapang",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ไหว้ครู",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "ไหว้",
+        "variants": [
+          {
+            "text": "wai",
+            "weight": 1
+          },
+          {
+            "text": "wi",
+            "weight": 0.4
+          },
+          {
+            "text": "way",
+            "weight": 0.3
+          },
+          {
+            "text": "vai",
+            "weight": 0.3
+          },
+          {
+            "text": "vi",
+            "weight": 0.12
+          }
+        ]
+      },
+      {
+        "thai": "ครู",
+        "variants": [
+          {
+            "text": "khru",
+            "weight": 1
+          },
+          {
+            "text": "khroo",
+            "weight": 0.5
+          },
+          {
+            "text": "kru",
+            "weight": 0.5
+          },
+          {
+            "text": "kroo",
+            "weight": 0.25
+          },
+          {
+            "text": "khlu",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "รำมวย",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "รำ",
+        "variants": [
+          {
+            "text": "ram",
+            "weight": 1
+          },
+          {
+            "text": "rum",
+            "weight": 0.4
+          },
+          {
+            "text": "lam",
+            "weight": 0.3
+          },
+          {
+            "text": "lum",
+            "weight": 0.12
+          }
+        ]
+      },
+      {
+        "thai": "มวย",
+        "variants": [
+          {
+            "text": "mawoi",
+            "weight": 1
+          },
+          {
+            "text": "mawoy",
+            "weight": 0.7
+          },
+          {
+            "text": "mawai",
+            "weight": 0.5
+          },
+          {
+            "text": "mowoi",
+            "weight": 0.4
+          },
+          {
+            "text": "maway",
+            "weight": 0.35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "มงคล",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "มงคล",
+        "variants": [
+          {
+            "text": "mongkhla",
+            "weight": 1
+          },
+          {
+            "text": "mongkla",
+            "weight": 0.5
+          },
+          {
+            "text": "mangkhla",
+            "weight": 0.5
+          },
+          {
+            "text": "mongkhlo",
+            "weight": 0.4
+          },
+          {
+            "text": "mangkla",
+            "weight": 0.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "ประเจียด",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "ประเจียด",
+        "variants": [
+          {
+            "text": "prachiat",
+            "weight": 1
+          },
+          {
+            "text": "prajiat",
+            "weight": 0.7
+          },
+          {
+            "text": "prachiad",
+            "weight": 0.4
+          },
+          {
+            "text": "prachiyat",
+            "weight": 0.4
+          },
+          {
+            "text": "pracheat",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สโมสรฟุตบอลบุรีรัมย์ ยูไนเต็ด",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "สโมสร",
+        "variants": [
+          {
+            "text": "samot",
+            "weight": 1
+          },
+          {
+            "text": "somot",
+            "weight": 0.4
+          },
+          {
+            "text": "samos",
+            "weight": 0.3
+          },
+          {
+            "text": "somos",
+            "weight": 0.12
+          },
+          {
+            "text": "samoht",
+            "weight": 0.01
+          }
+        ]
+      },
+      {
+        "thai": "ฟุตบอล",
+        "variants": [
+          {
+            "text": "futbon",
+            "weight": 1
+          },
+          {
+            "text": "futbol",
+            "weight": 0.4
+          },
+          {
+            "text": "footbon",
+            "weight": 0.4
+          },
+          {
+            "text": "futbawn",
+            "weight": 0.3
+          },
+          {
+            "text": "futborn",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "บุรีรัมย์",
+        "variants": [
+          {
+            "text": "buri ram",
+            "weight": 1.1
+          },
+          {
+            "text": "buriram",
+            "weight": 1
+          },
+          {
+            "text": "bureeram",
+            "weight": 0.4
+          },
+          {
+            "text": "booriram",
+            "weight": 0.4
+          },
+          {
+            "text": "burilam",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "thai": "ยูไนเต็ด",
+        "variants": [
+          {
+            "text": "yunaitet",
+            "weight": 1
+          },
+          {
+            "text": "yoonaitet",
+            "weight": 0.5
+          },
+          {
+            "text": "yunaited",
+            "weight": 0.4
+          },
+          {
+            "text": "yunitet",
+            "weight": 0.4
+          },
+          {
+            "text": "yunaidtet",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สโมสรฟุตบอลเมืองทอง ยูไนเต็ด",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "สโมสร",
+        "variants": [
+          {
+            "text": "samot",
+            "weight": 1
+          },
+          {
+            "text": "somot",
+            "weight": 0.4
+          },
+          {
+            "text": "samos",
+            "weight": 0.3
+          },
+          {
+            "text": "somos",
+            "weight": 0.12
+          },
+          {
+            "text": "samoht",
+            "weight": 0.01
+          }
+        ]
+      },
+      {
+        "thai": "ฟุตบอล",
+        "variants": [
+          {
+            "text": "futbon",
+            "weight": 1
+          },
+          {
+            "text": "futbol",
+            "weight": 0.4
+          },
+          {
+            "text": "footbon",
+            "weight": 0.4
+          },
+          {
+            "text": "futbawn",
+            "weight": 0.3
+          },
+          {
+            "text": "futborn",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "เมืองทอง",
+        "variants": [
+          {
+            "text": "mueangthong",
+            "weight": 1
+          },
+          {
+            "text": "mueang thong",
+            "weight": 0.9
+          },
+          {
+            "text": "muangthong",
+            "weight": 0.6
+          },
+          {
+            "text": "mueangtong",
+            "weight": 0.5
+          },
+          {
+            "text": "muengthong",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "thai": "ยูไนเต็ด",
+        "variants": [
+          {
+            "text": "yunaitet",
+            "weight": 1
+          },
+          {
+            "text": "yoonaitet",
+            "weight": 0.5
+          },
+          {
+            "text": "yunaited",
+            "weight": 0.4
+          },
+          {
+            "text": "yunitet",
+            "weight": 0.4
+          },
+          {
+            "text": "yunaidtet",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thai": "สโมสรฟุตบอลชลบุรี",
+    "category": "sport",
+    "words": [
+      {
+        "thai": "สโมสร",
+        "variants": [
+          {
+            "text": "samot",
+            "weight": 1
+          },
+          {
+            "text": "somot",
+            "weight": 0.4
+          },
+          {
+            "text": "samos",
+            "weight": 0.3
+          },
+          {
+            "text": "somos",
+            "weight": 0.12
+          },
+          {
+            "text": "samoht",
+            "weight": 0.01
+          }
+        ]
+      },
+      {
+        "thai": "ฟุตบอล",
+        "variants": [
+          {
+            "text": "futbon",
+            "weight": 1
+          },
+          {
+            "text": "futbol",
+            "weight": 0.4
+          },
+          {
+            "text": "footbon",
+            "weight": 0.4
+          },
+          {
+            "text": "futbawn",
+            "weight": 0.3
+          },
+          {
+            "text": "futborn",
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "thai": "ชลบุรี",
+        "variants": [
+          {
+            "text": "chon buri",
+            "weight": 1.1
+          },
+          {
+            "text": "chonburi",
+            "weight": 1
+          },
+          {
+            "text": "chanburi",
+            "weight": 0.5
+          },
+          {
+            "text": "chonburee",
+            "weight": 0.4
+          },
+          {
+            "text": "chonboori",
+            "weight": 0.4
+          }
+        ]
+      }
+    ]
+  }
+]

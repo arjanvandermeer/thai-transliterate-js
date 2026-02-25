@@ -259,6 +259,9 @@ for (let i = 0; i < entries.length; i++) {
   // Segment into words and generate algorithmic variants per word
   const words = segmentWords(thai);
 
+  // Skip entries where segmentation produces no words (e.g. pure punctuation/numbers)
+  if (words.length === 0) continue;
+
   // For single-word entries (most common), generate variants once
   let algoVariants;
   if (words.length === 1) {
@@ -266,8 +269,6 @@ for (let i = 0; i < entries.length; i++) {
   } else {
     // Multi-word: combine variants (simplified — just concatenate top variants)
     const perWord = words.map(w => algorithmicVariants(w));
-    if (perWord.some(pw => pw.length === 0)) { algoVariants = []; }
-    else {
     let combined = perWord[0].map(v => ({ text: v.text.toLowerCase(), weight: v.weight }));
     for (let w = 1; w < perWord.length; w++) {
       const next = [];
@@ -279,7 +280,6 @@ for (let i = 0; i < entries.length; i++) {
       combined = next.sort((a, b) => b.weight - a.weight).slice(0, 15);
     }
     algoVariants = combined;
-  }
   }
 
   if (algoVariants.length === 0) continue;

@@ -1,6 +1,6 @@
 {
   "name": "thai-transliterate",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Multi-variant Thai-to-Roman transliteration library",
   "type": "module",
   "main": "src/index.js",
@@ -8,10 +8,12 @@
     ".": "./src/index.js"
   },
   "scripts": {
-    "test": "node --test tests/classifier.test.js tests/integration.test.js tests/levenshtein.test.js tests/syllable-parser.test.js tests/romanizer.test.js tests/variant-generator.test.js tests/thai-places.test.js tests/load-weights.test.js tests/dictionary.test.js",
+    "test": "node --test tests/classifier.test.js tests/integration.test.js tests/levenshtein.test.js tests/syllable-parser.test.js tests/romanizer.test.js tests/variant-generator.test.js tests/thai-places.test.js tests/thai-entities.test.js tests/load-weights.test.js tests/dictionary.test.js",
     "lint": "eslint src/ tests/",
     "transliterate": "node scripts/transliterate-places.js",
     "transliterate:json": "node scripts/transliterate-places.js --json",
+    "transliterate:entities": "node scripts/transliterate-places.js --input data/thai-entities.json",
+    "transliterate:entities:json": "node scripts/transliterate-places.js --input data/thai-entities.json --json",
     "calibrate:download": "node scripts/download-data.js",
     "calibrate:extract-geonames": "node scripts/extract-geonames.js",
     "calibrate:extract-osm": "node scripts/extract-osm.js",

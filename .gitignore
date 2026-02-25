@@ -9,6 +9,8 @@ coverage/
 data/*
 !data/thai-places.json
 !data/thai-places-output.json
+!data/thai-entities.json
+!data/thai-entities-output.json
 
 # Logs
 *.log
