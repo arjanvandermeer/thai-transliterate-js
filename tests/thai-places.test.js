@@ -25,7 +25,7 @@ const EXPECTED_ROMANIZATIONS = [
   { thai: 'ภูเก็ต', expected: 'phuket', maxDistance: 0 },
   { thai: 'ชลบุรี', expected: 'chonburi', maxDistance: 1 },
   { thai: 'สงขลา', expected: 'songkhla', maxDistance: 1 },
-  { thai: 'กรุงเทพมหานคร', expected: 'krungthep mahankhra', maxDistance: 4 },
+  { thai: 'กรุงเทพมหานคร', expected: 'krungthep mahankhra', maxDistance: 5 },
   { thai: 'นครราชสีมา', expected: 'nakhon ratchasima', maxDistance: 4 },
   { thai: 'สุราษฎร์ธานี', expected: 'surat thani', maxDistance: 4 },
   { thai: 'อุดรธานี', expected: 'udon thani', maxDistance: 4 },

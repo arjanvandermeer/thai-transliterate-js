@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-02-25T08:00:04.197Z",
+    "generatedAt": "2026-02-25T20:35:36.320Z",
     "description": "Data-derived weight overrides. Regenerate with: npm run calibrate",
     "sources": {
       "analyzedAt": "2026-02-25T07:59:44.710Z",
@@ -16,174 +16,143 @@
       "decompositions": 353797,
       "elapsedSeconds": 77.7
     },
-    "minObservations": 10,
-    "minDelta": 0.1
+    "minObservations": 50,
+    "minDelta": 0.1,
+    "priorStrength": 200,
+    "logScale": 20
   },
   "consonants": {
     "ด": {
       "final": {
-        "d": 0.01
+        "d": 0.21
       }
     },
     "ย": {
       "final": {
-        "y": 0.01
+        "y": 0.37
       }
     },
     "ล": {
       "final": {
-        "l": 0.06
+        "l": 0.26
       }
     },
     "ก": {
       "initial": {
-        "g": 0.01
+        "g": 0.33
       }
     },
     "ร": {
       "final": {
-        "r": 0.07,
-        "": 0.04
+        "r": 0.27
       }
     },
     "ค": {
       "initial": {
-        "k": 0.01
+        "k": 0.28
       }
     },
     "ว": {
       "initial": {
-        "v": 0.01
+        "v": 0.16
       },
       "final": {
-        "w": 0.7,
-        "o": 1
+        "o": 0.54
       }
     },
     "ผ": {
       "initial": {
-        "p": 0.01
+        "p": 0.3
       }
     },
     "จ": {
       "initial": {
-        "j": 0.04
+        "j": 0.42
       }
     },
     "บ": {
       "final": {
-        "b": 0.02
+        "b": 0.24
       }
     },
     "ท": {
       "initial": {
-        "t": 0.01
-      }
-    },
-    "ส": {
-      "final": {
-        "s": 0.07
+        "t": 0.28
       }
     },
     "ธ": {
       "initial": {
-        "t": 0.01
+        "t": 0.3
       }
     },
     "พ": {
       "initial": {
-        "p": 0.04
-      }
-    },
-    "ศ": {
-      "final": {
-        "s": 0.01
+        "p": 0.29
       }
     },
     "ภ": {
       "initial": {
-        "p": 0.01
+        "p": 0.29
       }
     },
     "ซ": {
       "initial": {
-        "z": 0.01
-      }
-    },
-    "ฑ": {
-      "initial": {
-        "d": 0.02
-      }
-    },
-    "ฒ": {
-      "initial": {
-        "th": 0.02,
-        "t": 1
+        "z": 0.17
       }
     }
   },
   "vowels": {
     "sara_aw": {
-      "aw": 0.01,
-      "or": 0.01
+      "aw": 0.16
     },
     "sara_u_short": {
-      "oo": 0.01
+      "oo": 0.22
     },
     "sara_ao": {
-      "ow": 0.01
+      "ow": 0.23
     },
     "sara_u": {
-      "oo": 0.01
-    },
-    "sara_a": {
-      "ar": 0.05
+      "oo": 0.28
     },
     "implied_o": {
-      "o": 1,
-      "a": 0.03
+      "a": 0.28
     },
     "sara_e": {
-      "ay": 0.01,
-      "ei": 0.01
+      "ay": 0.18
     },
     "sara_i": {
-      "ee": 0.01
+      "ee": 0.22
     },
     "sara_o": {
-      "oh": 0.01
+      "oh": 0.16
     },
     "implied_a": {
-      "a": 1,
-      "o": 0.03
+      "o": 0.22
     },
     "sara_ai_malai": {
-      "i": 0.01,
-      "ay": 0.01
+      "i": 0.23,
+      "ay": 0.18
     },
     "sara_ae": {
-      "a": 0.01
+      "a": 0.28
     },
     "sara_ue_short": {
-      "eu": 0.01,
-      "u": 0.01
+      "eu": 0.3,
+      "u": 0.18
     },
     "sara_oe": {
-      "er": 0.01,
-      "ur": 0.01
+      "er": 0.36,
+      "ur": 0.24
     },
     "sara_ua": {
-      "uar": 0.01
+      "uar": 0.18
     }
   },
   "clusters": {
     "ทร": {
-      "thr": 0.01,
-      "tr": 0.02,
-      "s": 1
-    },
-    "ศร": {
-      "sr": 0.05
+      "thr": 0.44,
+      "tr": 0.32,
+      "s": 0.63
     }
   },
   "newVariants": {

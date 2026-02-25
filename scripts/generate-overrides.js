@@ -24,8 +24,10 @@ function argValue(name, fallback) {
 }
 const inputPath = argValue('--input', join(root, 'data', 'analysis.json'));
 const outputPath = argValue('--output', join(root, 'src', 'tables', 'weight-overrides.json'));
-const minObservations = parseInt(argValue('--min-observations', '10'), 10);
+const minObservations = parseInt(argValue('--min-observations', '50'), 10);
 const minDelta = parseFloat(argValue('--min-delta', '0.1'));
+const priorStrength = parseInt(argValue('--prior-strength', '200'), 10);
+const logScale = parseInt(argValue('--log-scale', '20'), 10);
 
 const analysis = JSON.parse(readFileSync(inputPath, 'utf-8'));
 const evidence = analysis.weightEvidence;
@@ -37,6 +39,8 @@ const overrides = {
     sources: analysis.metadata,
     minObservations,
     minDelta,
+    priorStrength,
+    logScale,
   },
   consonants: {},
   vowels: {},
@@ -60,6 +64,17 @@ function frequencyToWeights(freqMap) {
     weights[text] = Math.max(0.01, Math.round(data.frequency / maxFreq * 100) / 100);
   }
   return weights;
+}
+
+/**
+ * Blend a base weight with a data-derived weight using Bayesian-style blending.
+ * Uses log-scaled observation count for diminishing returns — even many thousands
+ * of observations can't fully override carefully tuned base weights.
+ */
+function blendWeight(baseWeight, dataWeight, observations) {
+  const effectiveObs = Math.log(1 + observations) * logScale;
+  const blend = effectiveObs / (priorStrength + effectiveObs);
+  return Math.max(0.01, Math.round((baseWeight * (1 - blend) + dataWeight * blend) * 100) / 100);
 }
 
 /**
@@ -92,15 +107,18 @@ for (const [char, positions] of Object.entries(evidence.consonants)) {
     // Check each variant that appears in both base and evidence
     for (const baseV of baseVariants) {
       const dataWeight = dataWeights[baseV.text];
-      if (dataWeight !== undefined && Math.abs(dataWeight - baseV.weight) >= minDelta) {
-        posOverrides[baseV.text] = dataWeight;
-        posHasOverrides = true;
-        overrideCount++;
-        changes.push({
-          type: 'consonant', char, position: posType, variant: baseV.text,
-          baseWeight: baseV.weight, dataWeight, observations: total,
-          delta: Math.round((dataWeight - baseV.weight) * 100) / 100,
-        });
+      if (dataWeight !== undefined) {
+        const blended = blendWeight(baseV.weight, dataWeight, total);
+        if (Math.abs(blended - baseV.weight) >= minDelta) {
+          posOverrides[baseV.text] = blended;
+          posHasOverrides = true;
+          overrideCount++;
+          changes.push({
+            type: 'consonant', char, position: posType, variant: baseV.text,
+            baseWeight: baseV.weight, dataWeight: blended, rawDataWeight: dataWeight, observations: total,
+            delta: Math.round((blended - baseV.weight) * 100) / 100,
+          });
+        }
       }
     }
 
@@ -129,15 +147,18 @@ for (const [patternId, patEvidence] of Object.entries(evidence.vowels)) {
 
   for (const baseV of patEntry.variants) {
     const dataWeight = dataWeights[baseV.text];
-    if (dataWeight !== undefined && Math.abs(dataWeight - baseV.weight) >= minDelta) {
-      patOverrides[baseV.text] = dataWeight;
-      hasOverrides = true;
-      overrideCount++;
-      changes.push({
-        type: 'vowel', pattern: patternId, variant: baseV.text,
-        baseWeight: baseV.weight, dataWeight, observations: total,
-        delta: Math.round((dataWeight - baseV.weight) * 100) / 100,
-      });
+    if (dataWeight !== undefined) {
+      const blended = blendWeight(baseV.weight, dataWeight, total);
+      if (Math.abs(blended - baseV.weight) >= minDelta) {
+        patOverrides[baseV.text] = blended;
+        hasOverrides = true;
+        overrideCount++;
+        changes.push({
+          type: 'vowel', pattern: patternId, variant: baseV.text,
+          baseWeight: baseV.weight, dataWeight: blended, rawDataWeight: dataWeight, observations: total,
+          delta: Math.round((blended - baseV.weight) * 100) / 100,
+        });
+      }
     }
   }
 
@@ -165,15 +186,18 @@ for (const [key, baseVariants] of Object.entries(clusterSources)) {
 
   for (const baseV of baseVariants) {
     const dataWeight = dataWeights[baseV.text];
-    if (dataWeight !== undefined && Math.abs(dataWeight - baseV.weight) >= minDelta) {
-      clusterOverrides[baseV.text] = dataWeight;
-      hasOverrides = true;
-      overrideCount++;
-      changes.push({
-        type: 'cluster', cluster: key, variant: baseV.text,
-        baseWeight: baseV.weight, dataWeight, observations: total,
-        delta: Math.round((dataWeight - baseV.weight) * 100) / 100,
-      });
+    if (dataWeight !== undefined) {
+      const blended = blendWeight(baseV.weight, dataWeight, total);
+      if (Math.abs(blended - baseV.weight) >= minDelta) {
+        clusterOverrides[baseV.text] = blended;
+        hasOverrides = true;
+        overrideCount++;
+        changes.push({
+          type: 'cluster', cluster: key, variant: baseV.text,
+          baseWeight: baseV.weight, dataWeight: blended, rawDataWeight: dataWeight, observations: total,
+          delta: Math.round((blended - baseV.weight) * 100) / 100,
+        });
+      }
     }
   }
 
@@ -236,6 +260,8 @@ console.error(`Weight overrides written to ${outputPath}`);
 console.error(`  Total overrides: ${overrideCount}`);
 console.error(`  Min observations: ${minObservations}`);
 console.error(`  Min delta: ${minDelta}`);
+console.error(`  Prior strength: ${priorStrength}`);
+console.error(`  Log scale: ${logScale}`);
 console.error(`\nTop changes (by magnitude):`);
 for (const c of changes.slice(0, 20)) {
   const direction = c.delta > 0 ? '↑' : '↓';

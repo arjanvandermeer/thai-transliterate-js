@@ -46,50 +46,42 @@ describe('load-weights - base table integrity', () => {
 });
 
 describe('load-weights - weight-overrides applied', () => {
-  it('applies sara_a override: ar weight = 0.05', () => {
-    const saraA = VOWEL_PATTERNS.sara_a;
-    assert.ok(saraA, 'sara_a pattern should exist');
-    const arVariant = saraA.variants.find(v => v.text === 'ar');
-    assert.ok(arVariant, 'sara_a should have "ar" variant');
-    assert.strictEqual(arVariant.weight, 0.05, 'ar weight should be overridden to 0.05');
-  });
-
-  it('applies implied_o override: o weight = 1', () => {
+  it('applies implied_o override: a weight reduced by blending', () => {
     const impliedO = VOWEL_PATTERNS.implied_o;
     assert.ok(impliedO, 'implied_o pattern should exist');
-    const oVariant = impliedO.variants.find(v => v.text === 'o');
-    assert.ok(oVariant, 'implied_o should have "o" variant');
-    assert.strictEqual(oVariant.weight, 1, 'o weight should be overridden to 1');
+    const aVariant = impliedO.variants.find(v => v.text === 'a');
+    assert.ok(aVariant, 'implied_o should have "a" variant');
+    assert.ok(aVariant.weight < 0.5, `a weight should be reduced from base 0.5, got ${aVariant.weight}`);
   });
 
-  it('applies sara_o override: oh weight = 0.01', () => {
+  it('applies sara_o override: oh weight reduced by blending', () => {
     const saraO = VOWEL_PATTERNS.sara_o;
     assert.ok(saraO, 'sara_o pattern should exist');
     const ohVariant = saraO.variants.find(v => v.text === 'oh');
     assert.ok(ohVariant, 'sara_o should have "oh" variant');
-    assert.strictEqual(ohVariant.weight, 0.01, 'oh weight should be overridden to 0.01');
+    assert.ok(ohVariant.weight < 0.3, `oh weight should be reduced from base 0.3, got ${ohVariant.weight}`);
   });
 
-  it('applies implied_a override: a weight = 1', () => {
+  it('applies implied_a override: o weight reduced by blending', () => {
     const impliedA = VOWEL_PATTERNS.implied_a;
     assert.ok(impliedA, 'implied_a pattern should exist');
-    const aVariant = impliedA.variants.find(v => v.text === 'a');
-    assert.ok(aVariant, 'implied_a should have "a" variant');
-    assert.strictEqual(aVariant.weight, 1, 'a weight should be overridden to 1');
+    const oVariant = impliedA.variants.find(v => v.text === 'o');
+    assert.ok(oVariant, 'implied_a should have "o" variant');
+    assert.ok(oVariant.weight < 0.4, `o weight should be reduced from base 0.4, got ${oVariant.weight}`);
   });
 
-  it('applies sara_ua override: uar weight = 0.01', () => {
+  it('applies sara_ua override: uar weight reduced by blending', () => {
     const saraUa = VOWEL_PATTERNS.sara_ua;
     assert.ok(saraUa, 'sara_ua pattern should exist');
     const uarVariant = saraUa.variants.find(v => v.text === 'uar');
     assert.ok(uarVariant, 'sara_ua should have "uar" variant');
-    assert.strictEqual(uarVariant.weight, 0.01, 'uar weight should be overridden to 0.01');
+    assert.ok(uarVariant.weight < 0.3, `uar weight should be reduced from base 0.3, got ${uarVariant.weight}`);
   });
 
-  it('applies ทร cluster override: s weight = 1', () => {
+  it('applies ทร cluster override: s weight boosted by blending', () => {
     const sVariant = THOR_SO_VARIANTS.find(v => v.text === 's');
     assert.ok(sVariant, 'THOR_SO_VARIANTS should have "s" variant');
-    assert.strictEqual(sVariant.weight, 1, 's weight should be overridden to 1');
+    assert.ok(sVariant.weight > 0.4, `s weight should be boosted from base 0.4, got ${sVariant.weight}`);
   });
 
   it('medial ทร ranks "tr" above "thr"', () => {

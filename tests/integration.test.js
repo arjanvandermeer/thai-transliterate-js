@@ -106,10 +106,11 @@ describe('transliterateVariants - place names', () => {
 });
 
 describe('transliterateVariants - variant generation', () => {
-  it('generates RTGS variant for ก', () => {
+  it('generates both RTGS and informal variants for ก', () => {
     const result = transliterateVariants('กา');
     const texts = result.map(v => v.text);
     assert.ok(texts.includes('ka'), 'Should include RTGS "ka"');
+    assert.ok(texts.includes('ga'), 'Should include informal "ga"');
   });
 
   it('generates aspirated and non-aspirated variants', () => {
