@@ -22,14 +22,11 @@ import { romanizeSyllable } from '../src/romanizer.js';
 import { generateVariants } from '../src/variant-generator.js';
 import { levenshtein } from '../src/levenshtein.js';
 
+import { argValue } from './lib/args.js';
+import { inferPositionType } from './lib/position.js';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-
-const args = process.argv.slice(2);
-function argValue(name, fallback) {
-  const idx = args.indexOf(name);
-  return idx !== -1 ? args[idx + 1] : fallback;
-}
 
 const inputPath = argValue('--input', join(root, 'data', 'registry.json'));
 const outputPath = argValue('--output', join(root, 'data', 'variant-discoveries.json'));
@@ -80,23 +77,6 @@ function bestAlgoMatch(variants, target) {
 }
 
 // --- Wildcard decomposition ---
-
-function inferPositionType(posIdx, positions, syllable) {
-  if (syllable.flags.thorSo || syllable.flags.sorRo) {
-    if (posIdx === 0) return 'cluster_special';
-    if (posIdx === 1) return 'vowel';
-    return 'final';
-  }
-  let idx = 0;
-  if (posIdx === idx) return 'initial';
-  idx++;
-  if (syllable.clusterConsonant) {
-    if (posIdx === idx) return 'cluster';
-    idx++;
-  }
-  if (posIdx === idx) return 'vowel';
-  return 'final';
-}
 
 function getPositionKey(posType, syllable) {
   if (posType === 'initial') return syllable.initialConsonant;

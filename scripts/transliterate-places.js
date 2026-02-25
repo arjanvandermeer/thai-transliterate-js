@@ -13,19 +13,13 @@ import { execSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { transliterateWords } from '../src/index.js';
+import { argValue, hasFlag } from './lib/args.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// Parse args
-const args = process.argv.slice(2);
-function argValue(name, fallback) {
-  const idx = args.indexOf(name);
-  return idx !== -1 ? args[idx + 1] : fallback;
-}
 const dataPath = argValue('--input', join(__dirname, '..', 'data', 'thai-places.json'));
-const jsonMode = args.includes('--json');
-const maxIdx = args.indexOf('--max-variants');
-const maxVariants = maxIdx !== -1 ? parseInt(args[maxIdx + 1], 10) : 5;
+const jsonMode = hasFlag('--json');
+const maxVariants = parseInt(argValue('--max-variants', '5'), 10);
 
 const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf-8'));
 const gitCommit = execSync('git rev-parse --short HEAD', { cwd: join(__dirname, '..'), encoding: 'utf-8' }).trim();

@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "version": "1.3.0",
-    "commit": "4de20f2",
-    "generatedAt": "2026-02-25T20:38:02.143Z",
+    "version": "1.4.0",
+    "commit": "a8dcde5",
+    "generatedAt": "2026-02-25T21:13:33.890Z",
     "input": "/Users/arjanvandermeer/Documents/Development/thai-transliterate/data/thai-places.json",
     "entries": 530
   },

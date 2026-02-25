@@ -6,7 +6,7 @@
  * Data-derived variants are in weight-overrides.json newVariants section,
  * merged at runtime by load-weights.js.
  */
-export const CONSONANTS = {
+export const BASE_CONSONANTS = {
   // === MID CLASS ===
   'ก': {
     char: 'ก', class: 'mid',

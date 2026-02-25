@@ -172,7 +172,7 @@ function parseSingleSyllable(chars, start, len) {
   }
 
   // Step 5: Look for vowel markers (above, below, following) and special patterns
-  vowelPattern = resolveVowel(chars, i, len, leadingVowel, initialCons, clusterCons);
+  vowelPattern = resolveVowel(chars, i, len, leadingVowel);
   i = vowelPattern.nextIndex;
   const vowelId = vowelPattern.id;
   roHan = vowelPattern.roHan || false;
@@ -228,7 +228,7 @@ function parseSingleSyllable(chars, start, len) {
  * Resolve the vowel pattern starting at position i.
  * Returns { id, nextIndex, roHan, hasShortener }
  */
-function resolveVowel(chars, i, len, leadingVowel, _initialCons, _clusterCons) {
+function resolveVowel(chars, i, len, leadingVowel) {
   // Handle leading vowel combinations
   if (leadingVowel) {
     return resolveLeadingVowel(chars, i, len, leadingVowel);

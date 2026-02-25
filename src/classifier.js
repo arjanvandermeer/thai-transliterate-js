@@ -57,6 +57,7 @@ export function classifyChar(char) {
 }
 
 const WHITESPACE_RE = /\s/;
+const PUNCTUATION_RE = /[.,;:!?\-()/'"-]/;
 const LATIN_RE = /[A-Za-z]/;
 
 /** Check if character is in the Thai Unicode block */
@@ -79,6 +80,7 @@ export function isAllThai(text) {
   let hasThai = false;
   for (const char of text) {
     if (WHITESPACE_RE.test(char)) continue;
+    if (PUNCTUATION_RE.test(char)) continue;
     if (isThaiChar(char)) { hasThai = true; continue; }
     return false;
   }

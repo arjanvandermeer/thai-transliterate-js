@@ -20,15 +20,10 @@ import { romanizeSyllable } from '../src/romanizer.js';
 import { generateVariants } from '../src/variant-generator.js';
 import { levenshtein } from '../src/levenshtein.js';
 
+import { argValue } from './lib/args.js';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-
-// Parse CLI args
-const args = process.argv.slice(2);
-function argValue(name, fallback) {
-  const idx = args.indexOf(name);
-  return idx !== -1 ? args[idx + 1] : fallback;
-}
 
 const inputPath = argValue('--input', join(root, 'data', 'registry.json'));
 const outputPath = argValue('--output', join(root, 'src', 'tables', 'dictionary.json'));

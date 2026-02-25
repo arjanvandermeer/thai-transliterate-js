@@ -6,9 +6,9 @@
  * are used unchanged.
  */
 import { readFileSync } from 'node:fs';
-import { CONSONANTS as BASE_CONSONANTS } from './consonants.js';
-import { VOWEL_PATTERNS as BASE_VOWEL_PATTERNS } from './vowels.js';
-import { THOR_SO_VARIANTS as BASE_THOR_SO, SOR_RO_VARIANTS as BASE_SOR_RO } from './clusters.js';
+import { BASE_CONSONANTS } from './consonants.js';
+import { BASE_VOWEL_PATTERNS } from './vowels.js';
+import { BASE_THOR_SO_VARIANTS as BASE_THOR_SO, BASE_SOR_RO_VARIANTS as BASE_SOR_RO } from './clusters.js';
 
 // Try to load overrides; graceful fallback if missing
 let overrides = null;

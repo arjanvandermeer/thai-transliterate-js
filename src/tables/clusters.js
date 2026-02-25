@@ -37,7 +37,7 @@ export const CLUSTER_SECOND = {
  * - "sr" is etymological/literary
  * - "sh" is used in some transliteration systems
  */
-export const SOR_RO_VARIANTS = [
+export const BASE_SOR_RO_VARIANTS = [
   { text: 's', weight: 1.0 },
   { text: 'sr', weight: 0.3 },
   { text: 'sh', weight: 0.2 },
@@ -52,7 +52,7 @@ export const SOR_RO_VARIANTS = [
  *
  * Data-derived variants (dr, th) are in weight-overrides.json newVariants section.
  */
-export const THOR_SO_VARIANTS = [
+export const BASE_THOR_SO_VARIANTS = [
   { text: 'thr', weight: 0.7 },
   { text: 'tr', weight: 0.5 },
   { text: 's', weight: 0.4 },

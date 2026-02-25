@@ -13,15 +13,11 @@ import { matchThai, transliterateWords } from '../src/index.js';
 import { parseSyllables } from '../src/syllable-parser.js';
 import { romanizeSyllable } from '../src/romanizer.js';
 import { CONSONANTS, VOWEL_PATTERNS } from '../src/tables/load-weights.js';
+import { argValue } from './lib/args.js';
+import { inferPositionType } from './lib/position.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-
-const args = process.argv.slice(2);
-function argValue(name, fallback) {
-  const idx = args.indexOf(name);
-  return idx !== -1 ? args[idx + 1] : fallback;
-}
 const inputPath = argValue('--input', join(root, 'data', 'registry.json'));
 const outputPath = argValue('--output', join(root, 'data', 'analysis.json'));
 const maxVariants = parseInt(argValue('--max-variants', '30'), 10);
@@ -99,32 +95,7 @@ function decomposeMatch(matchedText, thaiWord) {
   return observations;
 }
 
-/**
- * Infer position type from position index and syllable structure.
- */
-function inferPositionType(posIdx, positions, syllable) {
-  // Special cases: thorSo/sorRo replace initial+cluster with single position
-  if (syllable.flags.thorSo || syllable.flags.sorRo) {
-    if (posIdx === 0) return 'cluster_special';
-    if (posIdx === 1) return 'vowel';
-    return 'final';
-  }
-
-  // Normal syllable: initial, [cluster], vowel, [final]
-  let idx = 0;
-  if (posIdx === idx) return 'initial';
-  idx++;
-
-  if (syllable.clusterConsonant) {
-    if (posIdx === idx) return 'cluster';
-    idx++;
-  }
-
-  if (posIdx === idx) return 'vowel';
-  idx++;
-
-  return 'final';
-}
+// inferPositionType imported from ./lib/position.js
 
 /**
  * Record a decomposed observation in the weight evidence.

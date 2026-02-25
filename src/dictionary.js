@@ -33,6 +33,8 @@ function loadDictionary() {
   for (const [thai, variants] of Object.entries(manual)) {
     const boosted = variants.map(v => ({
       text: v.text,
+      // Weight 1.5 intentionally exceeds the 0-1 algorithmic range to
+      // prioritize known real-world spellings in ranking
       weight: v.weight ?? 1.5,
       type: v.type ?? 'phonetic',
     }));

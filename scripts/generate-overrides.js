@@ -10,18 +10,13 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { CONSONANTS as BASE_CONSONANTS } from '../src/tables/consonants.js';
-import { VOWEL_PATTERNS as BASE_VOWEL_PATTERNS } from '../src/tables/vowels.js';
-import { THOR_SO_VARIANTS, SOR_RO_VARIANTS } from '../src/tables/clusters.js';
+import { BASE_CONSONANTS } from '../src/tables/consonants.js';
+import { BASE_VOWEL_PATTERNS } from '../src/tables/vowels.js';
+import { BASE_THOR_SO_VARIANTS as THOR_SO_VARIANTS, BASE_SOR_RO_VARIANTS as SOR_RO_VARIANTS } from '../src/tables/clusters.js';
+import { argValue } from './lib/args.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-
-const args = process.argv.slice(2);
-function argValue(name, fallback) {
-  const idx = args.indexOf(name);
-  return idx !== -1 ? args[idx + 1] : fallback;
-}
 const inputPath = argValue('--input', join(root, 'data', 'analysis.json'));
 const outputPath = argValue('--output', join(root, 'src', 'tables', 'weight-overrides.json'));
 const minObservations = parseInt(argValue('--min-observations', '50'), 10);

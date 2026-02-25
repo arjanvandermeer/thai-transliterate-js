@@ -15,19 +15,14 @@ import { readFileSync, writeFileSync, existsSync, statSync, unlinkSync } from 'n
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hasThai, isValidLatin } from './lib/filters.js';
+import { argValue, hasFlag } from './lib/args.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
 
-// Parse CLI args
-const args = process.argv.slice(2);
-function argValue(name, fallback) {
-  const idx = args.indexOf(name);
-  return idx !== -1 ? args[idx + 1] : fallback;
-}
 const outputPath = argValue('--output', join(root, 'data', 'registry-wikidata.json'));
 const cachePath = join(root, 'data', 'wikidata-raw.json');
-const force = args.includes('--force');
+const force = hasFlag('--force');
 
 const SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql';
 const MAX_AGE_MS = 24 * 60 * 60 * 1000;

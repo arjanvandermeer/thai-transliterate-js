@@ -17,16 +17,10 @@ import { createInterface } from 'node:readline';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hasThai, isValidLatin } from './lib/filters.js';
+import { argValue } from './lib/args.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-
-// Parse CLI args
-const args = process.argv.slice(2);
-function argValue(name, fallback) {
-  const idx = args.indexOf(name);
-  return idx !== -1 ? args[idx + 1] : fallback;
-}
 const langlinksPath = argValue('--langlinks', join(root, 'data', 'thwiki-latest-langlinks.sql.gz'));
 const pagesPath = argValue('--pages', join(root, 'data', 'thwiki-latest-page.sql.gz'));
 const outputPath = argValue('--output', join(root, 'data', 'registry-wikipedia.json'));

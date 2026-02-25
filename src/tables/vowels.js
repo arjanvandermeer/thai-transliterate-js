@@ -5,7 +5,7 @@
  * Data-derived variants are in weight-overrides.json newVariants section,
  * merged at runtime by load-weights.js.
  */
-export const VOWEL_PATTERNS = {
+export const BASE_VOWEL_PATTERNS = {
   // === COMPOUND / DIPHTHONG VOWELS ===
 
   sara_ia:       { id: 'sara_ia',       variants: [{ text: 'ia', weight: 1.0 }, { text: 'iya', weight: 0.4 }, { text: 'ea', weight: 0.3 }] },
