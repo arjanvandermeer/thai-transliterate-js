@@ -92,15 +92,12 @@ describe('load-weights - weight-overrides applied', () => {
     assert.strictEqual(sVariant.weight, 1, 's weight should be overridden to 1');
   });
 
-  it('medial ทร ranks "tr" and "dr" above "thr"', () => {
+  it('medial ทร ranks "tr" above "thr"', () => {
     const tr = THOR_SO_VARIANTS_MEDIAL.find(v => v.text === 'tr');
-    const dr = THOR_SO_VARIANTS_MEDIAL.find(v => v.text === 'dr');
     const thr = THOR_SO_VARIANTS_MEDIAL.find(v => v.text === 'thr');
     assert.ok(tr, 'medial ทร should have "tr"');
-    assert.ok(dr, 'medial ทร should have "dr"');
     assert.ok(thr, 'medial ทร should have "thr"');
     assert.ok(tr.weight > thr.weight, `"tr" (${tr.weight}) should outweigh "thr" (${thr.weight})`);
-    assert.ok(dr.weight > thr.weight, `"dr" (${dr.weight}) should outweigh "thr" (${thr.weight})`);
   });
 
   it('medial ทร excludes "s" variant', () => {

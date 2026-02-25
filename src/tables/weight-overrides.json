@@ -1,37 +1,176 @@
 {
   "_meta": {
-    "generatedAt": "2026-02-22T20:14:38.414Z",
+    "generatedAt": "2026-02-25T08:00:04.197Z",
     "description": "Data-derived weight overrides. Regenerate with: npm run calibrate",
     "sources": {
-      "analyzedAt": "2026-02-22T20:14:38.185Z",
-      "totalEntries": 233478,
-      "exactMatches": 15733,
-      "closeMatches": 71772,
-      "partialMatches": 89797,
-      "misses": 56176,
-      "matchRateExact": 0.067,
-      "matchRateClose": 0.375,
-      "matchRatePartial": 0.759,
-      "populationWeightedMatchRate": 0.698,
-      "decompositions": 162269,
-      "elapsedSeconds": 24.3
+      "analyzedAt": "2026-02-25T07:59:44.710Z",
+      "totalEntries": 382486,
+      "exactMatches": 37365,
+      "closeMatches": 84464,
+      "partialMatches": 94596,
+      "misses": 166061,
+      "matchRateExact": 0.098,
+      "matchRateClose": 0.319,
+      "matchRatePartial": 0.566,
+      "populationWeightedMatchRate": 0.822,
+      "decompositions": 353797,
+      "elapsedSeconds": 77.7
     },
     "minObservations": 10,
     "minDelta": 0.1
   },
-  "consonants": {},
+  "consonants": {
+    "ด": {
+      "final": {
+        "d": 0.01
+      }
+    },
+    "ย": {
+      "final": {
+        "y": 0.01
+      }
+    },
+    "ล": {
+      "final": {
+        "l": 0.06
+      }
+    },
+    "ก": {
+      "initial": {
+        "g": 0.01
+      }
+    },
+    "ร": {
+      "final": {
+        "r": 0.07,
+        "": 0.04
+      }
+    },
+    "ค": {
+      "initial": {
+        "k": 0.01
+      }
+    },
+    "ว": {
+      "initial": {
+        "v": 0.01
+      },
+      "final": {
+        "w": 0.7,
+        "o": 1
+      }
+    },
+    "ผ": {
+      "initial": {
+        "p": 0.01
+      }
+    },
+    "จ": {
+      "initial": {
+        "j": 0.04
+      }
+    },
+    "บ": {
+      "final": {
+        "b": 0.02
+      }
+    },
+    "ท": {
+      "initial": {
+        "t": 0.01
+      }
+    },
+    "ส": {
+      "final": {
+        "s": 0.07
+      }
+    },
+    "ธ": {
+      "initial": {
+        "t": 0.01
+      }
+    },
+    "พ": {
+      "initial": {
+        "p": 0.04
+      }
+    },
+    "ศ": {
+      "final": {
+        "s": 0.01
+      }
+    },
+    "ภ": {
+      "initial": {
+        "p": 0.01
+      }
+    },
+    "ซ": {
+      "initial": {
+        "z": 0.01
+      }
+    },
+    "ฑ": {
+      "initial": {
+        "d": 0.02
+      }
+    },
+    "ฒ": {
+      "initial": {
+        "th": 0.02,
+        "t": 1
+      }
+    }
+  },
   "vowels": {
+    "sara_aw": {
+      "aw": 0.01,
+      "or": 0.01
+    },
+    "sara_u_short": {
+      "oo": 0.01
+    },
+    "sara_ao": {
+      "ow": 0.01
+    },
+    "sara_u": {
+      "oo": 0.01
+    },
     "sara_a": {
       "ar": 0.05
     },
     "implied_o": {
-      "o": 1
+      "o": 1,
+      "a": 0.03
+    },
+    "sara_e": {
+      "ay": 0.01,
+      "ei": 0.01
+    },
+    "sara_i": {
+      "ee": 0.01
     },
     "sara_o": {
       "oh": 0.01
     },
     "implied_a": {
-      "a": 1
+      "a": 1,
+      "o": 0.03
+    },
+    "sara_ai_malai": {
+      "i": 0.01,
+      "ay": 0.01
+    },
+    "sara_ae": {
+      "a": 0.01
+    },
+    "sara_ue_short": {
+      "eu": 0.01,
+      "u": 0.01
+    },
+    "sara_oe": {
+      "er": 0.01,
+      "ur": 0.01
     },
     "sara_ua": {
       "uar": 0.01
@@ -39,33 +178,218 @@
   },
   "clusters": {
     "ทร": {
+      "thr": 0.01,
+      "tr": 0.02,
       "s": 1
+    },
+    "ศร": {
+      "sr": 0.05
     }
   },
   "newVariants": {
-    "_meta": {
-      "description": "Data-derived romanization variants not in the base RTGS tables. Discovered by: npm run calibrate:discover",
-      "source": "scripts/discover-variants.js analysis of 233K GeoNames/OSM entries"
-    },
-    "consonants": {
-      "จ": { "initial": { "c": 0.2 } },
-      "ช": { "initial": { "sh": 0.15 }, "final": { "ch": 0.4 } },
-      "ง": { "final": { "n": 0.15 } },
-      "ญ": { "final": { "y": 0.3 } },
-      "ท": { "initial": { "d": 0.15 } },
-      "ธ": { "initial": { "dh": 0.15 } },
-      "พ": { "initial": { "bh": 0.1 } },
-      "ฬ": { "final": { "l": 0.3 } }
-    },
     "vowels": {
-      "sara_ia": { "ie": 0.2 },
-      "sara_uea": { "ue": 0.4 },
-      "sara_ua": { "aw": 0.3 },
-      "sara_ao": { "o": 0.2 },
-      "sara_i": { "y": 0.2 }
+      "mai_han_akat": {
+        "u": 0.53,
+        "o": 0.3,
+        "uc": 0.04,
+        "ha": 0.04,
+        "e": 0.02,
+        "ou": 0.02
+      },
+      "sara_i": {
+        "e": 0.58,
+        "ey": 0.16,
+        "ea": 0.11,
+        "ei": 0.04,
+        "hi": 0.03,
+        "ui": 0.01,
+        "ae": 0.01
+      },
+      "sara_e": {
+        "a": 0.6,
+        "ai": 0.09,
+        "ao": 0.08,
+        "oe": 0.04,
+        "ae": 0.04,
+        "i": 0.02,
+        "he": 0.02,
+        "khe": 0.01,
+        "re": 0.01
+      },
+      "sara_ia": {
+        "iu": 0.33,
+        "eiy": 0.2,
+        "y": 0.14,
+        "ya": 0.06,
+        "ir": 0.05,
+        "e": 0.04,
+        "eer": 0.02,
+        "io": 0.02,
+        "eu": 0.01,
+        "eo": 0.01,
+        "i": 0.01,
+        "ior": 0.01
+      },
+      "sara_i_short": {
+        "e": 0.3,
+        "y": 0.26,
+        "hi": 0.07,
+        "ei": 0.06,
+        "oe": 0.04,
+        "ri": 0.04,
+        "yi": 0.03,
+        "li": 0.03,
+        "er": 0.03,
+        "khi": 0.02,
+        "ti": 0.01,
+        "di": 0.01
+      },
+      "sara_aw": {
+        "a": 0.42,
+        "au": 0.33,
+        "eo": 0.05,
+        "ah": 0.04,
+        "ar": 0.04,
+        "u": 0.02
+      },
+      "sara_ao": {
+        "au": 0.51,
+        "ea": 0.14,
+        "eaa": 0.13,
+        "aus": 0.04,
+        "a": 0.03
+      },
+      "sara_am": {
+        "a": 0.8
+      },
+      "sara_oe": {
+        "e": 0.53,
+        "ir": 0.07,
+        "r": 0.06,
+        "re": 0.05
+      },
+      "sara_u": {
+        "ou": 0.32,
+        "o": 0.16,
+        "woo": 0.11,
+        "hu": 0.06,
+        "e": 0.04,
+        "wu": 0.04,
+        "eu": 0.03,
+        "our": 0.03,
+        "yu": 0.02,
+        "oe": 0.02
+      },
+      "sara_ai_malai": {
+        "y": 0.32,
+        "ei": 0.17,
+        "yte": 0.06,
+        "ey": 0.05,
+        "ein": 0.05,
+        "eit": 0.04,
+        "ype": 0.03
+      },
+      "implied_o": {
+        "u": 0.29,
+        "c": 0.19,
+        "ho": 0.17,
+        "e": 0.13,
+        "w": 0.05,
+        "kho": 0.03,
+        "h": 0.03
+      },
+      "implied_a": {
+        "k": 0.14,
+        "s": 0.13,
+        "e": 0.1,
+        "u": 0.09,
+        "h": 0.07,
+        "ra": 0.06,
+        "t": 0.06,
+        "ha": 0.06,
+        "r": 0.05,
+        "n": 0.04
+      },
+      "sara_a": {
+        "ha": 0.19,
+        "e": 0.17,
+        "tha": 0.1,
+        "o": 0.1,
+        "ra": 0.05,
+        "er": 0.04,
+        "na": 0.04,
+        "sa": 0.04
+      },
+      "sara_u_short": {
+        "o": 0.26,
+        "ou": 0.18,
+        "a": 0.08,
+        "woo": 0.08,
+        "tu": 0.08,
+        "w": 0.07,
+        "yu": 0.06,
+        "hu": 0.05
+      },
+      "sara_o": {
+        "ho": 0.18,
+        "a": 0.12,
+        "au": 0.11,
+        "u": 0.1,
+        "eau": 0.08
+      },
+      "sara_a_short": {
+        "e": 0.2,
+        "ha": 0.18,
+        "u": 0.14,
+        "gh": 0.06,
+        "o": 0.06
+      },
+      "ro_han_open": {
+        "rr": 0.62
+      },
+      "sara_ua": {
+        "oa": 0.22,
+        "o": 0.12,
+        "uo": 0.11,
+        "our": 0.08
+      },
+      "sara_ue": {
+        "lan": 0.8
+      },
+      "sara_ue_short": {
+        "y": 0.5
+      },
+      "sara_ae": {
+        "ha": 0.31
+      }
     },
     "clusters": {
-      "ทร": { "dr": 0.5, "th": 0.3 }
+      "กว": {
+        "u": 0.8
+      },
+      "สว": {
+        "aw": 0.78
+      },
+      "ทร": {
+        "s": 0.39,
+        "t": 0.36
+      },
+      "สล": {
+        "al": 0.8
+      },
+      "คว": {
+        "u": 0.8
+      },
+      "บร": {
+        "or": 0.62
+      },
+      "ปร": {
+        "ar": 0.77
+      }
+    },
+    "_meta": {
+      "description": "Data-derived romanization variants not in the base RTGS tables. Discovered by: npm run calibrate:discover",
+      "source": "205242 close matches analyzed, 339 unique discoveries"
     }
   }
 }

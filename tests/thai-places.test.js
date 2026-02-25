@@ -8,7 +8,8 @@ const OUTPUT_PATH = new URL('../data/thai-places-output.json', import.meta.url);
 
 const placesData = JSON.parse(readFileSync(PLACES_PATH, 'utf-8'));
 const places = placesData.places;
-const output = JSON.parse(readFileSync(OUTPUT_PATH, 'utf-8'));
+const outputData = JSON.parse(readFileSync(OUTPUT_PATH, 'utf-8'));
+const output = outputData.results || outputData;
 
 /**
  * Curated set of well-known Thai places with expected English romanizations.

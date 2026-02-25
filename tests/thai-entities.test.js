@@ -8,7 +8,8 @@ const OUTPUT_PATH = new URL('../data/thai-entities-output.json', import.meta.url
 
 const entitiesData = JSON.parse(readFileSync(ENTITIES_PATH, 'utf-8'));
 const entities = entitiesData.entries;
-const output = JSON.parse(readFileSync(OUTPUT_PATH, 'utf-8'));
+const outputData = JSON.parse(readFileSync(OUTPUT_PATH, 'utf-8'));
+const output = outputData.results || outputData;
 
 /**
  * Curated set of well-known Thai entities with expected English romanizations.

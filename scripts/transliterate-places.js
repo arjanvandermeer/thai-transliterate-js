@@ -9,6 +9,7 @@
  */
 
 import { readFileSync } from 'node:fs';
+import { execSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { transliterateWords } from '../src/index.js';
@@ -25,6 +26,9 @@ const dataPath = argValue('--input', join(__dirname, '..', 'data', 'thai-places.
 const jsonMode = args.includes('--json');
 const maxIdx = args.indexOf('--max-variants');
 const maxVariants = maxIdx !== -1 ? parseInt(args[maxIdx + 1], 10) : 5;
+
+const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf-8'));
+const gitCommit = execSync('git rev-parse --short HEAD', { cwd: join(__dirname, '..'), encoding: 'utf-8' }).trim();
 
 const data = JSON.parse(readFileSync(dataPath, 'utf-8'));
 const places = data.places || data.entries;
@@ -45,7 +49,17 @@ if (jsonMode) {
       })),
     });
   }
-  process.stdout.write(JSON.stringify(results, null, 2) + '\n');
+  const output = {
+    _meta: {
+      version: pkg.version,
+      commit: gitCommit,
+      generatedAt: new Date().toISOString(),
+      input: dataPath,
+      entries: results.length,
+    },
+    results,
+  };
+  process.stdout.write(JSON.stringify(output, null, 2) + '\n');
 } else {
   for (const place of places) {
     const words = transliterateWords(place.thai, { maxVariants });
