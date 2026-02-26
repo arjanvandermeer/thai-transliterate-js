@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "version": "1.5.0",
-    "commit": "4d25ab9",
-    "generatedAt": "2026-02-25T22:08:36.636Z",
+    "version": "1.6.0",
+    "commit": "51e88bd",
+    "generatedAt": "2026-02-26T19:48:57.006Z",
     "input": "data/thai-entities.json",
     "entries": 80,
     "dictionary": true
@@ -671,16 +671,20 @@
               "weight": 1
             },
             {
+              "text": "ratch",
+              "weight": 0.3
+            },
+            {
               "text": "lat",
               "weight": 0.3
             },
             {
-              "text": "rsot",
-              "weight": 0.18
+              "text": "rach",
+              "weight": 0.2
             },
             {
-              "text": "lsot",
-              "weight": 0.05
+              "text": "rsot",
+              "weight": 0.18
             }
           ]
         },
@@ -837,16 +841,16 @@
               "weight": 0.3
             },
             {
+              "text": "phathna",
+              "weight": 0.3
+            },
+            {
               "text": "patna",
               "weight": 0.28
             },
             {
               "text": "phatnar",
               "weight": 0.2
-            },
-            {
-              "text": "phsotna",
-              "weight": 0.18
             }
           ]
         },
@@ -1170,24 +1174,24 @@
           "thai": "น้อย",
           "variants": [
             {
-              "text": "naya",
-              "weight": 0.64
+              "text": "noi",
+              "weight": 1
             },
             {
-              "text": "nayd",
+              "text": "noy",
+              "weight": 0.37
+            },
+            {
+              "text": "nawi",
+              "weight": 0.3
+            },
+            {
+              "text": "nori",
               "weight": 0.2
             },
             {
-              "text": "ndya",
-              "weight": 0.2
-            },
-            {
-              "text": "nayo",
-              "weight": 0.18
-            },
-            {
-              "text": "noya",
-              "weight": 0.18
+              "text": "nawy",
+              "weight": 0.11
             }
           ]
         },
@@ -2024,24 +2028,24 @@
           "thai": "ข้าว",
           "variants": [
             {
-              "text": "khawa",
-              "weight": 0.64
+              "text": "khaw",
+              "weight": 1
             },
             {
-              "text": "kawa",
-              "weight": 0.32
+              "text": "khao",
+              "weight": 0.54
             },
             {
-              "text": "khawd",
-              "weight": 0.2
+              "text": "kaw",
+              "weight": 0.5
             },
             {
-              "text": "khdwa",
-              "weight": 0.2
+              "text": "khaaw",
+              "weight": 0.3
             },
             {
-              "text": "khawo",
-              "weight": 0.18
+              "text": "kao",
+              "weight": 0.27
             }
           ]
         },
@@ -2080,24 +2084,24 @@
           "thai": "ข้าว",
           "variants": [
             {
-              "text": "khawa",
-              "weight": 0.64
+              "text": "khaw",
+              "weight": 1
             },
             {
-              "text": "kawa",
-              "weight": 0.32
+              "text": "khao",
+              "weight": 0.54
             },
             {
-              "text": "khawd",
-              "weight": 0.2
+              "text": "kaw",
+              "weight": 0.5
             },
             {
-              "text": "khdwa",
-              "weight": 0.2
+              "text": "khaaw",
+              "weight": 0.3
             },
             {
-              "text": "khawo",
-              "weight": 0.18
+              "text": "kao",
+              "weight": 0.27
             }
           ]
         },
@@ -2136,24 +2140,24 @@
           "thai": "ข้าว",
           "variants": [
             {
-              "text": "khawa",
-              "weight": 0.64
+              "text": "khaw",
+              "weight": 1
             },
             {
-              "text": "kawa",
-              "weight": 0.32
+              "text": "khao",
+              "weight": 0.54
             },
             {
-              "text": "khawd",
-              "weight": 0.2
+              "text": "kaw",
+              "weight": 0.5
             },
             {
-              "text": "khdwa",
-              "weight": 0.2
+              "text": "khaaw",
+              "weight": 0.3
             },
             {
-              "text": "khawo",
-              "weight": 0.18
+              "text": "kao",
+              "weight": 0.27
             }
           ]
         },
@@ -2186,24 +2190,16 @@
           "thai": "มะม่วง",
           "variants": [
             {
-              "text": "mamawong",
-              "weight": 0.64
+              "text": "mamuang",
+              "weight": 1
             },
             {
-              "text": "mamawang",
-              "weight": 0.22
+              "text": "mamawng",
+              "weight": 0.56
             },
             {
-              "text": "mamdwong",
-              "weight": 0.2
-            },
-            {
-              "text": "mamowong",
+              "text": "mamuarng",
               "weight": 0.18
-            },
-            {
-              "text": "mamavong",
-              "weight": 0.1
             }
           ]
         }
@@ -2218,23 +2214,23 @@
           "variants": [
             {
               "text": "tomkha",
-              "weight": 0.64
+              "weight": 0.8
             },
             {
               "text": "tomka",
-              "weight": 0.32
+              "weight": 0.4
             },
             {
               "text": "tamkha",
-              "weight": 0.22
+              "weight": 0.28
             },
             {
-              "text": "tomkhd",
-              "weight": 0.2
+              "text": "tomkhaa",
+              "weight": 0.24
             },
             {
               "text": "dtomkha",
-              "weight": 0.19
+              "weight": 0.24
             }
           ]
         },
@@ -2308,20 +2304,8 @@
               "weight": 1
             },
             {
-              "text": "satay",
-              "weight": 0.3
-            },
-            {
               "text": "sadte",
               "weight": 0.3
-            },
-            {
-              "text": "satei",
-              "weight": 0.2
-            },
-            {
-              "text": "sadtay",
-              "weight": 0.09
             }
           ]
         }
@@ -2360,24 +2344,20 @@
           "thai": "ย่าง",
           "variants": [
             {
-              "text": "yanga",
-              "weight": 0.64
+              "text": "yang",
+              "weight": 1
             },
             {
-              "text": "yangd",
+              "text": "yaang",
+              "weight": 0.3
+            },
+            {
+              "text": "yarng",
               "weight": 0.2
             },
             {
-              "text": "ydnga",
-              "weight": 0.2
-            },
-            {
-              "text": "yango",
-              "weight": 0.18
-            },
-            {
-              "text": "yonga",
-              "weight": 0.18
+              "text": "ytang",
+              "weight": 0.16
             }
           ]
         }
@@ -2391,24 +2371,24 @@
           "thai": "น้ำตก",
           "variants": [
             {
-              "text": "natok",
-              "weight": 0.64
+              "text": "namtok",
+              "weight": 0.8
             },
             {
-              "text": "natak",
-              "weight": 0.22
+              "text": "numtok",
+              "weight": 0.32
             },
             {
-              "text": "ndtok",
-              "weight": 0.2
+              "text": "namtak",
+              "weight": 0.28
             },
             {
-              "text": "nadtok",
-              "weight": 0.19
+              "text": "namdtok",
+              "weight": 0.24
             },
             {
-              "text": "notok",
-              "weight": 0.18
+              "text": "namtog",
+              "weight": 0.14
             }
           ]
         }
@@ -2422,24 +2402,24 @@
           "thai": "ข้าว",
           "variants": [
             {
-              "text": "khawa",
-              "weight": 0.64
+              "text": "khaw",
+              "weight": 1
             },
             {
-              "text": "kawa",
-              "weight": 0.32
+              "text": "khao",
+              "weight": 0.54
             },
             {
-              "text": "khawd",
-              "weight": 0.2
+              "text": "kaw",
+              "weight": 0.5
             },
             {
-              "text": "khdwa",
-              "weight": 0.2
+              "text": "khaaw",
+              "weight": 0.3
             },
             {
-              "text": "khawo",
-              "weight": 0.18
+              "text": "kao",
+              "weight": 0.27
             }
           ]
         },
@@ -2491,24 +2471,24 @@
           "thai": "ข้าว",
           "variants": [
             {
-              "text": "khawa",
-              "weight": 0.64
+              "text": "khaw",
+              "weight": 1
             },
             {
-              "text": "kawa",
-              "weight": 0.32
+              "text": "khao",
+              "weight": 0.54
             },
             {
-              "text": "khawd",
-              "weight": 0.2
+              "text": "kaw",
+              "weight": 0.5
             },
             {
-              "text": "khdwa",
-              "weight": 0.2
+              "text": "khaaw",
+              "weight": 0.3
             },
             {
-              "text": "khawo",
-              "weight": 0.18
+              "text": "kao",
+              "weight": 0.27
             }
           ]
         },
@@ -2839,6 +2819,10 @@
               "weight": 1
             },
             {
+              "text": "phanitch",
+              "weight": 0.3
+            },
+            {
               "text": "phaanit",
               "weight": 0.3
             },
@@ -2847,12 +2831,8 @@
               "weight": 0.28
             },
             {
-              "text": "pharnit",
+              "text": "phanich",
               "weight": 0.2
-            },
-            {
-              "text": "phtanit",
-              "weight": 0.16
             }
           ]
         }
@@ -4308,15 +4288,19 @@
           "variants": [
             {
               "text": "fa",
-              "weight": 0.8
+              "weight": 1
             },
             {
-              "text": "fd",
-              "weight": 0.25
+              "text": "faa",
+              "weight": 0.3
             },
             {
-              "text": "fo",
-              "weight": 0.22
+              "text": "far",
+              "weight": 0.2
+            },
+            {
+              "text": "fta",
+              "weight": 0.16
             }
           ]
         },
@@ -4380,24 +4364,24 @@
           "thai": "มวยไทย",
           "variants": [
             {
-              "text": "mowyathaii",
-              "weight": 0.64
+              "text": "muaithaii",
+              "weight": 1
             },
             {
-              "text": "mooyathaii",
-              "weight": 0.35
+              "text": "mawithaii",
+              "weight": 0.56
             },
             {
-              "text": "mowyathaiy",
-              "weight": 0.24
+              "text": "muaithaiy",
+              "weight": 0.37
             },
             {
-              "text": "mawyathaii",
-              "weight": 0.22
+              "text": "muaythaii",
+              "weight": 0.37
             },
             {
-              "text": "mowydthaii",
-              "weight": 0.2
+              "text": "muaithayi",
+              "weight": 0.3
             }
           ]
         }
@@ -4411,23 +4395,23 @@
           "thai": "มวย",
           "variants": [
             {
-              "text": "mawoi",
-              "weight": 0.64
+              "text": "muai",
+              "weight": 1
             },
             {
-              "text": "mawoy",
-              "weight": 0.24
+              "text": "mawi",
+              "weight": 0.56
             },
             {
-              "text": "mawai",
-              "weight": 0.22
+              "text": "muay",
+              "weight": 0.37
             },
             {
-              "text": "mdwoi",
-              "weight": 0.2
+              "text": "mawy",
+              "weight": 0.21
             },
             {
-              "text": "mowoi",
+              "text": "muari",
               "weight": 0.18
             }
           ]
@@ -4600,23 +4584,23 @@
           "thai": "มวย",
           "variants": [
             {
-              "text": "mawoi",
-              "weight": 0.64
+              "text": "muai",
+              "weight": 1
             },
             {
-              "text": "mawoy",
-              "weight": 0.24
+              "text": "mawi",
+              "weight": 0.56
             },
             {
-              "text": "mawai",
-              "weight": 0.22
+              "text": "muay",
+              "weight": 0.37
             },
             {
-              "text": "mdwoi",
-              "weight": 0.2
+              "text": "mawy",
+              "weight": 0.21
             },
             {
-              "text": "mowoi",
+              "text": "muari",
               "weight": 0.18
             }
           ]

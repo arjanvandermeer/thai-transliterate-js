@@ -146,9 +146,13 @@ function parseSingleSyllable(chars, start, len) {
   if (i < len && classifyChar(chars[i]) === 'CONS' && isValidCluster(initialCons, chars[i])) {
     // Look ahead: is the next char a vowel or consonant?
     const nextCls = i + 1 < len ? classifyChar(chars[i + 1]) : 'OTHER';
+    // Also check for อ functioning as sara_aw vowel (e.g., คลอง→khlong):
+    // อ is CONS class but acts as vowel /ɔː/ when followed by CONS, TONE, or end-of-word
+    const isOAsVowel = nextCls === 'CONS' && chars[i + 1] === 'อ' &&
+      (i + 2 >= len || classifyChar(chars[i + 2]) === 'CONS' || classifyChar(chars[i + 2]) === 'TONE');
     const isVowelAhead = nextCls === 'V_ABOVE' || nextCls === 'V_BELOW' ||
                          nextCls === 'V_FOLLOW' || nextCls === 'TONE' ||
-                         nextCls === 'SHORTENER' || nextCls === 'OTHER';
+                         nextCls === 'SHORTENER' || nextCls === 'OTHER' || isOAsVowel;
     // Accept cluster when followed by a consonant that serves as final
     // (implied vowel, closed syllable: ทรง→"song", กรม→"krom", ตรง→"trong").
     // Reject if that consonant is actually the initial of the next syllable
@@ -171,6 +175,16 @@ function parseSingleSyllable(chars, start, len) {
     }
   }
 
+  // Step 4.5: Pre-consume tone mark if it appears before the vowel marker.
+  // In Thai, tone marks are written above the consonant but in the character
+  // stream they appear between the consonant and any following vowel (า/ะ/ำ/อ).
+  // Without this step, resolveVowel() sees the tone mark instead of the vowel
+  // and returns 'none' (implied), orphaning the actual vowel.
+  if (i < len && classifyChar(chars[i]) === 'TONE') {
+    toneMark = chars[i];
+    i++;
+  }
+
   // Step 5: Look for vowel markers (above, below, following) and special patterns
   vowelPattern = resolveVowel(chars, i, len, leadingVowel);
   i = vowelPattern.nextIndex;
@@ -178,8 +192,8 @@ function parseSingleSyllable(chars, start, len) {
   roHan = vowelPattern.roHan || false;
   // hasShortener available in vowelPattern for future tone rules
 
-  // Step 6: Tone mark
-  if (i < len && classifyChar(chars[i]) === 'TONE') {
+  // Step 6: Tone mark (only if not already consumed in Step 4.5)
+  if (!toneMark && i < len && classifyChar(chars[i]) === 'TONE') {
     toneMark = chars[i];
     i++;
   }
@@ -296,6 +310,21 @@ function resolveVowel(chars, i, len, leadingVowel) {
     }
   }
 
+  // Implied sara ua: ว functioning as vowel /ua/ between consonants
+  // Pattern: C₁ว(C₂) — ว produces "ua" sound (like ัว without the ั marker)
+  // Common in: ห้วย→huai, หลวง→luang, สวย→suai, ควร→khuan
+  // Only triggers when ว is followed by CONS or end-of-word (same logic as sara_aw/อ)
+  if (chars[i] === 'ว') {
+    const afterW = i + 1;
+    if (afterW >= len) {
+      return { id: 'sara_ua', nextIndex: afterW };
+    }
+    const clsAfterW = classifyChar(chars[afterW]);
+    if (clsAfterW === 'CONS') {
+      return { id: 'sara_ua', nextIndex: afterW };
+    }
+  }
+
   // No vowel found
   return { id: 'none', nextIndex: i };
 }
@@ -303,26 +332,24 @@ function resolveVowel(chars, i, len, leadingVowel) {
 function resolveLeadingVowel(chars, i, len, lead) {
   // เ combinations
   if (lead === 'เ') {
-    // เ-ีย (sara ia): look for ี then ย
-    if (i + 1 < len && chars[i] === '\u0E35' /* ี */) {
-      // Check: is this actually ี followed by ย?
-      // Note: ี is above the consonant which we already consumed
-      // Actually, the position i is AFTER the initial consonant(+cluster)
-      // So chars[i] would be the above vowel ี
-      if (classifyChar(chars[i]) === 'V_ABOVE' && chars[i] === '\u0E35') {
-        if (i + 1 < len && chars[i + 1] === 'ย') {
-          return { id: 'sara_ia', nextIndex: i + 2 };
+    // เ-ีย (sara ia): look for ี then ย (tone mark may intervene)
+    if (i < len && chars[i] === '\u0E35' /* ี */) {
+      if (classifyChar(chars[i]) === 'V_ABOVE') {
+        let j = i + 1;
+        if (j < len && classifyChar(chars[j]) === 'TONE') j++; // skip intervening tone
+        if (j < len && chars[j] === 'ย') {
+          return { id: 'sara_ia', nextIndex: j + 1 };
         }
       }
     }
 
-    // เ-ือ (sara uea): ื then อ
+    // เ-ือ (sara uea): ื then อ (tone mark may intervene)
     if (i < len && chars[i] === '\u0E37' /* ื */) {
-      if (i + 1 < len && chars[i + 1] === 'อ') {
-        return { id: 'sara_uea', nextIndex: i + 2 };
+      let j = i + 1;
+      if (j < len && classifyChar(chars[j]) === 'TONE') j++; // skip intervening tone
+      if (j < len && chars[j] === 'อ') {
+        return { id: 'sara_uea', nextIndex: j + 1 };
       }
-      // เ-ือะ (sara uea short): ื then อ then ะ
-      // (rare, handled by checking for ะ after อ)
     }
 
     // เ-็ (with shortener, e.g. เ-็-): short 'e' with mai taikhu
@@ -396,13 +423,16 @@ function resolveAboveVowel(chars, i, len) {
   const ch = chars[i];
 
   // ั (mai han akat) — could be part of compound: ัว (sara ua) or ัวะ
+  // A tone mark may appear between ั and ว in the character stream.
   if (ch === '\u0E31' /* ั */) {
-    if (i + 1 < len && chars[i + 1] === 'ว') {
+    let j = i + 1;
+    if (j < len && classifyChar(chars[j]) === 'TONE') j++; // skip intervening tone
+    if (j < len && chars[j] === 'ว') {
       // ัว: check for ะ after
-      if (i + 2 < len && chars[i + 2] === '\u0E30' /* ะ */) {
-        return { id: 'sara_ua_short', nextIndex: i + 3 };
+      if (j + 1 < len && chars[j + 1] === '\u0E30' /* ะ */) {
+        return { id: 'sara_ua_short', nextIndex: j + 2 };
       }
-      return { id: 'sara_ua', nextIndex: i + 2 };
+      return { id: 'sara_ua', nextIndex: j + 1 };
     }
     return { id: 'mai_han_akat', nextIndex: i + 1 };
   }

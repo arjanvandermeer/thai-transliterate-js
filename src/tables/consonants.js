@@ -135,7 +135,7 @@ export const BASE_CONSONANTS = {
   'ช': {
     char: 'ช', class: 'low',
     initial: [{ text: 'ch', weight: 1.0 }],
-    final: [{ text: 't', weight: 1.0 }],
+    final: [{ text: 't', weight: 1.0 }, { text: 'tch', weight: 0.3 }, { text: 'ch', weight: 0.2 }],
   },
   'ซ': {
     char: 'ซ', class: 'low',
@@ -160,7 +160,7 @@ export const BASE_CONSONANTS = {
   'ฒ': {
     char: 'ฒ', class: 'low',
     initial: [{ text: 'th', weight: 1.0 }, { text: 't', weight: 0.4 }],
-    final: [{ text: 't', weight: 1.0 }],
+    final: [{ text: 't', weight: 1.0 }, { text: 'th', weight: 0.3 }],
   },
   'ณ': {
     char: 'ณ', class: 'low',

@@ -105,20 +105,22 @@ function classifyEntry(thai, dictVariants) {
     return { classification: 'reranking', algoTop1, dictTop1, algoRank };
   }
 
-  // Check if any algorithm variant is close enough (distance <= 2)
-  let bestDist = Infinity;
-  let bestAlgo = algoTop1;
-  for (const v of algoVariants) {
-    const dist = levenshtein(v.text.toLowerCase(), dictTop1);
-    if (dist < bestDist) {
-      bestDist = dist;
-      bestAlgo = v.text.toLowerCase();
-    }
-    if (dist === 0) break;
+  // Check if algorithm top-1 is close enough to dictionary top-1.
+  // Only check top-1 (not all variants) because that's what users actually see.
+  const top1Dist = levenshtein(algoTop1, dictTop1);
+  const maxDist = Math.max(2, Math.floor(dictTop1.length * 0.25));
+  if (top1Dist <= maxDist) {
+    return { classification: 'close_enough', algoTop1, dictTop1, bestAlgo: algoTop1, bestDist: top1Dist };
   }
-  const maxDist = Math.max(2, Math.floor(dictTop1.length * 0.15));
-  if (bestDist <= maxDist) {
-    return { classification: 'close_enough', algoTop1, dictTop1, bestAlgo, bestDist };
+
+  // Space-insensitive comparison: many dictionary entries use different spacing
+  // (e.g., "bang bua thong" vs "bangbuathong"). Compare top-1 with spaces removed.
+  const dictNoSpaces = dictTop1.replace(/ /g, '');
+  const algoTop1NoSpaces = algoTop1.replace(/ /g, '');
+  const top1DistNoSpaces = levenshtein(algoTop1NoSpaces, dictNoSpaces);
+  const maxDistNoSpaces = Math.max(2, Math.floor(dictNoSpaces.length * 0.25));
+  if (top1DistNoSpaces <= maxDistNoSpaces) {
+    return { classification: 'close_enough_nospace', algoTop1, dictTop1, bestAlgo: algoTop1, bestDist: top1DistNoSpaces };
   }
 
   return {
@@ -196,7 +198,7 @@ function inferPositionType(posIdx, positions, syllable) {
 // --- Main ---
 
 const entries = Object.entries(dict.entries);
-const stats = { total: entries.length, redundant: 0, reranking: 0, closeEnough: 0, gap: 0, manualSkipped: 0 };
+const stats = { total: entries.length, redundant: 0, reranking: 0, closeEnough: 0, closeEnoughNospace: 0, gap: 0, manualSkipped: 0 };
 const prunedEntries = {};
 const gaps = [];
 const rerankings = [];
@@ -241,6 +243,13 @@ for (let i = 0; i < entries.length; i++) {
     continue;
   }
 
+  if (result.classification === 'close_enough_nospace') {
+    stats.closeEnoughNospace++;
+    closeEnoughs.push({ thai, algoTop1: result.algoTop1, dictTop1: result.dictTop1, bestAlgo: result.bestAlgo, bestDist: result.bestDist, nospace: true });
+    // Algorithm has a variant close enough ignoring spaces — prune
+    continue;
+  }
+
   // Gap — keep in dictionary and analyze
   stats.gap++;
   const issues = analyzeGap(thai, result.dictTop1, result.algoTop1);
@@ -269,13 +278,14 @@ const prunedCount = Object.keys(prunedEntries).length;
 const reductionPct = ((1 - prunedCount / stats.total) * 100).toFixed(1);
 const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
 
-const removed = stats.redundant + stats.reranking + stats.closeEnough;
+const removed = stats.redundant + stats.reranking + stats.closeEnough + stats.closeEnoughNospace;
 console.error(`\nDictionary pruning (${elapsed}s):`);
 console.error(`  Total entries:        ${stats.total}`);
 console.error(`  Manual (skipped):     ${stats.manualSkipped}`);
 console.error(`  Redundant (removed):  ${stats.redundant.toString().padStart(5)}  (${((stats.redundant / stats.total) * 100).toFixed(1)}%)`);
 console.error(`  Reranking (removed):  ${stats.reranking.toString().padStart(5)}  (${((stats.reranking / stats.total) * 100).toFixed(1)}%)`);
 console.error(`  Close enough (removed):${stats.closeEnough.toString().padStart(4)}  (${((stats.closeEnough / stats.total) * 100).toFixed(1)}%)`);
+console.error(`  Close enough no-space: ${stats.closeEnoughNospace.toString().padStart(4)}  (${((stats.closeEnoughNospace / stats.total) * 100).toFixed(1)}%)`);
 console.error(`  Gap (kept):           ${stats.gap.toString().padStart(5)}  (${((stats.gap / stats.total) * 100).toFixed(1)}%)`);
 console.error(`\n  Pruned dictionary: ${prunedCount} entries (${reductionPct}% reduction, ${removed} removed)`);
 
@@ -312,6 +322,7 @@ if (!dryRun) {
         redundantRemoved: stats.redundant,
         rerankingRemoved: stats.reranking,
         closeEnoughRemoved: stats.closeEnough,
+        closeEnoughNospaceRemoved: stats.closeEnoughNospace,
         gapEntries: stats.gap,
         reductionPercent: parseFloat(reductionPct),
       },

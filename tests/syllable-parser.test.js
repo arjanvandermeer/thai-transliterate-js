@@ -474,3 +474,134 @@ describe('parseSyllables - edge cases', () => {
     assert.ok(Array.isArray(syls));
   });
 });
+
+describe('parseSyllables - tone mark handling', () => {
+  it('parses C + tone + follow-vowel า as single syllable (บ้าน)', () => {
+    const syls = parseSyllables('บ้าน');
+    assert.strictEqual(syls.length, 1, 'Should be 1 syllable, not 2');
+    assert.strictEqual(syls[0].initialConsonant, 'บ');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_a');
+    assert.strictEqual(syls[0].finalConsonant, 'น');
+    assert.strictEqual(syls[0].toneMark, '้');
+  });
+
+  it('parses C + tone + sara_aw อ as single syllable (บ่อ)', () => {
+    const syls = parseSyllables('บ่อ');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[0].toneMark, '่');
+  });
+
+  it('parses ห + tone + อ as sara_aw single syllable (ห้อง)', () => {
+    const syls = parseSyllables('ห้อง');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'ห');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[0].finalConsonant, 'ง');
+    assert.strictEqual(syls[0].toneMark, '้');
+  });
+
+  it('parses leading เ + C + tone + า as sara_ao (เจ้า)', () => {
+    const syls = parseSyllables('เจ้า');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ao');
+    assert.strictEqual(syls[0].toneMark, '้');
+  });
+
+  it('parses ั + tone + ว as sara_ua (บั้ว)', () => {
+    const syls = parseSyllables('บั้ว');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ua');
+  });
+
+  it('parses เ + ี + tone + ย as sara_ia (เบี้ย)', () => {
+    const syls = parseSyllables('เบี้ย');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ia');
+  });
+
+  it('parses เ + ี + tone + ย + final as sara_ia (เลี้ยง)', () => {
+    const syls = parseSyllables('เลี้ยง');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ia');
+    assert.strictEqual(syls[0].finalConsonant, 'ง');
+  });
+
+  it('parses เ + ื + tone + อ as sara_uea (เมื้อ)', () => {
+    const syls = parseSyllables('เมื้อ');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_uea');
+  });
+
+  it('still handles above vowel + tone correctly (บิ่น)', () => {
+    const syls = parseSyllables('บิ่น');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_i_short');
+    assert.strictEqual(syls[0].finalConsonant, 'น');
+    assert.strictEqual(syls[0].toneMark, '่');
+  });
+
+  it('still handles leading vowel แ + tone correctly (แม่)', () => {
+    const syls = parseSyllables('แม่');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ae');
+    assert.strictEqual(syls[0].toneMark, '่');
+  });
+
+  it('parses C + tone + ำ as sara_am (น้ำ)', () => {
+    const syls = parseSyllables('น้ำ');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_am');
+    assert.strictEqual(syls[0].toneMark, '้');
+  });
+
+  it('parses C + tone + ะ as sara_a_short (จ๊ะ)', () => {
+    const syls = parseSyllables('จ๊ะ');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_a_short');
+    assert.strictEqual(syls[0].toneMark, '๊');
+  });
+});
+
+describe('parseSyllables - ว as implied vowel', () => {
+  it('parses ว as sara_ua in ห้วย (huai)', () => {
+    const syls = parseSyllables('ห้วย');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ua');
+    assert.strictEqual(syls[0].finalConsonant, 'ย');
+  });
+
+  it('parses ว as sara_ua in หลวง (luang)', () => {
+    const syls = parseSyllables('หลวง');
+    assert.strictEqual(syls.length, 1);
+    assert.ok(syls[0].flags.hoNam);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ua');
+    assert.strictEqual(syls[0].finalConsonant, 'ง');
+  });
+
+  it('parses ว as sara_ua in ม่วง (muang)', () => {
+    const syls = parseSyllables('ม่วง');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ua');
+    assert.strictEqual(syls[0].finalConsonant, 'ง');
+    assert.strictEqual(syls[0].toneMark, '่');
+  });
+});
+
+describe('parseSyllables - cluster + อ as sara_aw', () => {
+  it('parses คลอง as cluster คล + sara_aw + final ง', () => {
+    const syls = parseSyllables('คลอง');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'ค');
+    assert.strictEqual(syls[0].clusterConsonant, 'ล');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[0].finalConsonant, 'ง');
+  });
+
+  it('parses คลอ as cluster คล + sara_aw', () => {
+    const syls = parseSyllables('คลอ');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].clusterConsonant, 'ล');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
+  });
+});
