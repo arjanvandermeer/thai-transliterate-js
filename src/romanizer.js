@@ -15,6 +15,13 @@ export function romanizeSyllable(syllable) {
     return [[{ text: syllable.raw, weight: 1.0 }]];
   }
 
+  // Skip syllables that are entirely silent (e.g., ทร์ in สุรินทร์)
+  // These have an implied vowel, silent trailing consonant(s), and no final —
+  // the whole syllable is a vestigial Sanskrit/Pali suffix.
+  if (syllable.isImpliedVowel && syllable.silentChars?.length > 0 && !syllable.finalConsonant) {
+    return [];
+  }
+
   // Special: ฤ/ฦ standalone
   if (!syllable.initialConsonant && syllable.vowelPattern === 'rue') {
     const vowelEntry = VOWEL_PATTERNS.rue;

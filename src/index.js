@@ -74,12 +74,13 @@ export function matchThai(thai, target, options = {}) {
 /** Process Thai text into per-word variant arrays */
 function processWords(thai, options) {
   const words = segmentWords(thai);
-  return words.map(word => {
+  return words.flatMap(word => {
     if (!containsThai(word)) {
-      return { thai: word, variants: [{ text: word, weight: 1.0 }] };
+      return [{ thai: word, variants: [{ text: word, weight: 1.0 }] }];
     }
     const syllables = parseSyllables(word);
-    const syllablePositions = syllables.map(syl => romanizeSyllable(syl));
+    const syllablePositions = syllables.map(syl => romanizeSyllable(syl)).filter(pos => pos.length > 0);
+    if (syllablePositions.length === 0) return []; // entirely silent word (e.g., อร์)
     let variants = generateVariants(syllablePositions, options);
 
     // Merge dictionary variants if available
@@ -90,7 +91,7 @@ function processWords(thai, options) {
       }
     }
 
-    return { thai: word, variants };
+    return [{ thai: word, variants }];
   });
 }
 

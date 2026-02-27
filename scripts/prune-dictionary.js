@@ -93,29 +93,46 @@ function classifyEntry(thai, dictVariants) {
   const dictTop1 = dictVariants[0].text.toLowerCase();
   const algoTop1 = algoVariants.length > 0 ? algoVariants[0].text.toLowerCase() : '';
 
-  // Exact top-1 match
-  if (algoTop1 === dictTop1) {
+  // Normalize administrative prefixes in dictionary variants.
+  // Some dictionary entries include "amphoe mueang" or "changwat" prefixes
+  // that don't appear in the Thai text (they're classification labels).
+  let normalizedDictTop1 = dictTop1;
+  const adminPrefixes = ['amphoe mueang ', 'amphoe ', 'changwat '];
+  for (const prefix of adminPrefixes) {
+    if (normalizedDictTop1.startsWith(prefix)) {
+      normalizedDictTop1 = normalizedDictTop1.slice(prefix.length);
+      break;
+    }
+  }
+
+  // Exact top-1 match (check both original and normalized)
+  if (algoTop1 === dictTop1 || algoTop1 === normalizedDictTop1) {
     return { classification: 'redundant', algoTop1, dictTop1 };
   }
 
   // Dictionary's answer exists in algorithm variants
   const algoTexts = new Set(algoVariants.map(v => v.text.toLowerCase()));
-  if (algoTexts.has(dictTop1)) {
-    const algoRank = algoVariants.findIndex(v => v.text.toLowerCase() === dictTop1) + 1;
+  if (algoTexts.has(dictTop1) || algoTexts.has(normalizedDictTop1)) {
+    const target = algoTexts.has(dictTop1) ? dictTop1 : normalizedDictTop1;
+    const algoRank = algoVariants.findIndex(v => v.text.toLowerCase() === target) + 1;
     return { classification: 'reranking', algoTop1, dictTop1, algoRank };
   }
 
   // Check if algorithm top-1 is close enough to dictionary top-1.
   // Only check top-1 (not all variants) because that's what users actually see.
-  const top1Dist = levenshtein(algoTop1, dictTop1);
-  const maxDist = Math.max(2, Math.floor(dictTop1.length * 0.25));
+  // Compare against both original and normalized dictionary answer.
+  const top1Dist = Math.min(
+    levenshtein(algoTop1, dictTop1),
+    levenshtein(algoTop1, normalizedDictTop1),
+  );
+  const maxDist = Math.max(2, Math.floor(Math.min(dictTop1.length, normalizedDictTop1.length) * 0.25));
   if (top1Dist <= maxDist) {
     return { classification: 'close_enough', algoTop1, dictTop1, bestAlgo: algoTop1, bestDist: top1Dist };
   }
 
   // Space-insensitive comparison: many dictionary entries use different spacing
   // (e.g., "bang bua thong" vs "bangbuathong"). Compare top-1 with spaces removed.
-  const dictNoSpaces = dictTop1.replace(/ /g, '');
+  const dictNoSpaces = normalizedDictTop1.replace(/ /g, '');
   const algoTop1NoSpaces = algoTop1.replace(/ /g, '');
   const top1DistNoSpaces = levenshtein(algoTop1NoSpaces, dictNoSpaces);
   const maxDistNoSpaces = Math.max(2, Math.floor(dictNoSpaces.length * 0.25));

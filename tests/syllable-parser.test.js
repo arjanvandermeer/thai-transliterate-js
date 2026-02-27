@@ -605,3 +605,97 @@ describe('parseSyllables - cluster + อ as sara_aw', () => {
     assert.strictEqual(syls[0].vowelPattern, 'sara_aw');
   });
 });
+
+describe('parseSyllables - thanthakhat (์) cancellation', () => {
+  it('parses โพธิ์ as single syllable with silent ธ', () => {
+    const syls = parseSyllables('โพธิ์');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'พ');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_o');
+    assert.ok(syls[0].silentChars.includes('ธ'));
+    assert.strictEqual(syls[0].finalConsonant, null);
+  });
+
+  it('parses สุรินทร์ with silent ทร์ syllable', () => {
+    const syls = parseSyllables('สุรินทร์');
+    // Last syllable has implied vowel + silentChars
+    const last = syls[syls.length - 1];
+    assert.ok(last.silentChars.includes('ร'));
+    assert.ok(last.isImpliedVowel);
+  });
+
+  it('parses จันทร์ with silent ทร์ syllable', () => {
+    const syls = parseSyllables('จันทร์');
+    assert.strictEqual(syls[0].initialConsonant, 'จ');
+    assert.strictEqual(syls[0].vowelPattern, 'mai_han_akat');
+    assert.strictEqual(syls[0].finalConsonant, 'น');
+  });
+
+  it('parses โพธิ์ชัย as two syllables (silent ธ + ชัย)', () => {
+    const syls = parseSyllables('โพธิ์ชัย');
+    assert.strictEqual(syls.length, 2);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_o');
+    assert.ok(syls[0].silentChars.includes('ธ'));
+    assert.strictEqual(syls[1].initialConsonant, 'ช');
+  });
+});
+
+describe('parseSyllables - sara_oe_short (เ-ิ)', () => {
+  it('parses เกิด as sara_oe_short', () => {
+    const syls = parseSyllables('เกิด');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_oe_short');
+    assert.strictEqual(syls[0].finalConsonant, 'ด');
+  });
+
+  it('parses เดิน as sara_oe_short', () => {
+    const syls = parseSyllables('เดิน');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_oe_short');
+    assert.strictEqual(syls[0].finalConsonant, 'น');
+  });
+
+  it('parses เงิน as sara_oe_short', () => {
+    const syls = parseSyllables('เงิน');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_oe_short');
+  });
+
+  it('does not affect เกม (no ิ after initial)', () => {
+    const syls = parseSyllables('เกม');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_e');
+    assert.strictEqual(syls[0].finalConsonant, 'ม');
+  });
+});
+
+describe('parseSyllables - leading vowel reassignment', () => {
+  it('reassigns เ in เจริญ: จ(implied) + เริญ(sara_oe_short)', () => {
+    const syls = parseSyllables('เจริญ');
+    assert.strictEqual(syls.length, 2);
+    assert.strictEqual(syls[0].initialConsonant, 'จ');
+    assert.strictEqual(syls[0].vowelPattern, 'implied_a');
+    assert.strictEqual(syls[1].leadingVowel, 'เ');
+    assert.strictEqual(syls[1].initialConsonant, 'ร');
+    assert.strictEqual(syls[1].vowelPattern, 'sara_oe_short');
+    assert.strictEqual(syls[1].finalConsonant, 'ญ');
+  });
+
+  it('reassigns เ in เฉลิม: ฉ(implied) + เลิม(sara_oe_short)', () => {
+    const syls = parseSyllables('เฉลิม');
+    assert.strictEqual(syls.length, 2);
+    assert.strictEqual(syls[0].initialConsonant, 'ฉ');
+    assert.strictEqual(syls[0].vowelPattern, 'implied_a');
+    assert.strictEqual(syls[1].vowelPattern, 'sara_oe_short');
+  });
+
+  it('does not reassign in เชียงใหม่ (has compound sara_ia)', () => {
+    const syls = parseSyllables('เชียงใหม่');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ia');
+  });
+
+  it('does not reassign in เกม (has final consonant)', () => {
+    const syls = parseSyllables('เกม');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_e');
+  });
+});

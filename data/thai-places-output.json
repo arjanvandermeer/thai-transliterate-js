@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "version": "1.6.0",
-    "commit": "c06bdb7",
-    "generatedAt": "2026-02-27T08:07:24.638Z",
+    "version": "1.7.0",
+    "commit": "e8a4fdf",
+    "generatedAt": "2026-02-27T08:56:13.563Z",
     "input": "/Users/arjanvandermeer/Documents/Development/thai-transliterate/data/thai-places.json",
     "entries": 530,
     "dictionary": true
@@ -233,24 +233,24 @@
           "thai": "ฉะเชิงเทรา",
           "variants": [
             {
-              "text": "chachoengsao",
-              "weight": 1.1
+              "text": "chachoengtrao",
+              "weight": 0.8
             },
             {
-              "text": "chachengatrao",
-              "weight": 0.64
+              "text": "chachoengthrao",
+              "weight": 0.5
             },
             {
-              "text": "chachangatrao",
-              "weight": 0.42
-            },
-            {
-              "text": "chachengathrao",
+              "text": "chacherngtrao",
               "weight": 0.4
             },
             {
-              "text": "chacheingthera",
+              "text": "chachoengtao",
               "weight": 0.38
+            },
+            {
+              "text": "chachoengtrau",
+              "weight": 0.34
             }
           ]
         }
@@ -2093,24 +2093,24 @@
           "thai": "สุราษฎร์ธานี",
           "variants": [
             {
-              "text": "suratdathani",
-              "weight": 0.8
+              "text": "suratthani",
+              "weight": 1
             },
             {
-              "text": "suratdathane",
-              "weight": 0.46
+              "text": "suratthane",
+              "weight": 0.58
             },
             {
-              "text": "suratdathaani",
-              "weight": 0.24
+              "text": "suratthaani",
+              "weight": 0.3
             },
             {
-              "text": "surasdathani",
-              "weight": 0.24
+              "text": "surasthani",
+              "weight": 0.3
             },
             {
-              "text": "suraatdathani",
-              "weight": 0.24
+              "text": "suraatthani",
+              "weight": 0.3
             }
           ]
         }
@@ -2125,23 +2125,23 @@
           "variants": [
             {
               "text": "surin",
-              "weight": 1.1
+              "weight": 1
             },
             {
-              "text": "surintha",
-              "weight": 0.8
+              "text": "suren",
+              "weight": 0.34
             },
             {
-              "text": "surentha",
-              "weight": 0.27
+              "text": "sorin",
+              "weight": 0.25
             },
             {
-              "text": "surindra",
-              "weight": 0.27
+              "text": "suryn",
+              "weight": 0.24
             },
             {
-              "text": "surinthr",
-              "weight": 0.27
+              "text": "soorin",
+              "weight": 0.21
             }
           ]
         }
@@ -2248,24 +2248,24 @@
           "thai": "อำนาจเจริญ",
           "variants": [
             {
-              "text": "amnatcherin",
-              "weight": 1
-            },
-            {
-              "text": "anatcherin",
+              "text": "amnatcharoen",
               "weight": 0.8
             },
             {
-              "text": "amnatcharin",
-              "weight": 0.66
+              "text": "anatcharoen",
+              "weight": 0.64
             },
             {
-              "text": "anatcharin",
-              "weight": 0.53
-            },
-            {
-              "text": "umnatcherin",
+              "text": "amnatcharern",
               "weight": 0.4
+            },
+            {
+              "text": "anatcharern",
+              "weight": 0.32
+            },
+            {
+              "text": "umnatcharoen",
+              "weight": 0.32
             }
           ]
         }
@@ -3604,24 +3604,24 @@
           "thai": "ภาษีเจริญ",
           "variants": [
             {
-              "text": "phasicherin",
-              "weight": 1
+              "text": "phasicharoen",
+              "weight": 0.8
             },
             {
-              "text": "phasicharin",
-              "weight": 0.66
+              "text": "phasecharoen",
+              "weight": 0.46
             },
             {
-              "text": "phasecherin",
-              "weight": 0.58
+              "text": "phasicharern",
+              "weight": 0.4
             },
             {
-              "text": "phasecharin",
-              "weight": 0.38
+              "text": "phasijaroen",
+              "weight": 0.3
             },
             {
-              "text": "phasijerin",
-              "weight": 0.38
+              "text": "phaasicharoen",
+              "weight": 0.24
             }
           ]
         }
@@ -3716,24 +3716,24 @@
           "thai": "ราษฎร์บูรณะ",
           "variants": [
             {
-              "text": "rat burana",
-              "weight": 1.1
+              "text": "ratbunna",
+              "weight": 1
             },
             {
-              "text": "ratdabunna",
-              "weight": 0.8
+              "text": "ratbounna",
+              "weight": 0.3
             },
             {
-              "text": "ratdabounna",
-              "weight": 0.24
+              "text": "rasbunna",
+              "weight": 0.3
             },
             {
-              "text": "rasdabunna",
-              "weight": 0.24
+              "text": "raatbunna",
+              "weight": 0.3
             },
             {
-              "text": "raatdabunna",
-              "weight": 0.24
+              "text": "ratboonna",
+              "weight": 0.27
             }
           ]
         }
@@ -4448,20 +4448,20 @@
               "weight": 1.1
             },
             {
-              "text": "ratthewi",
-              "weight": 1
-            },
-            {
-              "text": "ratthawi",
-              "weight": 0.66
-            },
-            {
-              "text": "ratthewe",
-              "weight": 0.58
-            },
-            {
               "text": "ratthawe",
-              "weight": 0.38
+              "weight": 0.8
+            },
+            {
+              "text": "ratthawa",
+              "weight": 0.53
+            },
+            {
+              "text": "ratchthawe",
+              "weight": 0.24
+            },
+            {
+              "text": "raatthawe",
+              "weight": 0.24
             }
           ]
         }
@@ -6007,24 +6007,24 @@
           "thai": "ราชดำเนินกลาง",
           "variants": [
             {
-              "text": "ratdamnenaklang",
+              "text": "ratdamnoenklang",
+              "weight": 1
+            },
+            {
+              "text": "ratdanoenklang",
               "weight": 0.8
             },
             {
-              "text": "ratdanenaklang",
-              "weight": 0.64
+              "text": "ratdamnernklang",
+              "weight": 0.5
             },
             {
-              "text": "ratdamnanaklang",
-              "weight": 0.53
+              "text": "ratdanernklang",
+              "weight": 0.4
             },
             {
-              "text": "ratdananaklang",
-              "weight": 0.42
-            },
-            {
-              "text": "ratdumnenaklang",
-              "weight": 0.32
+              "text": "ratdumnoenklang",
+              "weight": 0.4
             }
           ]
         }
@@ -6063,24 +6063,24 @@
           "thai": "ราชดำเนินนอก",
           "variants": [
             {
-              "text": "ratdamnenonok",
-              "weight": 0.64
+              "text": "ratdamnoennok",
+              "weight": 1
             },
             {
-              "text": "ratdanenonok",
-              "weight": 0.51
+              "text": "ratdanoennok",
+              "weight": 0.8
             },
             {
-              "text": "ratdamnanonok",
-              "weight": 0.42
+              "text": "ratdamnernnok",
+              "weight": 0.5
             },
             {
-              "text": "ratdananonok",
-              "weight": 0.34
+              "text": "ratdanernnok",
+              "weight": 0.4
             },
             {
-              "text": "ratdumnenonok",
-              "weight": 0.26
+              "text": "ratdumnoennok",
+              "weight": 0.4
             }
           ]
         }
@@ -6119,24 +6119,24 @@
           "thai": "เจริญกรุง",
           "variants": [
             {
-              "text": "cherinkrung",
-              "weight": 1
+              "text": "charoenkrung",
+              "weight": 0.8
             },
             {
-              "text": "charinkrung",
-              "weight": 0.66
+              "text": "charernkrung",
+              "weight": 0.4
             },
             {
-              "text": "jerinkrung",
-              "weight": 0.38
+              "text": "jaroenkrung",
+              "weight": 0.3
             },
             {
-              "text": "cherenkrung",
-              "weight": 0.34
+              "text": "charoengrung",
+              "weight": 0.25
             },
             {
-              "text": "cheringrung",
-              "weight": 0.31
+              "text": "choroenkrung",
+              "weight": 0.21
             }
           ]
         }
@@ -6343,24 +6343,24 @@
           "thai": "พระสุเมรุ",
           "variants": [
             {
-              "text": "phrasumeru",
-              "weight": 1
+              "text": "phrasumare",
+              "weight": 0.8
             },
             {
-              "text": "phrasumaru",
-              "weight": 0.66
+              "text": "phrasumara",
+              "weight": 0.53
             },
             {
-              "text": "prasumeru",
-              "weight": 0.27
+              "text": "prasumare",
+              "weight": 0.22
             },
             {
-              "text": "phrasumero",
-              "weight": 0.25
+              "text": "phrasumore",
+              "weight": 0.21
             },
             {
-              "text": "phrasomeru",
-              "weight": 0.25
+              "text": "phrasomare",
+              "weight": 0.2
             }
           ]
         }
@@ -6922,24 +6922,24 @@
           "thai": "นครินทร์",
           "variants": [
             {
-              "text": "nakhrintha",
-              "weight": 0.64
+              "text": "nakhrin",
+              "weight": 0.8
             },
             {
-              "text": "nakhrentha",
-              "weight": 0.22
+              "text": "nakhren",
+              "weight": 0.27
             },
             {
-              "text": "nakhrinta",
-              "weight": 0.17
+              "text": "nokhrin",
+              "weight": 0.21
             },
             {
-              "text": "nakhrintho",
-              "weight": 0.17
+              "text": "nakrin",
+              "weight": 0.21
             },
             {
-              "text": "nokhrintha",
-              "weight": 0.17
+              "text": "nakhryn",
+              "weight": 0.19
             }
           ]
         }
@@ -6978,24 +6978,24 @@
           "thai": "เจริญนคร",
           "variants": [
             {
-              "text": "cherinnok",
-              "weight": 0.8
+              "text": "charoennok",
+              "weight": 0.64
             },
             {
-              "text": "charinnok",
-              "weight": 0.53
+              "text": "charernnok",
+              "weight": 0.32
             },
             {
-              "text": "jerinnok",
-              "weight": 0.3
+              "text": "jaroennok",
+              "weight": 0.24
             },
             {
-              "text": "cherennok",
-              "weight": 0.27
+              "text": "charoennuk",
+              "weight": 0.22
             },
             {
-              "text": "cherinnuk",
-              "weight": 0.27
+              "text": "charoennak",
+              "weight": 0.21
             }
           ]
         }
@@ -7364,24 +7364,24 @@
           "thai": "ติวานนท์",
           "variants": [
             {
-              "text": "tiwanna",
-              "weight": 0.8
+              "text": "tiwan",
+              "weight": 1
             },
             {
-              "text": "tewanna",
-              "weight": 0.27
+              "text": "tewan",
+              "weight": 0.34
             },
             {
-              "text": "tiwaanna",
+              "text": "tiwaan",
+              "weight": 0.3
+            },
+            {
+              "text": "dtiwan",
+              "weight": 0.3
+            },
+            {
+              "text": "tywan",
               "weight": 0.24
-            },
-            {
-              "text": "dtiwanna",
-              "weight": 0.24
-            },
-            {
-              "text": "tiwanno",
-              "weight": 0.21
             }
           ]
         }
@@ -7906,20 +7906,20 @@
               "weight": 1.1
             },
             {
-              "text": "sinkhrintha",
-              "weight": 0.8
+              "text": "sinkhrin",
+              "weight": 1
             },
             {
-              "text": "senkhrintha",
-              "weight": 0.46
+              "text": "senkhrin",
+              "weight": 0.58
             },
             {
-              "text": "sinkhrentha",
-              "weight": 0.27
+              "text": "sinkhren",
+              "weight": 0.34
             },
             {
-              "text": "sinkhrinta",
-              "weight": 0.22
+              "text": "sinkrin",
+              "weight": 0.26
             }
           ]
         }
@@ -8313,24 +8313,24 @@
           "thai": "ประเสริฐ",
           "variants": [
             {
-              "text": "prasretha",
-              "weight": 0.8
+              "text": "prasroet",
+              "weight": 1
             },
             {
-              "text": "prasratha",
-              "weight": 0.53
+              "text": "prasrert",
+              "weight": 0.5
             },
             {
-              "text": "prasreta",
-              "weight": 0.32
+              "text": "prasloet",
+              "weight": 0.2
             },
             {
-              "text": "prasrata",
-              "weight": 0.21
+              "text": "presroet",
+              "weight": 0.2
             },
             {
-              "text": "prasretho",
-              "weight": 0.21
+              "text": "plasroet",
+              "weight": 0.2
             }
           ]
         },
@@ -8724,24 +8724,24 @@
           "thai": "ราษฎร์บูรณะ",
           "variants": [
             {
-              "text": "rat burana",
-              "weight": 1.1
+              "text": "ratbunna",
+              "weight": 1
             },
             {
-              "text": "ratdabunna",
-              "weight": 0.8
+              "text": "ratbounna",
+              "weight": 0.3
             },
             {
-              "text": "ratdabounna",
-              "weight": 0.24
+              "text": "rasbunna",
+              "weight": 0.3
             },
             {
-              "text": "rasdabunna",
-              "weight": 0.24
+              "text": "raatbunna",
+              "weight": 0.3
             },
             {
-              "text": "raatdabunna",
-              "weight": 0.24
+              "text": "ratboonna",
+              "weight": 0.27
             }
           ]
         }
@@ -9029,24 +9029,24 @@
           "thai": "อินทร์",
           "variants": [
             {
-              "text": "intha",
-              "weight": 0.8
+              "text": "in",
+              "weight": 1
             },
             {
-              "text": "entha",
-              "weight": 0.27
+              "text": "en",
+              "weight": 0.34
             },
             {
-              "text": "inta",
-              "weight": 0.22
+              "text": "yn",
+              "weight": 0.24
             },
             {
-              "text": "intho",
-              "weight": 0.21
+              "text": "ein",
+              "weight": 0.06
             },
             {
-              "text": "yntha",
-              "weight": 0.19
+              "text": "hin",
+              "weight": 0.05
             }
           ]
         }
@@ -9961,24 +9961,24 @@
           "thai": "เกษตรศาสตร์",
           "variants": [
             {
-              "text": "kettonsatta",
-              "weight": 0.64
+              "text": "kettonsat",
+              "weight": 0.8
             },
             {
-              "text": "kattonsatta",
-              "weight": 0.42
+              "text": "kattonsat",
+              "weight": 0.53
             },
             {
-              "text": "kettunsatta",
-              "weight": 0.22
+              "text": "kettunsat",
+              "weight": 0.27
             },
             {
-              "text": "kettansatta",
-              "weight": 0.21
+              "text": "kettansat",
+              "weight": 0.26
             },
             {
-              "text": "gettonsatta",
-              "weight": 0.2
+              "text": "gettonsat",
+              "weight": 0.25
             }
           ]
         }
@@ -10400,20 +10400,20 @@
               "weight": 1.1
             },
             {
-              "text": "ratthewi",
-              "weight": 1
-            },
-            {
-              "text": "ratthawi",
-              "weight": 0.66
-            },
-            {
-              "text": "ratthewe",
-              "weight": 0.58
-            },
-            {
               "text": "ratthawe",
-              "weight": 0.38
+              "weight": 0.8
+            },
+            {
+              "text": "ratthawa",
+              "weight": 0.53
+            },
+            {
+              "text": "ratchthawe",
+              "weight": 0.24
+            },
+            {
+              "text": "raatthawe",
+              "weight": 0.24
             }
           ]
         }
@@ -10489,24 +10489,24 @@
           "thai": "เพลินจิต",
           "variants": [
             {
-              "text": "phlenachit",
-              "weight": 0.8
+              "text": "phloenchit",
+              "weight": 1
             },
             {
-              "text": "phlanachit",
-              "weight": 0.53
+              "text": "phlernchit",
+              "weight": 0.5
             },
             {
-              "text": "phlenajit",
-              "weight": 0.3
+              "text": "phloenjit",
+              "weight": 0.38
             },
             {
-              "text": "phlenachet",
+              "text": "phloenchet",
+              "weight": 0.34
+            },
+            {
+              "text": "ploenchit",
               "weight": 0.27
-            },
-            {
-              "text": "plenachit",
-              "weight": 0.22
             }
           ]
         }
@@ -11197,20 +11197,20 @@
               "weight": 1.1
             },
             {
-              "text": "sinkhrintha",
-              "weight": 0.8
+              "text": "sinkhrin",
+              "weight": 1
             },
             {
-              "text": "senkhrintha",
-              "weight": 0.46
+              "text": "senkhrin",
+              "weight": 0.58
             },
             {
-              "text": "sinkhrentha",
-              "weight": 0.27
+              "text": "sinkhren",
+              "weight": 0.34
             },
             {
-              "text": "sinkhrinta",
-              "weight": 0.22
+              "text": "sinkrin",
+              "weight": 0.26
             }
           ]
         }
@@ -11747,24 +11747,24 @@
           "thai": "โพธิ์นิมิตร",
           "variants": [
             {
-              "text": "pho nimit",
-              "weight": 1.05
-            },
-            {
-              "text": "phothinimit",
+              "text": "phonimit",
               "weight": 1
             },
             {
-              "text": "phothinimet",
+              "text": "phonimet",
               "weight": 0.34
             },
             {
-              "text": "phothinemit",
+              "text": "phonemit",
               "weight": 0.34
             },
             {
-              "text": "phothenimit",
-              "weight": 0.34
+              "text": "ponimit",
+              "weight": 0.27
+            },
+            {
+              "text": "phonimyt",
+              "weight": 0.24
             }
           ]
         }
@@ -11896,24 +11896,24 @@
           "thai": "เจริญนคร",
           "variants": [
             {
-              "text": "cherinnok",
-              "weight": 0.8
+              "text": "charoennok",
+              "weight": 0.64
             },
             {
-              "text": "charinnok",
-              "weight": 0.53
+              "text": "charernnok",
+              "weight": 0.32
             },
             {
-              "text": "jerinnok",
-              "weight": 0.3
+              "text": "jaroennok",
+              "weight": 0.24
             },
             {
-              "text": "cherennok",
-              "weight": 0.27
+              "text": "charoennuk",
+              "weight": 0.22
             },
             {
-              "text": "cherinnuk",
-              "weight": 0.27
+              "text": "charoennak",
+              "weight": 0.21
             }
           ]
         }
@@ -13351,24 +13351,24 @@
           "thai": "ภาษีเจริญ",
           "variants": [
             {
-              "text": "phasicherin",
-              "weight": 1
+              "text": "phasicharoen",
+              "weight": 0.8
             },
             {
-              "text": "phasicharin",
-              "weight": 0.66
+              "text": "phasecharoen",
+              "weight": 0.46
             },
             {
-              "text": "phasecherin",
-              "weight": 0.58
+              "text": "phasicharern",
+              "weight": 0.4
             },
             {
-              "text": "phasecharin",
-              "weight": 0.38
+              "text": "phasijaroen",
+              "weight": 0.3
             },
             {
-              "text": "phasijerin",
-              "weight": 0.38
+              "text": "phaasicharoen",
+              "weight": 0.24
             }
           ]
         }
@@ -14494,24 +14494,24 @@
           "thai": "เฉลิมพระเกียรติ",
           "variants": [
             {
-              "text": "chaloem phra kiat",
-              "weight": 1.1
+              "text": "chaloemphrakianti",
+              "weight": 0.8
             },
             {
-              "text": "chelimphrakianti",
-              "weight": 1
-            },
-            {
-              "text": "chalimphrakianti",
-              "weight": 0.66
-            },
-            {
-              "text": "chelimphrakeiyrti",
-              "weight": 0.55
-            },
-            {
-              "text": "chelimphrakiyanti",
+              "text": "chalermphrakianti",
               "weight": 0.4
+            },
+            {
+              "text": "chaloemphrakiyanti",
+              "weight": 0.32
+            },
+            {
+              "text": "chaloemphrakiante",
+              "weight": 0.27
+            },
+            {
+              "text": "chaloemphragianti",
+              "weight": 0.25
             }
           ]
         }
@@ -15607,24 +15607,24 @@
           "thai": "เสมียนนารี",
           "variants": [
             {
-              "text": "semiinanari",
+              "text": "samiannari",
               "weight": 0.8
             },
             {
-              "text": "samiinanari",
-              "weight": 0.53
-            },
-            {
-              "text": "semiinanare",
+              "text": "samiannare",
               "weight": 0.46
             },
             {
-              "text": "semeinanari",
-              "weight": 0.46
+              "text": "samiyannari",
+              "weight": 0.32
             },
             {
-              "text": "samiinanare",
-              "weight": 0.31
+              "text": "samiannaari",
+              "weight": 0.24
+            },
+            {
+              "text": "sameannari",
+              "weight": 0.24
             }
           ]
         }
@@ -16154,24 +16154,24 @@
           "thai": "โพธิ์",
           "variants": [
             {
-              "text": "phothi",
+              "text": "pho",
               "weight": 1
             },
             {
-              "text": "phothe",
-              "weight": 0.34
-            },
-            {
-              "text": "photi",
-              "weight": 0.29
-            },
-            {
-              "text": "pothi",
+              "text": "po",
               "weight": 0.27
             },
             {
-              "text": "phothy",
-              "weight": 0.24
+              "text": "phho",
+              "weight": 0.19
+            },
+            {
+              "text": "phoh",
+              "weight": 0.15
+            },
+            {
+              "text": "pha",
+              "weight": 0.14
             }
           ]
         }
@@ -16970,24 +16970,24 @@
           "thai": "เจดีย์",
           "variants": [
             {
-              "text": "chedi",
-              "weight": 1
+              "text": "chadia",
+              "weight": 0.8
             },
             {
-              "text": "chadi",
-              "weight": 0.66
+              "text": "chadiya",
+              "weight": 0.32
             },
             {
-              "text": "chede",
-              "weight": 0.58
+              "text": "jadia",
+              "weight": 0.3
             },
             {
-              "text": "chade",
-              "weight": 0.38
+              "text": "chadea",
+              "weight": 0.24
             },
             {
-              "text": "jedi",
-              "weight": 0.38
+              "text": "chadtia",
+              "weight": 0.24
             }
           ]
         },
@@ -17658,24 +17658,12 @@
           "thai": "เชิง",
           "variants": [
             {
-              "text": "chenga",
-              "weight": 0.8
+              "text": "choeng",
+              "weight": 1
             },
             {
-              "text": "changa",
-              "weight": 0.53
-            },
-            {
-              "text": "chengo",
-              "weight": 0.21
-            },
-            {
-              "text": "chengk",
-              "weight": 0.17
-            },
-            {
-              "text": "cheinga",
-              "weight": 0.16
+              "text": "cherng",
+              "weight": 0.5
             }
           ]
         },
@@ -18095,24 +18083,24 @@
           "thai": "เจดีย์",
           "variants": [
             {
-              "text": "chedi",
-              "weight": 1
+              "text": "chadia",
+              "weight": 0.8
             },
             {
-              "text": "chadi",
-              "weight": 0.66
+              "text": "chadiya",
+              "weight": 0.32
             },
             {
-              "text": "chede",
-              "weight": 0.58
+              "text": "jadia",
+              "weight": 0.3
             },
             {
-              "text": "chade",
-              "weight": 0.38
+              "text": "chadea",
+              "weight": 0.24
             },
             {
-              "text": "jedi",
-              "weight": 0.38
+              "text": "chadtia",
+              "weight": 0.24
             }
           ]
         }
@@ -19537,24 +19525,24 @@
           "thai": "ประวัติศาสตร์",
           "variants": [
             {
-              "text": "prawatisatta",
-              "weight": 0.8
+              "text": "prawatisat",
+              "weight": 1
             },
             {
-              "text": "prawutisatta",
-              "weight": 0.45
+              "text": "prawutisat",
+              "weight": 0.56
             },
             {
-              "text": "prawatesatta",
-              "weight": 0.27
+              "text": "prawatesat",
+              "weight": 0.34
             },
             {
-              "text": "prawatisatdta",
-              "weight": 0.24
+              "text": "prawatisas",
+              "weight": 0.3
             },
             {
-              "text": "prawatisasta",
-              "weight": 0.24
+              "text": "prawatisaat",
+              "weight": 0.3
             }
           ]
         },
@@ -19618,24 +19606,24 @@
           "thai": "ประวัติศาสตร์",
           "variants": [
             {
-              "text": "prawatisatta",
-              "weight": 0.8
+              "text": "prawatisat",
+              "weight": 1
             },
             {
-              "text": "prawutisatta",
-              "weight": 0.45
+              "text": "prawutisat",
+              "weight": 0.56
             },
             {
-              "text": "prawatesatta",
-              "weight": 0.27
+              "text": "prawatesat",
+              "weight": 0.34
             },
             {
-              "text": "prawatisatdta",
-              "weight": 0.24
+              "text": "prawatisas",
+              "weight": 0.3
             },
             {
-              "text": "prawatisasta",
-              "weight": 0.24
+              "text": "prawatisaat",
+              "weight": 0.3
             }
           ]
         },
@@ -21013,24 +21001,20 @@
           "thai": "เปิด",
           "variants": [
             {
-              "text": "peda",
-              "weight": 0.8
+              "text": "poet",
+              "weight": 1
             },
             {
-              "text": "pada",
-              "weight": 0.53
+              "text": "pert",
+              "weight": 0.5
             },
             {
-              "text": "pedta",
-              "weight": 0.24
-            },
-            {
-              "text": "pedo",
+              "text": "poed",
               "weight": 0.21
             },
             {
-              "text": "pedk",
-              "weight": 0.17
+              "text": "perd",
+              "weight": 0.11
             }
           ]
         },
@@ -21546,24 +21530,24 @@
           "thai": "ดำเนินสะดวก",
           "variants": [
             {
-              "text": "damnoen saduak",
-              "weight": 1.1
+              "text": "damnoensatwok",
+              "weight": 0.8
             },
             {
-              "text": "damnenasatwok",
+              "text": "danoensatwok",
               "weight": 0.64
             },
             {
-              "text": "danenasatwok",
-              "weight": 0.51
+              "text": "damnernsatwok",
+              "weight": 0.4
             },
             {
-              "text": "damnanasatwok",
-              "weight": 0.42
+              "text": "danernsatwok",
+              "weight": 0.32
             },
             {
-              "text": "daneinsadwk",
-              "weight": 0.41
+              "text": "dumnoensatwok",
+              "weight": 0.32
             }
           ]
         }
@@ -22292,24 +22276,24 @@
           "thai": "ราชดำเนินใน",
           "variants": [
             {
-              "text": "ratdamnenanai",
+              "text": "ratdamnoennai",
+              "weight": 1
+            },
+            {
+              "text": "ratdanoennai",
               "weight": 0.8
             },
             {
-              "text": "ratdanenanai",
-              "weight": 0.64
+              "text": "ratdamnernnai",
+              "weight": 0.5
             },
             {
-              "text": "ratdamnananai",
-              "weight": 0.53
+              "text": "ratdamnoenni",
+              "weight": 0.4
             },
             {
-              "text": "ratdanananai",
-              "weight": 0.42
-            },
-            {
-              "text": "ratdamnenani",
-              "weight": 0.32
+              "text": "ratdanernnai",
+              "weight": 0.4
             }
           ]
         }
@@ -23017,24 +23001,24 @@
           "thai": "เวิลด์",
           "variants": [
             {
-              "text": "wela",
-              "weight": 0.8
+              "text": "woen",
+              "weight": 1
             },
             {
-              "text": "wala",
-              "weight": 0.53
+              "text": "wern",
+              "weight": 0.5
             },
             {
-              "text": "welo",
-              "weight": 0.21
+              "text": "woel",
+              "weight": 0.23
             },
             {
-              "text": "welk",
-              "weight": 0.17
+              "text": "voen",
+              "weight": 0.15
             },
             {
-              "text": "weila",
-              "weight": 0.16
+              "text": "werl",
+              "weight": 0.12
             }
           ]
         }
@@ -23097,31 +23081,6 @@
             {
               "text": "ta",
               "weight": 0.18
-            }
-          ]
-        },
-        {
-          "thai": "อร์",
-          "variants": [
-            {
-              "text": "a",
-              "weight": 0.8
-            },
-            {
-              "text": "o",
-              "weight": 0.21
-            },
-            {
-              "text": "k",
-              "weight": 0.17
-            },
-            {
-              "text": "s",
-              "weight": 0.14
-            },
-            {
-              "text": "e",
-              "weight": 0.13
             }
           ]
         },
@@ -23415,24 +23374,24 @@
           "thai": "จุฬาลงกรณ์",
           "variants": [
             {
-              "text": "chulanngokra",
-              "weight": 0.64
+              "text": "chulanngok",
+              "weight": 0.8
             },
             {
-              "text": "julanngokra",
+              "text": "julanngok",
+              "weight": 0.3
+            },
+            {
+              "text": "chulannguk",
+              "weight": 0.27
+            },
+            {
+              "text": "chulanngak",
+              "weight": 0.26
+            },
+            {
+              "text": "chulaanngok",
               "weight": 0.24
-            },
-            {
-              "text": "chulanngukra",
-              "weight": 0.22
-            },
-            {
-              "text": "chulanngakra",
-              "weight": 0.21
-            },
-            {
-              "text": "chulaanngokra",
-              "weight": 0.19
             }
           ]
         },
@@ -23496,24 +23455,24 @@
           "thai": "ธรรมศาสตร์",
           "variants": [
             {
-              "text": "thamsatta",
-              "weight": 0.8
+              "text": "thamsat",
+              "weight": 1
             },
             {
-              "text": "thrrmsatta",
-              "weight": 0.54
+              "text": "thrrmsat",
+              "weight": 0.68
             },
             {
-              "text": "thamsatdta",
-              "weight": 0.24
+              "text": "thamsas",
+              "weight": 0.3
             },
             {
-              "text": "thamsasta",
-              "weight": 0.24
+              "text": "thamsaat",
+              "weight": 0.3
             },
             {
-              "text": "thamsaatta",
-              "weight": 0.24
+              "text": "thamshat",
+              "weight": 0.3
             }
           ]
         }
@@ -23951,24 +23910,24 @@
           "thai": "จุฬาลงกรณ์",
           "variants": [
             {
-              "text": "chulanngokra",
-              "weight": 0.64
+              "text": "chulanngok",
+              "weight": 0.8
             },
             {
-              "text": "julanngokra",
+              "text": "julanngok",
+              "weight": 0.3
+            },
+            {
+              "text": "chulannguk",
+              "weight": 0.27
+            },
+            {
+              "text": "chulanngak",
+              "weight": 0.26
+            },
+            {
+              "text": "chulaanngok",
               "weight": 0.24
-            },
-            {
-              "text": "chulanngukra",
-              "weight": 0.22
-            },
-            {
-              "text": "chulanngakra",
-              "weight": 0.21
-            },
-            {
-              "text": "chulaanngokra",
-              "weight": 0.19
             }
           ]
         }
@@ -24361,24 +24320,24 @@
           "thai": "สุราษฎร์ธานี",
           "variants": [
             {
-              "text": "suratdathani",
-              "weight": 0.8
+              "text": "suratthani",
+              "weight": 1
             },
             {
-              "text": "suratdathane",
-              "weight": 0.46
+              "text": "suratthane",
+              "weight": 0.58
             },
             {
-              "text": "suratdathaani",
-              "weight": 0.24
+              "text": "suratthaani",
+              "weight": 0.3
             },
             {
-              "text": "surasdathani",
-              "weight": 0.24
+              "text": "surasthani",
+              "weight": 0.3
             },
             {
-              "text": "suraatdathani",
-              "weight": 0.24
+              "text": "suraatthani",
+              "weight": 0.3
             }
           ]
         }
@@ -24684,24 +24643,24 @@
           "thai": "รัตนโกสินทร์",
           "variants": [
             {
-              "text": "ratnakosintha",
-              "weight": 0.64
+              "text": "ratnakosin",
+              "weight": 0.8
             },
             {
-              "text": "rutnakosintha",
-              "weight": 0.36
+              "text": "rutnakosin",
+              "weight": 0.45
             },
             {
-              "text": "ratnakosentha",
+              "text": "ratnakosen",
+              "weight": 0.27
+            },
+            {
+              "text": "ratnagosin",
+              "weight": 0.25
+            },
+            {
+              "text": "rotnakosin",
               "weight": 0.22
-            },
-            {
-              "text": "ratnagosintha",
-              "weight": 0.2
-            },
-            {
-              "text": "ratnakosinta",
-              "weight": 0.17
             }
           ]
         }
@@ -25666,31 +25625,6 @@
               "weight": 0.2
             }
           ]
-        },
-        {
-          "thai": "นท์",
-          "variants": [
-            {
-              "text": "na",
-              "weight": 0.8
-            },
-            {
-              "text": "no",
-              "weight": 0.21
-            },
-            {
-              "text": "nk",
-              "weight": 0.17
-            },
-            {
-              "text": "ns",
-              "weight": 0.14
-            },
-            {
-              "text": "ne",
-              "weight": 0.13
-            }
-          ]
         }
       ]
     },
@@ -26144,31 +26078,6 @@
               "weight": 0.2
             }
           ]
-        },
-        {
-          "thai": "นท์",
-          "variants": [
-            {
-              "text": "na",
-              "weight": 0.8
-            },
-            {
-              "text": "no",
-              "weight": 0.21
-            },
-            {
-              "text": "nk",
-              "weight": 0.17
-            },
-            {
-              "text": "ns",
-              "weight": 0.14
-            },
-            {
-              "text": "ne",
-              "weight": 0.13
-            }
-          ]
         }
       ]
     },
@@ -26595,23 +26504,23 @@
           "variants": [
             {
               "text": "surin",
-              "weight": 1.1
+              "weight": 1
             },
             {
-              "text": "surintha",
-              "weight": 0.8
+              "text": "suren",
+              "weight": 0.34
             },
             {
-              "text": "surentha",
-              "weight": 0.27
+              "text": "sorin",
+              "weight": 0.25
             },
             {
-              "text": "surindra",
-              "weight": 0.27
+              "text": "suryn",
+              "weight": 0.24
             },
             {
-              "text": "surinthr",
-              "weight": 0.27
+              "text": "soorin",
+              "weight": 0.21
             }
           ]
         }
@@ -29288,24 +29197,24 @@
           "thai": "สุราษฎร์ธานี",
           "variants": [
             {
-              "text": "suratdathani",
-              "weight": 0.8
+              "text": "suratthani",
+              "weight": 1
             },
             {
-              "text": "suratdathane",
-              "weight": 0.46
+              "text": "suratthane",
+              "weight": 0.58
             },
             {
-              "text": "suratdathaani",
-              "weight": 0.24
+              "text": "suratthaani",
+              "weight": 0.3
             },
             {
-              "text": "surasdathani",
-              "weight": 0.24
+              "text": "surasthani",
+              "weight": 0.3
             },
             {
-              "text": "suraatdathani",
-              "weight": 0.24
+              "text": "suraatthani",
+              "weight": 0.3
             }
           ]
         }

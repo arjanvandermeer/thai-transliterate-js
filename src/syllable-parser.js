@@ -20,7 +20,7 @@ import { VOWEL_PATTERNS } from './tables/load-weights.js';
  */
 export function parseSyllables(text) {
   const chars = [...text];
-  const len = chars.length;
+  let len = chars.length;
   const syllables = [];
   let i = 0;
 
@@ -65,6 +65,33 @@ export function parseSyllables(text) {
 
     // Main syllable parsing
     const syl = parseSingleSyllable(chars, i, len);
+
+    // Leading vowel reassignment: when เ + C1 produces default sara_e and C1 is
+    // followed by another consonant (not a cluster) with a vowel marker after it,
+    // the leading เ likely belongs to the next syllable (e.g., เจริญ→จ+เริญ).
+    // Emit C1 with implied short vowel and splice เ before the next consonant.
+    if (syl.syllable.leadingVowel === '\u0E40' /* เ */ &&
+        syl.syllable.vowelPattern === 'sara_e' &&
+        !syl.syllable.finalConsonant &&
+        syl.nextIndex < len && classifyChar(chars[syl.nextIndex]) === 'CONS') {
+      // Guard: only reassign if the next consonant is followed by a vowel
+      // above/below that can combine with เ (prevents infinite reassignment)
+      const afterNext = syl.nextIndex + 1;
+      if (afterNext < len) {
+        const clsAfterNext = classifyChar(chars[afterNext]);
+        if (clsAfterNext === 'V_ABOVE' || clsAfterNext === 'V_BELOW') {
+          // Modify: emit just the consonant with implied_a
+          syl.syllable.leadingVowel = null;
+          syl.syllable.vowelPattern = 'implied_a';
+          syl.syllable.isImpliedVowel = true;
+          syl.syllable.raw = syl.syllable.initialConsonant;
+          // Splice leading vowel เ before the next consonant
+          chars.splice(syl.nextIndex, 0, '\u0E40');
+          len = chars.length;
+        }
+      }
+    }
+
     syllables.push(syl.syllable);
     // Safety: always advance at least one position to prevent infinite loops
     i = Math.max(syl.nextIndex, i + 1);
@@ -386,6 +413,11 @@ function resolveLeadingVowel(chars, i, len, lead) {
       return { id: 'sara_e_short', nextIndex: i + 1 };
     }
 
+    // เ-ิ (sara oe short): เ + consonant + ิ = /ɤ/ (e.g., เกิด, เดิน, เงิน)
+    if (i < len && chars[i] === '\u0E34' /* ิ */) {
+      return { id: 'sara_oe_short', nextIndex: i + 1 };
+    }
+
     // เ- (sara e long) — default for เ with no special following
     return { id: 'sara_e', nextIndex: i };
   }
@@ -499,6 +531,15 @@ function resolveFinal(chars, i, len) {
   // If followed by ์ (silent mark), this consonant is silent, not a final
   if (i + 1 < len && classifyChar(chars[i + 1]) === 'SILENT') {
     return { finalConsonant: null, silentChars: [cons], nextIndex: i + 2 };
+  }
+
+  // If followed by above/below vowel + ์ (e.g., ธิ์ in โพธิ์, ณุ์),
+  // the entire group is silent — the ์ cancels the consonant+vowel
+  if (i + 2 < len) {
+    const cls1 = classifyChar(chars[i + 1]);
+    if ((cls1 === 'V_ABOVE' || cls1 === 'V_BELOW') && classifyChar(chars[i + 2]) === 'SILENT') {
+      return { finalConsonant: null, silentChars: [cons], nextIndex: i + 3 };
+    }
   }
 
   // If this consonant can never be a final in Thai (ห, ฉ, ผ, ฝ, ฮ, อ),

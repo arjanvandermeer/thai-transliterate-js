@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generatedAt": "2026-02-26T21:24:54.825Z",
+    "generatedAt": "2026-02-27T08:54:12.635Z",
     "description": "Known Thai↔Latin transliterations from GeoNames/OSM. Regenerate: npm run calibrate:dictionary",
-    "totalEntries": 1227,
+    "totalEntries": 906,
     "sources": [
       "geonames",
       "osm",
@@ -16,13 +16,13 @@
       "maxDistanceRatio": 0.4
     },
     "pruned": {
-      "originalEntries": 18840,
-      "redundantRemoved": 561,
-      "rerankingRemoved": 10560,
-      "closeEnoughRemoved": 5111,
-      "closeEnoughNospaceRemoved": 1381,
-      "gapEntries": 1224,
-      "reductionPercent": 93.5
+      "originalEntries": 1227,
+      "redundantRemoved": 5,
+      "rerankingRemoved": 166,
+      "closeEnoughRemoved": 115,
+      "closeEnoughNospaceRemoved": 35,
+      "gapEntries": 903,
+      "reductionPercent": 26.2
     }
   },
   "entries": {
@@ -79,13 +79,6 @@
       {
         "text": "krungtheph",
         "weight": 1.05,
-        "count": 2
-      }
-    ],
-    "กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลกภพ นพรัตนราชธานีบูรีรมย์ อุดมราชนิเวศน์มหาสถาน อมรพิมานอวตารสถิต สักกะทัตติยวิษณุกรรมประสิทธิ์": [
-      {
-        "text": "krung thep maha nakhon amon rattanakosin mahintarayutthaya maha dilok phop noppharat ratchathani buri rom udom ratchaniwet maha sathan amon phiman awatan sathit sakka thattiya witsanukam prasit",
-        "weight": 0.9,
         "count": 2
       }
     ],
@@ -185,33 +178,6 @@
         "text": "nagorn sridharmrat",
         "weight": 0.16,
         "count": 1.5
-      }
-    ],
-    "สุรินทร์": [
-      {
-        "text": "surin",
-        "weight": 1.1,
-        "count": 10.25
-      },
-      {
-        "text": "surindra",
-        "weight": 0.27,
-        "count": 2.5
-      },
-      {
-        "text": "surinthr",
-        "weight": 0.27,
-        "count": 2.5
-      },
-      {
-        "text": "surindr",
-        "weight": 0.16,
-        "count": 1.5
-      },
-      {
-        "text": "surin hu",
-        "weight": 0.11,
-        "count": 1
       }
     ],
     "จังหวัดสกลนคร": [
@@ -358,33 +324,6 @@
         "text": "mueang samut prakan",
         "weight": 0.9,
         "count": 1
-      }
-    ],
-    "ฉะเชิงเทรา": [
-      {
-        "text": "chachoengsao",
-        "weight": 1.1,
-        "count": 7.25
-      },
-      {
-        "text": "chacheingthera",
-        "weight": 0.38,
-        "count": 2.5
-      },
-      {
-        "text": "chacherngsao",
-        "weight": 0.23,
-        "count": 1.5
-      },
-      {
-        "text": "chachurngsao",
-        "weight": 0.23,
-        "count": 1.5
-      },
-      {
-        "text": "chaxoengsao",
-        "weight": 0.23,
-        "count": 1.5
       }
     ],
     "กำแพงเพชร": [
@@ -692,23 +631,6 @@
         "count": 1.5
       }
     ],
-    "เมืองลพบุรี": [
-      {
-        "text": "amphoe muang lop buri",
-        "weight": 0.9,
-        "count": 1
-      },
-      {
-        "text": "amphoe mueang lop buri",
-        "weight": 0.9,
-        "count": 1
-      },
-      {
-        "text": "mueang lop buri",
-        "weight": 0.9,
-        "count": 1
-      }
-    ],
     "อำเภอเมืองนครสวรรค์": [
       {
         "text": "amphoe mueang nakhon sawan",
@@ -750,13 +672,6 @@
     "เมืองนครศรีธรรมราช": [
       {
         "text": "mueang nakhon si thammarat",
-        "weight": 0.9,
-        "count": 1
-      }
-    ],
-    "เมืองสุรินทร์": [
-      {
-        "text": "mueang surin",
         "weight": 0.9,
         "count": 1
       }
@@ -1182,18 +1097,6 @@
         "count": 1
       }
     ],
-    "กบินทร์บุรี": [
-      {
-        "text": "kabin buri",
-        "weight": 1.1,
-        "count": 8
-      },
-      {
-        "text": "kbinthrburi",
-        "weight": 0.28,
-        "count": 2
-      }
-    ],
     "เมืองมุกดาหาร": [
       {
         "text": "amphoe mueang mukdahan",
@@ -1550,23 +1453,6 @@
         "count": 1
       }
     ],
-    "ราษฎร์บูรณะ": [
-      {
-        "text": "rat burana",
-        "weight": 1.1,
-        "count": 11
-      },
-      {
-        "text": "raiabuna",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ratburanah",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
     "อำเภอพะเยา": [
       {
         "text": "amphoe mueang phayao",
@@ -1594,13 +1480,6 @@
         "text": "mueang phayao",
         "weight": 0.35,
         "count": 1
-      }
-    ],
-    "เขตราษฎร์บูรณะ": [
-      {
-        "text": "khet rat burana",
-        "weight": 0.9,
-        "count": 2
       }
     ],
     "ราชเทวี": [
@@ -1795,18 +1674,6 @@
         "count": 1.5
       }
     ],
-    "เมืองตาก": [
-      {
-        "text": "amphoe muang tak",
-        "weight": 0.9,
-        "count": 1
-      },
-      {
-        "text": "mueang tak",
-        "weight": 0.9,
-        "count": 1
-      }
-    ],
     "อำเภอเกษตรสมบูรณ์": [
       {
         "text": "amphoe kaset sombun",
@@ -1969,18 +1836,6 @@
         "count": 1
       }
     ],
-    "เลิงนกทา": [
-      {
-        "text": "loeng nok tha",
-        "weight": 1.05,
-        "count": 5
-      },
-      {
-        "text": "leingnktha",
-        "weight": 0.42,
-        "count": 2
-      }
-    ],
     "เมืองกระบี่": [
       {
         "text": "amphoe mueang krabi",
@@ -2006,23 +1861,6 @@
         "text": "moeang kra-bi",
         "weight": 0.37,
         "count": 1.5
-      }
-    ],
-    "ดำเนินสะดวก": [
-      {
-        "text": "damnoen saduak",
-        "weight": 1.1,
-        "count": 8
-      },
-      {
-        "text": "daneinsadwk",
-        "weight": 0.41,
-        "count": 3
-      },
-      {
-        "text": "damnoensaduak",
-        "weight": 0.14,
-        "count": 1
       }
     ],
     "อำเภอดำเนินสะดวก": [
@@ -2092,18 +1930,6 @@
         "text": "brrphtphisay",
         "weight": 0.42,
         "count": 2
-      }
-    ],
-    "เมืองน่าน": [
-      {
-        "text": "amphoe muang nan",
-        "weight": 0.9,
-        "count": 1
-      },
-      {
-        "text": "mueang nan",
-        "weight": 0.9,
-        "count": 1
       }
     ],
     "อำเภอวัฒนานคร": [
@@ -2415,18 +2241,6 @@
         "count": 1
       }
     ],
-    "โคกโพธิ์": [
-      {
-        "text": "khok pho",
-        "weight": 1.1,
-        "count": 8
-      },
-      {
-        "text": "khokphothi",
-        "weight": 0.41,
-        "count": 3
-      }
-    ],
     "ศาลาธรรมสพน์": [
       {
         "text": "sala thr rm s phn",
@@ -2444,13 +2258,6 @@
         "text": "thachna",
         "weight": 0.3,
         "count": 3
-      }
-    ],
-    "อินทร์บุรี": [
-      {
-        "text": "in buri",
-        "weight": 1.05,
-        "count": 8
       }
     ],
     "อำเภอพนมทวน": [
@@ -2475,25 +2282,6 @@
         "text": "mueang sing buri",
         "weight": 0.35,
         "count": 1
-      }
-    ],
-    "โพธิ์ทอง": [
-      {
-        "text": "pho thong",
-        "weight": 1.1,
-        "count": 23.5
-      }
-    ],
-    "โพธิ์ชัย": [
-      {
-        "text": "pho chai",
-        "weight": 1.1,
-        "count": 22
-      },
-      {
-        "text": "phothichay",
-        "weight": 0.35,
-        "count": 7
       }
     ],
     "นครหลวง": [
@@ -2571,13 +2359,6 @@
         "count": 1
       }
     ],
-    "บำเหน็จณรงค์": [
-      {
-        "text": "bamnet narong",
-        "weight": 1.05,
-        "count": 8
-      }
-    ],
     "วัดสว่างอารมณ์": [
       {
         "text": "wat sawang arom",
@@ -2622,18 +2403,6 @@
         "count": 1
       }
     ],
-    "เชิงเนิน": [
-      {
-        "text": "choeng noen",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "cheing nein",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
     "เมืองแม่ฮ่องสอน": [
       {
         "text": "amphoe mueang mae hong son",
@@ -2656,18 +2425,6 @@
         "text": "kho hong",
         "weight": 0.9,
         "count": 4
-      }
-    ],
-    "หนองบุญมาก": [
-      {
-        "text": "amphoe nong bun mak",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "nong bun mak",
-        "weight": 0.3,
-        "count": 1
       }
     ],
     "พระพรหม": [
@@ -2694,69 +2451,11 @@
         "count": 1
       }
     ],
-    "วัดโพธิ์ชัย": [
-      {
-        "text": "wat pho chai",
-        "weight": 1.1,
-        "count": 339.7999999999997
-      },
-      {
-        "text": "wad phothichay",
-        "weight": 0.36,
-        "count": 111.99999999999973
-      },
-      {
-        "text": "wat phochai",
-        "weight": 0.1,
-        "count": 7.200000000000001
-      },
-      {
-        "text": "wat pho cha",
-        "weight": 0.1,
-        "count": 0.5
-      }
-    ],
-    "เฉลิมพระเกียรติ": [
-      {
-        "text": "chaloem phra kiat",
-        "weight": 1.1,
-        "count": 20
-      },
-      {
-        "text": "chelimphrakeiyrti",
-        "weight": 0.55,
-        "count": 10
-      }
-    ],
-    "นวลจันทร์": [
-      {
-        "text": "nuan chan",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "nwlcanthr",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
     "นิคมคำสร้อย": [
       {
         "text": "nikhom kham soi",
         "weight": 1.05,
         "count": 8
-      }
-    ],
-    "โพธิ์ไทร": [
-      {
-        "text": "pho sai",
-        "weight": 1.1,
-        "count": 18
-      },
-      {
-        "text": "phothi thir",
-        "weight": 0.37,
-        "count": 6
       }
     ],
     "สรรพยา": [
@@ -2779,13 +2478,6 @@
         "text": "saphaya",
         "weight": 0.14,
         "count": 1
-      }
-    ],
-    "ราษฎร์พัฒนา": [
-      {
-        "text": "rat phatthana",
-        "weight": 1.1,
-        "count": 10
       }
     ],
     "เขตป้อมปราบศัตรูพ่าย": [
@@ -2858,45 +2550,6 @@
         "count": 1
       }
     ],
-    "วัดโพธิ์ศรี": [
-      {
-        "text": "wat pho si",
-        "weight": 1.1,
-        "count": 298.4000000000001
-      },
-      {
-        "text": "wad phothi sri",
-        "weight": 0.36,
-        "count": 98.39999999999978
-      },
-      {
-        "text": "wat phosri",
-        "weight": 0.1,
-        "count": 4.800000000000001
-      },
-      {
-        "text": "wat pho li",
-        "weight": 0.1,
-        "count": 0.8
-      },
-      {
-        "text": "wat pho sri",
-        "weight": 0.1,
-        "count": 0.8
-      }
-    ],
-    "พรเจริญ": [
-      {
-        "text": "phon charoen",
-        "weight": 1.1,
-        "count": 8
-      },
-      {
-        "text": "phrceriy",
-        "weight": 0.41,
-        "count": 3
-      }
-    ],
     "อุบลรัตน์": [
       {
         "text": "ubonrat",
@@ -2937,23 +2590,6 @@
       {
         "text": "amphoe ubonratana",
         "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "กันทรลักษณ์": [
-      {
-        "text": "kantharalak",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "kanthanalak",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "kantkharalak",
-        "weight": 0.35,
         "count": 1
       }
     ],
@@ -3021,23 +2657,6 @@
       {
         "text": "wachirabarami",
         "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เจริญศิลป์": [
-      {
-        "text": "charoen sin",
-        "weight": 1.1,
-        "count": 8
-      },
-      {
-        "text": "ceriysilp",
-        "weight": 0.41,
-        "count": 3
-      },
-      {
-        "text": "ban charoen sin",
-        "weight": 0.14,
         "count": 1
       }
     ],
@@ -3118,30 +2737,6 @@
         "count": 2
       }
     ],
-    "ปางศิลาทอง": [
-      {
-        "text": "amphoe pang sila thong",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "pang sila thong",
-        "weight": 1.05,
-        "count": 4
-      }
-    ],
-    "โพนนาแก้ว": [
-      {
-        "text": "amphoe phon na kaeo",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "phon na kaeo",
-        "weight": 1.05,
-        "count": 4
-      }
-    ],
     "จุฬาภรณ์": [
       {
         "text": "chulabhorn",
@@ -3183,33 +2778,6 @@
         "count": 2
       }
     ],
-    "ยางสีสุราช": [
-      {
-        "text": "amphoe yang si surat",
-        "weight": 1.1,
-        "count": 4
-      },
-      {
-        "text": "yang sisurat",
-        "weight": 1.1,
-        "count": 4
-      },
-      {
-        "text": "yang si surat",
-        "weight": 0.83,
-        "count": 3
-      },
-      {
-        "text": "yang si su rach",
-        "weight": 0.83,
-        "count": 3
-      },
-      {
-        "text": "ban yang si surat",
-        "weight": 0.28,
-        "count": 1
-      }
-    ],
     "กิ่งอำเภอนบพิตำ": [
       {
         "text": "amphoe nopphitam",
@@ -3246,42 +2814,6 @@
         "count": 1.5
       }
     ],
-    "นาโพธิ์": [
-      {
-        "text": "na pho",
-        "weight": 1.1,
-        "count": 30
-      },
-      {
-        "text": "na phothi",
-        "weight": 0.37,
-        "count": 10
-      }
-    ],
-    "ไทยเจริญ": [
-      {
-        "text": "thai charoen",
-        "weight": 1.1,
-        "count": 13
-      },
-      {
-        "text": "thiy ceriy",
-        "weight": 0.42,
-        "count": 5
-      }
-    ],
-    "โพธิ์กลาง": [
-      {
-        "text": "pho klang",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "phothi klang",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
     "สว่างอารมณ์": [
       {
         "text": "sawang arom",
@@ -3313,40 +2845,11 @@
         "count": 1
       }
     ],
-    "วังจันทร์": [
-      {
-        "text": "wang chan",
-        "weight": 1.1,
-        "count": 13
-      },
-      {
-        "text": "wang canthr",
-        "weight": 0.42,
-        "count": 5
-      }
-    ],
     "เทศบาลเมืองปทุมธานี": [
       {
         "text": "amphoe muang pathum thani",
         "weight": 0.9,
         "count": 1.5
-      }
-    ],
-    "ค่ายบางระจัน": [
-      {
-        "text": "amphoe khai bang rachan",
-        "weight": 0.9,
-        "count": 2
-      },
-      {
-        "text": "khai bang rachan",
-        "weight": 0.45,
-        "count": 1
-      },
-      {
-        "text": "khaybangracan",
-        "weight": 0.45,
-        "count": 1
       }
     ],
     "เทศบาลเมืองน่าน": [
@@ -3370,23 +2873,6 @@
       {
         "text": "king amphoe phu sang",
         "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "สว่างวีระวงศ์": [
-      {
-        "text": "amphoe sawang wirawong",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "sawang wirawong",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "swang wira wngs",
-        "weight": 0.35,
         "count": 1
       }
     ],
@@ -3417,42 +2903,6 @@
         "text": "sri sunthr",
         "weight": 0.26,
         "count": 1
-      }
-    ],
-    "อำเภอนาโพธิ์": [
-      {
-        "text": "amphoe na pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "king amphoe na pho",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "ทรายทองวัฒนา": [
-      {
-        "text": "amphoe sai thong watthana",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "sai thong watthana",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "ทุ่งศรีอุดม": [
-      {
-        "text": "amphoe thung si udom",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "thung si udom",
-        "weight": 1.05,
-        "count": 4
       }
     ],
     "อำเภอศรีนครินทร์": [
@@ -3511,18 +2961,6 @@
         "count": 1
       }
     ],
-    "บ้านใหม่ไชยพจน์": [
-      {
-        "text": "amphoe ban mai chaiyaphot",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "ban mai chaiyaphot",
-        "weight": 1.05,
-        "count": 4
-      }
-    ],
     "เวียงแหง": [
       {
         "text": "wiang haeng",
@@ -3569,18 +3007,6 @@
         "count": 1
       }
     ],
-    "ดงเจริญ": [
-      {
-        "text": "dong charoen",
-        "weight": 1.1,
-        "count": 7
-      },
-      {
-        "text": "dng ceriy",
-        "weight": 0.47,
-        "count": 3
-      }
-    ],
     "ถนนวชิราวุธดำเนิน": [
       {
         "text": "thanon vajiravudh damnoen",
@@ -3620,62 +3046,6 @@
         "text": "king amphoe mae on",
         "weight": 0.35,
         "count": 1
-      }
-    ],
-    "โคกเจริญ": [
-      {
-        "text": "khok charoen",
-        "weight": 1.1,
-        "count": 10
-      },
-      {
-        "text": "khok ceriy",
-        "weight": 0.44,
-        "count": 4
-      },
-      {
-        "text": "ban khok charoen",
-        "weight": 0.11,
-        "count": 1
-      }
-    ],
-    "บ้านนาโพธิ์": [
-      {
-        "text": "ban na pho",
-        "weight": 1.1,
-        "count": 154
-      },
-      {
-        "text": "banna phothi",
-        "weight": 0.35,
-        "count": 49
-      },
-      {
-        "text": "ban na po",
-        "weight": 0.1,
-        "count": 6
-      },
-      {
-        "text": "ban na phau",
-        "weight": 0.1,
-        "count": 2
-      },
-      {
-        "text": "ban napho",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "เนินสง่า": [
-      {
-        "text": "noen sa-nga",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "nein snga",
-        "weight": 0.53,
-        "count": 2
       }
     ],
     "พิบูลฯ": [
@@ -3734,28 +3104,6 @@
         "count": 1
       }
     ],
-    "ภูกามยาว": [
-      {
-        "text": "amphoe phu kam yao",
-        "weight": 1.1,
-        "count": 4
-      },
-      {
-        "text": "phu kam yao",
-        "weight": 0.83,
-        "count": 3
-      },
-      {
-        "text": "phu kam yaw",
-        "weight": 0.55,
-        "count": 2
-      },
-      {
-        "text": "phu kamyao",
-        "weight": 0.28,
-        "count": 1
-      }
-    ],
     "กิ่งอำเภอกาบัง": [
       {
         "text": "amphoe kabang",
@@ -3790,18 +3138,6 @@
         "text": "thanon rama iii",
         "weight": 0.9,
         "count": 0.5
-      }
-    ],
-    "โคกโพธิ์ไชย": [
-      {
-        "text": "khok pho chai",
-        "weight": 0.9,
-        "count": 2
-      },
-      {
-        "text": "khokphothi chiy",
-        "weight": 0.45,
-        "count": 1
       }
     ],
     "บ้านเพชร": [
@@ -3867,62 +3203,6 @@
         "count": 1
       }
     ],
-    "โพธิ์ศรีสุวรรณ": [
-      {
-        "text": "amphoe pho si suwan",
-        "weight": 1.1,
-        "count": 4
-      },
-      {
-        "text": "pho si suwan",
-        "weight": 1.1,
-        "count": 4
-      },
-      {
-        "text": "phothi sri suwrrn",
-        "weight": 0.55,
-        "count": 2
-      }
-    ],
-    "วัดโพธิ์ศรีสว่าง": [
-      {
-        "text": "wat pho si sawang",
-        "weight": 1.1,
-        "count": 107.40000000000008
-      },
-      {
-        "text": "wad phothi sri swang",
-        "weight": 0.43,
-        "count": 42.39999999999998
-      },
-      {
-        "text": "wat phosri sawang",
-        "weight": 0.12,
-        "count": 12.000000000000002
-      },
-      {
-        "text": "wat pho sri sawang",
-        "weight": 0.1,
-        "count": 4.800000000000001
-      },
-      {
-        "text": "wat po sisawang",
-        "weight": 0.1,
-        "count": 2.4000000000000004
-      }
-    ],
-    "ท่าโพธิ์": [
-      {
-        "text": "tha pho",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "tha phothi",
-        "weight": 0.35,
-        "count": 2
-      }
-    ],
     "แม่จริม": [
       {
         "text": "mae charim",
@@ -3939,18 +3219,6 @@
       {
         "text": "pak nkhr",
         "weight": 0.26,
-        "count": 1
-      }
-    ],
-    "บ้านโพธิ์ทอง": [
-      {
-        "text": "ban pho thong",
-        "weight": 1.1,
-        "count": 164
-      },
-      {
-        "text": "ban po thong",
-        "weight": 0.1,
         "count": 1
       }
     ],
@@ -3988,132 +3256,11 @@
         "count": 1
       }
     ],
-    "วัดโพธิ์ทอง": [
-      {
-        "text": "wat pho thong",
-        "weight": 1.1,
-        "count": 157.3500000000002
-      },
-      {
-        "text": "wat phon thong",
-        "weight": 0.1,
-        "count": 2.4000000000000004
-      }
-    ],
-    "บ้านหนองโพธิ์": [
-      {
-        "text": "ban nong pho",
-        "weight": 1.1,
-        "count": 149
-      },
-      {
-        "text": "ban ton pho",
-        "weight": 0.1,
-        "count": 2
-      },
-      {
-        "text": "ban nong po",
-        "weight": 0.1,
-        "count": 2
-      },
-      {
-        "text": "ban hnong po",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban naung phau",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "กบินทร์": [
-      {
-        "text": "kabin",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "kbinthr",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "โพธิ์ตาก": [
-      {
-        "text": "pho tak",
-        "weight": 1.1,
-        "count": 10
-      },
-      {
-        "text": "phothi tak",
-        "weight": 0.44,
-        "count": 4
-      }
-    ],
-    "บ้านโพธิ์ศรี": [
-      {
-        "text": "ban pho si",
-        "weight": 1.1,
-        "count": 115
-      },
-      {
-        "text": "banphothi sri",
-        "weight": 0.33,
-        "count": 35
-      },
-      {
-        "text": "ban pho wi",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban pho si ",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "สนามจันทร์": [
-      {
-        "text": "sanam chan",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "snam canthr",
-        "weight": 0.35,
-        "count": 2
-      }
-    ],
-    "บ้านจันทน์": [
-      {
-        "text": "ban chan",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "ban canthn",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "ถนนสมโภชเชียงใหม่ 700 ปี": [
       {
         "text": "somphot chiang mai 700 pi road",
         "weight": 1.1,
         "count": 145.5999999999999
-      }
-    ],
-    "ห้วยโพธิ์": [
-      {
-        "text": "huai pho",
-        "weight": 1.1,
-        "count": 25.5
-      },
-      {
-        "text": "huai poo",
-        "weight": 0.1,
-        "count": 0.5
       }
     ],
     "พุทธบาท": [
@@ -4133,25 +3280,6 @@
         "text": "thanon borommaratchachonnani",
         "weight": 0.9,
         "count": 0.5
-      }
-    ],
-    "โพธิ์ศรี": [
-      {
-        "text": "pho si",
-        "weight": 1.1,
-        "count": 10
-      },
-      {
-        "text": "phothi sri",
-        "weight": 0.33,
-        "count": 3
-      }
-    ],
-    "เมืองจันทร์": [
-      {
-        "text": "mueang chan",
-        "weight": 1.05,
-        "count": 8
       }
     ],
     "ตำบลดงพระราม": [
@@ -4174,18 +3302,6 @@
         "text": "tabl dng phraram",
         "weight": 0.35,
         "count": 1
-      }
-    ],
-    "วัดจันทร์": [
-      {
-        "text": "wat chan",
-        "weight": 1.1,
-        "count": 36
-      },
-      {
-        "text": "wad canthr",
-        "weight": 0.31,
-        "count": 10
       }
     ],
     "นิคมน้ำอูน": [
@@ -4224,30 +3340,6 @@
         "count": 1
       }
     ],
-    "บ้านไทยเจริญ": [
-      {
-        "text": "ban thai charoen",
-        "weight": 1.1,
-        "count": 97
-      },
-      {
-        "text": "ban thiy ceriy",
-        "weight": 0.34,
-        "count": 30
-      }
-    ],
-    "เนินเพิ่ม": [
-      {
-        "text": "noen phoem",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "nein pheim",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "ดอนแสลบ": [
       {
         "text": "don salaep",
@@ -4265,13 +3357,6 @@
         "text": "che ni yng",
         "weight": 0.3,
         "count": 1
-      }
-    ],
-    "ผาอินทร์แปลง": [
-      {
-        "text": "pha in plaeng",
-        "weight": 0.9,
-        "count": 3
       }
     ],
     "หงษ์เจริญ": [
@@ -4362,18 +3447,6 @@
         "count": 20
       }
     ],
-    "เฉลิม": [
-      {
-        "text": "chaloem",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "chelim",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "อำเภอราชสาส์น": [
       {
         "text": "amphoe ratchasan",
@@ -4384,13 +3457,6 @@
         "text": "king amphoe ratchasan",
         "weight": 0.3,
         "count": 1
-      }
-    ],
-    "หนองเลิง": [
-      {
-        "text": "nong loeng",
-        "weight": 1.1,
-        "count": 26.5
       }
     ],
     "ตำบลแม่สะเรียง": [
@@ -4437,98 +3503,11 @@
         "count": 1
       }
     ],
-    "โพธิ์งาม": [
-      {
-        "text": "pho ngam",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "phothi ngam",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
-    "นาเฉลียง": [
-      {
-        "text": "na chaliang",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "na cheliyng",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
-    "แหลมโพธิ์": [
-      {
-        "text": "laem pho",
-        "weight": 1.05,
-        "count": 8
-      }
-    ],
-    "บ้านโพธิ์งาม": [
-      {
-        "text": "ban pho ngam",
-        "weight": 1.1,
-        "count": 77
-      },
-      {
-        "text": "banphothi ngam",
-        "weight": 0.37,
-        "count": 26
-      },
-      {
-        "text": "ban phao ngam",
-        "weight": 0.1,
-        "count": 3
-      },
-      {
-        "text": "ban po ngam",
-        "weight": 0.1,
-        "count": 2
-      },
-      {
-        "text": "ban pongam",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "หนองโพธิ์": [
-      {
-        "text": "nong pho",
-        "weight": 1.1,
-        "count": 45.5
-      }
-    ],
     "ปาล์มพัฒนา": [
       {
         "text": "pam phatthana",
         "weight": 0.9,
         "count": 3
-      }
-    ],
-    "บ้านโนนโพธิ์": [
-      {
-        "text": "ban non pho",
-        "weight": 1.1,
-        "count": 81
-      },
-      {
-        "text": "ban non phothi",
-        "weight": 0.34,
-        "count": 25
-      },
-      {
-        "text": "ban nong pho",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban non po",
-        "weight": 0.1,
-        "count": 1
       }
     ],
     "อำเภอกัลยาณิวัฒนา": [
@@ -4555,18 +3534,6 @@
         "count": 1
       }
     ],
-    "โพธิ์เก้าต้น": [
-      {
-        "text": "pho kao ton",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi kea tn",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "ท่าฉนวน": [
       {
         "text": "tha chanuan",
@@ -4577,13 +3544,6 @@
         "text": "tha chnwn",
         "weight": 0.35,
         "count": 2
-      }
-    ],
-    "ทุ่งโพธิ์": [
-      {
-        "text": "thung pho",
-        "weight": 1.05,
-        "count": 9
       }
     ],
     "กัลยาณิวัฒนา": [
@@ -4602,30 +3562,6 @@
       {
         "text": "p wn phu",
         "weight": 0.26,
-        "count": 1
-      }
-    ],
-    "บ้านอีเลิศ": [
-      {
-        "text": "ban i loet",
-        "weight": 1.1,
-        "count": 10
-      },
-      {
-        "text": "ban i lart",
-        "weight": 0.11,
-        "count": 1
-      }
-    ],
-    "หัวโพธิ์": [
-      {
-        "text": "hua pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "haw phothi",
-        "weight": 0.3,
         "count": 1
       }
     ],
@@ -4684,30 +3620,6 @@
         "count": 2
       }
     ],
-    "กำเนิดนพคุณ": [
-      {
-        "text": "kamnoet nopphakhun",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "kaneid nphkhun",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "ต้นโพธิ์": [
-      {
-        "text": "ton pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "tn phothi",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "ลำเหย": [
       {
         "text": "lam hoei",
@@ -4732,18 +3644,6 @@
         "count": 1
       }
     ],
-    "สินเจริญ": [
-      {
-        "text": "sin charoen",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "sin ceriy",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "ข้าวปุ้น": [
       {
         "text": "khao pun",
@@ -4760,18 +3660,6 @@
       {
         "text": "samvththi",
         "weight": 0.9,
-        "count": 1
-      }
-    ],
-    "โพธิ์กระสังข์": [
-      {
-        "text": "pho krasang",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi kra sangkh",
-        "weight": 0.3,
         "count": 1
       }
     ],
@@ -4813,64 +3701,6 @@
         "count": 3
       }
     ],
-    "บ้านทุ่งโพธิ์": [
-      {
-        "text": "ban thung pho",
-        "weight": 1.1,
-        "count": 77
-      },
-      {
-        "text": "ban thung phao",
-        "weight": 0.1,
-        "count": 3
-      },
-      {
-        "text": "ban thung photanot",
-        "weight": 0.1,
-        "count": 3
-      },
-      {
-        "text": "ban tung po",
-        "weight": 0.1,
-        "count": 2
-      },
-      {
-        "text": "ban thung phau",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "อุใดเจริญ": [
-      {
-        "text": "udai charoen",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "โนนเจริญ": [
-      {
-        "text": "non charoen",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "non ceriy",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
-    "หานโพธิ์": [
-      {
-        "text": "han pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "han phothi",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "เทพราช": [
       {
         "text": "theppharat",
@@ -4881,18 +3711,6 @@
         "text": "theph rach",
         "weight": 0.3,
         "count": 2
-      }
-    ],
-    "ถ้ำเจริญ": [
-      {
-        "text": "tham charoen",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "tha ceriy",
-        "weight": 0.3,
-        "count": 1
       }
     ],
     "ชัยพร": [
@@ -4919,42 +3737,6 @@
         "count": 3
       }
     ],
-    "นาโพธิ์กลาง": [
-      {
-        "text": "na pho klang",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "na phothi klang",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "โพธิ์ศรีสำราญ": [
-      {
-        "text": "pho si samran",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi sri saray",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "วัดโพธิ์งาม": [
-      {
-        "text": "wat pho ngam",
-        "weight": 1.1,
-        "count": 65.40499999999997
-      },
-      {
-        "text": "wad phothi ngam",
-        "weight": 0.35,
-        "count": 20.800000000000008
-      }
-    ],
     "ปากปวน": [
       {
         "text": "pak puan",
@@ -4979,30 +3761,6 @@
         "count": 1
       }
     ],
-    "บ้านโพธิ์ชัย": [
-      {
-        "text": "ban pho chai",
-        "weight": 1.1,
-        "count": 64
-      },
-      {
-        "text": "banphothi chay",
-        "weight": 0.33,
-        "count": 19
-      },
-      {
-        "text": "ban po chai",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "โพธิ์ใหญ่": [
-      {
-        "text": "pho yai",
-        "weight": 1.05,
-        "count": 6
-      }
-    ],
     "จันทบเพชร": [
       {
         "text": "chanthop phet",
@@ -5013,13 +3771,6 @@
         "text": "can thb phechr",
         "weight": 0.26,
         "count": 1
-      }
-    ],
-    "ถนนเฉลิมพระเกียรติ ร.9": [
-      {
-        "text": "thanon chaloem phrakiat rama 9",
-        "weight": 0.9,
-        "count": 4
       }
     ],
     "มะลวน": [
@@ -5097,18 +3848,6 @@
         "count": 1
       }
     ],
-    "เฉลียง": [
-      {
-        "text": "chaliang",
-        "weight": 0.9,
-        "count": 3.51
-      },
-      {
-        "text": "cheliyng",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
     "หนองขมาร": [
       {
         "text": "nong khaman",
@@ -5166,30 +3905,6 @@
         "count": 4
       }
     ],
-    "นาเจริญ": [
-      {
-        "text": "na charoen",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "na ceriy",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "เจริญผล": [
-      {
-        "text": "charoen phon",
-        "weight": 1.05,
-        "count": 4.8
-      },
-      {
-        "text": "ceriyphl",
-        "weight": 0.22,
-        "count": 1
-      }
-    ],
     "ศรีภิรมย์": [
       {
         "text": "si phirom",
@@ -5231,67 +3946,11 @@
         "count": 1
       }
     ],
-    "จันทร์เพ็ญ": [
-      {
-        "text": "chan phen",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "canthr phey",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "บ้านท่าโพธิ์": [
-      {
-        "text": "ban tha pho",
-        "weight": 1.1,
-        "count": 54
-      },
-      {
-        "text": "ban tha phothi",
-        "weight": 0.33,
-        "count": 16
-      },
-      {
-        "text": "ban tha pho (1)",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "baan tha po",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban ta pho",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
     "เมืองหงส์": [
       {
         "text": "mueang hong",
         "weight": 0.9,
         "count": 4
-      }
-    ],
-    "วัดโพธิ์": [
-      {
-        "text": "wat pho",
-        "weight": 1.1,
-        "count": 52.02499999999999
-      },
-      {
-        "text": "wad phothi",
-        "weight": 0.32,
-        "count": 15.200000000000005
-      },
-      {
-        "text": "wat po",
-        "weight": 0.1,
-        "count": 0.5
       }
     ],
     "เหล่าไฮงาม": [
@@ -5306,47 +3965,11 @@
         "count": 1
       }
     ],
-    "โพธิ์ไชย": [
-      {
-        "text": "pho chai",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "phothi chiy",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
-    "โพธิ์สัย": [
-      {
-        "text": "pho sai",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi say",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "ดวนใหญ่": [
       {
         "text": "duan yai",
         "weight": 0.9,
         "count": 3
-      }
-    ],
-    "ท่าโพธิ์ศรี": [
-      {
-        "text": "tha pho si",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "tha phothi sri",
-        "weight": 0.3,
-        "count": 1
       }
     ],
     "ชัยพฤกษ์": [
@@ -5359,18 +3982,6 @@
         "text": "chaiyapruek",
         "weight": 0.15,
         "count": 0.5
-      }
-    ],
-    "เพนียด": [
-      {
-        "text": "phaniat",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "pheniyd",
-        "weight": 0.3,
-        "count": 1
       }
     ],
     "ขนวน": [
@@ -5394,47 +4005,11 @@
         "count": 3
       }
     ],
-    "เจริญสุข": [
-      {
-        "text": "charoen suk",
-        "weight": 1.05,
-        "count": 3.6
-      },
-      {
-        "text": "charoensuk",
-        "weight": 0.53,
-        "count": 1.8
-      },
-      {
-        "text": "ceriysukh",
-        "weight": 0.29,
-        "count": 1
-      }
-    ],
     "บ้านจบก": [
       {
         "text": "ban chabok",
         "weight": 1.1,
         "count": 55
-      }
-    ],
-    "โนนโพธิ์": [
-      {
-        "text": "non pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "non phothi",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "บ่อโพธิ์": [
-      {
-        "text": "bo pho",
-        "weight": 0.9,
-        "count": 3
       }
     ],
     "หงส์หิน": [
@@ -5463,18 +4038,6 @@
         "count": 1
       }
     ],
-    "โพธิ์ประสาท": [
-      {
-        "text": "pho prasat",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi prasath",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "บึงนคร": [
       {
         "text": "bueng nakhon",
@@ -5485,30 +4048,6 @@
         "text": "bung nkhr",
         "weight": 0.32,
         "count": 2.5
-      }
-    ],
-    "เจริญธรรม": [
-      {
-        "text": "charoen tham",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "ceriy thrrm",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "โพธิ์พระยา": [
-      {
-        "text": "pho phraya",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "phothi phraya",
-        "weight": 0.26,
-        "count": 1
       }
     ],
     "สวนจิตรลดา": [
@@ -5538,13 +4077,6 @@
     "อ่ายนาไลย": [
       {
         "text": "ai na lai",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "ดอนโพธิ์ทอง": [
-      {
-        "text": "don pho thong",
         "weight": 0.9,
         "count": 3
       }
@@ -5579,18 +4111,6 @@
       {
         "text": "nkhr chu mn",
         "weight": 0.9,
-        "count": 1
-      }
-    ],
-    "กกโพธิ์": [
-      {
-        "text": "kok pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "kk phothi",
-        "weight": 0.3,
         "count": 1
       }
     ],
@@ -5631,30 +4151,6 @@
       },
       {
         "text": "nkhrpahmak",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "เนินสว่าง": [
-      {
-        "text": "noen sawang",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "nein swang",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "โพธิ์วงศ์": [
-      {
-        "text": "pho wong",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi wngs",
         "weight": 0.3,
         "count": 1
       }
@@ -5729,13 +4225,6 @@
         "count": 1
       }
     ],
-    "ห้วยจันทร์": [
-      {
-        "text": "huai chan",
-        "weight": 1.1,
-        "count": 13.5
-      }
-    ],
     "สันต้นหมื้อ": [
       {
         "text": "san ton mue",
@@ -5752,18 +4241,6 @@
       {
         "text": "la sinthu",
         "weight": 0.26,
-        "count": 1
-      }
-    ],
-    "เจ็ดเสมียน": [
-      {
-        "text": "chet samian",
-        "weight": 1.05,
-        "count": 7
-      },
-      {
-        "text": "ced semiyn",
-        "weight": 0.15,
         "count": 1
       }
     ],
@@ -5810,18 +4287,6 @@
         "count": 1
       }
     ],
-    "บ้านเซิด": [
-      {
-        "text": "ban soet",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "ban seid",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "บัววัฒนา": [
       {
         "text": "bua watthana",
@@ -5846,33 +4311,6 @@
         "text": "tha akatsayan narathiwat",
         "weight": 1.05,
         "count": 3
-      }
-    ],
-    "บ้านโพธิ์ไทร": [
-      {
-        "text": "ban pho sai",
-        "weight": 1.1,
-        "count": 44
-      },
-      {
-        "text": "banphothi thir",
-        "weight": 0.35,
-        "count": 14
-      },
-      {
-        "text": "ban huai sai",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban po sai ",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban po sai",
-        "weight": 0.1,
-        "count": 1
       }
     ],
     "โคกเพชรพัฒนา": [
@@ -5932,18 +4370,6 @@
         "count": 1
       }
     ],
-    "คำเจริญ": [
-      {
-        "text": "kham charoen",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "kha ceriy",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "นพรัตน์": [
       {
         "text": "nopparat",
@@ -5958,18 +4384,6 @@
       {
         "text": "nphratn",
         "weight": 0.16,
-        "count": 1
-      }
-    ],
-    "ตลาดโพธิ์": [
-      {
-        "text": "talat pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "tlad phothi",
-        "weight": 0.3,
         "count": 1
       }
     ],
@@ -6047,30 +4461,6 @@
         "count": 1
       }
     ],
-    "วัดโพธิ์ไทร": [
-      {
-        "text": "wat pho sai",
-        "weight": 1.1,
-        "count": 43.19999999999999
-      },
-      {
-        "text": "wad phothi thir",
-        "weight": 0.37,
-        "count": 14.400000000000004
-      }
-    ],
-    "โพธิ์ศรีสว่าง": [
-      {
-        "text": "pho si sawang",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi sri swang",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "นาเมืองเพชร": [
       {
         "text": "na mueang phet",
@@ -6090,35 +4480,6 @@
         "count": 1
       }
     ],
-    "วัดโพธิ์สว่าง": [
-      {
-        "text": "wat pho sawang",
-        "weight": 1.1,
-        "count": 38.89999999999999
-      },
-      {
-        "text": "wad phothi swang",
-        "weight": 0.38,
-        "count": 13.600000000000003
-      },
-      {
-        "text": "wat phosri sawang",
-        "weight": 0.1,
-        "count": 2.4000000000000004
-      }
-    ],
-    "บุ่งเลิศ": [
-      {
-        "text": "bung loet",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "bung leis",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
     "เกษตรพัฒนา": [
       {
         "text": "kaset phatthana",
@@ -6126,90 +4487,11 @@
         "count": 3
       }
     ],
-    "บ้านจันทร์": [
-      {
-        "text": "ban chan",
-        "weight": 1.05,
-        "count": 7
-      },
-      {
-        "text": "ban canthr",
-        "weight": 0.3,
-        "count": 2
-      }
-    ],
-    "ราษฎร์เจริญ": [
-      {
-        "text": "rat charoen",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "ซับเปิบ": [
-      {
-        "text": "sap poep",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "sab peib",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "ศาลาลอย": [
       {
         "text": "sala loi",
         "weight": 0.9,
         "count": 4
-      }
-    ],
-    "ถนนอรุณอมรินทร์": [
-      {
-        "text": "thanon arun ammarin",
-        "weight": 0.9,
-        "count": 0.5
-      },
-      {
-        "text": "thanon arun amarin",
-        "weight": 0.9,
-        "count": 0.5
-      }
-    ],
-    "บ้านดอนโพธิ์": [
-      {
-        "text": "ban don pho",
-        "weight": 1.1,
-        "count": 50
-      },
-      {
-        "text": "ban don po",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "ชมเจริญ": [
-      {
-        "text": "chom charoen",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "chm ceriy",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "ท่าโพธิ์ชัย": [
-      {
-        "text": "tha pho chai",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "tha phothichay",
-        "weight": 0.3,
-        "count": 1
       }
     ],
     "รัตนวารี": [
@@ -6229,35 +4511,6 @@
         "text": "khch siththi",
         "weight": 0.9,
         "count": 1
-      }
-    ],
-    "โนนทองอินทร์": [
-      {
-        "text": "non thong in",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "วัดโพธิ์กลาง": [
-      {
-        "text": "wat pho klang",
-        "weight": 1.1,
-        "count": 32.699999999999996
-      },
-      {
-        "text": "wad phothi klang",
-        "weight": 0.4,
-        "count": 12.000000000000002
-      },
-      {
-        "text": "wat pha klang",
-        "weight": 0.1,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wat pho khlang",
-        "weight": 0.1,
-        "count": 2.4000000000000004
       }
     ],
     "ลำพยนต์": [
@@ -6284,54 +4537,6 @@
         "count": 1.5
       }
     ],
-    "บ้านโคกโพธิ์": [
-      {
-        "text": "ban khok pho",
-        "weight": 1.1,
-        "count": 36
-      },
-      {
-        "text": "ban khokphothi",
-        "weight": 0.37,
-        "count": 12
-      },
-      {
-        "text": "ban khok pho (1)",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "บ้านเนินสวรรค์": [
-      {
-        "text": "ban noen sawan",
-        "weight": 1.1,
-        "count": 37
-      },
-      {
-        "text": "ban nein swrrkh",
-        "weight": 0.36,
-        "count": 12
-      }
-    ],
-    "วัดศรีจันทร์": [
-      {
-        "text": "wat si chan",
-        "weight": 1.1,
-        "count": 36.49999999999999
-      },
-      {
-        "text": "wad sricanthr",
-        "weight": 0.36,
-        "count": 12.000000000000002
-      }
-    ],
-    "โพธิ์แทน": [
-      {
-        "text": "pho thaen",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
     "ศิลาเพชร": [
       {
         "text": "sila phet",
@@ -6340,18 +4545,6 @@
       },
       {
         "text": "sila phechr",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "บุโพธิ์": [
-      {
-        "text": "bu pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "bu phothi",
         "weight": 0.3,
         "count": 1
       }
@@ -6406,51 +4599,6 @@
         "count": 1
       }
     ],
-    "คันธารราษฎร์": [
-      {
-        "text": "khanthararat",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "ถนนเจริญนคร": [
-      {
-        "text": "thanon charoen nakhon",
-        "weight": 0.9,
-        "count": 0.75
-      }
-    ],
-    "อินทร์แปลง": [
-      {
-        "text": "in plaeng",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "ศรีมหาโพธิ์": [
-      {
-        "text": "si mahapho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "srimhaphothi",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "บ้านต้นโพธิ์": [
-      {
-        "text": "ban ton pho",
-        "weight": 1.1,
-        "count": 36
-      },
-      {
-        "text": "ban tn phothi",
-        "weight": 0.31,
-        "count": 10
-      }
-    ],
     "ป่าโปง": [
       {
         "text": "ban pa pong",
@@ -6482,18 +4630,6 @@
         "count": 3
       }
     ],
-    "โพธิ์ไทรงาม": [
-      {
-        "text": "pho sai ngam",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi thirngam",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "ศูนย์บริการสาธารณสุข สี่สิบเก้า": [
       {
         "text": "suny brikar satharnsukh si sib kea",
@@ -6523,58 +4659,10 @@
         "count": 1
       }
     ],
-    "ราวต้นจันทร์": [
-      {
-        "text": "rao ton chan",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "raw tn canthr",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "นนทรีย์": [
       {
         "text": "nnthri y",
         "weight": 0.9,
-        "count": 1
-      }
-    ],
-    "ถนนโพธิ์": [
-      {
-        "text": "thanon pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "thnn phothi",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "วัดราษฎร์บูรณะ": [
-      {
-        "text": "wat rat burana",
-        "weight": 1.1,
-        "count": 38.74999999999999
-      },
-      {
-        "text": "wat ratburana",
-        "weight": 0.1,
-        "count": 2.4000000000000004
-      }
-    ],
-    "เจริญราษฎร์": [
-      {
-        "text": "charoen rat",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "charoenrat",
-        "weight": 0.26,
         "count": 1
       }
     ],
@@ -6583,20 +4671,6 @@
         "text": "ban sawang arom",
         "weight": 1.1,
         "count": 43
-      }
-    ],
-    "จอมจันทร์": [
-      {
-        "text": "chom chan",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "เมืองโพธิ์": [
-      {
-        "text": "mueang pho",
-        "weight": 0.9,
-        "count": 3
       }
     ],
     "หล่ายงาว": [
@@ -6693,13 +4767,6 @@
         "count": 2.4000000000000004
       }
     ],
-    "ดอนโพธิ์": [
-      {
-        "text": "don pho",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
     "บ้านปอเนาะ": [
       {
         "text": "ban pono",
@@ -6729,25 +4796,6 @@
         "count": 1
       }
     ],
-    "แม่ฮ้อยเงิน": [
-      {
-        "text": "mae hoi ngoen",
-        "weight": 0.9,
-        "count": 4
-      }
-    ],
-    "วัดโพธิ์เย็น": [
-      {
-        "text": "wat pho yen",
-        "weight": 1.1,
-        "count": 30.319999999999997
-      },
-      {
-        "text": "wad phothi yen",
-        "weight": 0.35,
-        "count": 9.6
-      }
-    ],
     "กุศกร": [
       {
         "text": "kutsakon",
@@ -6758,61 +4806,6 @@
         "text": "ku skr",
         "weight": 0.3,
         "count": 1
-      }
-    ],
-    "เกาะเปริด": [
-      {
-        "text": "kaw proed",
-        "weight": 0.9,
-        "count": 0.5
-      }
-    ],
-    "ยั้งเมิน": [
-      {
-        "text": "yung moen",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "yang mein",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "บ้านโพธิ์น้อย": [
-      {
-        "text": "ban pho noi",
-        "weight": 1.1,
-        "count": 35
-      },
-      {
-        "text": "ban po noi",
-        "weight": 0.1,
-        "count": 2
-      }
-    ],
-    "บ้านโพธิ์ตาก": [
-      {
-        "text": "ban pho tak",
-        "weight": 1.1,
-        "count": 28
-      },
-      {
-        "text": "banphothi tak",
-        "weight": 0.35,
-        "count": 9
-      },
-      {
-        "text": "ban po tak",
-        "weight": 0.1,
-        "count": 2
-      }
-    ],
-    "บ้านราษฎร์พัฒนา": [
-      {
-        "text": "ban rat phatthana",
-        "weight": 1.1,
-        "count": 39
       }
     ],
     "วัดศรีสวัสดิ์": [
@@ -6827,18 +4820,6 @@
         "count": 9.6
       }
     ],
-    "โพธิ์สามต้น": [
-      {
-        "text": "pho sam ton",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "phothisamtn",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
     "กุดยาลวน": [
       {
         "text": "kut ya luan",
@@ -6848,18 +4829,6 @@
       {
         "text": "kud ya l wn",
         "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "คลองโพธิ์": [
-      {
-        "text": "khlong pho",
-        "weight": 1.1,
-        "count": 36
-      },
-      {
-        "text": "khlong po",
-        "weight": 0.1,
         "count": 1
       }
     ],
@@ -6909,18 +4878,6 @@
         "count": 3
       }
     ],
-    "บ้านเขาจันทร์": [
-      {
-        "text": "ban khao chan",
-        "weight": 1.1,
-        "count": 36
-      },
-      {
-        "text": "ban kao chan",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
     "วัดนิโครธาราม": [
       {
         "text": "wad ni khor thara m",
@@ -6960,13 +4917,6 @@
         "count": 1
       }
     ],
-    "บางโพธิ์เหนือ": [
-      {
-        "text": "bang pho nuea",
-        "weight": 0.9,
-        "count": 4
-      }
-    ],
     "สถานีคูบัว": [
       {
         "text": "sathani rotfai khu bua",
@@ -6987,28 +4937,6 @@
         "text": "sthani rthfi khu baw",
         "weight": 0.37,
         "count": 3
-      }
-    ],
-    "บ้านเกาะโพธิ์": [
-      {
-        "text": "ban ko pho",
-        "weight": 1.1,
-        "count": 24
-      },
-      {
-        "text": "ban keaa phothi",
-        "weight": 0.37,
-        "count": 8
-      },
-      {
-        "text": "ban ko pho (3)",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban ko pho (1)",
-        "weight": 0.1,
-        "count": 1
       }
     ],
     "สถานีบางเค็ม": [
@@ -7072,23 +5000,6 @@
         "count": 3
       }
     ],
-    "บ้านวัดจันทร์": [
-      {
-        "text": "ban wat chan",
-        "weight": 1.1,
-        "count": 27
-      },
-      {
-        "text": "ban wad canthr",
-        "weight": 0.33,
-        "count": 8
-      },
-      {
-        "text": "ban wat jan",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
     "ชัยฤทธิ์": [
       {
         "text": "chay vththi",
@@ -7108,25 +5019,6 @@
         "count": 1
       }
     ],
-    "วัดสว่างโพธิ์ศรี": [
-      {
-        "text": "wat sawang pho si",
-        "weight": 1.1,
-        "count": 26.9
-      },
-      {
-        "text": "wad swang phothi sri",
-        "weight": 0.36,
-        "count": 8.799999999999999
-      }
-    ],
-    "โพธิ์เอน": [
-      {
-        "text": "pho en",
-        "weight": 0.9,
-        "count": 4
-      }
-    ],
     "วัดศาลาลอย": [
       {
         "text": "wat sala loi",
@@ -7144,25 +5036,6 @@
         "text": "tabl wadbosth",
         "weight": 0.9,
         "count": 1
-      }
-    ],
-    "เนินกว้าว": [
-      {
-        "text": "noen kwao",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "nein kwaw",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "ถนนเจริญราษฎร์": [
-      {
-        "text": "thanon charoen rat",
-        "weight": 0.9,
-        "count": 0.5
       }
     ],
     "สถานีรถไฟป่าหวาย": [
@@ -7395,18 +5268,6 @@
         "count": 1
       }
     ],
-    "วัดโพธิ์ตาก": [
-      {
-        "text": "wat pho tak",
-        "weight": 1.1,
-        "count": 25
-      },
-      {
-        "text": "wad phothi tak",
-        "weight": 0.35,
-        "count": 7.999999999999999
-      }
-    ],
     "ถนนสัจจกุล": [
       {
         "text": "thanon sajjakul",
@@ -7424,13 +5285,6 @@
         "text": "ban swn maphraw",
         "weight": 0.37,
         "count": 8
-      }
-    ],
-    "บ้านดอนจันทร์": [
-      {
-        "text": "ban don chan",
-        "weight": 1.1,
-        "count": 32
       }
     ],
     "นาเขลียง": [
@@ -7462,30 +5316,6 @@
         "text": "sthani rthfi wat na nkhr",
         "weight": 0.37,
         "count": 3
-      }
-    ],
-    "พังกาญจน์": [
-      {
-        "text": "phang kan",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "phang kay cn",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
-    "วัดโพธิ์ศรีแก้ว": [
-      {
-        "text": "wat pho si kaeo",
-        "weight": 1.1,
-        "count": 28.799999999999997
-      },
-      {
-        "text": "wat pho sri kaeo",
-        "weight": 0.1,
-        "count": 2.4000000000000004
       }
     ],
     "โจดม่วง": [
@@ -7522,30 +5352,11 @@
         "count": 3
       }
     ],
-    "โพธิ์ตรุ": [
-      {
-        "text": "pho tru",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi tru",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "โคราช": [
       {
         "text": "khorach",
         "weight": 0.9,
         "count": 1
-      }
-    ],
-    "ถนนเกษมราษฎร์": [
-      {
-        "text": "thanon kasemrat",
-        "weight": 0.9,
-        "count": 0.8
       }
     ],
     "แม่สาคร": [
@@ -7983,25 +5794,6 @@
         "count": 7
       }
     ],
-    "วังโพธิ์": [
-      {
-        "text": "wang pho",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "wang phothi",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
-    "ถนนราษฎร์บูรณะ": [
-      {
-        "text": "thanon rat burana",
-        "weight": 0.9,
-        "count": 0.75
-      }
-    ],
     "วัดรัตนมงคล": [
       {
         "text": "wat rattana mongkhon",
@@ -8017,33 +5809,6 @@
         "text": "wad ratn mngkhl",
         "weight": 0.53,
         "count": 7.199999999999999
-      }
-    ],
-    "วัดโพธิ์ศรีธาราม": [
-      {
-        "text": "wat pho si tharam",
-        "weight": 1.1,
-        "count": 14.400000000000002
-      },
-      {
-        "text": "wad phothi sri thara m",
-        "weight": 0.55,
-        "count": 7.199999999999999
-      },
-      {
-        "text": "wat pho sitharam",
-        "weight": 0.37,
-        "count": 4.800000000000001
-      },
-      {
-        "text": "wat phositharam",
-        "weight": 0.18,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wat pho si tha ram",
-        "weight": 0.1,
-        "count": 0.5
       }
     ],
     "เหมาะ": [
@@ -8118,40 +5883,6 @@
         "text": "ratsadon phatthana",
         "weight": 0.9,
         "count": 3
-      }
-    ],
-    "บ้านวังโพธิ์": [
-      {
-        "text": "ban wang pho",
-        "weight": 1.1,
-        "count": 19
-      },
-      {
-        "text": "ban wang phothi",
-        "weight": 0.35,
-        "count": 6
-      },
-      {
-        "text": "ban wang po",
-        "weight": 0.12,
-        "count": 2
-      }
-    ],
-    "วัดศรีมหาโพธิ์": [
-      {
-        "text": "wat si maha pho",
-        "weight": 1.1,
-        "count": 18.300000000000004
-      },
-      {
-        "text": "wad srimhaphothi",
-        "weight": 0.38,
-        "count": 6.3999999999999995
-      },
-      {
-        "text": "wat si mahapho",
-        "weight": 0.14,
-        "count": 2.4000000000000004
       }
     ],
     "สถานีราชบุรี": [
@@ -8301,23 +6032,6 @@
         "text": "sathani ban song",
         "weight": 0.37,
         "count": 3
-      }
-    ],
-    "บ้านวังเวิน": [
-      {
-        "text": "ban wang woen",
-        "weight": 1.1,
-        "count": 20
-      },
-      {
-        "text": "ba nwangwein",
-        "weight": 0.33,
-        "count": 6
-      },
-      {
-        "text": "ban wang warn",
-        "weight": 0.1,
-        "count": 1
       }
     ],
     "สถานีวัตนานคร": [
@@ -8624,33 +6338,6 @@
         "count": 3
       }
     ],
-    "สถานีบ้านมาบพระจันทร์": [
-      {
-        "text": "sathani rotfai ban map phrachan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban map phra chan",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani ban map phrachan",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban mab phracanthr",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban mab phracanthr",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "สถานีบางมูลนาก": [
       {
         "text": "sathani rotfai bang mun nak",
@@ -8768,25 +6455,6 @@
         "count": 27
       }
     ],
-    "วัดราษฎร์เจริญ": [
-      {
-        "text": "wat rat charoen",
-        "weight": 1.1,
-        "count": 26.9
-      }
-    ],
-    "วัดบ้านโพธิ์": [
-      {
-        "text": "wat ban pho",
-        "weight": 1.1,
-        "count": 19.200000000000003
-      },
-      {
-        "text": "wad banphothi",
-        "weight": 0.37,
-        "count": 6.3999999999999995
-      }
-    ],
     "วัดพรหมประสิทธิ์": [
       {
         "text": "wat phrom prasit",
@@ -8804,86 +6472,11 @@
         "count": 2.4000000000000004
       }
     ],
-    "วัดศรีเกิด": [
-      {
-        "text": "wat si koet",
-        "weight": 1.1,
-        "count": 20.320000000000004
-      },
-      {
-        "text": "wad sri keid",
-        "weight": 0.3,
-        "count": 5.6
-      },
-      {
-        "text": "wat srikeard",
-        "weight": 0.1,
-        "count": 0.5
-      }
-    ],
     "เกาะเกิด": [
       {
         "text": "keaa keid",
         "weight": 0.9,
         "count": 1
-      }
-    ],
-    "วัดหนองโพธิ์": [
-      {
-        "text": "wat nong pho",
-        "weight": 1.1,
-        "count": 26.4
-      }
-    ],
-    "วัดโพธิ์ศรีวราราม": [
-      {
-        "text": "wat pho si wararam",
-        "weight": 1.1,
-        "count": 16.800000000000004
-      },
-      {
-        "text": "wad phothi sriwra ram",
-        "weight": 0.42,
-        "count": 6.3999999999999995
-      },
-      {
-        "text": "wat pho si wa ra ram",
-        "weight": 0.16,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wat pho si wara ram",
-        "weight": 0.1,
-        "count": 0.5
-      }
-    ],
-    "เขาจันทร์": [
-      {
-        "text": "khao chan",
-        "weight": 1.1,
-        "count": 24
-      },
-      {
-        "text": "khao mai chan",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "khao chin",
-        "weight": 0.1,
-        "count": 0.5
-      }
-    ],
-    "บ้านโนนจันทร์": [
-      {
-        "text": "ban non chan",
-        "weight": 1.1,
-        "count": 20
-      },
-      {
-        "text": "ban non canthr",
-        "weight": 0.33,
-        "count": 6
       }
     ],
     "สถานีรถไฟโพรงมะเดื่อ": [
@@ -8922,28 +6515,6 @@
       {
         "text": "rongrian churaphon rat witthayalai",
         "weight": 0.37,
-        "count": 2.4000000000000004
-      }
-    ],
-    "วัดโพธิ์ศรีสมพร": [
-      {
-        "text": "wat pho si somphon",
-        "weight": 1.1,
-        "count": 14.400000000000002
-      },
-      {
-        "text": "wad phothi sri sm phr",
-        "weight": 0.49,
-        "count": 6.3999999999999995
-      },
-      {
-        "text": "wat phosi somphon",
-        "weight": 0.18,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wat phosri somphon",
-        "weight": 0.18,
         "count": 2.4000000000000004
       }
     ],
@@ -9052,23 +6623,6 @@
         "text": "wat thamma rangsi",
         "weight": 0.69,
         "count": 4.800000000000001
-      }
-    ],
-    "วัดโพธิ์ศรีสะอาด": [
-      {
-        "text": "wat pho si sa-at",
-        "weight": 1.1,
-        "count": 19.700000000000003
-      },
-      {
-        "text": "wat phosi sa-at",
-        "weight": 0.13,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wat pho sri sa-at",
-        "weight": 0.13,
-        "count": 2.4000000000000004
       }
     ],
     "เชี่ยวเหลียง": [
@@ -9501,23 +7055,6 @@
         "count": 3
       }
     ],
-    "บ้านเนินโพธิ์": [
-      {
-        "text": "ban noen pho",
-        "weight": 1.1,
-        "count": 17
-      },
-      {
-        "text": "ban nein phothi",
-        "weight": 0.32,
-        "count": 5
-      },
-      {
-        "text": "ban non pho",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
     "สถานีบ้านหมอ": [
       {
         "text": "sathani rotfai ban mo",
@@ -9849,40 +7386,6 @@
         "count": 0.5
       }
     ],
-    "บ้านราษฎร์เจริญ": [
-      {
-        "text": "ban rat charoen",
-        "weight": 1.1,
-        "count": 22
-      },
-      {
-        "text": "ban nong rat charoen",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "วัดโพธิ์ธาราม": [
-      {
-        "text": "wat photharam",
-        "weight": 1.1,
-        "count": 7.700000000000001
-      },
-      {
-        "text": "wad phothi thara m",
-        "weight": 0.8,
-        "count": 5.6
-      },
-      {
-        "text": "wat pho tha ram",
-        "weight": 0.76,
-        "count": 5.300000000000001
-      },
-      {
-        "text": "wat pho tharam",
-        "weight": 0.69,
-        "count": 4.800000000000001
-      }
-    ],
     "วัดพุทธมงคล": [
       {
         "text": "wat phuttha mongkhon",
@@ -9976,57 +7479,6 @@
         "count": 3
       }
     ],
-    "บ้านเนินยาว": [
-      {
-        "text": "ban noen yao",
-        "weight": 1.1,
-        "count": 16
-      },
-      {
-        "text": "ban nein yaw",
-        "weight": 0.34,
-        "count": 5
-      },
-      {
-        "text": "ban huai yao",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban non yao",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "วัดเจริญผล": [
-      {
-        "text": "wat charoen phon",
-        "weight": 1.1,
-        "count": 15.700000000000003
-      },
-      {
-        "text": "wad ceriyphl",
-        "weight": 0.39,
-        "count": 5.6
-      },
-      {
-        "text": "wat charoen phrot",
-        "weight": 0.11,
-        "count": 1.6
-      }
-    ],
-    "วัดสระจันทร์": [
-      {
-        "text": "wat sa chan",
-        "weight": 1.1,
-        "count": 17.300000000000004
-      },
-      {
-        "text": "wad sra canthr",
-        "weight": 0.36,
-        "count": 5.6
-      }
-    ],
     "โจวันนี เบลลีนี": [
       {
         "text": "giovanni bellini",
@@ -10047,13 +7499,6 @@
         "text": "giovanni belleni",
         "weight": 0.23,
         "count": 0.25
-      }
-    ],
-    "ถนนจันทน์": [
-      {
-        "text": "thanon chan",
-        "weight": 0.9,
-        "count": 2
       }
     ],
     "สถานีบางจาก": [
@@ -10093,23 +7538,6 @@
         "text": "matsayit da runsalam",
         "weight": 0.44,
         "count": 4.800000000000001
-      }
-    ],
-    "วัดโพธิ์คำ": [
-      {
-        "text": "wat pho kham",
-        "weight": 1.1,
-        "count": 14.400000000000002
-      },
-      {
-        "text": "wad phothi kha",
-        "weight": 0.43,
-        "count": 5.6
-      },
-      {
-        "text": "wat pho kam",
-        "weight": 0.18,
-        "count": 2.4000000000000004
       }
     ],
     "สถานีรถไฟกาญจนบุรี": [
@@ -10216,18 +7644,6 @@
         "count": 5
       }
     ],
-    "บ้านคุยโพธิ์": [
-      {
-        "text": "ban khui pho",
-        "weight": 1.1,
-        "count": 17
-      },
-      {
-        "text": "ban khuy phothi",
-        "weight": 0.32,
-        "count": 5
-      }
-    ],
     "สถานีรถไฟบ้านหัน": [
       {
         "text": "sathani ban han",
@@ -10243,18 +7659,6 @@
         "text": "sthani rthfi ban han",
         "weight": 0.37,
         "count": 3
-      }
-    ],
-    "บางโพธิ์": [
-      {
-        "text": "bang pho",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "bang phothi",
-        "weight": 0.3,
-        "count": 1
       }
     ],
     "สถานีรถไฟบางบำหรุ": [
@@ -10304,40 +7708,6 @@
       },
       {
         "text": "ban ton liang",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "บ้านท่าจันทร์": [
-      {
-        "text": "ban tha chan",
-        "weight": 1.1,
-        "count": 15
-      },
-      {
-        "text": "ban tha canthr",
-        "weight": 0.37,
-        "count": 5
-      },
-      {
-        "text": "ban tha jan",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "บ้านรางโพธิ์": [
-      {
-        "text": "ban rang pho",
-        "weight": 1.1,
-        "count": 15
-      },
-      {
-        "text": "ban rang phothi",
-        "weight": 0.37,
-        "count": 5
-      },
-      {
-        "text": "ban nong pho",
         "weight": 0.1,
         "count": 1
       }
@@ -10551,23 +7921,6 @@
         "text": "sthani rthfi banna",
         "weight": 0.37,
         "count": 3
-      }
-    ],
-    "บ้านแหลมโพธิ์": [
-      {
-        "text": "ban laem pho",
-        "weight": 1.1,
-        "count": 19
-      },
-      {
-        "text": "ban laem po",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban laem pho (2)",
-        "weight": 0.1,
-        "count": 1
       }
     ],
     "บ้านโนนเพชร": [
@@ -11154,18 +8507,6 @@
         "count": 1
       }
     ],
-    "โพธิ์รังนก": [
-      {
-        "text": "pho rang nok",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "phothi rangnk",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "บ้านกระหวัน": [
       {
         "text": "ban krawan",
@@ -11200,28 +8541,6 @@
         "count": 1
       }
     ],
-    "บ้านเนินงิ้ว": [
-      {
-        "text": "ban noen ngio",
-        "weight": 1.1,
-        "count": 13
-      },
-      {
-        "text": "ban nein ngiw",
-        "weight": 0.34,
-        "count": 4
-      },
-      {
-        "text": "ban non ngiu",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban narn ngiu",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
     "บ้านเพชรเจริญ": [
       {
         "text": "ban phet charoen",
@@ -11230,18 +8549,6 @@
       },
       {
         "text": "ban phechr ceriy",
-        "weight": 0.37,
-        "count": 5
-      }
-    ],
-    "บ้านควนเจริญ": [
-      {
-        "text": "ban khuan charoen",
-        "weight": 1.1,
-        "count": 15
-      },
-      {
-        "text": "ban khwn ceriy",
         "weight": 0.37,
         "count": 5
       }
@@ -11306,37 +8613,6 @@
         "text": "wad phrswrrkh",
         "weight": 0.37,
         "count": 4.8
-      }
-    ],
-    "วัดโนนโพธิ์": [
-      {
-        "text": "wat non pho",
-        "weight": 1.1,
-        "count": 14.400000000000002
-      },
-      {
-        "text": "wad non phothi",
-        "weight": 0.37,
-        "count": 4.8
-      }
-    ],
-    "วัดนาโพธิ์": [
-      {
-        "text": "wat na pho",
-        "weight": 1.1,
-        "count": 14.400000000000002
-      },
-      {
-        "text": "wad na phothi",
-        "weight": 0.37,
-        "count": 4.8
-      }
-    ],
-    "ถนนราษฎร์ยินดี": [
-      {
-        "text": "thanon rajyindee",
-        "weight": 1.05,
-        "count": 6.3999999999999995
       }
     ],
     "บ้านอุดมสุข": [
@@ -11446,18 +8722,6 @@
         "text": "gianlorenzo f bernini",
         "weight": 0.1,
         "count": 0.25
-      }
-    ],
-    "ลาดโพธิ์": [
-      {
-        "text": "lat pho",
-        "weight": 1.05,
-        "count": 4.5
-      },
-      {
-        "text": "lad phothi",
-        "weight": 0.35,
-        "count": 1.5
       }
     ],
     "สถานีรถไฟวงเวียนใหญ่": [
@@ -12031,18 +9295,6 @@
         "count": 0.8
       }
     ],
-    "วัดเจริญราษฎร์": [
-      {
-        "text": "wat charoen rat",
-        "weight": 1.1,
-        "count": 14.900000000000002
-      },
-      {
-        "text": "wat charoenrat",
-        "weight": 0.18,
-        "count": 2.4000000000000004
-      }
-    ],
     "สถานีรถไฟหนองแวง": [
       {
         "text": "sathani nong waeng",
@@ -12079,23 +9331,6 @@
         "count": 1
       }
     ],
-    "บ้านเจริญผล": [
-      {
-        "text": "ban charoen phon",
-        "weight": 1.1,
-        "count": 12
-      },
-      {
-        "text": "ban ceriyphl",
-        "weight": 0.37,
-        "count": 4
-      },
-      {
-        "text": "ban charoen pon",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
     "บ้านเฉนียง": [
       {
         "text": "ban chaniang",
@@ -12128,37 +9363,6 @@
         "text": "ban khnom",
         "weight": 0.1,
         "count": 1
-      }
-    ],
-    "บ้านหัวโพธิ์": [
-      {
-        "text": "ban hua pho",
-        "weight": 1.1,
-        "count": 13
-      },
-      {
-        "text": "ban haw phothi",
-        "weight": 0.34,
-        "count": 4
-      }
-    ],
-    "บ้านใหม่เจริญผล": [
-      {
-        "text": "ban mai charoen phon",
-        "weight": 1.1,
-        "count": 17
-      }
-    ],
-    "บ้านโพธิ์ศิลา": [
-      {
-        "text": "ban pho sila",
-        "weight": 1.1,
-        "count": 12
-      },
-      {
-        "text": "banphothi sila",
-        "weight": 0.37,
-        "count": 4
       }
     ],
     "บ้านก็วล": [
@@ -12260,18 +9464,6 @@
         "count": 4
       }
     ],
-    "วัดโพธิ์เงิน": [
-      {
-        "text": "wat pho ngoen",
-        "weight": 1.1,
-        "count": 12.500000000000002
-      },
-      {
-        "text": "wad phothi ngein",
-        "weight": 0.35,
-        "count": 4
-      }
-    ],
     "สถานีรถไฟชุมทางคลองสิบเก้า": [
       {
         "text": "sathani chumtang khlong sip kao",
@@ -12315,13 +9507,6 @@
         "text": "ban chnwn",
         "weight": 0.37,
         "count": 4
-      }
-    ],
-    "บ้านบ่อโพธิ์": [
-      {
-        "text": "ban bo pho",
-        "weight": 1.1,
-        "count": 16
       }
     ],
     "บ้านหนองคอง": [
@@ -12404,76 +9589,6 @@
         "count": 4
       }
     ],
-    "วัดโพธิ์นิมิต": [
-      {
-        "text": "wat pho nimit",
-        "weight": 1.1,
-        "count": 12.000000000000002
-      },
-      {
-        "text": "wad phothinimit",
-        "weight": 0.37,
-        "count": 4
-      }
-    ],
-    "บ้านกระโพธิ์": [
-      {
-        "text": "ban krapho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban kra phothi",
-        "weight": 0.49,
-        "count": 4
-      },
-      {
-        "text": "ban kra pho",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "วัดศรีโพธิ์ไทร": [
-      {
-        "text": "wat si pho sai",
-        "weight": 1.1,
-        "count": 12.000000000000002
-      },
-      {
-        "text": "wad sri phothi thir",
-        "weight": 0.37,
-        "count": 4
-      }
-    ],
-    "วัดบุญเกิด": [
-      {
-        "text": "wat bun koet",
-        "weight": 1.1,
-        "count": 9.600000000000001
-      },
-      {
-        "text": "wad buy keid",
-        "weight": 0.46,
-        "count": 4
-      },
-      {
-        "text": "wat ban koet",
-        "weight": 0.28,
-        "count": 2.4000000000000004
-      }
-    ],
-    "วัดท่าโพธิ์": [
-      {
-        "text": "wat tha pho",
-        "weight": 1.1,
-        "count": 12.000000000000002
-      },
-      {
-        "text": "wad tha phothi",
-        "weight": 0.37,
-        "count": 4
-      }
-    ],
     "บ้านตาเพชร": [
       {
         "text": "ban ta phet",
@@ -12506,13 +9621,6 @@
     "ถนนวิจิตรนคร": [
       {
         "text": "thanon wijit nakhon",
-        "weight": 1.05,
-        "count": 7.999999999999999
-      }
-    ],
-    "ถนนเฉลิมพระเกียรติจุฬาภรณ์": [
-      {
-        "text": "thanon chaloem phra kiat chulabhorn",
         "weight": 1.05,
         "count": 7.999999999999999
       }
@@ -12567,18 +9675,6 @@
         "count": 15.200000000000005
       }
     ],
-    "วัดโคกโพธิ์": [
-      {
-        "text": "wat khok pho",
-        "weight": 1.1,
-        "count": 9.600000000000001
-      },
-      {
-        "text": "wad khokphothi",
-        "weight": 0.37,
-        "count": 3.2
-      }
-    ],
     "สถานีรถไฟชุมทางบัวใหญ่": [
       {
         "text": "sathani chumtang bua yai",
@@ -12601,13 +9697,6 @@
         "text": "sathani rotfai ban dong plong",
         "weight": 0.37,
         "count": 3
-      }
-    ],
-    "บ้านโพธิ์เอน": [
-      {
-        "text": "ban pho en",
-        "weight": 1.1,
-        "count": 14
       }
     ],
     "บ้านห้วยเหรียง": [
@@ -12731,13 +9820,6 @@
         "text": "ban khun",
         "weight": 0.11,
         "count": 1
-      }
-    ],
-    "บ้านจันทร์หอม": [
-      {
-        "text": "ban chan hom",
-        "weight": 1.1,
-        "count": 15
       }
     ],
     "สถานีเมืองพัทยา": [
@@ -13021,23 +10103,6 @@
         "count": 1
       }
     ],
-    "บ้านโพธิ์ใหญ่": [
-      {
-        "text": "ban pho yai",
-        "weight": 1.1,
-        "count": 12
-      },
-      {
-        "text": "ban phau yai",
-        "weight": 0.1,
-        "count": 1
-      },
-      {
-        "text": "ban po yai",
-        "weight": 0.1,
-        "count": 1
-      }
-    ],
     "บ้านป่าดวน": [
       {
         "text": "ban pa duan",
@@ -13046,35 +10111,6 @@
       },
       {
         "text": "ban pa d wn",
-        "weight": 0.3,
-        "count": 3
-      }
-    ],
-    "บ้านวังจันทร์": [
-      {
-        "text": "ban wang chan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban wang canthr",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "ban wat chan",
-        "weight": 0.12,
-        "count": 1
-      }
-    ],
-    "บ้านสัมฤทธิ์": [
-      {
-        "text": "ban samrit",
-        "weight": 1.1,
-        "count": 11
-      },
-      {
-        "text": "ban samvththi",
         "weight": 0.3,
         "count": 3
       }
@@ -13125,30 +10161,6 @@
         "count": 12.510000000000007
       }
     ],
-    "วัดโพธิ์เอน": [
-      {
-        "text": "wat pho en",
-        "weight": 1.1,
-        "count": 13.000000000000002
-      },
-      {
-        "text": "wat pho sai",
-        "weight": 0.1,
-        "count": 0.8
-      }
-    ],
-    "วัดโพธิ์เตี้ย": [
-      {
-        "text": "wat pho tia",
-        "weight": 1.1,
-        "count": 10.600000000000001
-      },
-      {
-        "text": "wad phothi teiy",
-        "weight": 0.33,
-        "count": 3.2
-      }
-    ],
     "รามอินทรา 64": [
       {
         "text": "soi ram inthra 64",
@@ -13166,13 +10178,6 @@
         "text": "sathani mochit",
         "weight": 0.37,
         "count": 3
-      }
-    ],
-    "หนองอีเลิง": [
-      {
-        "text": "nong i loeng",
-        "weight": 1.1,
-        "count": 13.5
       }
     ],
     "อาเลกเซย์ ฟอน ยัฟเลนสกี": [
@@ -13207,35 +10212,6 @@
         "text": "wat phraboromthat",
         "weight": 0.37,
         "count": 2.4000000000000004
-      }
-    ],
-    "วัดโพธิ์ศรีจันทร์": [
-      {
-        "text": "wat pho si chan",
-        "weight": 1.1,
-        "count": 10.100000000000001
-      },
-      {
-        "text": "wad phothi sricanthr",
-        "weight": 0.35,
-        "count": 3.2
-      }
-    ],
-    "วัดโพธิ์สมพร": [
-      {
-        "text": "wat pho somphon",
-        "weight": 1.1,
-        "count": 9.600000000000001
-      },
-      {
-        "text": "wad phothi sm phr",
-        "weight": 0.37,
-        "count": 3.2
-      },
-      {
-        "text": "wat pho som phon",
-        "weight": 0.1,
-        "count": 0.5
       }
     ],
     "บ้านโคกเหรียง": [
@@ -13291,25 +10267,6 @@
       {
         "text": "ban swasdi",
         "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านราษฎร์บูรณะ": [
-      {
-        "text": "ban rat burana",
-        "weight": 1.1,
-        "count": 13
-      }
-    ],
-    "บ้านเกาะจันทร์": [
-      {
-        "text": "ban ko chan",
-        "weight": 1.1,
-        "count": 10
-      },
-      {
-        "text": "ban keaa canthr",
-        "weight": 0.33,
         "count": 3
       }
     ],
@@ -13379,18 +10336,6 @@
         "count": 1
       }
     ],
-    "บ้านโพธิ์กลาง": [
-      {
-        "text": "ban pho klang",
-        "weight": 1.1,
-        "count": 10
-      },
-      {
-        "text": "banphothi klang",
-        "weight": 0.33,
-        "count": 3
-      }
-    ],
     "บ้านพวงพยอม": [
       {
         "text": "ban phuang phayom",
@@ -13408,18 +10353,6 @@
         "text": "banbung nkhr",
         "weight": 0.33,
         "count": 3
-      }
-    ],
-    "บ้านโพธิ์ลอย": [
-      {
-        "text": "ban pho loi",
-        "weight": 1.1,
-        "count": 12
-      },
-      {
-        "text": "ban po loi",
-        "weight": 0.1,
-        "count": 1
       }
     ],
     "บ้านเหล่าหุ่ง": [
@@ -13448,30 +10381,6 @@
         "count": 12.800000000000002
       }
     ],
-    "โรงเรียนเจริญวิทยา": [
-      {
-        "text": "rongrian charoen witthaya",
-        "weight": 1.1,
-        "count": 9.600000000000001
-      },
-      {
-        "text": "rongreiyn ceriy withya",
-        "weight": 0.37,
-        "count": 3.2
-      }
-    ],
-    "วัดโพธิ์ชุม": [
-      {
-        "text": "wat pho chum",
-        "weight": 1.1,
-        "count": 9.600000000000001
-      },
-      {
-        "text": "wad phothi chum",
-        "weight": 0.37,
-        "count": 3.2
-      }
-    ],
     "วัดสโมสร": [
       {
         "text": "wat samoson",
@@ -13480,30 +10389,6 @@
       },
       {
         "text": "wad smosr",
-        "weight": 0.37,
-        "count": 3.2
-      }
-    ],
-    "วัดบ้านนาโพธิ์": [
-      {
-        "text": "wat ban na pho",
-        "weight": 1.1,
-        "count": 9.600000000000001
-      },
-      {
-        "text": "wad banna phothi",
-        "weight": 0.37,
-        "count": 3.2
-      }
-    ],
-    "วัดจันทร์ประสิทธิ์": [
-      {
-        "text": "wat chan prasit",
-        "weight": 1.1,
-        "count": 9.600000000000001
-      },
-      {
-        "text": "wad canthr prasiththi",
         "weight": 0.37,
         "count": 3.2
       }
@@ -13518,23 +10403,6 @@
         "text": "wad phothi sri",
         "weight": 0.37,
         "count": 3.2
-      }
-    ],
-    "วัดมเหยงคณ์": [
-      {
-        "text": "wat maheyong",
-        "weight": 1.1,
-        "count": 5.4
-      },
-      {
-        "text": "wad m he yngkhn",
-        "weight": 0.49,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wat mahe yong",
-        "weight": 0.49,
-        "count": 2.4000000000000004
       }
     ],
     "สถานีรถไฟปากคลอง": [
@@ -13592,13 +10460,6 @@
         "count": 2.4000000000000004
       }
     ],
-    "วัดทุ่งโพธิ์": [
-      {
-        "text": "wat thung pho",
-        "weight": 1.1,
-        "count": 12.000000000000002
-      }
-    ],
     "เทศบาลบางเลน1": [
       {
         "text": "tesabanbanglan1",
@@ -13611,40 +10472,6 @@
         "text": "soi phet kasem 48",
         "weight": 1.1,
         "count": 12.000000000000002
-      }
-    ],
-    "บ้านบางโพธิ์": [
-      {
-        "text": "ban bang pho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban bang phothi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านเนินเพิ่ม": [
-      {
-        "text": "ban noen phoem",
-        "weight": 1.1,
-        "count": 7
-      },
-      {
-        "text": "ban nein pheim",
-        "weight": 0.31,
-        "count": 2
-      },
-      {
-        "text": "ban narn peun",
-        "weight": 0.16,
-        "count": 1
-      },
-      {
-        "text": "ban noen phoem (1)",
-        "weight": 0.16,
-        "count": 1
       }
     ],
     "บ้าน จปร.": [
@@ -13682,18 +10509,6 @@
       },
       {
         "text": "sathani non phayom",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านไทยเดิม": [
-      {
-        "text": "ban thai doem",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban thiy deim",
         "weight": 0.37,
         "count": 3
       }
@@ -13744,40 +10559,6 @@
         "count": 1
       }
     ],
-    "บ้านตลาดโพธิ์": [
-      {
-        "text": "ban talat pho",
-        "weight": 1.1,
-        "count": 6
-      },
-      {
-        "text": "ban tlad phothi",
-        "weight": 0.37,
-        "count": 2
-      },
-      {
-        "text": "ban talat pho (1)",
-        "weight": 0.18,
-        "count": 1
-      },
-      {
-        "text": "ban talot pho",
-        "weight": 0.18,
-        "count": 1
-      },
-      {
-        "text": "ban talatpho",
-        "weight": 0.18,
-        "count": 1
-      }
-    ],
-    "บ้านหนองจันทร์": [
-      {
-        "text": "ban nong chan",
-        "weight": 1.1,
-        "count": 12
-      }
-    ],
     "สถานีบางปะอิน": [
       {
         "text": "sathani rotfai bang pa-in",
@@ -13786,18 +10567,6 @@
       },
       {
         "text": "sathani bang pa-in",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านสวนจันทร์": [
-      {
-        "text": "ban suan chan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban swn canthr",
         "weight": 0.37,
         "count": 3
       }
@@ -13831,13 +10600,6 @@
         "text": "khwn sra",
         "weight": 0.37,
         "count": 3
-      }
-    ],
-    "บ้านห้วยจันทร์": [
-      {
-        "text": "ban huai chan",
-        "weight": 1.1,
-        "count": 12
       }
     ],
     "สถานีกะแดะ": [
@@ -13924,30 +10686,6 @@
         "count": 3
       }
     ],
-    "บ้านโพธิ์สว่าง": [
-      {
-        "text": "ban pho sawang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "banphothi swang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านโพธิ์คำ": [
-      {
-        "text": "ban pho kham",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "banphothi kha",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "สถานีศรีสะเกษ": [
       {
         "text": "sathani rotfai si sa ket",
@@ -13992,18 +10730,6 @@
       },
       {
         "text": "sathani ta sae",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านเนินจันทร์": [
-      {
-        "text": "ban noen chan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban nein canthr",
         "weight": 0.37,
         "count": 3
       }
@@ -14058,47 +10784,11 @@
         "count": 3
       }
     ],
-    "บ้านดงจันทร์": [
-      {
-        "text": "ban dong chan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban dng canthr",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านโพธิ์เสด็จ": [
-      {
-        "text": "ban pho sadet",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "banphothi sedc",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านราษฎร์ประสงค์": [
       {
         "text": "ban rat prasong",
         "weight": 1.1,
         "count": 12
-      }
-    ],
-    "บ้านโพธิ์เรียง": [
-      {
-        "text": "ban pho riang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "banphothi reiyng",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "สถานีรถไฟหนองหล่ม": [
@@ -14149,18 +10839,6 @@
         "count": 3
       }
     ],
-    "บ้านสระโพธิ์": [
-      {
-        "text": "ban sa pho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban sra phothi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "สถานีบ้านขอนหาด": [
       {
         "text": "sathani rotfai ban khon hat",
@@ -14181,30 +10859,6 @@
       },
       {
         "text": "ban khwn yaw",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านโพธิ์พนา": [
-      {
-        "text": "ban pho phana",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "banphothi phna",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านร่มโพธิ์": [
-      {
-        "text": "ban rom pho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban rmphothi",
         "weight": 0.37,
         "count": 3
       }
@@ -14343,18 +10997,6 @@
         "count": 3
       }
     ],
-    "บ้านด่านจันทร์": [
-      {
-        "text": "ban dan chan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban dan canthr",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านนครสวรรค์": [
       {
         "text": "ban nakhon sawan",
@@ -14374,23 +11016,6 @@
         "text": "wat hong",
         "weight": 1.1,
         "count": 11.605000000000002
-      }
-    ],
-    "วัดโพธิ์ลอย": [
-      {
-        "text": "wat pho loi",
-        "weight": 1.1,
-        "count": 9.600000000000001
-      },
-      {
-        "text": "wat pho lo",
-        "weight": 0.1,
-        "count": 0.8
-      },
-      {
-        "text": "wat po loi",
-        "weight": 0.1,
-        "count": 0.5
       }
     ],
     "มหาวิทยาลัยศิลปากร": [
@@ -14425,25 +11050,6 @@
         "text": "talat pratunam",
         "weight": 0.56,
         "count": 0.5
-      }
-    ],
-    "มหาวิทยาลัยธรรมศาสตร์": [
-      {
-        "text": "mahawitthayalai thammasat",
-        "weight": 0.9,
-        "count": 2.9000000000000004
-      },
-      {
-        "text": "mhawithyalay thrrmsastr",
-        "weight": 0.25,
-        "count": 0.8
-      }
-    ],
-    "วัดโพธิ์แก้ว": [
-      {
-        "text": "wat pho kaeo",
-        "weight": 1.1,
-        "count": 11.400000000000002
       }
     ],
     "โคดีอีน": [
@@ -14589,18 +11195,6 @@
         "count": 1
       }
     ],
-    "บ้านบางเบิด": [
-      {
-        "text": "ban bang boet",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ba nbangbeid",
-        "weight": 0.35,
-        "count": 2
-      }
-    ],
     "บ้านแก่นนคร": [
       {
         "text": "ban kaen nakhon",
@@ -14659,28 +11253,6 @@
       {
         "text": "krong pinang",
         "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "บ้านมหาโพธิ์": [
-      {
-        "text": "ban maha pho",
-        "weight": 1.1,
-        "count": 6
-      },
-      {
-        "text": "ban mha phothi",
-        "weight": 0.37,
-        "count": 2
-      },
-      {
-        "text": "ban maha phau",
-        "weight": 0.18,
-        "count": 1
-      },
-      {
-        "text": "ban maha phot",
-        "weight": 0.18,
         "count": 1
       }
     ],
@@ -14783,23 +11355,6 @@
         "count": 1
       }
     ],
-    "วัดนวลจันทร์": [
-      {
-        "text": "wat nuan chan",
-        "weight": 1.1,
-        "count": 7.700000000000001
-      },
-      {
-        "text": "wad nwlcanthr",
-        "weight": 0.34,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wat nuanchan",
-        "weight": 0.1,
-        "count": 0.5
-      }
-    ],
     "วัดศรีธรรมา": [
       {
         "text": "wat si thamma",
@@ -14883,42 +11438,6 @@
         "count": 0.5
       }
     ],
-    "วัดภูมินทร์": [
-      {
-        "text": "wat phumin",
-        "weight": 1.05,
-        "count": 7.800000000000001
-      },
-      {
-        "text": "wad phuminthr",
-        "weight": 0.22,
-        "count": 1.6
-      }
-    ],
-    "วัดโพธิ์เรียง": [
-      {
-        "text": "wat pho riang",
-        "weight": 1.1,
-        "count": 7.700000000000001
-      },
-      {
-        "text": "wad phothi reiyng",
-        "weight": 0.34,
-        "count": 2.4000000000000004
-      }
-    ],
-    "วัดไทยเจริญ": [
-      {
-        "text": "wat thai charoen",
-        "weight": 1.1,
-        "count": 7.700000000000001
-      },
-      {
-        "text": "wad thiy ceriy",
-        "weight": 0.34,
-        "count": 2.4000000000000004
-      }
-    ],
     "วัดศรีธรรมาราม": [
       {
         "text": "wat si thammaram",
@@ -14929,23 +11448,6 @@
         "text": "wad sri thr rma ram",
         "weight": 0.35,
         "count": 2.4000000000000004
-      }
-    ],
-    "วัดพระเกิด": [
-      {
-        "text": "wat phra koet",
-        "weight": 1.1,
-        "count": 7.200000000000001
-      },
-      {
-        "text": "wad phra keid",
-        "weight": 0.37,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wat phra koed",
-        "weight": 0.1,
-        "count": 0.5
       }
     ],
     "วัดศรีสิทธิ์": [
@@ -15018,18 +11520,6 @@
         "count": 1
       }
     ],
-    "บ้านลาดโพธิ์": [
-      {
-        "text": "ban lat pho",
-        "weight": 1.05,
-        "count": 7
-      },
-      {
-        "text": "banlad phothi",
-        "weight": 0.3,
-        "count": 2
-      }
-    ],
     "บ้านควนเหมียง": [
       {
         "text": "ban khuan miang",
@@ -15052,88 +11542,6 @@
         "text": "ban mai (sam)",
         "weight": 0.35,
         "count": 2
-      }
-    ],
-    "บ้านควนโพธิ์": [
-      {
-        "text": "ban khuan pho",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban khwn phothi",
-        "weight": 0.35,
-        "count": 2
-      }
-    ],
-    "บ้านหินเหิบ": [
-      {
-        "text": "ban hin hoep",
-        "weight": 1.05,
-        "count": 7
-      },
-      {
-        "text": "ban hin heib",
-        "weight": 0.3,
-        "count": 2
-      }
-    ],
-    "บ้านศรีมหาโพธิ์": [
-      {
-        "text": "ban si maha pho",
-        "weight": 1.1,
-        "count": 6
-      },
-      {
-        "text": "ban srimhaphothi",
-        "weight": 0.37,
-        "count": 2
-      },
-      {
-        "text": "ban si maha phot",
-        "weight": 0.18,
-        "count": 1
-      },
-      {
-        "text": "ban srimahapo",
-        "weight": 0.18,
-        "count": 1
-      }
-    ],
-    "บ้านโพธิ์หอม": [
-      {
-        "text": "ban pho hom",
-        "weight": 1.1,
-        "count": 10
-      }
-    ],
-    "บ้านสระจันทร์": [
-      {
-        "text": "ban sa chan",
-        "weight": 1.05,
-        "count": 7
-      },
-      {
-        "text": "ban sra canthr",
-        "weight": 0.3,
-        "count": 2
-      }
-    ],
-    "บ้านเกาะเกิด": [
-      {
-        "text": "ban ko koet",
-        "weight": 1.1,
-        "count": 7
-      },
-      {
-        "text": "ban keaa keid",
-        "weight": 0.31,
-        "count": 2
-      },
-      {
-        "text": "ban kok koed",
-        "weight": 0.16,
-        "count": 1
       }
     ],
     "บ้านคอหงส์": [
@@ -15165,54 +11573,11 @@
         "count": 1
       }
     ],
-    "บ้านเดิด": [
-      {
-        "text": "ban doet",
-        "weight": 1.05,
-        "count": 7
-      },
-      {
-        "text": "ban deid",
-        "weight": 0.3,
-        "count": 2
-      }
-    ],
     "บ้านจอมพล": [
       {
         "text": "ban chom phon",
         "weight": 0.9,
         "count": 3
-      }
-    ],
-    "บ้านไชยเจริญ": [
-      {
-        "text": "ban chai charoen",
-        "weight": 1.1,
-        "count": 7
-      },
-      {
-        "text": "ban chiy ceriy",
-        "weight": 0.31,
-        "count": 2
-      },
-      {
-        "text": "ban chai yo charoen",
-        "weight": 0.16,
-        "count": 1
-      }
-    ],
-    "บ้านโพธิ์ใหม่": [
-      {
-        "text": "ban pho mai",
-        "weight": 1.1,
-        "count": 10
-      }
-    ],
-    "บ้านเจริญพัฒนา": [
-      {
-        "text": "ban charoen phatthana",
-        "weight": 1.1,
-        "count": 10
       }
     ],
     "บ้านเหงี่ยง": [
@@ -15278,13 +11643,6 @@
         "count": 2
       }
     ],
-    "บ้านใหม่เจริญพร": [
-      {
-        "text": "ban mai charoen phon",
-        "weight": 1.1,
-        "count": 10
-      }
-    ],
     "บ้านควนสวรรค์": [
       {
         "text": "ban khuan sawan",
@@ -15321,35 +11679,11 @@
         "count": 2
       }
     ],
-    "บ้านโพธิ์ทะเล": [
-      {
-        "text": "ban pho thale",
-        "weight": 1.1,
-        "count": 8
-      },
-      {
-        "text": "banphothi thale",
-        "weight": 0.28,
-        "count": 2
-      }
-    ],
     "บ้านหนองหงษ์": [
       {
         "text": "ban nong hong",
         "weight": 1.1,
         "count": 10
-      }
-    ],
-    "บ้านเพนียด": [
-      {
-        "text": "ban phaniat",
-        "weight": 1.1,
-        "count": 8
-      },
-      {
-        "text": "ban pheniyd",
-        "weight": 0.28,
-        "count": 2
       }
     ],
     "หมู่ที่ 10": [
@@ -15436,13 +11770,6 @@
         "count": 2.4000000000000004
       }
     ],
-    "วัดราษฎร์สโมสร": [
-      {
-        "text": "wat rat samoson",
-        "weight": 1.05,
-        "count": 9.600000000000001
-      }
-    ],
     "มัสยิดดารุลอิสลาม": [
       {
         "text": "matsayit da run itsalam",
@@ -15472,13 +11799,6 @@
         "count": 2.4000000000000004
       }
     ],
-    "โรงเรียนราษฎร์วิทยา": [
-      {
-        "text": "rongrian rat witthaya",
-        "weight": 1.05,
-        "count": 9.600000000000001
-      }
-    ],
     "ศูนย์บริการสาธารณสุข สี่สิบ": [
       {
         "text": "sunborikan satharanasuk 40",
@@ -15501,18 +11821,6 @@
         "count": 0.8
       }
     ],
-    "วัดป่าเจริญพร": [
-      {
-        "text": "wat pa charoen phon",
-        "weight": 1.05,
-        "count": 7.200000000000001
-      },
-      {
-        "text": "wad pa ceriyphr",
-        "weight": 0.35,
-        "count": 2.4000000000000004
-      }
-    ],
     "วัดสว่างภิรมย์": [
       {
         "text": "wat sawang phirom",
@@ -15521,18 +11829,6 @@
       },
       {
         "text": "wad swang phirmy",
-        "weight": 0.35,
-        "count": 2.4000000000000004
-      }
-    ],
-    "วัดโพธิ์ศรีสง่า": [
-      {
-        "text": "wat pho si sa-nga",
-        "weight": 1.05,
-        "count": 7.200000000000001
-      },
-      {
-        "text": "wad phothi sri snga",
         "weight": 0.35,
         "count": 2.4000000000000004
       }
@@ -15554,18 +11850,6 @@
         "count": 2.4000000000000004
       }
     ],
-    "วัดบ้านโพธิ์ศรี": [
-      {
-        "text": "wat ban pho si",
-        "weight": 1.05,
-        "count": 7.200000000000001
-      },
-      {
-        "text": "wad banphothi sri",
-        "weight": 0.35,
-        "count": 2.4000000000000004
-      }
-    ],
     "วัดโคกเพชร": [
       {
         "text": "wat khok phet",
@@ -15580,18 +11864,6 @@
       {
         "text": "wat khok pet",
         "weight": 0.53,
-        "count": 2.4000000000000004
-      }
-    ],
-    "วัดเนินโพธิ์": [
-      {
-        "text": "wat noen pho",
-        "weight": 1.05,
-        "count": 7.200000000000001
-      },
-      {
-        "text": "wad nein phothi",
-        "weight": 0.35,
         "count": 2.4000000000000004
       }
     ],
@@ -15626,18 +11898,6 @@
         "count": 9.600000000000001
       }
     ],
-    "วัดราษฎร์เจริญธรรม": [
-      {
-        "text": "wat rat charoen tham",
-        "weight": 1.05,
-        "count": 7.200000000000001
-      },
-      {
-        "text": "wat rat charoentham",
-        "weight": 0.35,
-        "count": 2.4000000000000004
-      }
-    ],
     "วัดธรรมิกาวาส": [
       {
         "text": "wat thammikawat",
@@ -15655,18 +11915,6 @@
         "text": "wat udon",
         "weight": 1.05,
         "count": 9.600000000000001
-      }
-    ],
-    "วัดเนินยาว": [
-      {
-        "text": "wat noen yao",
-        "weight": 1.05,
-        "count": 7.200000000000001
-      },
-      {
-        "text": "wad nein yaw",
-        "weight": 0.35,
-        "count": 2.4000000000000004
       }
     ],
     "วัดบ้านโคกเพชร": [
@@ -15698,20 +11946,6 @@
         "text": "nam mae kwong",
         "weight": 0.53,
         "count": 3
-      }
-    ],
-    "โพธิ์นิมิตร": [
-      {
-        "text": "pho nimit",
-        "weight": 1.05,
-        "count": 9.5
-      }
-    ],
-    "รางโพธิ์": [
-      {
-        "text": "rang pho",
-        "weight": 1.05,
-        "count": 9.5
       }
     ],
     "เพชรเกษม 48": [
@@ -15769,50 +12003,6 @@
       {
         "text": "shoji gato",
         "weight": 0.19,
-        "count": 0.5
-      }
-    ],
-    "วัดเฉลิมพระเกียรติ": [
-      {
-        "text": "wat chaloem phrakiat",
-        "weight": 1.05,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wat chaloem phra kiat",
-        "weight": 1.05,
-        "count": 2.4000000000000004
-      },
-      {
-        "text": "wadchelim phra keiyrti",
-        "weight": 0.7,
-        "count": 1.6
-      },
-      {
-        "text": "wat chaloemphrakiat",
-        "weight": 0.66,
-        "count": 1.5
-      },
-      {
-        "text": "wat chaloem prakiat",
-        "weight": 0.66,
-        "count": 1.5
-      }
-    ],
-    "ท่าพระจันทร์": [
-      {
-        "text": "tha phra chan",
-        "weight": 1.05,
-        "count": 7.8999999999999995
-      },
-      {
-        "text": "tha pra chan",
-        "weight": 0.13,
-        "count": 1
-      },
-      {
-        "text": "tha phra chan 11",
-        "weight": 0.1,
         "count": 0.5
       }
     ],
@@ -15976,23 +12166,6 @@
         "count": 1
       }
     ],
-    "บ้านเถลิง": [
-      {
-        "text": "ban thaloeng",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban theling",
-        "weight": 0.35,
-        "count": 2
-      },
-      {
-        "text": "ban loeng",
-        "weight": 0.18,
-        "count": 1
-      }
-    ],
     "บ้านขนิม": [
       {
         "text": "ban khanim",
@@ -16022,23 +12195,6 @@
         "count": 2
       }
     ],
-    "บ้านโนนโพธิ์ศรี": [
-      {
-        "text": "ban non pho si",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban non phothi sri",
-        "weight": 0.35,
-        "count": 2
-      },
-      {
-        "text": "ban non phosi",
-        "weight": 0.18,
-        "count": 1
-      }
-    ],
     "บ้านหนองเหมือดแอ่": [
       {
         "text": "ban nong mueat ae",
@@ -16061,23 +12217,6 @@
         "text": "ban h wk",
         "weight": 0.3,
         "count": 2
-      }
-    ],
-    "บ้านบุโพธิ์": [
-      {
-        "text": "ban bu pho",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban bu phothi",
-        "weight": 0.35,
-        "count": 2
-      },
-      {
-        "text": "ban bupo",
-        "weight": 0.18,
-        "count": 1
       }
     ],
     "บ้านชานุมาน": [
@@ -16107,69 +12246,11 @@
         "count": 1
       }
     ],
-    "บ้านระเวิง": [
-      {
-        "text": "ban rawoeng",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ba nraweing",
-        "weight": 0.35,
-        "count": 2
-      }
-    ],
-    "บ้านพระเกิด": [
-      {
-        "text": "ban phra koet",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban phra keid",
-        "weight": 0.35,
-        "count": 2
-      }
-    ],
-    "บ้านโพธิ์เขียว": [
-      {
-        "text": "ban pho khiao",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "banphothi kheiyw",
-        "weight": 0.35,
-        "count": 2
-      },
-      {
-        "text": "ban pho khieo",
-        "weight": 0.18,
-        "count": 1
-      }
-    ],
     "บ้านนนทรีย์": [
       {
         "text": "ban nnthri y",
         "weight": 0.9,
         "count": 2
-      }
-    ],
-    "บ้านเนินสนวน": [
-      {
-        "text": "ban noen sanuan",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban nein snwn",
-        "weight": 0.35,
-        "count": 2
-      },
-      {
-        "text": "ban noen sanon",
-        "weight": 0.18,
-        "count": 1
       }
     ],
     "บ้านขมวด": [
@@ -16271,20 +12352,6 @@
         "count": 1
       }
     ],
-    "ห้วยอีเลิศ": [
-      {
-        "text": "huai i loet",
-        "weight": 1.05,
-        "count": 9
-      }
-    ],
-    "บ้านอ่าวเจริญ": [
-      {
-        "text": "ban ao charoen",
-        "weight": 1.05,
-        "count": 9
-      }
-    ],
     "บ้านริมกวง": [
       {
         "text": "ban rim kuang",
@@ -16335,49 +12402,6 @@
         "count": 2
       }
     ],
-    "บ้านเขาพระอินทร์": [
-      {
-        "text": "ban khao phra-in",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban khao phra in",
-        "weight": 0.53,
-        "count": 3
-      }
-    ],
-    "บ้านห้วยเจริญผล": [
-      {
-        "text": "ban huai charoen phon",
-        "weight": 1.05,
-        "count": 9
-      }
-    ],
-    "บ้านบึงโพธิ์": [
-      {
-        "text": "ban bueng pho",
-        "weight": 1.05,
-        "count": 7
-      },
-      {
-        "text": "banbung phothi",
-        "weight": 0.3,
-        "count": 2
-      }
-    ],
-    "บ้านเกาะเจริญ": [
-      {
-        "text": "ban ko charoen",
-        "weight": 1.05,
-        "count": 7
-      },
-      {
-        "text": "ban keaa ceriy",
-        "weight": 0.3,
-        "count": 2
-      }
-    ],
     "บ้านพุพรหม": [
       {
         "text": "ban phu phrom",
@@ -16388,25 +12412,6 @@
         "text": "ban phu phrhm",
         "weight": 0.3,
         "count": 2
-      }
-    ],
-    "บ้านซับเปิบ": [
-      {
-        "text": "ban sap poep",
-        "weight": 1.05,
-        "count": 7
-      },
-      {
-        "text": "ban sab peib",
-        "weight": 0.3,
-        "count": 2
-      }
-    ],
-    "บ้านจังเอิด": [
-      {
-        "text": "ban chang oet",
-        "weight": 1.05,
-        "count": 9
       }
     ],
     "อุดมสุข": [
@@ -16450,30 +12455,6 @@
         "count": 0.25
       }
     ],
-    "เกินปา": [
-      {
-        "text": "gonpa",
-        "weight": 0.9,
-        "count": 0.75
-      },
-      {
-        "text": "gunpa",
-        "weight": 0.9,
-        "count": 0.75
-      }
-    ],
-    "โรงเรียนบ้านควนโพธิ์": [
-      {
-        "text": "rongrian ban khuan pho",
-        "weight": 0.9,
-        "count": 3.2
-      },
-      {
-        "text": "rongreiyn ban khwn phothi",
-        "weight": 0.45,
-        "count": 1.6
-      }
-    ],
     "เขึ่อนภูมิพล": [
       {
         "text": "khuean bhumibol",
@@ -16498,23 +12479,6 @@
         "text": "soi ratchaphruek 15",
         "weight": 1.05,
         "count": 8.799999999999999
-      }
-    ],
-    "บ้านโพธิ์มูล": [
-      {
-        "text": "ban pho mun",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "ban pho moon",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "banphothi mul",
-        "weight": 0.35,
-        "count": 1
       }
     ],
     "วัดราชบูรณะ": [
@@ -16607,18 +12571,6 @@
         "count": 0.5
       }
     ],
-    "บ้านเจริญ": [
-      {
-        "text": "ban charoen",
-        "weight": 1.05,
-        "count": 6.5
-      },
-      {
-        "text": "ban ceriy",
-        "weight": 0.32,
-        "count": 2
-      }
-    ],
     "ประเทศบาฮามาส": [
       {
         "text": "the bahamas",
@@ -16689,13 +12641,6 @@
         "text": "wat ama rin thra ram",
         "weight": 0.22,
         "count": 0.5
-      }
-    ],
-    "วัดโพธิ์ทองเจริญ": [
-      {
-        "text": "wat pho thong charoen",
-        "weight": 1.05,
-        "count": 8.200000000000001
       }
     ],
     "ถนนตรีเพชร": [
@@ -16814,18 +12759,6 @@
         "text": "ban sop chok",
         "weight": 1.05,
         "count": 7
-      }
-    ],
-    "บ้านไร่โพธิ์": [
-      {
-        "text": "ban rai pho",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "banri phothi",
-        "weight": 0.35,
-        "count": 2
       }
     ],
     "บ้านลำสินธุ์": [
@@ -16963,25 +12896,6 @@
         "count": 1
       }
     ],
-    "บ้านโพธิ์แดน": [
-      {
-        "text": "ban pho daen",
-        "weight": 1.05,
-        "count": 7
-      }
-    ],
-    "บ้านโพธิ์บาย": [
-      {
-        "text": "ban pho bai",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "banphothi bay",
-        "weight": 0.35,
-        "count": 2
-      }
-    ],
     "บ้านพลา": [
       {
         "text": "ban phala",
@@ -17016,13 +12930,6 @@
         "count": 2
       }
     ],
-    "บ้านแก่งโพธิ์": [
-      {
-        "text": "ban kaeng pho",
-        "weight": 1.05,
-        "count": 6
-      }
-    ],
     "บ้านโสมน": [
       {
         "text": "ban samon",
@@ -17033,18 +12940,6 @@
         "text": "ban som n",
         "weight": 0.35,
         "count": 2
-      }
-    ],
-    "บ้านนาโพธิ์น้อย": [
-      {
-        "text": "ban na pho noi",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban na po noi",
-        "weight": 0.18,
-        "count": 1
       }
     ],
     "บ้านสระโบราณ": [
@@ -17069,13 +12964,6 @@
         "text": "ban khwn naw",
         "weight": 0.35,
         "count": 2
-      }
-    ],
-    "บ้านจุฬาภรณ์พัฒนา (สิบสอง)": [
-      {
-        "text": "ban chulaphon phatthana (sip song)",
-        "weight": 1.05,
-        "count": 6
       }
     ],
     "บ้านโคกเหลียง": [

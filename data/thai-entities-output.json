@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "version": "1.6.0",
-    "commit": "c06bdb7",
-    "generatedAt": "2026-02-27T08:07:24.695Z",
+    "version": "1.7.0",
+    "commit": "e8a4fdf",
+    "generatedAt": "2026-02-27T08:56:13.625Z",
     "input": "data/thai-entities.json",
     "entries": 80,
     "dictionary": true
@@ -340,24 +340,24 @@
           "thai": "ราษฎร์",
           "variants": [
             {
-              "text": "ratda",
-              "weight": 0.8
+              "text": "rat",
+              "weight": 1
             },
             {
-              "text": "rasda",
-              "weight": 0.24
+              "text": "ras",
+              "weight": 0.3
             },
             {
-              "text": "raatda",
-              "weight": 0.24
+              "text": "raat",
+              "weight": 0.3
             },
             {
-              "text": "ratdo",
-              "weight": 0.21
+              "text": "rhat",
+              "weight": 0.23
             },
             {
-              "text": "rhatda",
-              "weight": 0.18
+              "text": "ret",
+              "weight": 0.15
             }
           ]
         }
@@ -828,31 +828,6 @@
             {
               "text": "thcn",
               "weight": 0.2
-            }
-          ]
-        },
-        {
-          "thai": "นท์",
-          "variants": [
-            {
-              "text": "na",
-              "weight": 0.8
-            },
-            {
-              "text": "no",
-              "weight": 0.21
-            },
-            {
-              "text": "nk",
-              "weight": 0.17
-            },
-            {
-              "text": "ns",
-              "weight": 0.14
-            },
-            {
-              "text": "ne",
-              "weight": 0.13
             }
           ]
         }
@@ -1435,31 +1410,6 @@
             {
               "text": "ken",
               "weight": 0.15
-            }
-          ]
-        },
-        {
-          "thai": "จน์",
-          "variants": [
-            {
-              "text": "cha",
-              "weight": 0.8
-            },
-            {
-              "text": "ja",
-              "weight": 0.3
-            },
-            {
-              "text": "cho",
-              "weight": 0.21
-            },
-            {
-              "text": "chk",
-              "weight": 0.17
-            },
-            {
-              "text": "chs",
-              "weight": 0.14
             }
           ]
         }
@@ -3239,24 +3189,24 @@
           "thai": "จุฬาลงกรณ์",
           "variants": [
             {
-              "text": "chulanngokra",
-              "weight": 0.64
+              "text": "chulanngok",
+              "weight": 0.8
             },
             {
-              "text": "julanngokra",
+              "text": "julanngok",
+              "weight": 0.3
+            },
+            {
+              "text": "chulannguk",
+              "weight": 0.27
+            },
+            {
+              "text": "chulanngak",
+              "weight": 0.26
+            },
+            {
+              "text": "chulaanngok",
               "weight": 0.24
-            },
-            {
-              "text": "chulanngukra",
-              "weight": 0.22
-            },
-            {
-              "text": "chulanngakra",
-              "weight": 0.21
-            },
-            {
-              "text": "chulaanngokra",
-              "weight": 0.19
             }
           ]
         },
@@ -3320,24 +3270,24 @@
           "thai": "ธรรมศาสตร์",
           "variants": [
             {
-              "text": "thamsatta",
-              "weight": 0.8
+              "text": "thamsat",
+              "weight": 1
             },
             {
-              "text": "thrrmsatta",
-              "weight": 0.54
+              "text": "thrrmsat",
+              "weight": 0.68
             },
             {
-              "text": "thamsatdta",
-              "weight": 0.24
+              "text": "thamsas",
+              "weight": 0.3
             },
             {
-              "text": "thamsasta",
-              "weight": 0.24
+              "text": "thamsaat",
+              "weight": 0.3
             },
             {
-              "text": "thamsaatta",
-              "weight": 0.24
+              "text": "thamshat",
+              "weight": 0.3
             }
           ]
         }
@@ -3432,24 +3382,24 @@
           "thai": "เกษตรศาสตร์",
           "variants": [
             {
-              "text": "kettonsatta",
-              "weight": 0.64
+              "text": "kettonsat",
+              "weight": 0.8
             },
             {
-              "text": "kattonsatta",
-              "weight": 0.42
+              "text": "kattonsat",
+              "weight": 0.53
             },
             {
-              "text": "kettunsatta",
-              "weight": 0.22
+              "text": "kettunsat",
+              "weight": 0.27
             },
             {
-              "text": "kettansatta",
-              "weight": 0.21
+              "text": "kettansat",
+              "weight": 0.26
             },
             {
-              "text": "gettonsatta",
-              "weight": 0.2
+              "text": "gettonsat",
+              "weight": 0.25
             }
           ]
         }
