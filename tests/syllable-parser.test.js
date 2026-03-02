@@ -699,3 +699,76 @@ describe('parseSyllables - leading vowel reassignment', () => {
     assert.strictEqual(syls[0].vowelPattern, 'sara_e');
   });
 });
+
+describe('parseSyllables - ว cluster + implied → sara_ua', () => {
+  it('parses สวน as sara_ua (not implied_o with ว cluster)', () => {
+    const syls = parseSyllables('สวน');
+    assert.strictEqual(syls.length, 1);
+    assert.strictEqual(syls[0].initialConsonant, 'ส');
+    assert.strictEqual(syls[0].clusterConsonant, null);
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ua');
+    assert.strictEqual(syls[0].finalConsonant, 'น');
+  });
+
+  it('parses ควน as sara_ua', () => {
+    const syls = parseSyllables('ควน');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ua');
+    assert.strictEqual(syls[0].initialConsonant, 'ค');
+    assert.strictEqual(syls[0].finalConsonant, 'น');
+  });
+
+  it('parses สวย as sara_ua', () => {
+    const syls = parseSyllables('สวย');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_ua');
+    assert.strictEqual(syls[0].finalConsonant, 'ย');
+  });
+
+  it('does not affect กว้าง (explicit sara_a)', () => {
+    const syls = parseSyllables('กว้าง');
+    assert.strictEqual(syls[0].clusterConsonant, 'ว');
+    assert.strictEqual(syls[0].vowelPattern, 'sara_a');
+  });
+
+  it('does not affect สวรรค์ (explicit ro_han vowel)', () => {
+    const syls = parseSyllables('สวรรค์');
+    assert.strictEqual(syls[0].clusterConsonant, 'ว');
+    assert.strictEqual(syls[0].vowelPattern, 'ro_han_open');
+  });
+});
+
+describe('parseSyllables - นคร morpheme', () => {
+  it('parses นคร as two syllables: น(implied_a) + ค(sara_aw+ร)', () => {
+    const syls = parseSyllables('นคร');
+    assert.strictEqual(syls.length, 2);
+    assert.strictEqual(syls[0].initialConsonant, 'น');
+    assert.strictEqual(syls[0].vowelPattern, 'implied_a');
+    assert.strictEqual(syls[1].initialConsonant, 'ค');
+    assert.strictEqual(syls[1].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[1].finalConsonant, 'ร');
+  });
+
+  it('parses นครปฐม with นคร morpheme + standard parsing', () => {
+    const syls = parseSyllables('นครปฐม');
+    assert.strictEqual(syls[0].initialConsonant, 'น');
+    assert.strictEqual(syls[0].vowelPattern, 'implied_a');
+    assert.strictEqual(syls[1].initialConsonant, 'ค');
+    assert.strictEqual(syls[1].vowelPattern, 'sara_aw');
+    assert.strictEqual(syls[1].finalConsonant, 'ร');
+  });
+
+  it('handles สกลนคร with morpheme boundary protection', () => {
+    const syls = parseSyllables('สกลนคร');
+    // นคร morpheme should be found at position 3
+    const nSyl = syls.find(s => s.initialConsonant === 'น' && s.vowelPattern === 'implied_a');
+    const khSyl = syls.find(s => s.initialConsonant === 'ค' && s.vowelPattern === 'sara_aw');
+    assert.ok(nSyl, 'should have น syllable from morpheme');
+    assert.ok(khSyl, 'should have ค(sara_aw) syllable from morpheme');
+  });
+
+  it('does not affect ตกลง (no นคร substring)', () => {
+    const syls = parseSyllables('ตกลง');
+    assert.strictEqual(syls.length, 2);
+    assert.strictEqual(syls[0].finalConsonant, 'ก');
+    assert.strictEqual(syls[1].initialConsonant, 'ล');
+  });
+});

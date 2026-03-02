@@ -2,6 +2,7 @@ import { classifyChar, canBeFinal } from './classifier.js';
 import { isValidCluster } from './tables/clusters.js';
 import { isHoNam, isONam } from './tables/special-rules.js';
 import { VOWEL_PATTERNS } from './tables/load-weights.js';
+import { MORPHEME_TABLE } from './tables/morphemes.js';
 
 /**
  * Parse Thai text into an array of syllable objects.
@@ -24,7 +25,30 @@ export function parseSyllables(text) {
   const syllables = [];
   let i = 0;
 
+  // Pre-compute morpheme positions for known irregular morphemes (e.g., นคร→nakhon)
+  const morphemeRanges = findMorphemes(chars);
+
   while (i < len) {
+    // Check if current position starts a known morpheme
+    const morpheme = morphemeRanges.get(i);
+    if (morpheme) {
+      for (const def of morpheme.syllables) {
+        syllables.push({
+          initialConsonant: def.initial,
+          clusterConsonant: null,
+          vowelPattern: def.vowel,
+          isImpliedVowel: def.vowel === 'implied_a' || def.vowel === 'implied_o',
+          finalConsonant: def.final || null,
+          toneMark: null,
+          silentChars: [],
+          flags: { hoNam: false, oNam: false, roHan: false, thorSo: false, sorRo: false },
+          raw: '',
+        });
+      }
+      i = morpheme.endIndex;
+      continue;
+    }
+
     const cls = classifyChar(chars[i]);
 
     // Skip non-Thai characters — pass through as-is
@@ -65,6 +89,21 @@ export function parseSyllables(text) {
 
     // Main syllable parsing
     const syl = parseSingleSyllable(chars, i, len);
+
+    // Morpheme boundary protection: if this syllable's consumed range overlaps
+    // with a morpheme start, truncate the syllable before the morpheme boundary.
+    // e.g., in สกลนคร, prevent ล from taking น as its final when นคร is a morpheme.
+    for (let pos = i + 1; pos < syl.nextIndex; pos++) {
+      if (morphemeRanges.has(pos)) {
+        syl.syllable.finalConsonant = null;
+        syl.syllable.silentChars = [];
+        syl.syllable.vowelPattern = syl.syllable.isImpliedVowel
+          ? 'implied_a' : syl.syllable.vowelPattern;
+        syl.syllable.raw = chars.slice(i, pos).join('');
+        syl.nextIndex = pos;
+        break;
+      }
+    }
 
     // Leading vowel reassignment: when เ + C1 produces default sara_e and C1 is
     // followed by another consonant (not a cluster) with a vowel marker after it,
@@ -215,7 +254,7 @@ function parseSingleSyllable(chars, start, len) {
   // Step 5: Look for vowel markers (above, below, following) and special patterns
   vowelPattern = resolveVowel(chars, i, len, leadingVowel);
   i = vowelPattern.nextIndex;
-  const vowelId = vowelPattern.id;
+  let vowelId = vowelPattern.id;
   roHan = vowelPattern.roHan || false;
   // hasShortener available in vowelPattern for future tone rules
 
@@ -238,6 +277,16 @@ function parseSingleSyllable(chars, start, len) {
     finalCons = finalResult.finalConsonant;
     silentChars.push(...finalResult.silentChars);
     i = finalResult.nextIndex;
+  }
+
+  // Step 8.5: Cluster ว correction
+  // When ว is a cluster consonant and the vowel is implied (none) with a final
+  // consonant present, the ว should be treated as sara_ua vowel instead of a cluster.
+  // Examples: สวน→suan (not swon), ควน→khuan (not khwon), สวย→suai (not swoi)
+  // This mirrors the sara_ua detection in resolveVowel() for non-cluster ว (หลวง→luang).
+  if (clusterCons === 'ว' && vowelId === 'none' && finalCons) {
+    clusterCons = null;
+    vowelId = 'sara_ua';
   }
 
   // If no explicit vowel and no leading vowel, it's an implied vowel
@@ -682,4 +731,25 @@ function result(chars, start, end, syllable) {
 
 function getVowelEntry(vowelId) {
   return VOWEL_PATTERNS[vowelId] || null;
+}
+
+/**
+ * Scan character array for known morphemes from MORPHEME_TABLE.
+ * Returns a Map of charIndex → { syllables, endIndex }.
+ */
+function findMorphemes(chars) {
+  const ranges = new Map();
+  const text = chars.join('');
+  for (const [morpheme, syllables] of MORPHEME_TABLE) {
+    const morphemeChars = [...morpheme];
+    let pos = 0;
+    while ((pos = text.indexOf(morpheme, pos)) !== -1) {
+      // Only add if this position isn't already covered by a longer morpheme
+      if (!ranges.has(pos)) {
+        ranges.set(pos, { syllables, endIndex: pos + morphemeChars.length });
+      }
+      pos += morphemeChars.length;
+    }
+  }
+  return ranges;
 }

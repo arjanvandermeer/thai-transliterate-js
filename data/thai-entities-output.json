@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": "1.7.0",
-    "commit": "e8a4fdf",
-    "generatedAt": "2026-02-27T08:56:13.625Z",
+    "commit": "e43f019",
+    "generatedAt": "2026-03-02T08:56:33.144Z",
     "input": "data/thai-entities.json",
     "entries": 80,
     "dictionary": true

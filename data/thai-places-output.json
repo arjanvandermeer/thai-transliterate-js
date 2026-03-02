@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": "1.7.0",
-    "commit": "e8a4fdf",
-    "generatedAt": "2026-02-27T08:56:13.563Z",
+    "commit": "e43f019",
+    "generatedAt": "2026-03-02T08:56:33.085Z",
     "input": "/Users/arjanvandermeer/Documents/Development/thai-transliterate/data/thai-places.json",
     "entries": 530,
     "dictionary": true
@@ -24,7 +24,7 @@
               "weight": 1.05
             },
             {
-              "text": "krungthepmahankhra",
+              "text": "krungthepmahanakhon",
               "weight": 0.64
             },
             {
@@ -32,7 +32,7 @@
               "weight": 0.6
             },
             {
-              "text": "krungthapmahankhra",
+              "text": "krungthapmahanakhon",
               "weight": 0.42
             }
           ]
@@ -543,24 +543,24 @@
           "thai": "นครนายก",
           "variants": [
             {
-              "text": "nakhon nayok",
-              "weight": 1.1
+              "text": "nakhonnayok",
+              "weight": 0.64
             },
             {
-              "text": "nokranayok",
-              "weight": 0.51
+              "text": "nakhannayok",
+              "weight": 0.25
             },
             {
-              "text": "nagorn nayok",
-              "weight": 0.27
+              "text": "nakhaunnayok",
+              "weight": 0.24
             },
             {
-              "text": "nakon nayok",
-              "weight": 0.27
+              "text": "nakhonnayuk",
+              "weight": 0.22
             },
             {
-              "text": "nokranayuk",
-              "weight": 0.17
+              "text": "nakhonnayak",
+              "weight": 0.21
             }
           ]
         }
@@ -574,24 +574,24 @@
           "thai": "นครปฐม",
           "variants": [
             {
-              "text": "nakhon pathom",
-              "weight": 1.1
-            },
-            {
-              "text": "nokropthom",
+              "text": "nakhonpathom",
               "weight": 0.51
             },
             {
-              "text": "nokroptom",
+              "text": "nakhonpatom",
               "weight": 0.2
             },
             {
-              "text": "nagara pathom",
+              "text": "nakhanpathom",
+              "weight": 0.2
+            },
+            {
+              "text": "nakhaunpathom",
               "weight": 0.19
             },
             {
-              "text": "nagorn pathom",
-              "weight": 0.19
+              "text": "nakhonpathum",
+              "weight": 0.17
             }
           ]
         }
@@ -605,23 +605,23 @@
           "thai": "นครพนม",
           "variants": [
             {
-              "text": "nakhon phanom",
-              "weight": 1.1
-            },
-            {
-              "text": "nokropnom",
+              "text": "nakhonphanom",
               "weight": 0.51
             },
             {
-              "text": "nakorn panom",
-              "weight": 0.38
+              "text": "nakhanphanom",
+              "weight": 0.2
             },
             {
-              "text": "nakon panom",
-              "weight": 0.23
+              "text": "nakhaunphanom",
+              "weight": 0.19
             },
             {
-              "text": "nokropnum",
+              "text": "nakhonphanum",
+              "weight": 0.17
+            },
+            {
+              "text": "nakhonphanam",
               "weight": 0.17
             }
           ]
@@ -637,23 +637,23 @@
           "variants": [
             {
               "text": "nakhonratsima",
-              "weight": 0.64
+              "weight": 0.8
             },
             {
               "text": "nakhonratsema",
-              "weight": 0.37
-            },
-            {
-              "text": "nakhunratsima",
-              "weight": 0.22
+              "weight": 0.46
             },
             {
               "text": "nakhanratsima",
-              "weight": 0.21
+              "weight": 0.31
+            },
+            {
+              "text": "nakhaunratsima",
+              "weight": 0.3
             },
             {
               "text": "nakhonratsimaa",
-              "weight": 0.19
+              "weight": 0.24
             }
           ]
         }
@@ -667,24 +667,24 @@
           "thai": "นครศรีธรรมราช",
           "variants": [
             {
-              "text": "nakhon si thammarat",
-              "weight": 1.1
+              "text": "nakhonsithamrat",
+              "weight": 0.8
             },
             {
-              "text": "nokrasithamrat",
-              "weight": 0.64
+              "text": "nakhonsithrrmrat",
+              "weight": 0.54
             },
             {
-              "text": "nokrasithrrmrat",
-              "weight": 0.44
+              "text": "nakhonsethamrat",
+              "weight": 0.46
             },
             {
-              "text": "nokrasethamrat",
-              "weight": 0.37
+              "text": "nakhonsethrrmrat",
+              "weight": 0.32
             },
             {
-              "text": "nakhon srithamarat",
-              "weight": 0.26
+              "text": "nakhansithamrat",
+              "weight": 0.31
             }
           ]
         }
@@ -698,23 +698,23 @@
           "thai": "นครสวรรค์",
           "variants": [
             {
-              "text": "nokrotwa",
-              "weight": 0.64
+              "text": "nakhonswa",
+              "weight": 0.8
             },
             {
-              "text": "nokrotwrr",
-              "weight": 0.44
+              "text": "nakhonswrr",
+              "weight": 0.54
             },
             {
-              "text": "nokrutwa",
-              "weight": 0.22
+              "text": "nakhanswa",
+              "weight": 0.31
             },
             {
-              "text": "nukrotwa",
-              "weight": 0.22
+              "text": "nakhaunswa",
+              "weight": 0.3
             },
             {
-              "text": "nokratwa",
+              "text": "nakhanswrr",
               "weight": 0.21
             }
           ]
@@ -1008,24 +1008,24 @@
           "thai": "พระนครศรีอยุธยา",
           "variants": [
             {
-              "text": "phrankhrasiyutya",
+              "text": "phranakhonsiyutya",
               "weight": 0.8
             },
             {
-              "text": "phrankhraseyutya",
+              "text": "phranakhonseyutya",
               "weight": 0.46
             },
             {
-              "text": "phrankhrasiyutyaa",
+              "text": "phranakhansiyutya",
+              "weight": 0.31
+            },
+            {
+              "text": "phranakhaunsiyutya",
+              "weight": 0.3
+            },
+            {
+              "text": "phranakhonsiyutyaa",
               "weight": 0.24
-            },
-            {
-              "text": "prankhrasiyutya",
-              "weight": 0.22
-            },
-            {
-              "text": "phrankhrosiyutya",
-              "weight": 0.21
             }
           ]
         }
@@ -1752,23 +1752,23 @@
           "thai": "สกลนคร",
           "variants": [
             {
-              "text": "soklonkhra",
+              "text": "soklanakhon",
               "weight": 0.51
             },
             {
-              "text": "soklunkhra",
+              "text": "soklanakhan",
+              "weight": 0.2
+            },
+            {
+              "text": "soklanakhaun",
+              "weight": 0.19
+            },
+            {
+              "text": "suklanakhon",
               "weight": 0.17
             },
             {
-              "text": "suklonkhra",
-              "weight": 0.17
-            },
-            {
-              "text": "soklankhra",
-              "weight": 0.17
-            },
-            {
-              "text": "saklonkhra",
+              "text": "saklanakhon",
               "weight": 0.17
             }
           ]
@@ -2428,23 +2428,23 @@
           "thai": "พระนคร",
           "variants": [
             {
-              "text": "phra nakhon",
-              "weight": 1.1
-            },
-            {
-              "text": "phrankhra",
+              "text": "phranakhon",
               "weight": 0.8
             },
             {
-              "text": "phrankhr",
+              "text": "phranakhan",
               "weight": 0.31
             },
             {
-              "text": "prankhra",
+              "text": "phranakhaun",
+              "weight": 0.3
+            },
+            {
+              "text": "pranakhon",
               "weight": 0.22
             },
             {
-              "text": "phrankhro",
+              "text": "phranokhon",
               "weight": 0.21
             }
           ]
@@ -4276,24 +4276,24 @@
           "thai": "สวนหลวง",
           "variants": [
             {
-              "text": "swonluang",
-              "weight": 0.8
+              "text": "suanluang",
+              "weight": 1
             },
             {
-              "text": "swonlwng",
-              "weight": 0.5
+              "text": "suanlwng",
+              "weight": 0.63
             },
             {
-              "text": "swunluang",
-              "weight": 0.27
+              "text": "swnluang",
+              "weight": 0.63
             },
             {
-              "text": "swanluang",
-              "weight": 0.26
+              "text": "swnlwng",
+              "weight": 0.4
             },
             {
-              "text": "swcnluang",
-              "weight": 0.2
+              "text": "suanluarng",
+              "weight": 0.16
             }
           ]
         }
@@ -6922,24 +6922,24 @@
           "thai": "นครินทร์",
           "variants": [
             {
-              "text": "nakhrin",
-              "weight": 0.8
+              "text": "nakhonnot",
+              "weight": 0.64
             },
             {
-              "text": "nakhren",
-              "weight": 0.27
+              "text": "nakhannot",
+              "weight": 0.25
             },
             {
-              "text": "nokhrin",
+              "text": "nakhaunnot",
+              "weight": 0.24
+            },
+            {
+              "text": "nakhonnut",
+              "weight": 0.22
+            },
+            {
+              "text": "nakhonnat",
               "weight": 0.21
-            },
-            {
-              "text": "nakrin",
-              "weight": 0.21
-            },
-            {
-              "text": "nakhryn",
-              "weight": 0.19
             }
           ]
         }
@@ -6978,24 +6978,24 @@
           "thai": "เจริญนคร",
           "variants": [
             {
-              "text": "charoennok",
-              "weight": 0.64
+              "text": "charoenakhonra",
+              "weight": 0.51
             },
             {
-              "text": "charernnok",
-              "weight": 0.32
+              "text": "charernakhonra",
+              "weight": 0.26
             },
             {
-              "text": "jaroennok",
-              "weight": 0.24
+              "text": "charoenakhanra",
+              "weight": 0.2
             },
             {
-              "text": "charoennuk",
-              "weight": 0.22
+              "text": "jaroenakhonra",
+              "weight": 0.19
             },
             {
-              "text": "charoennak",
-              "weight": 0.21
+              "text": "charoenakhaunra",
+              "weight": 0.19
             }
           ]
         }
@@ -7906,20 +7906,20 @@
               "weight": 1.1
             },
             {
-              "text": "sinkhrin",
-              "weight": 1
+              "text": "sinakhonnot",
+              "weight": 0.64
             },
             {
-              "text": "senkhrin",
-              "weight": 0.58
+              "text": "senakhonnot",
+              "weight": 0.37
             },
             {
-              "text": "sinkhren",
-              "weight": 0.34
+              "text": "sinakhannot",
+              "weight": 0.25
             },
             {
-              "text": "sinkrin",
-              "weight": 0.26
+              "text": "sinakhaunnot",
+              "weight": 0.24
             }
           ]
         }
@@ -9004,24 +9004,24 @@
           "thai": "นคร",
           "variants": [
             {
-              "text": "nok",
+              "text": "nakhon",
               "weight": 0.8
             },
             {
-              "text": "nuk",
-              "weight": 0.27
+              "text": "nakhan",
+              "weight": 0.31
             },
             {
-              "text": "nak",
-              "weight": 0.26
+              "text": "nakhaun",
+              "weight": 0.3
             },
             {
-              "text": "nck",
-              "weight": 0.2
+              "text": "nokhon",
+              "weight": 0.21
             },
             {
-              "text": "nhok",
-              "weight": 0.19
+              "text": "nakon",
+              "weight": 0.21
             }
           ]
         },
@@ -11197,20 +11197,20 @@
               "weight": 1.1
             },
             {
-              "text": "sinkhrin",
-              "weight": 1
+              "text": "sinakhonnot",
+              "weight": 0.64
             },
             {
-              "text": "senkhrin",
-              "weight": 0.58
+              "text": "senakhonnot",
+              "weight": 0.37
             },
             {
-              "text": "sinkhren",
-              "weight": 0.34
+              "text": "sinakhannot",
+              "weight": 0.25
             },
             {
-              "text": "sinkrin",
-              "weight": 0.26
+              "text": "sinakhaunnot",
+              "weight": 0.24
             }
           ]
         }
@@ -11896,24 +11896,24 @@
           "thai": "เจริญนคร",
           "variants": [
             {
-              "text": "charoennok",
-              "weight": 0.64
+              "text": "charoenakhonra",
+              "weight": 0.51
             },
             {
-              "text": "charernnok",
-              "weight": 0.32
+              "text": "charernakhonra",
+              "weight": 0.26
             },
             {
-              "text": "jaroennok",
-              "weight": 0.24
+              "text": "charoenakhanra",
+              "weight": 0.2
             },
             {
-              "text": "charoennuk",
-              "weight": 0.22
+              "text": "jaroenakhonra",
+              "weight": 0.19
             },
             {
-              "text": "charoennak",
-              "weight": 0.21
+              "text": "charoenakhaunra",
+              "weight": 0.19
             }
           ]
         }
@@ -12349,24 +12349,24 @@
           "thai": "สวนจตุจักร",
           "variants": [
             {
-              "text": "swonchatuchak",
-              "weight": 0.64
+              "text": "suanchatuchak",
+              "weight": 0.8
             },
             {
-              "text": "swonchatuchuk",
-              "weight": 0.36
+              "text": "swnchatuchak",
+              "weight": 0.5
             },
             {
-              "text": "swonchatujak",
-              "weight": 0.24
+              "text": "suanchatuchuk",
+              "weight": 0.45
             },
             {
-              "text": "swonjatuchak",
-              "weight": 0.24
+              "text": "suanchatujak",
+              "weight": 0.3
             },
             {
-              "text": "swunchatuchak",
-              "weight": 0.22
+              "text": "suanjatuchak",
+              "weight": 0.3
             }
           ]
         }
@@ -14581,23 +14581,23 @@
           "thai": "พระนคร",
           "variants": [
             {
-              "text": "phra nakhon",
-              "weight": 1.1
-            },
-            {
-              "text": "phrankhra",
+              "text": "phranakhon",
               "weight": 0.8
             },
             {
-              "text": "phrankhr",
+              "text": "phranakhan",
               "weight": 0.31
             },
             {
-              "text": "prankhra",
+              "text": "phranakhaun",
+              "weight": 0.3
+            },
+            {
+              "text": "pranakhon",
               "weight": 0.22
             },
             {
-              "text": "phrankhro",
+              "text": "phranokhon",
               "weight": 0.21
             }
           ]
@@ -18723,24 +18723,24 @@
           "thai": "สวนลุมพินี",
           "variants": [
             {
-              "text": "swonlumphini",
-              "weight": 0.8
+              "text": "suanlumphini",
+              "weight": 1
             },
             {
-              "text": "swonlumphine",
-              "weight": 0.46
+              "text": "swnlumphini",
+              "weight": 0.63
             },
             {
-              "text": "swonlumpheni",
-              "weight": 0.27
+              "text": "suanlumphine",
+              "weight": 0.58
             },
             {
-              "text": "swunlumphini",
-              "weight": 0.27
+              "text": "swnlumphine",
+              "weight": 0.37
             },
             {
-              "text": "swanlumphini",
-              "weight": 0.26
+              "text": "suanlumpheni",
+              "weight": 0.34
             }
           ]
         }
@@ -18754,24 +18754,24 @@
           "thai": "สวนจตุจักร",
           "variants": [
             {
-              "text": "swonchatuchak",
-              "weight": 0.64
+              "text": "suanchatuchak",
+              "weight": 0.8
             },
             {
-              "text": "swonchatuchuk",
-              "weight": 0.36
+              "text": "swnchatuchak",
+              "weight": 0.5
             },
             {
-              "text": "swonchatujak",
-              "weight": 0.24
+              "text": "suanchatuchuk",
+              "weight": 0.45
             },
             {
-              "text": "swonjatuchak",
-              "weight": 0.24
+              "text": "suanchatujak",
+              "weight": 0.3
             },
             {
-              "text": "swunchatuchak",
-              "weight": 0.22
+              "text": "suanjatuchak",
+              "weight": 0.3
             }
           ]
         }
@@ -18785,24 +18785,24 @@
           "thai": "สวน",
           "variants": [
             {
-              "text": "swon",
-              "weight": 0.8
+              "text": "suan",
+              "weight": 1
             },
             {
-              "text": "swun",
-              "weight": 0.27
+              "text": "swn",
+              "weight": 0.63
             },
             {
-              "text": "swan",
-              "weight": 0.26
+              "text": "suarn",
+              "weight": 0.16
             },
             {
-              "text": "swcn",
-              "weight": 0.2
+              "text": "suon",
+              "weight": 0.09
             },
             {
-              "text": "swhon",
-              "weight": 0.19
+              "text": "savan",
+              "weight": 0.05
             }
           ]
         },
@@ -19035,7 +19035,7 @@
               "weight": 1.05
             },
             {
-              "text": "krungthepmahankhra",
+              "text": "krungthepmahanakhon",
               "weight": 0.64
             },
             {
@@ -19043,7 +19043,7 @@
               "weight": 0.6
             },
             {
-              "text": "krungthapmahankhra",
+              "text": "krungthapmahanakhon",
               "weight": 0.42
             }
           ]
@@ -19394,24 +19394,24 @@
           "thai": "สวน",
           "variants": [
             {
-              "text": "swon",
-              "weight": 0.8
+              "text": "suan",
+              "weight": 1
             },
             {
-              "text": "swun",
-              "weight": 0.27
+              "text": "swn",
+              "weight": 0.63
             },
             {
-              "text": "swan",
-              "weight": 0.26
+              "text": "suarn",
+              "weight": 0.16
             },
             {
-              "text": "swcn",
-              "weight": 0.2
+              "text": "suon",
+              "weight": 0.09
             },
             {
-              "text": "swhon",
-              "weight": 0.19
+              "text": "savan",
+              "weight": 0.05
             }
           ]
         },
@@ -19631,24 +19631,24 @@
           "thai": "พระนครศรีอยุธยา",
           "variants": [
             {
-              "text": "phrankhrasiyutya",
+              "text": "phranakhonsiyutya",
               "weight": 0.8
             },
             {
-              "text": "phrankhraseyutya",
+              "text": "phranakhonseyutya",
               "weight": 0.46
             },
             {
-              "text": "phrankhrasiyutyaa",
+              "text": "phranakhansiyutya",
+              "weight": 0.31
+            },
+            {
+              "text": "phranakhaunsiyutya",
+              "weight": 0.3
+            },
+            {
+              "text": "phranakhonsiyutyaa",
               "weight": 0.24
-            },
-            {
-              "text": "prankhrasiyutya",
-              "weight": 0.22
-            },
-            {
-              "text": "phrankhrosiyutya",
-              "weight": 0.21
             }
           ]
         }
@@ -20951,24 +20951,24 @@
           "thai": "สวน",
           "variants": [
             {
-              "text": "swon",
-              "weight": 0.8
+              "text": "suan",
+              "weight": 1
             },
             {
-              "text": "swun",
-              "weight": 0.27
+              "text": "swn",
+              "weight": 0.63
             },
             {
-              "text": "swan",
-              "weight": 0.26
+              "text": "suarn",
+              "weight": 0.16
             },
             {
-              "text": "swcn",
-              "weight": 0.2
+              "text": "suon",
+              "weight": 0.09
             },
             {
-              "text": "swhon",
-              "weight": 0.19
+              "text": "savan",
+              "weight": 0.05
             }
           ]
         },
@@ -21326,24 +21326,24 @@
           "thai": "สวน",
           "variants": [
             {
-              "text": "swon",
-              "weight": 0.8
+              "text": "suan",
+              "weight": 1
             },
             {
-              "text": "swun",
-              "weight": 0.27
+              "text": "swn",
+              "weight": 0.63
             },
             {
-              "text": "swan",
-              "weight": 0.26
+              "text": "suarn",
+              "weight": 0.16
             },
             {
-              "text": "swcn",
-              "weight": 0.2
+              "text": "suon",
+              "weight": 0.09
             },
             {
-              "text": "swhon",
-              "weight": 0.19
+              "text": "savan",
+              "weight": 0.05
             }
           ]
         },
@@ -21686,24 +21686,24 @@
           "thai": "สวน",
           "variants": [
             {
-              "text": "swon",
-              "weight": 0.8
+              "text": "suan",
+              "weight": 1
             },
             {
-              "text": "swun",
-              "weight": 0.27
+              "text": "swn",
+              "weight": 0.63
             },
             {
-              "text": "swan",
-              "weight": 0.26
+              "text": "suarn",
+              "weight": 0.16
             },
             {
-              "text": "swcn",
-              "weight": 0.2
+              "text": "suon",
+              "weight": 0.09
             },
             {
-              "text": "swhon",
-              "weight": 0.19
+              "text": "savan",
+              "weight": 0.05
             }
           ]
         },
@@ -22332,23 +22332,23 @@
           "thai": "เฟื่องนคร",
           "variants": [
             {
-              "text": "fueangnok",
+              "text": "fueangnakhon",
               "weight": 0.8
             },
             {
-              "text": "fuangnok",
+              "text": "fuangnakhon",
               "weight": 0.48
             },
             {
-              "text": "fueangnuk",
-              "weight": 0.27
+              "text": "fueangnakhan",
+              "weight": 0.31
             },
             {
-              "text": "fueangnak",
-              "weight": 0.26
+              "text": "fueangnakhaun",
+              "weight": 0.3
             },
             {
-              "text": "fuerngnok",
+              "text": "fuerngnakhon",
               "weight": 0.24
             }
           ]
@@ -24228,23 +24228,23 @@
           "variants": [
             {
               "text": "nakhonratsima",
-              "weight": 0.64
+              "weight": 0.8
             },
             {
               "text": "nakhonratsema",
-              "weight": 0.37
-            },
-            {
-              "text": "nakhunratsima",
-              "weight": 0.22
+              "weight": 0.46
             },
             {
               "text": "nakhanratsima",
-              "weight": 0.21
+              "weight": 0.31
+            },
+            {
+              "text": "nakhaunratsima",
+              "weight": 0.3
             },
             {
               "text": "nakhonratsimaa",
-              "weight": 0.19
+              "weight": 0.24
             }
           ]
         }
@@ -24382,24 +24382,24 @@
           "thai": "นครศรีธรรมราช",
           "variants": [
             {
-              "text": "nakhon si thammarat",
-              "weight": 1.1
+              "text": "nakhonsithamrat",
+              "weight": 0.8
             },
             {
-              "text": "nokrasithamrat",
-              "weight": 0.64
+              "text": "nakhonsithrrmrat",
+              "weight": 0.54
             },
             {
-              "text": "nokrasithrrmrat",
-              "weight": 0.44
+              "text": "nakhonsethamrat",
+              "weight": 0.46
             },
             {
-              "text": "nokrasethamrat",
-              "weight": 0.37
+              "text": "nakhonsethrrmrat",
+              "weight": 0.32
             },
             {
-              "text": "nakhon srithamarat",
-              "weight": 0.26
+              "text": "nakhansithamrat",
+              "weight": 0.31
             }
           ]
         }
@@ -27876,23 +27876,23 @@
           "thai": "นครพนม",
           "variants": [
             {
-              "text": "nakhon phanom",
-              "weight": 1.1
-            },
-            {
-              "text": "nokropnom",
+              "text": "nakhonphanom",
               "weight": 0.51
             },
             {
-              "text": "nakorn panom",
-              "weight": 0.38
+              "text": "nakhanphanom",
+              "weight": 0.2
             },
             {
-              "text": "nakon panom",
-              "weight": 0.23
+              "text": "nakhaunphanom",
+              "weight": 0.19
             },
             {
-              "text": "nokropnum",
+              "text": "nakhonphanum",
+              "weight": 0.17
+            },
+            {
+              "text": "nakhonphanam",
               "weight": 0.17
             }
           ]
@@ -27958,23 +27958,23 @@
           "variants": [
             {
               "text": "nakhonratsima",
-              "weight": 0.64
+              "weight": 0.8
             },
             {
               "text": "nakhonratsema",
-              "weight": 0.37
-            },
-            {
-              "text": "nakhunratsima",
-              "weight": 0.22
+              "weight": 0.46
             },
             {
               "text": "nakhanratsima",
-              "weight": 0.21
+              "weight": 0.31
+            },
+            {
+              "text": "nakhaunratsima",
+              "weight": 0.3
             },
             {
               "text": "nakhonratsimaa",
-              "weight": 0.19
+              "weight": 0.24
             }
           ]
         }
@@ -28038,24 +28038,24 @@
           "thai": "นครศรีธรรมราช",
           "variants": [
             {
-              "text": "nakhon si thammarat",
-              "weight": 1.1
+              "text": "nakhonsithamrat",
+              "weight": 0.8
             },
             {
-              "text": "nokrasithamrat",
-              "weight": 0.64
+              "text": "nakhonsithrrmrat",
+              "weight": 0.54
             },
             {
-              "text": "nokrasithrrmrat",
-              "weight": 0.44
+              "text": "nakhonsethamrat",
+              "weight": 0.46
             },
             {
-              "text": "nokrasethamrat",
-              "weight": 0.37
+              "text": "nakhonsethrrmrat",
+              "weight": 0.32
             },
             {
-              "text": "nakhon srithamarat",
-              "weight": 0.26
+              "text": "nakhansithamrat",
+              "weight": 0.31
             }
           ]
         }
@@ -28225,24 +28225,24 @@
           "thai": "นคร",
           "variants": [
             {
-              "text": "nok",
+              "text": "nakhon",
               "weight": 0.8
             },
             {
-              "text": "nuk",
-              "weight": 0.27
+              "text": "nakhan",
+              "weight": 0.31
             },
             {
-              "text": "nak",
-              "weight": 0.26
+              "text": "nakhaun",
+              "weight": 0.3
             },
             {
-              "text": "nck",
-              "weight": 0.2
+              "text": "nokhon",
+              "weight": 0.21
             },
             {
-              "text": "nhok",
-              "weight": 0.19
+              "text": "nakon",
+              "weight": 0.21
             }
           ]
         }
@@ -29116,23 +29116,23 @@
           "thai": "สกลนคร",
           "variants": [
             {
-              "text": "soklonkhra",
+              "text": "soklanakhon",
               "weight": 0.51
             },
             {
-              "text": "soklunkhra",
+              "text": "soklanakhan",
+              "weight": 0.2
+            },
+            {
+              "text": "soklanakhaun",
+              "weight": 0.19
+            },
+            {
+              "text": "suklanakhon",
               "weight": 0.17
             },
             {
-              "text": "suklonkhra",
-              "weight": 0.17
-            },
-            {
-              "text": "soklankhra",
-              "weight": 0.17
-            },
-            {
-              "text": "saklonkhra",
+              "text": "saklanakhon",
               "weight": 0.17
             }
           ]

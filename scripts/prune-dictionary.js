@@ -93,49 +93,90 @@ function classifyEntry(thai, dictVariants) {
   const dictTop1 = dictVariants[0].text.toLowerCase();
   const algoTop1 = algoVariants.length > 0 ? algoVariants[0].text.toLowerCase() : '';
 
-  // Normalize administrative prefixes in dictionary variants.
-  // Some dictionary entries include "amphoe mueang" or "changwat" prefixes
-  // that don't appear in the Thai text (they're classification labels).
+  // Normalize administrative prefixes in both dictionary and algorithm output.
+  // Dictionary entries often include labels like "sathani rotfai" (railway station)
+  // or "amphoe mueang" that may not match the algo's transliteration.
+  // Normalize BOTH sides so the remaining name portion can be compared.
+  const adminPrefixes = [
+    'sathani rotfai ', // railway station (224 gaps)
+    'amphoe mueang ',  // district city (63 gaps)
+    'sathani ',        // station (31 additional)
+    'amphoe ',         // district (47 additional)
+    'mueang ',         // city (13 gaps)
+    'changwat ',       // province (5 gaps)
+  ];
   let normalizedDictTop1 = dictTop1;
-  const adminPrefixes = ['amphoe mueang ', 'amphoe ', 'changwat '];
   for (const prefix of adminPrefixes) {
     if (normalizedDictTop1.startsWith(prefix)) {
       normalizedDictTop1 = normalizedDictTop1.slice(prefix.length);
       break;
     }
   }
+  let normalizedAlgoTop1 = algoTop1;
+  for (const prefix of adminPrefixes) {
+    if (normalizedAlgoTop1.startsWith(prefix)) {
+      normalizedAlgoTop1 = normalizedAlgoTop1.slice(prefix.length);
+      break;
+    }
+  }
 
-  // Exact top-1 match (check both original and normalized)
-  if (algoTop1 === dictTop1 || algoTop1 === normalizedDictTop1) {
+  // Exact top-1 match (check original, normalized dict, and normalized both)
+  if (algoTop1 === dictTop1 || algoTop1 === normalizedDictTop1 ||
+      normalizedAlgoTop1 === normalizedDictTop1) {
     return { classification: 'redundant', algoTop1, dictTop1 };
   }
 
-  // Dictionary's answer exists in algorithm variants
+  // Dictionary's answer exists in algorithm variants (check normalized too)
   const algoTexts = new Set(algoVariants.map(v => v.text.toLowerCase()));
-  if (algoTexts.has(dictTop1) || algoTexts.has(normalizedDictTop1)) {
-    const target = algoTexts.has(dictTop1) ? dictTop1 : normalizedDictTop1;
-    const algoRank = algoVariants.findIndex(v => v.text.toLowerCase() === target) + 1;
+  const algoTextsNorm = new Set(algoVariants.map(v => {
+    let t = v.text.toLowerCase();
+    for (const prefix of adminPrefixes) {
+      if (t.startsWith(prefix)) { t = t.slice(prefix.length); break; }
+    }
+    return t;
+  }));
+  if (algoTexts.has(dictTop1) || algoTexts.has(normalizedDictTop1) ||
+      algoTextsNorm.has(normalizedDictTop1)) {
+    const target = algoTexts.has(dictTop1) ? dictTop1 :
+                   algoTexts.has(normalizedDictTop1) ? normalizedDictTop1 : null;
+    const algoRank = target
+      ? algoVariants.findIndex(v => v.text.toLowerCase() === target) + 1
+      : algoVariants.findIndex(v => {
+          let t = v.text.toLowerCase();
+          for (const p of adminPrefixes) { if (t.startsWith(p)) { t = t.slice(p.length); break; } }
+          return t === normalizedDictTop1;
+        }) + 1;
     return { classification: 'reranking', algoTop1, dictTop1, algoRank };
   }
 
   // Check if algorithm top-1 is close enough to dictionary top-1.
-  // Only check top-1 (not all variants) because that's what users actually see.
-  // Compare against both original and normalized dictionary answer.
+  // Compare normalized versions too (both sides stripped of admin prefixes).
   const top1Dist = Math.min(
     levenshtein(algoTop1, dictTop1),
     levenshtein(algoTop1, normalizedDictTop1),
+    levenshtein(normalizedAlgoTop1, normalizedDictTop1),
   );
-  const maxDist = Math.max(2, Math.floor(Math.min(dictTop1.length, normalizedDictTop1.length) * 0.25));
+  const shortestRef = Math.min(dictTop1.length, normalizedDictTop1.length, normalizedAlgoTop1.length || Infinity);
+  const maxDist = Math.max(2, Math.floor(shortestRef * 0.25));
   if (top1Dist <= maxDist) {
     return { classification: 'close_enough', algoTop1, dictTop1, bestAlgo: algoTop1, bestDist: top1Dist };
   }
 
-  // Space-insensitive comparison: many dictionary entries use different spacing
-  // (e.g., "bang bua thong" vs "bangbuathong"). Compare top-1 with spaces removed.
-  const dictNoSpaces = normalizedDictTop1.replace(/ /g, '');
-  const algoTop1NoSpaces = algoTop1.replace(/ /g, '');
-  const top1DistNoSpaces = levenshtein(algoTop1NoSpaces, dictNoSpaces);
-  const maxDistNoSpaces = Math.max(2, Math.floor(dictNoSpaces.length * 0.25));
+  // Space-insensitive comparison: strip admin prefixes from nospace versions too.
+  // The algo often produces "sathanichetsamian" (no spaces) while dict has
+  // "sathani rotfai chet samian" — after removing spaces from both normalized
+  // versions, also strip nospace admin prefixes for the final comparison.
+  const adminPrefixesNoSpace = adminPrefixes.map(p => p.trim().replace(/ /g, ''));
+  let dictNoSpaces = normalizedDictTop1.replace(/ /g, '');
+  let algoNoSpaces = algoTop1.replace(/ /g, '');
+  for (const prefix of adminPrefixesNoSpace) {
+    if (dictNoSpaces.startsWith(prefix)) { dictNoSpaces = dictNoSpaces.slice(prefix.length); break; }
+  }
+  for (const prefix of adminPrefixesNoSpace) {
+    if (algoNoSpaces.startsWith(prefix)) { algoNoSpaces = algoNoSpaces.slice(prefix.length); break; }
+  }
+  const top1DistNoSpaces = levenshtein(algoNoSpaces, dictNoSpaces);
+  const maxDistNoSpaces = Math.max(2, Math.floor(Math.min(dictNoSpaces.length, algoNoSpaces.length || Infinity) * 0.25));
   if (top1DistNoSpaces <= maxDistNoSpaces) {
     return { classification: 'close_enough_nospace', algoTop1, dictTop1, bestAlgo: algoTop1, bestDist: top1DistNoSpaces };
   }

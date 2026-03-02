@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generatedAt": "2026-02-27T08:54:12.635Z",
+    "generatedAt": "2026-03-02T08:56:26.446Z",
     "description": "Known Thai↔Latin transliterations from GeoNames/OSM. Regenerate: npm run calibrate:dictionary",
-    "totalEntries": 906,
+    "totalEntries": 558,
     "sources": [
       "geonames",
       "osm",
@@ -16,13 +16,13 @@
       "maxDistanceRatio": 0.4
     },
     "pruned": {
-      "originalEntries": 1227,
-      "redundantRemoved": 5,
-      "rerankingRemoved": 166,
-      "closeEnoughRemoved": 115,
-      "closeEnoughNospaceRemoved": 35,
-      "gapEntries": 903,
-      "reductionPercent": 26.2
+      "originalEntries": 906,
+      "redundantRemoved": 0,
+      "rerankingRemoved": 176,
+      "closeEnoughRemoved": 21,
+      "closeEnoughNospaceRemoved": 151,
+      "gapEntries": 555,
+      "reductionPercent": 38.4
     }
   },
   "entries": {
@@ -153,33 +153,6 @@
         "count": 1.5
       }
     ],
-    "นครศรีธรรมราช": [
-      {
-        "text": "nakhon si thammarat",
-        "weight": 1.1,
-        "count": 10.5
-      },
-      {
-        "text": "nakhon srithamarat",
-        "weight": 0.26,
-        "count": 2.5
-      },
-      {
-        "text": "nakkhonsitkhammarat",
-        "weight": 0.26,
-        "count": 2.5
-      },
-      {
-        "text": "nkhrsrithrrmrach",
-        "weight": 0.26,
-        "count": 2.5
-      },
-      {
-        "text": "nagorn sridharmrat",
-        "weight": 0.16,
-        "count": 1.5
-      }
-    ],
     "จังหวัดสกลนคร": [
       {
         "text": "changwat sakon nakhon",
@@ -219,13 +192,6 @@
         "count": 2.5
       }
     ],
-    "จังหวัดนครสวรรค์": [
-      {
-        "text": "changwat nakhon sawan",
-        "weight": 1.05,
-        "count": 5
-      }
-    ],
     "จังหวัดกาฬสินธุ์": [
       {
         "text": "changwat kalasin",
@@ -235,33 +201,6 @@
       {
         "text": "canghwad kalsinthu",
         "weight": 0.21,
-        "count": 1
-      }
-    ],
-    "นครปฐม": [
-      {
-        "text": "nakhon pathom",
-        "weight": 1.1,
-        "count": 14.25
-      },
-      {
-        "text": "nagara pathom",
-        "weight": 0.19,
-        "count": 2.5
-      },
-      {
-        "text": "nagorn pathom",
-        "weight": 0.19,
-        "count": 2.5
-      },
-      {
-        "text": "nakkhonpatkhom",
-        "weight": 0.19,
-        "count": 2.5
-      },
-      {
-        "text": "nakhon patham",
-        "weight": 0.1,
         "count": 1
       }
     ],
@@ -289,28 +228,6 @@
       {
         "text": "racaburis",
         "weight": 0.11,
-        "count": 1
-      }
-    ],
-    "เมืองสมุทรปราการ": [
-      {
-        "text": "amphoe mueang samut prakan",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "mueang samut prakan",
-        "weight": 0.53,
-        "count": 1.5
-      },
-      {
-        "text": "amphoe muang samut prakan",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "muang samut prakan",
-        "weight": 0.35,
         "count": 1
       }
     ],
@@ -345,55 +262,6 @@
       {
         "text": "kamphaeng phet province",
         "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "นครพนม": [
-      {
-        "text": "nakhon phanom",
-        "weight": 1.1,
-        "count": 7.25
-      },
-      {
-        "text": "nakorn panom",
-        "weight": 0.38,
-        "count": 2.5
-      },
-      {
-        "text": "nakon panom",
-        "weight": 0.23,
-        "count": 1.5
-      },
-      {
-        "text": "nakhon panom",
-        "weight": 0.15,
-        "count": 1
-      },
-      {
-        "text": "nak'hon panom",
-        "weight": 0.15,
-        "count": 1
-      }
-    ],
-    "เมืองนครราชสีมา": [
-      {
-        "text": "amphoe mueang nakhon ratchasima",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang nakhon rat sima",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "amphoe muang nakhon ratchasima",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang nakhon ratchasima",
-        "weight": 0.35,
         "count": 1
       }
     ],
@@ -455,72 +323,6 @@
         "count": 2.5
       }
     ],
-    "เมืองขอนแก่น": [
-      {
-        "text": "amphoe mueang khon kaen",
-        "weight": 1.1,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang khon kaen",
-        "weight": 0.92,
-        "count": 2.5
-      },
-      {
-        "text": "mueang khon kaen",
-        "weight": 0.92,
-        "count": 2.5
-      },
-      {
-        "text": "changwat khon kaen",
-        "weight": 0.55,
-        "count": 1.5
-      },
-      {
-        "text": "muang kaun gean",
-        "weight": 0.55,
-        "count": 1.5
-      }
-    ],
-    "เมืองระยอง": [
-      {
-        "text": "amphoe mueang rayong",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang rayong",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang rayong",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองนนทบุรี": [
-      {
-        "text": "amphoe mueang nonthaburi",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang nonthaburi",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang nonthaburi",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang nonthaburi district",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
     "เมืองชลบุรี": [
       {
         "text": "mueang chonburi district",
@@ -543,113 +345,6 @@
         "count": 1
       }
     ],
-    "เมืองเชียงใหม่": [
-      {
-        "text": "amphoe mueang chiang mai",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang chiang mai",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang chiang mai",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองภูเก็ต": [
-      {
-        "text": "amphoe mueang phuket",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "mueang phuket",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang phuket",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองพิษณุโลก": [
-      {
-        "text": "amphoe mueang phitsanulok",
-        "weight": 1.1,
-        "count": 4.5
-      },
-      {
-        "text": "amphoe muang phitsanulok",
-        "weight": 0.61,
-        "count": 2.5
-      },
-      {
-        "text": "changwat phitsanulok",
-        "weight": 0.37,
-        "count": 1.5
-      },
-      {
-        "text": "muang phitsanulok",
-        "weight": 0.37,
-        "count": 1.5
-      },
-      {
-        "text": "muang pitsanulok",
-        "weight": 0.37,
-        "count": 1.5
-      }
-    ],
-    "นครนายก": [
-      {
-        "text": "nakhon nayok",
-        "weight": 1.1,
-        "count": 10.25
-      },
-      {
-        "text": "nagorn nayok",
-        "weight": 0.27,
-        "count": 2.5
-      },
-      {
-        "text": "nakon nayok",
-        "weight": 0.27,
-        "count": 2.5
-      },
-      {
-        "text": "nakaunnayok",
-        "weight": 0.16,
-        "count": 1.5
-      },
-      {
-        "text": "nakaunnoyok",
-        "weight": 0.16,
-        "count": 1.5
-      }
-    ],
-    "อำเภอเมืองนครสวรรค์": [
-      {
-        "text": "amphoe mueang nakhon sawan",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang nakhon sawan",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "เมืองนครสวรรค์": [
-      {
-        "text": "mueang nakhon sawan",
-        "weight": 0.9,
-        "count": 1
-      }
-    ],
     "เทศบาลนครนนทบุรี": [
       {
         "text": "thesbal nkhr nnthburi",
@@ -666,47 +361,6 @@
       {
         "text": "mueang ubon ratchathani",
         "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "เมืองนครศรีธรรมราช": [
-      {
-        "text": "mueang nakhon si thammarat",
-        "weight": 0.9,
-        "count": 1
-      }
-    ],
-    "เมืองลำปาง": [
-      {
-        "text": "amphoe mueang lampang",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang lampang",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang lampang",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองเชียงราย": [
-      {
-        "text": "amphoe mueang chiang rai",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang chiang rai",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang chiang rai",
-        "weight": 0.35,
         "count": 1
       }
     ],
@@ -739,57 +393,6 @@
         "count": 2
       }
     ],
-    "เมืองปทุมธานี": [
-      {
-        "text": "amphoe mueang pathum thani",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang pathum thani",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang pathum thani",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองเพชรบูรณ์": [
-      {
-        "text": "amphoe mueang phetchabun",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang phetchabun",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang phetchabun",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองสงขลา": [
-      {
-        "text": "amphoe mueang songkhla",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang songkhla",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang songkhla",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
     "เมืองราชบุรี": [
       {
         "text": "amphoe mueang ratchaburi",
@@ -817,89 +420,11 @@
         "count": 1
       }
     ],
-    "เมืองฉะเชิงเทรา": [
-      {
-        "text": "amphoe mueang chachoengsao",
-        "weight": 1.1,
-        "count": 3
-      },
-      {
-        "text": "mueang chachoengsao",
-        "weight": 1.1,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang chachoengsao",
-        "weight": 0.92,
-        "count": 2.5
-      },
-      {
-        "text": "changwat chachoengsao",
-        "weight": 0.55,
-        "count": 1.5
-      },
-      {
-        "text": "muang chachurngsao",
-        "weight": 0.55,
-        "count": 1.5
-      }
-    ],
-    "เมืองบุรีรัมย์": [
-      {
-        "text": "amphoe mueang buriram",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang buriram",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang buri ram",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองสุราษฎร์ธานี": [
-      {
-        "text": "amphoe mueang surat thani",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang surat thani",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang surat thani",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
     "วัฒนา": [
       {
         "text": "watthana",
         "weight": 1.05,
         "count": 8
-      }
-    ],
-    "เมืองลำพูน": [
-      {
-        "text": "amphoe mueang lamphun",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang lamphun",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang lamphun",
-        "weight": 0.35,
-        "count": 1
       }
     ],
     "เขตวัฒนา": [
@@ -911,23 +436,6 @@
       {
         "text": "khet watthana",
         "weight": 0.45,
-        "count": 1
-      }
-    ],
-    "เมืองกาญจนบุรี": [
-      {
-        "text": "amphoe mueang kanchanaburi",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang kanchanaburi",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang kanchanaburi",
-        "weight": 0.35,
         "count": 1
       }
     ],
@@ -950,35 +458,11 @@
         "count": 1
       }
     ],
-    "เมืองสุพรรณบุรี": [
-      {
-        "text": "amphoe mueang suphan buri",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang suphan buri",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang suphan buri",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
     "เทศบาลนครลำปาง": [
       {
         "text": "thesbal nkhr lapang",
         "weight": 0.9,
         "count": 1.5
-      }
-    ],
-    "อำเภอพระนครศรีอยุธยา": [
-      {
-        "text": "amphoe phra nakhon si ayutthaya",
-        "weight": 0.9,
-        "count": 3
       }
     ],
     "เขตทุ่งครุ": [
@@ -995,40 +479,6 @@
       {
         "text": "thung khru",
         "weight": 0.53,
-        "count": 1
-      }
-    ],
-    "เมืองตรัง": [
-      {
-        "text": "amphoe mueang trang",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang trang",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang thap thiang",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang trang",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองอุตรดิตถ์": [
-      {
-        "text": "amphoe mueang uttaradit",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "mueang uttaradit",
-        "weight": 0.3,
         "count": 1
       }
     ],
@@ -1056,69 +506,6 @@
         "count": 1
       }
     ],
-    "เมืองมหาสารคาม": [
-      {
-        "text": "amphoe mueang maha sarakham",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang maha sarakham",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang maha sarakham",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองร้อยเอ็ด": [
-      {
-        "text": "amphoe mueang roi et",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "mueang roi et",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "เมืองยะลา": [
-      {
-        "text": "amphoe mueang yala",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "mueang yala",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "เมืองมุกดาหาร": [
-      {
-        "text": "amphoe mueang mukdahan",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe mueng mukdahan",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "amphoe mukdahan",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang mukdahan",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
     "เขตสาทร": [
       {
         "text": "khet sathon",
@@ -1129,57 +516,6 @@
         "text": "khet sathr",
         "weight": 0.7,
         "count": 2
-      }
-    ],
-    "เมืองระนอง": [
-      {
-        "text": "amphoe mueang ranong",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang ranong",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang ranong",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองปราจีนบุรี": [
-      {
-        "text": "amphoe mueang prachin buri",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang prachin buri",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang prachin buri",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองหนองคาย": [
-      {
-        "text": "amphoe mueang nong khai",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang nong khai",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang nong khai",
-        "weight": 0.35,
-        "count": 1
       }
     ],
     "เทศบาลนครนครราชสีมา": [
@@ -1199,23 +535,6 @@
         "count": 1.5
       }
     ],
-    "เมืองยโสธร": [
-      {
-        "text": "amphoe mueang yasothon",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe yasothon",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang yasothon",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
     "แม่ริม เชียงใหม่": [
       {
         "text": "muang chieng mai",
@@ -1226,13 +545,6 @@
         "text": "mueang chiang mai",
         "weight": 0.9,
         "count": 1.5
-      }
-    ],
-    "เมืองนครพนม": [
-      {
-        "text": "mueang nakhon phanom",
-        "weight": 0.9,
-        "count": 1
       }
     ],
     "อำเภอเมืองกาฬสินธุ์": [
@@ -1251,18 +563,6 @@
       {
         "text": "mueang kalasin",
         "weight": 0.9,
-        "count": 1
-      }
-    ],
-    "เมืองสระบุรี": [
-      {
-        "text": "amphoe mueang sara buri",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "mueang saraburi",
-        "weight": 0.3,
         "count": 1
       }
     ],
@@ -1285,77 +585,11 @@
         "count": 1
       }
     ],
-    "เมืองเพชรบุรี": [
-      {
-        "text": "amphoe mueang phetchaburi",
-        "weight": 1.1,
-        "count": 3
-      },
-      {
-        "text": "mueang phetchaburi",
-        "weight": 0.92,
-        "count": 2.5
-      },
-      {
-        "text": "changwat phet buri",
-        "weight": 0.55,
-        "count": 1.5
-      },
-      {
-        "text": "moeang bhejburi",
-        "weight": 0.55,
-        "count": 1.5
-      },
-      {
-        "text": "muang bheja buri",
-        "weight": 0.55,
-        "count": 1.5
-      }
-    ],
-    "เมืองจันทบุรี": [
-      {
-        "text": "amphoe mueang chanthaburi",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang chanthaburi",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang chanthaburi",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "muang chanthabouli",
-        "weight": 0.1,
-        "count": 0.25
-      }
-    ],
     "ถนนเพชรเกษม": [
       {
         "text": "thanon phetkasem",
         "weight": 1.1,
         "count": 42.39999999999998
-      }
-    ],
-    "เมืองแพร่": [
-      {
-        "text": "amphoe mueang phrae",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang phrae",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang phrae",
-        "weight": 0.35,
-        "count": 1
       }
     ],
     "เขตสะพานสูง": [
@@ -1407,81 +641,6 @@
         "count": 1
       }
     ],
-    "นครชัยศรี": [
-      {
-        "text": "nakhon chai si",
-        "weight": 1.1,
-        "count": 11
-      },
-      {
-        "text": "nkhrchaysri",
-        "weight": 0.3,
-        "count": 3
-      }
-    ],
-    "เมืองศรีสะเกษ": [
-      {
-        "text": "amphoe mueang sisaket",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang sisaket",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang si sa ket",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองพิจิตร": [
-      {
-        "text": "amphoe mueang phichit",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang phichit",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang phichit",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "อำเภอพะเยา": [
-      {
-        "text": "amphoe mueang phayao",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "amphoe phayao",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "เมืองพะเยา": [
-      {
-        "text": "amphoe mueang phayao",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe phayao",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang phayao",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
     "ราชเทวี": [
       {
         "text": "ratchathewi",
@@ -1501,28 +660,6 @@
       {
         "text": "khet rachthewi",
         "weight": 0.1,
-        "count": 1
-      }
-    ],
-    "เมืองปัตตานี": [
-      {
-        "text": "amphoe mueang pattani",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang pattani",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "monthon pattani",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang pattani",
-        "weight": 0.35,
         "count": 1
       }
     ],
@@ -1572,23 +709,6 @@
         "count": 1.5
       }
     ],
-    "เมืองสุโขทัย": [
-      {
-        "text": "amphoe mueang sukhothai",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang sukhothai",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang sukhothai",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
     "เมืองพัทลุง": [
       {
         "text": "amphoe mueang phatthalung",
@@ -1599,67 +719,6 @@
         "text": "mueang phatthalung",
         "weight": 0.3,
         "count": 1
-      }
-    ],
-    "อำเภอนราธิวาส": [
-      {
-        "text": "amphoe mueang narathiwat",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang narathiwat",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "amphoe narathiwat",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang narathiwat",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองนราธิวาส": [
-      {
-        "text": "amphoe mueang narathiwat",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang narathiwat",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "amphoe narathiwat",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang narathiwat",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองอำนาจเจริญ": [
-      {
-        "text": "amphoe mueang amnat charoen",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe amnat charoen",
-        "weight": 0.88,
-        "count": 2.5
-      },
-      {
-        "text": "mueang amnat charoen",
-        "weight": 0.88,
-        "count": 2.5
       }
     ],
     "เทศบาลเมืองจันทบุรี": [
@@ -1695,42 +754,6 @@
       {
         "text": "slephum",
         "weight": 0.21,
-        "count": 1
-      }
-    ],
-    "เมืองสตูล": [
-      {
-        "text": "amphoe mueang satun",
-        "weight": 0.9,
-        "count": 2
-      },
-      {
-        "text": "mueang satun",
-        "weight": 0.45,
-        "count": 1
-      }
-    ],
-    "เมืองสมุทรสงคราม": [
-      {
-        "text": "amphoe mueang samut songkhram",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang samut songkhram",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang samut songkhram",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "นครไทย": [
-      {
-        "text": "nakon thai",
-        "weight": 0.9,
         "count": 1
       }
     ],
@@ -1778,13 +801,6 @@
         "count": 1
       }
     ],
-    "อำเภอนครไทย": [
-      {
-        "text": "amphoe nakhon thai",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
     "สวรรคโลก": [
       {
         "text": "sawankhalok",
@@ -1819,69 +835,6 @@
         "count": 8
       }
     ],
-    "เมืองตราด": [
-      {
-        "text": "amphoe mueang trat",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang trat",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang trat",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองกระบี่": [
-      {
-        "text": "amphoe mueang krabi",
-        "weight": 1.1,
-        "count": 4.5
-      },
-      {
-        "text": "amphoe muang krabi",
-        "weight": 0.61,
-        "count": 2.5
-      },
-      {
-        "text": "mueang krabi",
-        "weight": 0.61,
-        "count": 2.5
-      },
-      {
-        "text": "changwat krabi",
-        "weight": 0.37,
-        "count": 1.5
-      },
-      {
-        "text": "moeang kra-bi",
-        "weight": 0.37,
-        "count": 1.5
-      }
-    ],
-    "อำเภอดำเนินสะดวก": [
-      {
-        "text": "amphoe damnoen saduak",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "สิงหนคร": [
-      {
-        "text": "singhanakhon",
-        "weight": 1.05,
-        "count": 5
-      },
-      {
-        "text": "singh nkhr",
-        "weight": 0.42,
-        "count": 2
-      }
-    ],
     "เทศบาลนครเชียงราย": [
       {
         "text": "thanh pho chiang rai",
@@ -1892,18 +845,6 @@
         "text": "thesbal nkhr cheiyngray",
         "weight": 0.9,
         "count": 1.5
-      }
-    ],
-    "อำเภอสิงหนคร": [
-      {
-        "text": "amphoe singhanakhon",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "king amphoe singhanakhon",
-        "weight": 0.3,
-        "count": 1
       }
     ],
     "เทศบาลนครภูเก็ต": [
@@ -1970,40 +911,6 @@
         "count": 3
       }
     ],
-    "อำเภอบึงกาฬ": [
-      {
-        "text": "amphoe mueang bueng kan",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe bueng kan",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "amphoe bung kan",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองประจวบคีรีขันธ์": [
-      {
-        "text": "amphoe mueang prachuap khiri khan",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang prachuap khiri khan",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang prachuap khiri khan",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
     "กันทรารมย์": [
       {
         "text": "kanthararom",
@@ -2055,23 +962,6 @@
         "text": "ctur phaktr phiman",
         "weight": 0.42,
         "count": 2
-      }
-    ],
-    "เมืองชัยนาท": [
-      {
-        "text": "amphoe mueang chainat",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang chainat",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang chai nat",
-        "weight": 0.35,
-        "count": 1
       }
     ],
     "ธาตุพนม": [
@@ -2224,23 +1114,6 @@
         "count": 1
       }
     ],
-    "พระนคร": [
-      {
-        "text": "phra nakhon",
-        "weight": 1.1,
-        "count": 7
-      },
-      {
-        "text": "phrankhr",
-        "weight": 0.31,
-        "count": 2
-      },
-      {
-        "text": "phra nagara",
-        "weight": 0.16,
-        "count": 1
-      }
-    ],
     "ศาลาธรรมสพน์": [
       {
         "text": "sala thr rm s phn",
@@ -2267,35 +1140,6 @@
         "count": 3
       }
     ],
-    "เมืองสิงห์บุรี": [
-      {
-        "text": "amphoe mueang sing buri",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang sing buri",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang sing buri",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "นครหลวง": [
-      {
-        "text": "nakhon luang",
-        "weight": 1.1,
-        "count": 8
-      },
-      {
-        "text": "nkhrhlwng",
-        "weight": 0.41,
-        "count": 3
-      }
-    ],
     "แพรกษาใหม่": [
       {
         "text": "phraeksa mai",
@@ -2304,57 +1148,6 @@
       },
       {
         "text": "phraek sa mai",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "อำเภออ่างทอง": [
-      {
-        "text": "amphoe mueang ang thong",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe ang thong",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "amphoe muang ang thong",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองอ่างทอง": [
-      {
-        "text": "amphoe mueang ang thong",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe ang thong",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "amphoe muang ang thong",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang ang thong",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "ถนนนครไชยศรี": [
-      {
-        "text": "thanon nakhon chaisi",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "thanon nakhon chai si",
         "weight": 0.3,
         "count": 1
       }
@@ -2384,40 +1177,6 @@
         "text": "wat sawang arrom",
         "weight": 0.1,
         "count": 2.4000000000000004
-      }
-    ],
-    "เมืองอุทัยธานี": [
-      {
-        "text": "amphoe mueang uthai thani",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang uthai thani",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang uthai thani",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "เมืองแม่ฮ่องสอน": [
-      {
-        "text": "amphoe mueang mae hong son",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang mae hong son",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang mae hong son",
-        "weight": 0.35,
-        "count": 1
       }
     ],
     "คอหงส์": [
@@ -2530,23 +1289,6 @@
       {
         "text": "amphoe bang bua thong",
         "weight": 0.3,
-        "count": 1
-      }
-    ],
-    "เมืองพังงา": [
-      {
-        "text": "amphoe mueang phangnga",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "amphoe muang phangnga",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "mueang phang nga",
-        "weight": 0.35,
         "count": 1
       }
     ],
@@ -2689,13 +1431,6 @@
         "count": 3
       }
     ],
-    "อำเภอเกาะจันทร์": [
-      {
-        "text": "amphoe ko chan",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
     "มลฑลปราจีนบุรี": [
       {
         "text": "amphoe muang prachin buri",
@@ -2752,18 +1487,6 @@
         "text": "chulaphon",
         "weight": 0.26,
         "count": 1
-      }
-    ],
-    "โกสัมพีนคร": [
-      {
-        "text": "kosamphi nakhon",
-        "weight": 1.05,
-        "count": 5
-      },
-      {
-        "text": "kosa m phi nkhr",
-        "weight": 0.42,
-        "count": 2
       }
     ],
     "มโนรมย์": [
@@ -3116,23 +1839,6 @@
         "count": 1
       }
     ],
-    "เทพนคร": [
-      {
-        "text": "thep nakhon",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "theph nkhr",
-        "weight": 0.26,
-        "count": 1
-      },
-      {
-        "text": "thep nakon",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
     "ถนนพระรามที่ 3": [
       {
         "text": "thanon rama iii",
@@ -3150,28 +1856,6 @@
         "text": "ban phechr",
         "weight": 0.35,
         "count": 9
-      }
-    ],
-    "นครชุม": [
-      {
-        "text": "nakhon chum",
-        "weight": 1.1,
-        "count": 7
-      },
-      {
-        "text": "nkhr chum",
-        "weight": 0.31,
-        "count": 2
-      },
-      {
-        "text": "nakon chum",
-        "weight": 0.16,
-        "count": 1
-      },
-      {
-        "text": "nakhom chum",
-        "weight": 0.16,
-        "count": 1
       }
     ],
     "กิ่งอำเภอดอยหลวง": [
@@ -3208,18 +1892,6 @@
         "text": "mae charim",
         "weight": 1.05,
         "count": 7
-      }
-    ],
-    "ปากนคร": [
-      {
-        "text": "pak nakhon",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "pak nkhr",
-        "weight": 0.26,
-        "count": 1
       }
     ],
     "กระแสสินธุ์": [
@@ -3414,18 +2086,6 @@
         "text": "rach sasn",
         "weight": 0.42,
         "count": 2
-      }
-    ],
-    "ควนมะพร้าว": [
-      {
-        "text": "khuan maphrao",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "khwn maphraw",
-        "weight": 0.3,
-        "count": 1
       }
     ],
     "ตำบลบ้านไม้เข็ด": [
@@ -3730,13 +2390,6 @@
         "count": 0.5
       }
     ],
-    "นครเจดีย์": [
-      {
-        "text": "nakhon chedi",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
     "ปากปวน": [
       {
         "text": "pak puan",
@@ -3807,18 +2460,6 @@
         "text": "pathwi",
         "weight": 0.26,
         "count": 1
-      }
-    ],
-    "ควนปริง": [
-      {
-        "text": "khuan pring",
-        "weight": 1.05,
-        "count": 4.5
-      },
-      {
-        "text": "khwn pri ng",
-        "weight": 0.35,
-        "count": 1.5
       }
     ],
     "บ้านสนวน": [
@@ -3934,18 +2575,6 @@
         "count": 1.5
       }
     ],
-    "วิเชตนคร": [
-      {
-        "text": "wichet nakhon",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "wi che tnkhr",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "เมืองหงส์": [
       {
         "text": "mueang hong",
@@ -4038,30 +2667,6 @@
         "count": 1
       }
     ],
-    "บึงนคร": [
-      {
-        "text": "bueng nakhon",
-        "weight": 1.1,
-        "count": 8.5
-      },
-      {
-        "text": "bung nkhr",
-        "weight": 0.32,
-        "count": 2.5
-      }
-    ],
-    "สวนจิตรลดา": [
-      {
-        "text": "suan chitlada",
-        "weight": 1.05,
-        "count": 4
-      },
-      {
-        "text": "swn citrlda",
-        "weight": 0.26,
-        "count": 1
-      }
-    ],
     "กุดตาเพชร": [
       {
         "text": "kut ta phet",
@@ -4091,13 +2696,6 @@
         "text": "chith wn",
         "weight": 0.3,
         "count": 1
-      }
-    ],
-    "ท่าอากาศยานสกลนคร": [
-      {
-        "text": "tha akatsayan sakon nakhon",
-        "weight": 1.05,
-        "count": 5.4
       }
     ],
     "ดอนนางหงส์": [
@@ -4143,18 +2741,6 @@
         "count": 3
       }
     ],
-    "นครป่าหมาก": [
-      {
-        "text": "nakhon pa mak",
-        "weight": 0.9,
-        "count": 3
-      },
-      {
-        "text": "nkhrpahmak",
-        "weight": 0.3,
-        "count": 1
-      }
-    ],
     "แสมสาร": [
       {
         "text": "samae san",
@@ -4184,33 +2770,6 @@
         "text": "sra cr khe",
         "weight": 0.3,
         "count": 1
-      }
-    ],
-    "สถานีเจ็ดเสมียน": [
-      {
-        "text": "sathani rotfai chet samian",
-        "weight": 1.1,
-        "count": 27
-      },
-      {
-        "text": "sathani chet samian",
-        "weight": 0.37,
-        "count": 9
-      },
-      {
-        "text": "sthani ced semiyn",
-        "weight": 0.37,
-        "count": 9
-      },
-      {
-        "text": "sthani rthfi ced semiyn",
-        "weight": 0.37,
-        "count": 9
-      },
-      {
-        "text": "sathani chet samien",
-        "weight": 0.12,
-        "count": 3
       }
     ],
     "บ้านเหมือดแอ่": [
@@ -4316,13 +2875,6 @@
     "โคกเพชรพัฒนา": [
       {
         "text": "khok phet phatthana",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "วรนคร": [
-      {
-        "text": "wora nakhon",
         "weight": 0.9,
         "count": 3
       }
@@ -4525,18 +3077,6 @@
         "count": 1.5
       }
     ],
-    "ควนเกย": [
-      {
-        "text": "khuan koei",
-        "weight": 1.05,
-        "count": 4.5
-      },
-      {
-        "text": "khwn key",
-        "weight": 0.35,
-        "count": 1.5
-      }
-    ],
     "ศิลาเพชร": [
       {
         "text": "sila phet",
@@ -4714,18 +3254,6 @@
         "text": "keaa sukr",
         "weight": 0.22,
         "count": 1.5
-      }
-    ],
-    "บ้านสวนสวรรค์": [
-      {
-        "text": "ban suan sawan",
-        "weight": 1.1,
-        "count": 31
-      },
-      {
-        "text": "ban swn swrrkh",
-        "weight": 0.35,
-        "count": 10
       }
     ],
     "ราชธานี": [
@@ -4917,89 +3445,6 @@
         "count": 1
       }
     ],
-    "สถานีคูบัว": [
-      {
-        "text": "sathani rotfai khu bua",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khu bua",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani khu baw",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi khu baw",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบางเค็ม": [
-      {
-        "text": "sathani rotfai bang khem",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani bang khem",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani khlong pradu",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani bang khem",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi bang khem",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีคง": [
-      {
-        "text": "sathani rotfai khong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khong",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani kut rang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani khng",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีห้วยแก้ว": [
-      {
-        "text": "sathani rotfai huai kaeo",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai kaeo",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "ชัยฤทธิ์": [
       {
         "text": "chay vththi",
@@ -5055,33 +3500,6 @@
         "count": 3
       }
     ],
-    "สถานีสีคิ้ว": [
-      {
-        "text": "sathani rotfai sikhio",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani si khiu",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani sikhio",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi sikhiw",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani sikhiw",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "สถานีสระธรรมขันธ์": [
       {
         "text": "sathani rotfai sa thammakhan",
@@ -5100,148 +3518,6 @@
       },
       {
         "text": "sthani sra thrrm khanth",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีลาดบัวขาว": [
-      {
-        "text": "sathani rotfai lat bua khao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani lat bua khao",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani lad bawkhaw",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi lad bawkhaw",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีกระสัง": [
-      {
-        "text": "sathani rotfai krasang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani krasang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani krasang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi krasang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟโคกกระเทียม": [
-      {
-        "text": "sathani khok kathiam",
-        "weight": 1.1,
-        "count": 3
-      },
-      {
-        "text": "sathani khok krathiam",
-        "weight": 1.1,
-        "count": 3
-      },
-      {
-        "text": "sathani rotfai khok krathiam",
-        "weight": 1.1,
-        "count": 3
-      },
-      {
-        "text": "sthani khok kratheiym",
-        "weight": 1.1,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi khok kratheiym",
-        "weight": 1.1,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านหินดาด": [
-      {
-        "text": "sathani rotfai ban hin dat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban hin dat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani hin dat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban hin dad",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban hin dad",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีจันทึก": [
-      {
-        "text": "sathani rotfai chan thuek",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani chan thuek",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani chan thuk",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani can thuk",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi can thuk",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองโพ": [
-      {
-        "text": "sathani rotfai nong pho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban nong pho",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani nong pho",
         "weight": 0.37,
         "count": 3
       }
@@ -5273,18 +3549,6 @@
         "text": "thanon sajjakul",
         "weight": 1.1,
         "count": 16.000000000000004
-      }
-    ],
-    "บ้านสวนมะพร้าว": [
-      {
-        "text": "ban suan maphrao",
-        "weight": 1.1,
-        "count": 24
-      },
-      {
-        "text": "ban swn maphraw",
-        "weight": 0.37,
-        "count": 8
       }
     ],
     "นาเขลียง": [
@@ -5330,28 +3594,6 @@
         "count": 1
       }
     ],
-    "สถานีสระบุรี": [
-      {
-        "text": "sathani rotfai saraburi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani sara buri",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi sraburi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani sraburi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "โคราช": [
       {
         "text": "khorach",
@@ -5385,82 +3627,6 @@
         "count": 3
       }
     ],
-    "สถานีท่าฉาง": [
-      {
-        "text": "sathani rotfai tha chang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khao than",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani tha chang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi thachang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani thachang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีผาลาด": [
-      {
-        "text": "sathani rotfai pha lat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani pha lat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani sala pha lat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani pha lad",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi pha lad",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีโพธาราม": [
-      {
-        "text": "sathani rotfai photharam",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani photharam",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani photharam",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi photharam",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "สถานีท่าชนะ": [
       {
         "text": "sathani rotfai tha chana",
@@ -5483,215 +3649,6 @@
         "count": 3
       }
     ],
-    "สถานีนครชุมณ์": [
-      {
-        "text": "sathani nakhon chum",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "sthani nkhr chum n",
-        "weight": 1.05,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟนครชุมณ์": [
-      {
-        "text": "sathani rotfai nakhon chum",
-        "weight": 1.05,
-        "count": 9
-      }
-    ],
-    "สถานีบ้านบ่อตะคร้อ": [
-      {
-        "text": "sathani rotfai ban bo takhro",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban bo takhro",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani bo takhro",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani rotfai bo takhro",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านกล้วย": [
-      {
-        "text": "sathani rotfai ban kluai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban kluai",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban klwy",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban klwy",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีตาคลี": [
-      {
-        "text": "sathani rotfai takhli",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani takhli",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi takhli",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani takhli",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรือเสาะ": [
-      {
-        "text": "sathani rotfai rueso",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rueso",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani ruso",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีพลสงคราม": [
-      {
-        "text": "sathani rotfai phon songkhram",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani phon songkram",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani phl sngkhram",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi phl sngkhram",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีปากน้ำโพ": [
-      {
-        "text": "sathani rotfai pak nam pho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani pak nam pho",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani pakna pho",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi pakna pho",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟหนองทรายขาว": [
-      {
-        "text": "sathani nong sai khao",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "sathani rotfai nong sai khao",
-        "weight": 1.05,
-        "count": 3
-      }
-    ],
-    "สถานีนครสวรรค์": [
-      {
-        "text": "sathani nakhon sawan",
-        "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "สถานีกุดจิก": [
-      {
-        "text": "sathani rotfai kut chik",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani kut chik",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani rot fai kut chik",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani kud cik",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีโคกกรวด": [
-      {
-        "text": "sathani rotfai khok kruat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khok kruat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani khok krwd",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi khok krwd",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "สถานีอำเภอจักราช": [
       {
         "text": "sathani rotfai amphoe chakkarat",
@@ -5700,77 +3657,6 @@
       },
       {
         "text": "sathani amphoe chakkarat",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีมะค่า": [
-      {
-        "text": "sathani rotfai makha",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban makha",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani makha",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani makha",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi makha",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านกลับ": [
-      {
-        "text": "sathani rotfai ban klap",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban klap",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban klab",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban klab",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านโคน": [
-      {
-        "text": "sathani rotfai ban khon",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban khon",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban khon",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban khon",
         "weight": 0.37,
         "count": 3
       }
@@ -5871,13 +3757,6 @@
         "count": 3
       }
     ],
-    "ถนนนครสวรรค์": [
-      {
-        "text": "thanon nakhon sawan",
-        "weight": 0.9,
-        "count": 0.5
-      }
-    ],
     "ราษฎรพัฒนา": [
       {
         "text": "ratsadon phatthana",
@@ -5912,33 +3791,6 @@
         "count": 3
       }
     ],
-    "สถานีเพชรบุรี": [
-      {
-        "text": "sathani rotfai phetchaburi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani phet buri",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani phetchaburi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani phechrburi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi phechrburi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "สถานีปางปํวย": [
       {
         "text": "sathani rotfai pang puai",
@@ -5952,84 +3804,6 @@
       },
       {
         "text": "sthani pang pwy",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีคันธุลี": [
-      {
-        "text": "sathani rotfai khan thuli",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khan thuli",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani khan thuli",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi khan thuli",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีห้วยทรายใต้": [
-      {
-        "text": "sathani rotfai huai sai tai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai sai tai",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani sai tai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีไชยา": [
-      {
-        "text": "sathani rotfai chaiya",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani chaiya",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani chiya",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi chiya",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านส้อง": [
-      {
-        "text": "sathani rotfai ban song",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban khlong tan",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani ban song",
         "weight": 0.37,
         "count": 3
       }
@@ -6058,393 +3832,10 @@
         "count": 3
       }
     ],
-    "สถานีพิจิตร": [
-      {
-        "text": "sathani rotfai phichit",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani phichit",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani phicitr",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีปากพลี": [
-      {
-        "text": "sathani rotfai pak phli",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban pak phli",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani pak phli",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani pakphli",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi pakphli",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีปากช่อง": [
-      {
-        "text": "sathani rotfai pak chong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani pak chong",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเนินมะกอก": [
-      {
-        "text": "sathani rotfai noen makok",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani noen makok",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านนาโคก": [
-      {
-        "text": "sathani rotfai ban na khok",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani na khok",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani banna khok",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi banna khok",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีลำชี": [
-      {
-        "text": "sathani rotfai lam chi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani lam chi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani la chi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi la chi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหัวตะเข้": [
-      {
-        "text": "sathani rotfai hua takhe",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani hua takhe",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani haw takhe",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi haw takhe",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีห้วยราช": [
-      {
-        "text": "sathani rotfai huai rat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani hua rat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani huai rat",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "ดอนเมือง Don Muang  กม.22+215": [
       {
         "text": "dxnmeuxng don muang  km.22+215",
         "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "สถานีดงตะขบ": [
-      {
-        "text": "sathani rotfai dong takhop",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani dong takhop",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani dng takhb",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีช่องแค": [
-      {
-        "text": "sathani rotfai chong khae",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani chong khae",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีชีผ้าขาว": [
-      {
-        "text": "sathani rotfai chi pha khao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban chiphakhao",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani chi pha khao",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani chi pha khaw",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi chi pha khaw",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีจันเสน": [
-      {
-        "text": "sathani rotfai chan sen",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani chan sen",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani can sen",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi can sen",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบุรีรัมย์": [
-      {
-        "text": "sathani rotfai buriram",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani buriram",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani buriramy",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi buriramy",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านหมี่": [
-      {
-        "text": "sathani rotfai ban mi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban mi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani banhmi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi banhmi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบางมูลนาก": [
-      {
-        "text": "sathani rotfai bang mun nak",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani bang mun nak",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani bangmulnak",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi bangmulnak",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านบุ่ง": [
-      {
-        "text": "sathani rotfai ban bung",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban bung",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban bung",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban bung",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีโนนสูง": [
-      {
-        "text": "sathani rotfai non sung",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani non sung",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani nonsung",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi nonsung",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านพะเนา": [
-      {
-        "text": "sathani rotfai ban phanao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban phanao",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban pha nea",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban pha nea",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านเกาะ": [
-      {
-        "text": "sathani rotfai ban ko",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban ko",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban keaa",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban keaa",
-        "weight": 0.37,
         "count": 3
       }
     ],
@@ -6479,18 +3870,6 @@
         "count": 1
       }
     ],
-    "สถานีรถไฟโพรงมะเดื่อ": [
-      {
-        "text": "sathani phrong madua",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "sathani rotfai phrong maduea",
-        "weight": 1.05,
-        "count": 3
-      }
-    ],
     "โรงเรียนจุฬาภรณ์ราชวิทยาลัย": [
       {
         "text": "rongrian chulabhorn ratcha witthayalai",
@@ -6518,18 +3897,6 @@
         "count": 2.4000000000000004
       }
     ],
-    "สถานีรถไฟหินลับ": [
-      {
-        "text": "sathani hin lap",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi hin lab",
-        "weight": 1.05,
-        "count": 3
-      }
-    ],
     "มินิบิ๊กซี": [
       {
         "text": "mini big c",
@@ -6550,40 +3917,6 @@
         "text": "minibigc",
         "weight": 0.45,
         "count": 0.3
-      }
-    ],
-    "สถานีรถไฟเชียงราก": [
-      {
-        "text": "sathani chiang rak",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "sathani rotfai chiang rak",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi cheiyng rak",
-        "weight": 1.05,
-        "count": 3
-      }
-    ],
-    "สถานีนครราชสีมา": [
-      {
-        "text": "sathani rotfai nakhon ratchasima",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nakhon ratchasima",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani nkhrrachsima",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "ลูคัส ครานัค": [
@@ -6637,448 +3970,6 @@
         "count": 1
       }
     ],
-    "สถานีผาคอ": [
-      {
-        "text": "sathani rotfai pha kho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani pha kho",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองปลาดุก": [
-      {
-        "text": "sathani rotfai nong pla duk",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong pla duk",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองแก": [
-      {
-        "text": "sathani rotfai nong kae",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong kae",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีแม่ทะ": [
-      {
-        "text": "sathani rotfai mae tha",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani mae tha",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีคลอบางตาล": [
-      {
-        "text": "sathani rotfai khlong bang tan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khlong bang tan",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขาย้อย": [
-      {
-        "text": "sathani rotfai khao yoi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban noi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani khao yoi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีแก่งหลวง": [
-      {
-        "text": "sathani rotfai kaeng luang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani kaeng luang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีห้วยมุด": [
-      {
-        "text": "sathani rotfai huai mut",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai mut",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ่อแห้ว": [
-      {
-        "text": "sathani rotfai bo haeo",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban bo",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani bo haeo",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านปิน": [
-      {
-        "text": "sathani rotfai ban pin",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban pin",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban pin",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rth fi ban pin",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีนาสาร": [
-      {
-        "text": "sathani rotfai na san",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban na san",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani na san",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani na sar",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi na sar",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีโยธะกา": [
-      {
-        "text": "sathani rotfai yothaka",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani yothaka",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rth fi yotha ka",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani yotha ka",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีตันหยงมัส": [
-      {
-        "text": "sathani rotfai tanyongmat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani tanyong mat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rth fi tanhyng mas",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani tanhyng mas",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านป๊อกแป๊ก": [
-      {
-        "text": "sathani rotfai ban pok paek",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban pok paek",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani pokpaek",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีภูเขาลาด": [
-      {
-        "text": "sathani rotfai phukhao lat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani phu khao lat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani phukhao lat",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองเต่า": [
-      {
-        "text": "sathani rotfai nong tao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong tao",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเมืองที": [
-      {
-        "text": "sathani rotfai mueang thi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban muang thi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani muang thi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani mueang thi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีมะรือโบ": [
-      {
-        "text": "sathani rotfai ma rue bo",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ma rue bo",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani marubo",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีแม่พวก": [
-      {
-        "text": "sathani rotfai mae phuak",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani mae phuak",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีลำปลายมาศ": [
-      {
-        "text": "sathani rotfai lam plai mat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani lam plai mat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani la playmas",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi la playmas",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านต้นโดน": [
-      {
-        "text": "sathani rotfai ban ton don",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban ton don",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani khlong wat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani ton don",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban tn don",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีกบินทร์บุรี": [
-      {
-        "text": "sathani rotfai kabin buri",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani kabin buri",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani kbinthrburi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi kbinthrburi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหัวดง": [
-      {
-        "text": "sathani rotfai hua dong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani hua dong",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani haw dng",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบุ่งหวาย": [
-      {
-        "text": "sathani rotfai bung wai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani bung wai",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani bung hway",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi bung hway",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านหมอ": [
-      {
-        "text": "sathani rotfai ban mo",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban mo",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีอรัญประเทศ": [
-      {
-        "text": "sathani rotfai aranyaprathet",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani aranyaprathet",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านตาลวก": [
       {
         "text": "ban ta luak",
@@ -7108,221 +3999,6 @@
         "count": 2.4000000000000004
       }
     ],
-    "สถานีซับม่วง": [
-      {
-        "text": "sathani rotfai sap muang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani sap muang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi sab mwng",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani sab mwng",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบันไดม้า": [
-      {
-        "text": "sathani rotfai bandai ma",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani bandai ma",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani bandi ma",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi bandi ma",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีกลางดง": [
-      {
-        "text": "sathani rotfai klang dong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani klang dong",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani klang dng",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi klang dng",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านกะโดน": [
-      {
-        "text": "sathani rotfai ban kadon",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban kadon",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban ka don",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban ka don",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีท่าช้าง": [
-      {
-        "text": "sathani rotfai tha chang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani tha chang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi thachang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani thachang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีโคกคลี": [
-      {
-        "text": "sathani rotfai khok khli",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khok khli",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani khok khli",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi khok khli",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีลำนารายณ์": [
-      {
-        "text": "sathani rotfai lam narai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani lam narai",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani la narayn",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีสุรนารายณ์": [
-      {
-        "text": "sathani rotfai suranarai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani suranarai",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi sur narayn",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani sur narayn",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านเกาะรัง": [
-      {
-        "text": "sathani rotfai ban ko rang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban ko rang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban keaa rang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban keaa rang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีลพบุรี": [
-      {
-        "text": "sathani rotfai lop buri",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani lop buri",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani lphburi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi lphburi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "เซลล์": [
       {
         "text": "shell",
@@ -7335,28 +4011,6 @@
         "text": "thanon watcharaphon",
         "weight": 0.9,
         "count": 0.5
-      }
-    ],
-    "สถานีรถไฟชุมทางศรีราชา": [
-      {
-        "text": "sathani chumtang si racha",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai chumtang si racha",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani chum thang sriracha",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi chum thang sriracha",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "ยัน ฟัน ไอก์": [
@@ -7462,23 +4116,6 @@
         "count": 0.75
       }
     ],
-    "สถานีรถไฟควนหินมุ้ย": [
-      {
-        "text": "sathani khuan hin mui",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai khuan hin mui",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi khwn hin muy",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "โจวันนี เบลลีนี": [
       {
         "text": "giovanni bellini",
@@ -7499,28 +4136,6 @@
         "text": "giovanni belleni",
         "weight": 0.23,
         "count": 0.25
-      }
-    ],
-    "สถานีบางจาก": [
-      {
-        "text": "sathani rotfai bang chak",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani bang chak",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani bangcak",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi bangcak",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "มัสยิดดารุลสลาม": [
@@ -7544,57 +4159,6 @@
       {
         "text": "sthani rthfi kaycnburi",
         "weight": 0.9,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟชุมทางบ้านภาชี": [
-      {
-        "text": "sathani chumtang ban phachi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai chumtang ban phachi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani chum thang ban phachi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi chum thang ban phachi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟผาคัน": [
-      {
-        "text": "sathani pha khan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai pha khan",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi pha khan",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีสุราษฎร์ธานี": [
-      {
-        "text": "sathani rotfai surat thani",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani surat thani",
-        "weight": 0.37,
         "count": 3
       }
     ],
@@ -7632,69 +4196,6 @@
         "count": 1
       }
     ],
-    "บ้านศรีนคร": [
-      {
-        "text": "ban si nakhon",
-        "weight": 1.1,
-        "count": 17
-      },
-      {
-        "text": "ban srinkhr",
-        "weight": 0.32,
-        "count": 5
-      }
-    ],
-    "สถานีรถไฟบ้านหัน": [
-      {
-        "text": "sathani ban han",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai ban han",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban han",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟบางบำหรุ": [
-      {
-        "text": "sathani bang bamru",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai bang bamru",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi bangbahru",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟท่าพระ": [
-      {
-        "text": "sathani tha phra",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai tha phra",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi thaphra",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านต้นเหรียง": [
       {
         "text": "ban ton riang",
@@ -7712,217 +4213,6 @@
         "count": 1
       }
     ],
-    "สถานีบ้านขนาย": [
-      {
-        "text": "sathani rotfai ban khanai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban khanai",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban khnay",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban khnay",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีศาลาแม่ทา": [
-      {
-        "text": "sathani rotfai sala mae tha",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani mae tha",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani sala mae tha",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีปางม่วง": [
-      {
-        "text": "sathani rotfai pang muang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani pang muang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani pang mwng",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi pang mwng",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองตาพด": [
-      {
-        "text": "sathani rotfai nong ta phot",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong ta phot",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองปลาไหล": [
-      {
-        "text": "sathani rotfai nong plalai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong plalai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองจอก": [
-      {
-        "text": "sathani rotfai nong chok",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong chok",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีน้ำตก": [
-      {
-        "text": "sathani rotfai nam tok",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nam tok",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani natk",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีคลองยาง": [
-      {
-        "text": "sathani rotfai khlong yang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khlong yang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขาทะโมน": [
-      {
-        "text": "sathani rotfai khao thamon",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khao thamon",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหัวหิน": [
-      {
-        "text": "sathani rotfai hua hin",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani hua hin",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani hawhin",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีชะอำ": [
-      {
-        "text": "sathani rotfai cha-am",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani cha-am",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านโปง": [
-      {
-        "text": "sathani rotfai ban pong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban pong",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban pong",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban pong",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านนา": [
-      {
-        "text": "sathani rotfai ban na",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban na",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani banna",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi banna",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านโนนเพชร": [
       {
         "text": "ban non phet",
@@ -7935,208 +4225,11 @@
         "count": 5
       }
     ],
-    "สถานีทับกวาง": [
-      {
-        "text": "sathani rotfai thap kwang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani thap kwang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi thab kwang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani thab kwang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองตม": [
-      {
-        "text": "sathani rotfai nong tom",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong tom",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองสังข์": [
-      {
-        "text": "sathani rotfai nong sang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong sang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขาทอง": [
-      {
-        "text": "sathani rotfai khao thong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban khao thong",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani khao thong",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีดอนใหญ่": [
-      {
-        "text": "sathani rotfai don yai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani don yai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีชุมแสง": [
-      {
-        "text": "sathani rotfai chumsaeng",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani chumsaeng",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านสร้าง": [
-      {
-        "text": "sathani rotfai ban sang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban sang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani bansrang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi bansrang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านศาลาลอย": [
       {
         "text": "ban sala loi",
         "weight": 1.1,
         "count": 21
-      }
-    ],
-    "สถานีบางสีคต": [
-      {
-        "text": "sathani rotfai bang sikhot",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani bang sikhot",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani bang sikht",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi bang sikht",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีชลบุรี": [
-      {
-        "text": "sathani rotfai chon buri",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani chon buri",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani chlburi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi chlburi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านเก่า": [
-      {
-        "text": "sathani rotfai ban kao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban kao",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban kea",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban kea",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีวังเย็น": [
-      {
-        "text": "sathani rotfai wang yen",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani wang yen",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi wang yen",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani wang yen",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "สถานีกันทรารมย์": [
@@ -8173,167 +4266,6 @@
         "count": 3
       }
     ],
-    "สถานีทาชมภู": [
-      {
-        "text": "sathani rotfai tha chomphu",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani tha chomphu",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi tha chmphu",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani tha chmphu",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านดวด": [
-      {
-        "text": "sathani rotfai ban duat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban duat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban dwd",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban dwd",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีพรุพี": [
-      {
-        "text": "sathani rotfai phru phi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani phru phi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani phru phi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi phru phi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบึงบรเพ็ด": [
-      {
-        "text": "sathani rotfai bueng boraphet",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani bueng boraphet",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani bung br phed",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi bung br phed",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านหัวหวาย": [
-      {
-        "text": "sathani rotfai ban hua wai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban hua wai",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban haw hway",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีดงมะกุ": [
-      {
-        "text": "sathani rotfai dong maku",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani dong maku",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani dng ma ku",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีจัตุรัส": [
-      {
-        "text": "sathani rotfai chatturat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani chatturat",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani caturas",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi caturas",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านปาดจาบ": [
-      {
-        "text": "sathani rotfai ban pak chap",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban pak chap",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban pad cab",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "สถานีบำเหน็จณรงค์": [
       {
         "text": "sathani rotfai bamnet narong",
@@ -8347,116 +4279,6 @@
       },
       {
         "text": "sthani bahencnrngkh",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีปากปาน": [
-      {
-        "text": "sathani rotfai pak pan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani pak pan",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani pak pan",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi pak pan",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีท่ากิเลน": [
-      {
-        "text": "sathani rotfai tha kilen",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani tha kilen",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi tha kilen",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani tha kilen",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีวังโพธิ์": [
-      {
-        "text": "sathani rotfai wang pho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani wang pho",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi wang phothi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani wang phothi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีลุ่มสุ่ม": [
-      {
-        "text": "sathani rotfai lum sum",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani lum sum",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani lum sum",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi lum sum",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีวังสิงห์": [
-      {
-        "text": "sathani rotfai wang sing",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani wang sing",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi wang singh",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani wang singh",
         "weight": 0.37,
         "count": 3
       }
@@ -8572,18 +4394,6 @@
         "count": 0.8
       }
     ],
-    "สถานีบ้านแสลงพัน": [
-      {
-        "text": "sathani rotfai ban salaeng phan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban salaeng phan",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "ตรีณรงค์": [
       {
         "text": "tri narong",
@@ -8680,28 +4490,6 @@
         "count": 0.5
       }
     ],
-    "สถานีประจันตคาม": [
-      {
-        "text": "sathani rotfai prachamtakham",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani prachamtakham",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani pracantkham",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi pracantkham",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "จัน โลเรนโซ แบร์นีนี": [
       {
         "text": "gian lorenzo bernini",
@@ -8724,40 +4512,11 @@
         "count": 0.25
       }
     ],
-    "สถานีรถไฟวงเวียนใหญ่": [
-      {
-        "text": "sathani wongwian yai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai wongwian yai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "หมู่บ้านบุศรินทร์": [
       {
         "text": "hmuban bu sri nthr",
         "weight": 0.9,
         "count": 4
-      }
-    ],
-    "สถานีท่าเรือ": [
-      {
-        "text": "sathani rotfai tha ruea",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani tha rua",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani tha ruea",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "บ้านขุนสรวย": [
@@ -8777,59 +4536,6 @@
         "count": 1
       }
     ],
-    "สถานีหนองศาลา": [
-      {
-        "text": "sathani rotfai nong sala",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong sala",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีแม่จาง": [
-      {
-        "text": "sathani rotfai mae chang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani mae chang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขาพลู": [
-      {
-        "text": "sathani rotfai khao phlu",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khao phlu",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีสำราญ": [
-      {
-        "text": "sathani rotfai samran",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani samran",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani saray",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "ภูหวด": [
       {
         "text": "phu huat",
@@ -8840,81 +4546,6 @@
         "text": "phu hwd",
         "weight": 0.37,
         "count": 4.5
-      }
-    ],
-    "สถานีบ้านท่าเรือ": [
-      {
-        "text": "sathani rotfai ban tha ruea",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban tha ruea",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani tha rua",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านพระแก้ว": [
-      {
-        "text": "sathani rotfai ban phra kaeo",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban phra kaeo",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani phra kaeo",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีมวกเหล็ก": [
-      {
-        "text": "sathani rotfai muak lek",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani muak lek",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีแหลมโตนด": [
-      {
-        "text": "sathani rotfai laem tanot",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban laem not",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sathani laem tanot",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านบ่อ": [
-      {
-        "text": "sathani rotfai ban bo",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban bo",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "บ้านชัยพร": [
@@ -8932,72 +4563,6 @@
         "text": "ban chaiphon",
         "weight": 0.1,
         "count": 1
-      }
-    ],
-    "สถานีบ้านฉาง": [
-      {
-        "text": "sathani rotfai ban chang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban chang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani banchang",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi banchang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านเนียม": [
-      {
-        "text": "sathani rotfai ban niam",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban niam",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban neiym",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban neiym",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านไร่": [
-      {
-        "text": "sathani rotfai ban rai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban rai",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani banri",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi banri",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "สถานีพัทลุง": [
@@ -9018,28 +4583,6 @@
       },
       {
         "text": "sthani rthfi phathlung",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีสุพรรณบุรี": [
-      {
-        "text": "sathani rotfai suphan buri",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani suphan buri",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi suphrrnburi",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani suphrrnburi",
         "weight": 0.37,
         "count": 3
       }
@@ -9066,110 +4609,6 @@
         "count": 3
       }
     ],
-    "สถานีบ้านกะลัน": [
-      {
-        "text": "sathani rotfai ban kalan",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban kalan",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani ban kalan",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi ban kalan",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีมาบกระเบา": [
-      {
-        "text": "sathani rotfai map krabao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani map krabao",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani mab krabea",
-        "weight": 0.37,
-        "count": 3
-      },
-      {
-        "text": "sthani rthfi mab krabea",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขาสูง": [
-      {
-        "text": "sathani rotfai khao sung",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khao sung",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีปางอโศก": [
-      {
-        "text": "sathani rotfai pang asok",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani pang asok",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีโคกสะอาด": [
-      {
-        "text": "sathani rotfai khok sa-at",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khok sa-at",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีคลองไผ่": [
-      {
-        "text": "sathani rotfai khlong phai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khlong phai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านเหลื่อม": [
-      {
-        "text": "sathani rotfai ban lueam",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban lueam",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "สถานีหนองมโนรมย์": [
       {
         "text": "sathani rotfai nong manorom",
@@ -9178,78 +4617,6 @@
       },
       {
         "text": "sathani nong manorom",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีถั่วแปบ": [
-      {
-        "text": "sathani rotfai thuapaep",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani thuapaep",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านห้วยแถลง": [
-      {
-        "text": "sathani rotfai ban huai thalaeng",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban huai thalaeng",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขื่อนป่าสักชลสิทธิ์": [
-      {
-        "text": "sathani rotfai khuean pa sak chonlasit",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khuean pa sak chonlasit",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีทุ่งตาแก้ว": [
-      {
-        "text": "sathani rotfai thung ta kaeo",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani thung ta kaeo",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีท่าแค": [
-      {
-        "text": "sathani rotfai tha khae",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani tha khae",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองเต็ง": [
-      {
-        "text": "sathani rotfai nong teng",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong teng",
         "weight": 0.37,
         "count": 3
       }
@@ -9293,18 +4660,6 @@
         "text": "wat bowan mongkhon",
         "weight": 0.1,
         "count": 0.8
-      }
-    ],
-    "สถานีรถไฟหนองแวง": [
-      {
-        "text": "sathani nong waeng",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai nong waeng",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "บ้านบางเหรียง": [
@@ -9406,30 +4761,6 @@
         "count": 0.5
       }
     ],
-    "สถานีรถไฟแม่กลอง": [
-      {
-        "text": "sathani maeklong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai maeklong",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟบ้านแฮด": [
-      {
-        "text": "sathani ban haed",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai ban haed",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "วัดสุธรรมาราม": [
       {
         "text": "wat suthammaram",
@@ -9450,30 +4781,6 @@
         "text": "wat su tham ma ram",
         "weight": 0.1,
         "count": 0.5
-      }
-    ],
-    "วัดสวนสวรรค์": [
-      {
-        "text": "wat suan sawan",
-        "weight": 1.1,
-        "count": 12.500000000000002
-      },
-      {
-        "text": "wad swn swrrkh",
-        "weight": 0.35,
-        "count": 4
-      }
-    ],
-    "สถานีรถไฟชุมทางคลองสิบเก้า": [
-      {
-        "text": "sathani chumtang khlong sip kao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai chumtang khlong sip kao",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "ถนนพัฒนาการคูขวาง": [
@@ -9618,25 +4925,6 @@
         "count": 1
       }
     ],
-    "ถนนวิจิตรนคร": [
-      {
-        "text": "thanon wijit nakhon",
-        "weight": 1.05,
-        "count": 7.999999999999999
-      }
-    ],
-    "สถานีคลองไทร": [
-      {
-        "text": "sathani rotfai khlong sai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khlong sai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "ฟีนอล": [
       {
         "text": "phenol",
@@ -9675,30 +4963,6 @@
         "count": 15.200000000000005
       }
     ],
-    "สถานีรถไฟชุมทางบัวใหญ่": [
-      {
-        "text": "sathani chumtang bua yai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai chumtang bua yai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟบ้านดงพลอง": [
-      {
-        "text": "sathani ban dong plong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai ban dong plong",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านห้วยเหรียง": [
       {
         "text": "ban huai riang",
@@ -9726,78 +4990,6 @@
         "text": "ban so mong",
         "weight": 0.12,
         "count": 1
-      }
-    ],
-    "สถานีห้วยเกตุ": [
-      {
-        "text": "sathani rotfai huai ket",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai ket",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองน้ำขาว": [
-      {
-        "text": "sathani rotfai nong nam khao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong nam khao",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองโดน": [
-      {
-        "text": "sathani rotfai nong don",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong don",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านลาดใหญ่": [
-      {
-        "text": "sathani rotfai ban lat yai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani lat yai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีโคกมะกอก": [
-      {
-        "text": "sathani rotfai khok makok",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khok makok",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านแก้ง": [
-      {
-        "text": "sathani rotfai ban kaeng",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban kaeng",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "บ้านดวน": [
@@ -9830,246 +5022,6 @@
       },
       {
         "text": "sathani mueang phatthaya",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีห้วยปริก": [
-      {
-        "text": "sathani rotfai huai prik",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai prik",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีห้วยเรียน": [
-      {
-        "text": "sathani rotfai huai rian",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai rian",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีแม่ตาลน้อย": [
-      {
-        "text": "sathani rotfai mae tan noi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani mae tan noi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขาพนมแบก": [
-      {
-        "text": "sathani rotfai khao phanom baek",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khao phanom baek",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีดอนธูป": [
-      {
-        "text": "sathani rotfai don thup",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani don thup",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีคลองยา": [
-      {
-        "text": "sathani rotfai khlong ya",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khlong ya",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีคลองปราบ": [
-      {
-        "text": "sathani rotfai khlong prap",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khlong prap",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีทุ่งโพธิ์": [
-      {
-        "text": "sathani rotfai thung pho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani thung pho",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีโพนทอง": [
-      {
-        "text": "sathani rotfai phon thong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani phon thong",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีโนนคล้อ": [
-      {
-        "text": "sathani rotfai non khlo",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani non khlo",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองฉิม": [
-      {
-        "text": "sathani rotfai nong chim",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong chim",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีห้วยยายจิ๋ว": [
-      {
-        "text": "sathani rotfai huai yai chio",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai yai chio",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีวังกะอาม": [
-      {
-        "text": "sathani rotfai wang ka-am",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani wang ka-am",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีห้วยแม่ต้า": [
-      {
-        "text": "sathani rotfai huai mae ta",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai mae ta",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีห้วยไร่": [
-      {
-        "text": "sathani rotfai huai rai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai rai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีท่าฬ่อ": [
-      {
-        "text": "sathani rotfai tha lo",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani tha lo",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหอไกร": [
-      {
-        "text": "sathani rotfai ho krai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ho krai",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีถ้ำกระแซะ": [
-      {
-        "text": "sathani rotfai tham krasae",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani tham krasae",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขาปูน": [
-      {
-        "text": "sathani rotfai khao pun",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khao pun",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองตาด": [
-      {
-        "text": "sathani rotfai nong tat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong tat",
         "weight": 0.37,
         "count": 3
       }
@@ -10166,18 +5118,6 @@
         "text": "soi ram inthra 64",
         "weight": 1.1,
         "count": 13.600000000000003
-      }
-    ],
-    "สถานีหมอชิต": [
-      {
-        "text": "sathani rotfai mochit",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani mochit",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "อาเลกเซย์ ฟอน ยัฟเลนสกี": [
@@ -10343,18 +5283,6 @@
         "count": 13
       }
     ],
-    "บ้านบึงนคร": [
-      {
-        "text": "ban bueng nakhon",
-        "weight": 1.1,
-        "count": 10
-      },
-      {
-        "text": "banbung nkhr",
-        "weight": 0.33,
-        "count": 3
-      }
-    ],
     "บ้านเหล่าหุ่ง": [
       {
         "text": "ban lao hung",
@@ -10403,18 +5331,6 @@
         "text": "wad phothi sri",
         "weight": 0.37,
         "count": 3.2
-      }
-    ],
-    "สถานีรถไฟปากคลอง": [
-      {
-        "text": "sathani pak khlong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai pak khlong",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "แชร์นิวต์ซี": [
@@ -10513,30 +5429,6 @@
         "count": 3
       }
     ],
-    "สถานีน้ำพอง": [
-      {
-        "text": "sathani rotfai nam phong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nam phong",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขาสวนกวาง": [
-      {
-        "text": "sathani rotfai khao suan kwang",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khao suan kwang",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านวังหงส์": [
       {
         "text": "ban wang hong",
@@ -10559,107 +5451,11 @@
         "count": 1
       }
     ],
-    "สถานีบางปะอิน": [
-      {
-        "text": "sathani rotfai bang pa-in",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani bang pa-in",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านปายอง": [
-      {
-        "text": "sathani rotfai ban pa yong",
-        "weight": 1.05,
-        "count": 9
-      }
-    ],
-    "สถานีรามัน": [
-      {
-        "text": "sathani rotfai raman",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "sthani raman",
-        "weight": 1.05,
-        "count": 3
-      }
-    ],
-    "ควนสระ": [
-      {
-        "text": "khuan sa",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "khwn sra",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีกะแดะ": [
-      {
-        "text": "sathani rotfai ka dae",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ka dae",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านควนดินเหนียว": [
-      {
-        "text": "ban khuan din nieo",
-        "weight": 1.1,
-        "count": 6
-      },
-      {
-        "text": "ban khuan din niao",
-        "weight": 0.55,
-        "count": 3
-      },
-      {
-        "text": "ban khwn din heniyw",
-        "weight": 0.55,
-        "count": 3
-      }
-    ],
     "บ้านเกษตรศิริ": [
       {
         "text": "ban kaset siri",
         "weight": 1.1,
         "count": 12
-      }
-    ],
-    "สถานีโนนสะอาด": [
-      {
-        "text": "sathani rotfai non sa-at",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani non sa-at",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองตะไก้": [
-      {
-        "text": "sathani rotfai nong takai",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong takai",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "สถานีอุดรธานี": [
@@ -10674,97 +5470,6 @@
         "count": 3
       }
     ],
-    "สถานีพานทอง": [
-      {
-        "text": "sathani rotfai phan thong",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani phan thong",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีศรีสะเกษ": [
-      {
-        "text": "sathani rotfai si sa ket",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani si sa ket",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านแต้": [
-      {
-        "text": "sathani rotfai ban tae",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban tae",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านไม้แก่น": [
-      {
-        "text": "sathani rotfai ban mai kaen",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban mai kaen",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีตาแซะ": [
-      {
-        "text": "sathani rotfai ta sae",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ta sae",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านควนพัฒนา": [
-      {
-        "text": "ban khuan phatthana",
-        "weight": 1.1,
-        "count": 12
-      }
-    ],
-    "สถานีอุตรดิตถ์": [
-      {
-        "text": "sathani rotfai uttaradit",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "sathani uttaradit",
-        "weight": 1.05,
-        "count": 3
-      }
-    ],
-    "สถานีศิลาอาสน์": [
-      {
-        "text": "sathani rotfai sila at",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani sila at",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านหนองเหรียง": [
       {
         "text": "ban nong riang",
@@ -10772,59 +5477,11 @@
         "count": 12
       }
     ],
-    "สถานีห้วยแตน": [
-      {
-        "text": "sathani rotfai huai taen",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai taen",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านราษฎร์ประสงค์": [
       {
         "text": "ban rat prasong",
         "weight": 1.1,
         "count": 12
-      }
-    ],
-    "สถานีรถไฟหนองหล่ม": [
-      {
-        "text": "sathani nong lom",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani rotfai nong lom",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟฟ้าสะพานตากสิน": [
-      {
-        "text": "sathani bts saphan taksin",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sthani rthfifa saphan taksin",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีรถไฟฟ้ากรุงธนบุรี": [
-      {
-        "text": "sathani bts krung thonburi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sthani rthfifa krungthnburi",
-        "weight": 0.37,
-        "count": 3
       }
     ],
     "บ้านหลังควน": [
@@ -10835,30 +5492,6 @@
       },
       {
         "text": "ban hlangkh wn",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบ้านขอนหาด": [
-      {
-        "text": "sathani rotfai ban khon hat",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani ban khon hat",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านควนยาว": [
-      {
-        "text": "ban khuan yao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "ban khwn yaw",
         "weight": 0.37,
         "count": 3
       }
@@ -10877,18 +5510,6 @@
         "count": 12
       }
     ],
-    "สถานีคลองพุทรา": [
-      {
-        "text": "sathani rotfai khlong phutsa",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khlong phutsa",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
     "บ้านสก๊วน": [
       {
         "text": "ban sakuan",
@@ -10897,30 +5518,6 @@
       },
       {
         "text": "ban sk wn",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีบุฤาษี": [
-      {
-        "text": "sathani rotfai bu ruesi",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani bu ruesi",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีกระโดนค้อ": [
-      {
-        "text": "sathani rotfai kradon kho",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani kradon kho",
         "weight": 0.37,
         "count": 3
       }
@@ -10935,73 +5532,6 @@
         "text": "ban non swasdi",
         "weight": 0.37,
         "count": 3
-      }
-    ],
-    "สถานีห้วยเสียว": [
-      {
-        "text": "sathani rotfai huai siao",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani huai siao",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหนองแซง": [
-      {
-        "text": "sathani rotfai nong saeng",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani nong saeng",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีวิหารแดง": [
-      {
-        "text": "sathani rotfai wihan daeng",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani wihan daeng",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีหินซ้อน": [
-      {
-        "text": "sathani rotfai hin son",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani hin son",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "สถานีเขาคอก": [
-      {
-        "text": "sathani rotfai khao khok",
-        "weight": 1.1,
-        "count": 9
-      },
-      {
-        "text": "sathani khao khok",
-        "weight": 0.37,
-        "count": 3
-      }
-    ],
-    "บ้านนครสวรรค์": [
-      {
-        "text": "ban nakhon sawan",
-        "weight": 1.05,
-        "count": 9
       }
     ],
     "เตออดอร์ เฌรีโก": [
@@ -11170,40 +5700,6 @@
       {
         "text": "ban hnong po",
         "weight": 0.12,
-        "count": 1
-      }
-    ],
-    "บ้านนครชุม": [
-      {
-        "text": "ban nakhon chum",
-        "weight": 1.05,
-        "count": 3
-      },
-      {
-        "text": "nakaun chum",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "nakhon chum",
-        "weight": 0.35,
-        "count": 1
-      },
-      {
-        "text": "ban nkhr chum",
-        "weight": 0.35,
-        "count": 1
-      }
-    ],
-    "บ้านแก่นนคร": [
-      {
-        "text": "ban kaen nakhon",
-        "weight": 1.1,
-        "count": 10
-      },
-      {
-        "text": "ban kaen",
-        "weight": 0.11,
         "count": 1
       }
     ],
@@ -11643,25 +6139,6 @@
         "count": 2
       }
     ],
-    "บ้านควนสวรรค์": [
-      {
-        "text": "ban khuan sawan",
-        "weight": 1.1,
-        "count": 8
-      },
-      {
-        "text": "ban khwn swrrkh",
-        "weight": 0.28,
-        "count": 2
-      }
-    ],
-    "บ้านสวนใหญ่พัฒนา": [
-      {
-        "text": "ban suan yai phatthana",
-        "weight": 1.1,
-        "count": 10
-      }
-    ],
     "บ้านสงวนรัตน์": [
       {
         "text": "ban sa-nguan rat",
@@ -11705,13 +6182,6 @@
         "count": 0.8
       }
     ],
-    "หมู่บ้านกฤษดานคร": [
-      {
-        "text": "muban kritsada nakhon",
-        "weight": 1.05,
-        "count": 9
-      }
-    ],
     "นอร์เอพิเนฟรีน": [
       {
         "text": "norepinephrine",
@@ -11744,18 +6214,6 @@
         "text": "samsung galaxy s 3",
         "weight": 0.52,
         "count": 1
-      }
-    ],
-    "วัดสวนแก้ว": [
-      {
-        "text": "wat suan kaeo",
-        "weight": 1.05,
-        "count": 6.605
-      },
-      {
-        "text": "wat suan kaew",
-        "weight": 0.49,
-        "count": 3.0999999999999996
       }
     ],
     "มัสยิดนูรุลอิสลามียะห์": [
@@ -11891,13 +6349,6 @@
         "count": 2.4000000000000004
       }
     ],
-    "วิทยาลัยเกษตรและเทคโนโลยีนครศรีธรรมราช": [
-      {
-        "text": "witthayalai kaset lae theknoloyi nakhonsi thammarat",
-        "weight": 1.05,
-        "count": 9.600000000000001
-      }
-    ],
     "วัดธรรมิกาวาส": [
       {
         "text": "wat thammikawat",
@@ -11927,13 +6378,6 @@
         "text": "wad ban khok phechr",
         "weight": 0.35,
         "count": 2.4000000000000004
-      }
-    ],
-    "สวนสยาม 3": [
-      {
-        "text": "suan siam 3",
-        "weight": 1.05,
-        "count": 9.6
       }
     ],
     "น้ำแม่กวง": [
@@ -12011,13 +6455,6 @@
         "text": "locus",
         "weight": 0.9,
         "count": 2.295
-      }
-    ],
-    "สถานีรถไฟฟ้าวงเวียนใหญ่": [
-      {
-        "text": "sathani bts wongwian yai",
-        "weight": 1.05,
-        "count": 9
       }
     ],
     "นักชู": [
@@ -12578,13 +7015,6 @@
         "count": 4
       }
     ],
-    "วัดนครสวรรค์": [
-      {
-        "text": "wat nakhon sawan",
-        "weight": 1.05,
-        "count": 6.830000000000001
-      }
-    ],
     "ถนนจักรพงษ์": [
       {
         "text": "thanon chakrabongse",
@@ -12742,18 +7172,6 @@
         "count": 2
       }
     ],
-    "บ้านควนไสน": [
-      {
-        "text": "ban khuan sanai",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban khwn sin",
-        "weight": 0.35,
-        "count": 2
-      }
-    ],
     "บ้านสบจอก": [
       {
         "text": "ban sop chok",
@@ -12803,18 +7221,6 @@
         "text": "ban den (hnung)",
         "weight": 0.35,
         "count": 1
-      }
-    ],
-    "บ้านปากนคร": [
-      {
-        "text": "ban pak nakhon",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban pak nkhr",
-        "weight": 0.35,
-        "count": 2
       }
     ],
     "บ้านโนนเหมือดแอ่": [
@@ -12950,18 +7356,6 @@
       },
       {
         "text": "ban sra boran",
-        "weight": 0.35,
-        "count": 2
-      }
-    ],
-    "บ้านควนนาว": [
-      {
-        "text": "ban khuan nao",
-        "weight": 1.05,
-        "count": 6
-      },
-      {
-        "text": "ban khwn naw",
         "weight": 0.35,
         "count": 2
       }
